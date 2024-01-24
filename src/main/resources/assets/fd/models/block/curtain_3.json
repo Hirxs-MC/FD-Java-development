@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/acurtain3",
+  "textures": {
+    "all": "fd:block/1",
+    "particle": "fd:block/1",
+    "missing": "fd:block/1"
+  },
+  "render_type": "cutout_mipped"
+}

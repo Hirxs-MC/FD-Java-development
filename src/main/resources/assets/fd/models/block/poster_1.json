@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/poster_1",
+  "textures": {
+    "all": "fd:block/poster_2",
+    "particle": "fd:block/poster_2",
+    "1": "fd:block/poster_2"
+  },
+  "render_type": "cutout"
+}

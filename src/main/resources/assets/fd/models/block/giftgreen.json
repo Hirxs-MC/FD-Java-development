@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/new_gift_green",
+  "textures": {
+    "all": "fd:block/green",
+    "particle": "fd:block/green",
+    "0": "fd:block/green"
+  },
+  "render_type": "cutout_mipped"
+}

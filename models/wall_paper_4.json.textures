@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "missing": "news_paper"
+      },
+      "name": "default"
+    }
+  }
+}

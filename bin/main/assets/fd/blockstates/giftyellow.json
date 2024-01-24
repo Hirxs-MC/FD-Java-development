@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/giftyellow"
+    },
+    "facing=east": {
+      "model": "fd:block/giftyellow",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/giftyellow",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/giftyellow",
+      "y": 270
+    }
+  }
+}

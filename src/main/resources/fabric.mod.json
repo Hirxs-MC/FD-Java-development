@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "fd",
+  "version": "0.23.07.1",
+  "name": "FNaFs Decorations (Java Edition) - Snapshot",
+  "description": "Have you ever wanted to replicate a restaurant from FNAF but in Minecraft?",
+  "authors": [
+    "Hirx's | Hirxs_mc"
+  ],
+  "contact": {
+    "homepage": "https://hirxs-web.weebly.com/",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "icon": "assets/fd/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.fnafsdecorationsport.FdMod"
+    ],
+    "client": [
+      "net.mcreator.fnafsdecorationsport.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "fd.mixins.json"
+  ]
+}

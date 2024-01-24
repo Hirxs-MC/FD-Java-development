@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "fd:block/0_2",
+    "top": "fd:block/0_2",
+    "side": "fd:block/0_2"
+  },
+  "render_type": "solid"
+}

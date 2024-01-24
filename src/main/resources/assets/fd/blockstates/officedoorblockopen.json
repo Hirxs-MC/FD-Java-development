@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/officedoorblockopen"
+    },
+    "facing=east": {
+      "model": "fd:block/officedoorblockopen",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/officedoorblockopen",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/officedoorblockopen",
+      "y": 270
+    }
+  }
+}

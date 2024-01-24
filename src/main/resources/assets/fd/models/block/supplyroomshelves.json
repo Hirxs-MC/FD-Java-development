@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/supply_room_shelves",
+  "textures": {
+    "all": "fd:block/supply_closet_shelves_1",
+    "particle": "fd:block/supply_closet_shelves_1",
+    "0": "fd:block/supply_closet_shelves_1"
+  },
+  "render_type": "cutout"
+}

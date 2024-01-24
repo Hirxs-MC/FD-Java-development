@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/stageclouds"
+    },
+    "facing=east": {
+      "model": "fd:block/stageclouds",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/stageclouds",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/stageclouds",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/deskprops"
+    },
+    "facing=east": {
+      "model": "fd:block/deskprops",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/deskprops",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/deskprops",
+      "y": 270
+    }
+  }
+}

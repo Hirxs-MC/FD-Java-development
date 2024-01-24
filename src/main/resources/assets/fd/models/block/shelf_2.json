@@ -1,0 +1,10 @@
+{
+  "parent": "fd:custom/shelf_2",
+  "textures": {
+    "all": "fd:block/shelf",
+    "particle": "fd:block/shelf",
+    "0": "fd:block/shelf",
+    "1": "fd:block/party_hat_1"
+  },
+  "render_type": "cutout"
+}

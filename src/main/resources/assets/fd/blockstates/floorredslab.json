@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fd:block/floorredslab"
+    },
+    "type=top": {
+      "model": "fd:block/floorredslab_top"
+    },
+    "type=double": {
+      "model": "fd:block/floorredslab_full"
+    }
+  }
+}

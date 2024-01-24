@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "shelf",
+        "1": "party_hat_1"
+      },
+      "name": "default"
+    }
+  }
+}

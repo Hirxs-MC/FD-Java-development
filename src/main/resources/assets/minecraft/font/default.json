@@ -1,0 +1,12 @@
+{"providers":[
+		{
+			"type": "bitmap",
+			"file": "minecraft:text_icons/fnaf1.png",
+			"height": 9,
+			"ascent": 9,
+			"chars": [
+				"✿"
+			]
+		}
+]
+}

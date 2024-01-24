@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fd:block/asffg",
+    "up": "fd:block/gray_texture",
+    "north": "fd:block/wall_block6",
+    "east": "fd:block/ffb_wall_top_2",
+    "south": "fd:block/ffb_wall_top_2",
+    "west": "fd:block/ffb_wall_top_2",
+    "particle": "fd:block/asffg"
+  },
+  "render_type": "solid"
+}

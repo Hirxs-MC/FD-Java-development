@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/new_gift_yellow",
+  "textures": {
+    "all": "fd:block/yellow",
+    "particle": "fd:block/yellow",
+    "0": "fd:block/yellow"
+  },
+  "render_type": "cutout_mipped"
+}

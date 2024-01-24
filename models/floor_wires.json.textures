@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "floor_wires_texture_1"
+      },
+      "name": "default"
+    }
+  }
+}

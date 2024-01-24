@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "supply_room_sc"
+      },
+      "name": "default"
+    }
+  }
+}

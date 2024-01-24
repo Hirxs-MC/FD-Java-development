@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "fd:block/stage_floor_3",
+    "top": "fd:block/stage_ffloor",
+    "side": "fd:block/stage_floor_tiles",
+    "overlay": "fd:block/stage_floor_tiles",
+    "particle": "fd:block/stage_floor_3"
+  },
+  "render_type": "solid"
+}

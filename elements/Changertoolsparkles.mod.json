@@ -1,0 +1,21 @@
+{
+  "_fv": 57,
+  "_type": "particle",
+  "definition": {
+    "texture": "sparkles_changer_tool.png",
+    "animate": true,
+    "frameDuration": 5,
+    "width": 0.1,
+    "height": 0.1,
+    "scale": 1.0,
+    "speedFactor": 0.1,
+    "gravity": 0.1,
+    "maxAge": 20,
+    "maxAgeDiff": 5,
+    "angularVelocity": 0.1,
+    "angularAcceleration": 0.0,
+    "canCollide": false,
+    "alwaysShow": true,
+    "renderType": "LIT"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/wall_structure",
+  "textures": {
+    "all": "fd:block/wall_structure",
+    "particle": "fd:block/wall_structure",
+    "0": "fd:block/wall_structure"
+  },
+  "render_type": "cutout"
+}

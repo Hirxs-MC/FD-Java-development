@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "stars4"
+      },
+      "name": "default"
+    }
+  }
+}

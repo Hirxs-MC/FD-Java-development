@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/shelf",
+  "textures": {
+    "all": "fd:block/shelf",
+    "particle": "fd:block/shelf",
+    "0": "fd:block/shelf"
+  },
+  "render_type": "cutout"
+}

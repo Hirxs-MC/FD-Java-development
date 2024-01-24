@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/stage_speaker",
+  "textures": {
+    "all": "fd:block/speakers",
+    "particle": "fd:block/speakers",
+    "0": "fd:block/speakers"
+  },
+  "render_type": "cutout"
+}

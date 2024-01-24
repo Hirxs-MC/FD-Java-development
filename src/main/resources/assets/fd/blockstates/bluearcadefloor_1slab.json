@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fd:block/bluearcadefloor_1slab"
+    },
+    "type=top": {
+      "model": "fd:block/bluearcadefloor_1slab_top"
+    },
+    "type=double": {
+      "model": "fd:block/bluearcadefloor_1slab_full"
+    }
+  }
+}

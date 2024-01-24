@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/officedesk"
+    },
+    "facing=east": {
+      "model": "fd:block/officedesk",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/officedesk",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/officedesk",
+      "y": 270
+    }
+  }
+}

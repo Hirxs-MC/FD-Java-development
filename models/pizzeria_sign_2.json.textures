@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "employees_only_sc"
+      },
+      "name": "default"
+    }
+  }
+}

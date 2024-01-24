@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "wall_structure"
+      },
+      "name": "default"
+    }
+  }
+}

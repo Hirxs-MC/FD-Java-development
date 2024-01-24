@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/partyhatblue"
+    },
+    "facing=east": {
+      "model": "fd:block/partyhatblue",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/partyhatblue",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/partyhatblue",
+      "y": 270
+    }
+  }
+}

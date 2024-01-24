@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "fd:block/arcade_floor_1",
+    "top": "fd:block/arcade_floor_1",
+    "side": "fd:block/arcade_floor_1"
+  },
+  "render_type": "solid"
+}

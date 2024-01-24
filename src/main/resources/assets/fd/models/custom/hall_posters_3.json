@@ -1,0 +1,289 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "hall_posters_3",
+  "texture_size": [
+    32,
+    32
+  ],
+  "elements": [
+    {
+      "name": "bb_main",
+      "from": [
+        15,
+        -6,
+        -15
+      ],
+      "to": [
+        15,
+        14,
+        -1
+      ],
+      "rotation": {
+        "angle": -90,
+        "axis": "y",
+        "origin": [
+          0,
+          0,
+          0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            13.6
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2,
+            13.6
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            13.6
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            2,
+            0,
+            9,
+            10
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            13.6
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            13.6
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "bb_main inverted",
+      "from": [
+        15,
+        14,
+        -1
+      ],
+      "to": [
+        15,
+        -6,
+        -15
+      ],
+      "rotation": {
+        "angle": -90,
+        "axis": "y",
+        "origin": [
+          0,
+          0,
+          0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            13.6,
+            2,
+            0
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            2,
+            10,
+            9,
+            0
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            13.6,
+            2,
+            0
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0,
+            13.6,
+            2,
+            0
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            2,
+            0,
+            0,
+            13.6
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            2,
+            0,
+            0,
+            13.6
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        1.25,
+        -3.5
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        1.25,
+        -3.5
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -42.75,
+        0
+      ],
+      "translation": [
+        0.25,
+        6.5,
+        0.75
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        -42.75,
+        0
+      ],
+      "translation": [
+        0.25,
+        6.5,
+        0.75
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        2,
+        -3.5
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "gui": {
+      "rotation": [
+        25,
+        -45,
+        0
+      ],
+      "translation": [
+        3,
+        3.5,
+        -5.25
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        0,
+        -14.25
+      ]
+    },
+    "fixed": {
+      "translation": [
+        0,
+        3,
+        -5.25
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "bb_main",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "children": [
+        0,
+        1
+      ]
+    }
+  ]
+}

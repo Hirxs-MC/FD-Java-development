@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/party_hat_1",
+  "textures": {
+    "all": "fd:block/party_hat_1",
+    "particle": "fd:block/party_hat_1",
+    "1": "fd:block/party_hat_1"
+  },
+  "render_type": "cutout"
+}

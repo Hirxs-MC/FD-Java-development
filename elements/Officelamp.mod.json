@@ -1,0 +1,225 @@
+{
+  "_fv": 57,
+  "_type": "block",
+  "definition": {
+    "texture": "light_2",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "office_lamp:default",
+    "rotationMode": 0,
+    "enablePitch": false,
+    "emissiveRendering": true,
+    "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "TRANSLUCENT",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 6.79289,
+        "my": 10.0,
+        "mz": 7.29289,
+        "Mx": 9.79289,
+        "My": 16.0,
+        "Mz": 7.29289,
+        "subtract": false
+      },
+      {
+        "mx": 6.5,
+        "my": 2.0,
+        "mz": 6.5,
+        "Mx": 9.5,
+        "My": 5.0,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 7.0,
+        "my": 5.0,
+        "mz": 7.0,
+        "Mx": 9.0,
+        "My": 7.0,
+        "Mz": 9.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.5,
+        "my": 7.0,
+        "mz": 3.5,
+        "Mx": 12.5,
+        "My": 10.0,
+        "Mz": 12.5,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 4.0,
+        "mz": 2.0,
+        "Mx": 14.0,
+        "My": 7.0,
+        "Mz": 14.0,
+        "subtract": false
+      },
+      {
+        "mx": 8.0,
+        "my": 10.0,
+        "mz": 6.5,
+        "Mx": 8.0,
+        "My": 16.0,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 14.0,
+        "my": 7.0,
+        "mz": 14.0,
+        "Mx": 2.0,
+        "My": 4.0,
+        "Mz": 2.0,
+        "subtract": false
+      },
+      {
+        "mx": 8.0,
+        "my": 16.0,
+        "mz": 9.5,
+        "Mx": 8.0,
+        "My": 10.0,
+        "Mz": 6.5,
+        "subtract": false
+      },
+      {
+        "mx": 6.1,
+        "my": 1.6,
+        "mz": 6.1,
+        "Mx": 9.9,
+        "My": 5.4,
+        "Mz": 9.9,
+        "subtract": false
+      },
+      {
+        "mx": 9.79289,
+        "my": 16.0,
+        "mz": 7.29289,
+        "Mx": 6.79289,
+        "My": 10.0,
+        "Mz": 7.29289,
+        "subtract": false
+      }
+    ],
+    "name": "Office lamp",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 1.0,
+    "resistance": 10.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "creativeTab": {
+      "value": "CUSTOM:FnafsDecorations"
+    },
+    "destroyTool": "Not specified",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "IRON"
+    },
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "ANVIL"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": 14,
+    "unbreakable": false,
+    "breakHarvestLevel": 1,
+    "isBonemealable": false,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.STONE#5"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "pirate_cove_sign_new_1"
+      },
+      "name": "default"
+    }
+  }
+}

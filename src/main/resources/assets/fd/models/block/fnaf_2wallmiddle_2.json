@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fd:block/fnaf_2_wall_middle",
+    "particle": "fd:block/fnaf_2_wall_middle"
+  },
+  "render_type": "cutout_mipped"
+}

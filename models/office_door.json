@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "office_door",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "RP:blocks/office_door_test"
+	},
+	"elements": [
+		{
+			"from": [-16, 0, 6],
+			"to": [16, 16, 10],
+			"faces": {
+				"north": {"uv": [0.125, 1.5, 3.625, 3.5], "texture": "#0"},
+				"east": {"uv": [12.25, 0, 12.5, 4], "texture": "#0"},
+				"south": {"uv": [0.125, 1.5, 3.625, 3.5], "texture": "#0"},
+				"west": {"uv": [12.25, 0, 12.5, 4], "texture": "#0"},
+				"up": {"uv": [4.75, 0.125, 8.25, 0.625], "texture": "#0"},
+				"down": {"uv": [4.5, 0.125, 8.25, 0.625], "texture": "#0"}
+			}
+		}
+	],
+	"display": {}
+}

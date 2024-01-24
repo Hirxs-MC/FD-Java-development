@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/stagespeaker"
+    },
+    "facing=east": {
+      "model": "fd:block/stagespeaker",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/stagespeaker",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/stagespeaker",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fd:block/stagespeaker",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fd:block/stagespeaker",
+      "x": 90
+    }
+  }
+}

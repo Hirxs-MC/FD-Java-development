@@ -1,0 +1,82 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "pizzeria_sign_4",
+	"textures": {
+		"0": "RP:blocks/pizzeria_signs/employees_only_sc",
+		"particle": "RP:blocks/pizzeria_signs/employees_only_sc"
+	},
+	"elements": [
+		{
+			"name": "bone",
+			"from": [-12, 4, 14.4],
+			"to": [12, 7, 14.4],
+			"rotation": {"angle": 0, "axis": "x", "origin": [0, 5.5, 14.95]},
+			"faces": {
+				"north": {"uv": [4, 12.5, 16, 14], "texture": "#0"},
+				"east": {"uv": [0, 8, 0.5, 11.5], "texture": "#0"},
+				"south": {"uv": [4, 9, 16, 10.5], "texture": "#0"},
+				"west": {"uv": [0.5, 8, 1, 11.5], "texture": "#0"},
+				"up": {"uv": [12, 7.5, 0, 7], "texture": "#0"},
+				"down": {"uv": [12, 7.5, 0, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "bone",
+			"from": [-12, 2, 15],
+			"to": [12, 9, 16],
+			"rotation": {"angle": 0, "axis": "x", "origin": [0, 5.5, 14.95]},
+			"faces": {
+				"north": {"uv": [0, 0, 12, 3.5], "texture": "#0"},
+				"east": {"uv": [0, 8, 0.5, 11.5], "texture": "#0"},
+				"south": {"uv": [0, 3.5, 12, 7], "texture": "#0"},
+				"west": {"uv": [0.5, 8, 1, 11.5], "texture": "#0"},
+				"up": {"uv": [12, 7.5, 0, 7], "texture": "#0"},
+				"down": {"uv": [12, 7.5, 0, 8], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [2.25, 0.5, -2.75],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"thirdperson_lefthand": {
+			"translation": [2.25, 0.5, -2.75],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_righthand": {
+			"rotation": [-180, 46.75, -180],
+			"translation": [-6.25, 6, 3],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-180, 46.75, -180],
+			"translation": [-3.75, 6, 7],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"ground": {
+			"translation": [2.25, 0.5, -2.75],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"gui": {
+			"rotation": [25, 135, 0],
+			"translation": [-6.25, 1.25, -4.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"head": {
+			"translation": [8, 0, -14.25]
+		},
+		"fixed": {
+			"translation": [5.5, 2, -4.5],
+			"scale": [0.7, 0.7, 0.7]
+		}
+	},
+	"groups": [
+		{
+			"name": "bone",
+			"origin": [-8, 0, 0],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

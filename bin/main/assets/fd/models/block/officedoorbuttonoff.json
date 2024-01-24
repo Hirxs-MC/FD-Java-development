@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/door_button_off",
+  "textures": {
+    "all": "fd:block/office_button",
+    "particle": "fd:block/office_button",
+    "missing": "fd:block/office_button"
+  },
+  "render_type": "solid"
+}

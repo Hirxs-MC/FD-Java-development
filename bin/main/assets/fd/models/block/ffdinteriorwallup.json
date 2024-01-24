@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "fd:block/ffd_wall_middle_1",
+    "top": "fd:block/texture_black",
+    "side": "fd:block/ffd_wall_up_2",
+    "overlay": "fd:block/ffd_wall_up_2",
+    "particle": "fd:block/ffd_wall_middle_1"
+  },
+  "render_type": "cutout_mipped"
+}

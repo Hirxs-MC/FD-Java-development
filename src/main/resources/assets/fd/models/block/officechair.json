@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/office_chair",
+  "textures": {
+    "all": "fd:block/office_chair",
+    "particle": "fd:block/office_chair",
+    "0": "fd:block/office_chair"
+  },
+  "render_type": "cutout"
+}

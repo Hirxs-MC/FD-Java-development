@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/pizzeria_light_off",
+  "textures": {
+    "all": "fd:block/light_off",
+    "particle": "fd:block/light_off",
+    "missing": "fd:block/light_off"
+  },
+  "render_type": "cutout"
+}

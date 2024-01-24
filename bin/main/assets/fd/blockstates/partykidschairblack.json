@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/partykidschairblack"
+    },
+    "facing=east": {
+      "model": "fd:block/partykidschairblack",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/partykidschairblack",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/partykidschairblack",
+      "y": 270
+    }
+  }
+}

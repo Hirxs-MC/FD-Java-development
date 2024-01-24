@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fd:item/blue_soda"
+  },
+  "render_type": "translucent"
+}

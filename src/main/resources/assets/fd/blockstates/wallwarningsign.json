@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/wallwarningsign"
+    },
+    "facing=east": {
+      "model": "fd:block/wallwarningsign",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/wallwarningsign",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/wallwarningsign",
+      "y": 270
+    }
+  }
+}

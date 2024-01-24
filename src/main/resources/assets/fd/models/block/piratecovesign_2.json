@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/pirate_cove_sign_2",
+  "textures": {
+    "all": "fd:block/pirate_cove_sign_new_2",
+    "particle": "fd:block/pirate_cove_sign_new_2",
+    "missing": "fd:block/pirate_cove_sign_new_2"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/party_kids_chair_blue",
+  "textures": {
+    "all": "fd:block/blue_chair",
+    "particle": "fd:block/blue_chair",
+    "0": "fd:block/blue_chair"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="fd"
+version="1.0.0"
+displayName="FNaFs Decorations"
+credits="Hyru,Chill's,Cheez & Mura"
+displayURL="https://hirxs-web.weebly.com/"
+logoFile="logo.png"
+authors="Hirx's | Hirxs_mc"
+description="Have you ever wanted to replicate a restaurant from FNAF but in Minecraft?"
+
+[[dependencies.fd]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

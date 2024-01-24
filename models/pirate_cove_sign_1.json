@@ -1,0 +1,88 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "pirate_cove_sign_1",
+	"textures": {
+		"0": "pirate_cove_sign_1",
+		"particle": "pirate_cove_sign_1"
+	},
+	"elements": [
+		{
+			"name": "bb_main",
+			"from": [7, 0, 7],
+			"to": [9, 10, 9],
+			"faces": {
+				"north": {"uv": [0, 10, 1, 15], "texture": "#0"},
+				"east": {"uv": [0, 10, 1, 15], "texture": "#0"},
+				"south": {"uv": [0, 10, 1, 15], "texture": "#0"},
+				"west": {"uv": [0, 10, 1, 15], "texture": "#0"},
+				"up": {"uv": [0, 10, 1, 11], "texture": "#0"},
+				"down": {"uv": [0, 10, 1, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "bb_main",
+			"from": [-0.5, 10, 7],
+			"to": [16.5, 18, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 8.5, 4], "texture": "#0"},
+				"east": {"uv": [1, 10, 2, 14], "texture": "#0"},
+				"south": {"uv": [0, 0, 8.5, 4], "texture": "#0"},
+				"west": {"uv": [1, 10, 2, 14], "texture": "#0"},
+				"up": {"uv": [8.5, 10, 0, 9], "texture": "#0"},
+				"down": {"uv": [8.5, 9, 0, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "bb_main",
+			"from": [-0.5, 10, 6.4],
+			"to": [16.5, 18, 6.4],
+			"faces": {
+				"north": {"uv": [7.5, 12, 16, 16], "texture": "#0"},
+				"east": {"uv": [1, 10, 2, 14], "texture": "#0"},
+				"south": {"uv": [12, 0, 16, 3.5], "texture": "#0"},
+				"west": {"uv": [2, 10, 3, 14], "texture": "#0"},
+				"up": {"uv": [9, 9, 0, 8], "texture": "#0"},
+				"down": {"uv": [9, 9, 0, 10], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [-180, 67, -180],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-180, 67, -180],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"ground": {
+			"translation": [0, 1.25, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [-155, 45, -180],
+			"translation": [0, -1.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"head": {
+			"translation": [0, 12.25, 0]
+		},
+		"fixed": {
+			"translation": [0, -0.75, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "bb_main",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

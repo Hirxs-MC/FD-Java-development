@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "supply_closet_shelves_1"
+      },
+      "name": "default"
+    }
+  }
+}

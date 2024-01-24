@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/roof_stars_2",
+  "textures": {
+    "all": "fd:block/stars2",
+    "particle": "fd:block/stars2",
+    "0": "fd:block/stars2"
+  },
+  "render_type": "cutout"
+}

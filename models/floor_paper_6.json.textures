@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "new_paper_2",
+        "missing": "new_paper_2"
+      },
+      "name": "default"
+    }
+  }
+}
