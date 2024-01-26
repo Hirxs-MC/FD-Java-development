@@ -6236,6 +6236,38 @@
           "src/main/resources/assets/fd/models/block/bluearcadefloor_1stairs_outer.json"
         ]
       }
+    },
+    {
+      "name": "AlarmClock",
+      "type": "block",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alarm_clock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/AlarmClockBlock.java",
+          "src/main/resources/assets/fd/blockstates/alarm_clock.json",
+          "src/main/resources/assets/fd/models/item/alarm_clock.json",
+          "src/main/resources/assets/fd/models/block/alarm_clock.json"
+        ]
+      }
+    },
+    {
+      "name": "ArcadeSign",
+      "type": "block",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcade_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/blockstates/arcade_sign.json",
+          "src/main/resources/assets/fd/models/block/arcade_sign.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/ArcadeSignBlock.java",
+          "src/main/resources/assets/fd/models/item/arcade_sign.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -6252,8 +6284,8 @@
       "block.fd.officelightbuttonon": "Office light button (On) ",
       "block.fd.floorredslab": "Pizzeria floor slab (Red + Black)",
       "block.fd.monitors_1": "Monitors (Var 1)",
-      "block.fd.monitors_2": "Monitors (Var 2)",
       "block.fd.stagetiles": "Stage Wall (Black line + tiles)",
+      "block.fd.monitors_2": "Monitors (Var 2)",
       "block.fd.officewindow": "Office window",
       "block.fd.floorredblue": "Pizzeria Floor (Blue + Red)",
       "block.fd.monitors_3": "Monitors (Var 3)",
@@ -6278,17 +6310,18 @@
       "itemGroup.fd.fd_walls": "FD - Build blocks",
       "block.fnafs_decorations.stagemiddle_1": "Stage Wall (Middle)",
       "block.fd.piratecovecurtainblockred_2": "Pirate cove curtain (Red + panel)",
-      "block.fd.fnafmoviewallmiddleexterior": "FNaF Movie Exterior wall (Red line + tiles)",
-      "block.fd.officedoorbuttonoff": "Office door button (Off)",
       "block.fd.piratecovecurtainblockred_3": "Pirate cove curtain (Red + panel)",
+      "block.fd.officedoorbuttonoff": "Office door button (Off)",
+      "block.fd.fnafmoviewallmiddleexterior": "FNaF Movie Exterior wall (Red line + tiles)",
       "block.fd.onlyofficedesk": "Office desk (empty)",
       "block.fnafs_decorations.fnafwallmiddle_2": "FNaF 1 Wall (Middle)",
       "block.fnafs_decorations.floorredblue": "Pizzeria Floor (Blue + Red)",
       "block.fd.piratecovecurtainblockpurple_3": "Pirate cove curtain (Purple + panel)",
-      "block.fd.wallpapers_2": "Wall papers (Var 1)",
       "block.fd.piratecovecurtainblockpurple_2": "Pirate cove curtain (Purple + panel)",
+      "block.fd.wallpapers_2": "Wall papers (Var 1)",
       "block.fd.wallpapers_4": "Wall papers (Var 3)",
       "block.fd.wallpapers_3": "Wall papers (Var 2)",
+      "block.fd.arcade_sign": "Arcade Sign",
       "block.fd.piratecovecurtainblockred": "Pirate cove curtain (Red + panel)",
       "block.fnafs_decorations.officedesk": "Office desk",
       "block.fd.ffdexteriorwalltiles": "FFD Exterior Wall (Middle + Tiles)",
@@ -6299,8 +6332,8 @@
       "block.fd.officechair": "Office chair",
       "block.fnafs_decorations.whiteroof": "Celling fan Block (White)",
       "block.fnafs_decorations.monitors_2": "Monitors (Var 2)",
-      "block.fnafs_decorations.monitors_1": "Monitors (Var 1)",
       "block.fd.ffdexteriorwallmiddle": "FFD Exterior Wall (Middle)",
+      "block.fnafs_decorations.monitors_1": "Monitors (Var 1)",
       "block.fnafs_decorations.monitors_4": "Monitors (Var 4)",
       "block.fnafs_decorations.monitors_3": "Monitors (Var 3)",
       "block.fd.fnafmoviewallupperexterior": "FNaF Movie Exterior wall (Up)",
@@ -6443,6 +6476,7 @@
       "block.fd.floorwhiteslab": "Pizzeria floor slab (White + Black)",
       "block.fd.wallpapers": "Wall papers (Drawings)",
       "block.fd.fazsodared": "Faz soda (Red)",
+      "block.fd.alarm_clock": "Alarm Clock",
       "block.fnafs_decorations.stageblock_1": "Stage floor (wooden)",
       "block.fd.wallpaper_4": "Wall papers (Var 4)",
       "block.fd.wallpaper_3": "Wall papers (Var 3)",

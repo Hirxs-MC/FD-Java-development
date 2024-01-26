@@ -82,6 +82,8 @@ public class FdModTabs {
 					tabData.accept(FdModBlocks.SHELF_1.get().asItem());
 					tabData.accept(FdModBlocks.BLACKDOOR.get().asItem());
 					tabData.accept(FdModBlocks.REDDOOR.get().asItem());
+					tabData.accept(FdModBlocks.ALARM_CLOCK.get().asItem());
+					tabData.accept(FdModBlocks.ARCADE_SIGN.get().asItem());
 				})
 
 		);

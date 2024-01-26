@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/alarm_clock"
+    },
+    "facing=east": {
+      "model": "fd:block/alarm_clock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/alarm_clock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/alarm_clock",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fd:block/alarm_clock",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fd:block/alarm_clock",
+      "x": 90
+    }
+  }
+}

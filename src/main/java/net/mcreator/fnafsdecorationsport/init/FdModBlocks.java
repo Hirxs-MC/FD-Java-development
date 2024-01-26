@@ -185,6 +185,8 @@ import net.mcreator.fnafsdecorationsport.block.BlackdoorBlock;
 import net.mcreator.fnafsdecorationsport.block.Arcadefloor3Block;
 import net.mcreator.fnafsdecorationsport.block.Arcadefloor2Block;
 import net.mcreator.fnafsdecorationsport.block.Arcadefloor1Block;
+import net.mcreator.fnafsdecorationsport.block.ArcadeSignBlock;
+import net.mcreator.fnafsdecorationsport.block.AlarmClockBlock;
 import net.mcreator.fnafsdecorationsport.FdMod;
 
 public class FdModBlocks {
@@ -364,4 +366,6 @@ public class FdModBlocks {
 	public static final RegistryObject<Block> REDARCADEFLOOR_2 = REGISTRY.register("redarcadefloor_2", () -> new Redarcadefloor2Block());
 	public static final RegistryObject<Block> REDARCADEFLOOR_3 = REGISTRY.register("redarcadefloor_3", () -> new Redarcadefloor3Block());
 	public static final RegistryObject<Block> SHELF_2 = REGISTRY.register("shelf_2", () -> new Shelf2Block());
+	public static final RegistryObject<Block> ALARM_CLOCK = REGISTRY.register("alarm_clock", () -> new AlarmClockBlock());
+	public static final RegistryObject<Block> ARCADE_SIGN = REGISTRY.register("arcade_sign", () -> new ArcadeSignBlock());
 }

@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/alarm.geo_-_converted",
+  "textures": {
+    "all": "fd:block/alarm",
+    "particle": "fd:block/alarm",
+    "0": "fd:block/alarm"
+  },
+  "render_type": "cutout_mipped"
+}
