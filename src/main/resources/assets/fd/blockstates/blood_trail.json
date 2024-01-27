@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/blood_trail"
+    },
+    "facing=east": {
+      "model": "fd:block/blood_trail",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/blood_trail",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/blood_trail",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fd:block/blood_trail",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fd:block/blood_trail",
+      "x": 90
+    }
+  }
+}

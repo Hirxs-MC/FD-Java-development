@@ -6268,6 +6268,22 @@
           "src/main/resources/assets/fd/models/item/arcade_sign.json"
         ]
       }
+    },
+    {
+      "name": "BloodTrail",
+      "type": "block",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_trail",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/BloodTrailBlock.java",
+          "src/main/resources/assets/fd/models/item/blood_trail.json",
+          "src/main/resources/assets/fd/blockstates/blood_trail.json",
+          "src/main/resources/assets/fd/models/block/blood_trail.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -6361,6 +6377,7 @@
       "block.fnafs_decorations.fnaf_1wallbathroom_2": "FNaF 1 Wall (Tiles 2)",
       "item.fnafs_decorations.changertool": "Changer tool",
       "block.fd.trash_1": "Floor props (Trash)",
+      "block.fd.blood_trail": "Blood Trail",
       "block.fnafs_decorations.stageup": "Stage Wall (Up)",
       "block.fd.floorbluestairs": "Pizzeria floor stairs (Blue + Black)",
       "block.fd.trash_2": "Trash 2",

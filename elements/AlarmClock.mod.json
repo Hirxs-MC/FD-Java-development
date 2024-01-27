@@ -14,7 +14,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "placeholder_icon",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
