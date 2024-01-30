@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/maguranbo_5"
+    },
+    "facing=east": {
+      "model": "fd:block/maguranbo_5",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/maguranbo_5",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/maguranbo_5",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fd:block/maguranbo_5",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fd:block/maguranbo_5",
+      "x": 90
+    }
+  }
+}

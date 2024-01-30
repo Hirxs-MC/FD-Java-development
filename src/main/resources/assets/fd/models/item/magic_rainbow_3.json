@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fd:item/placeholder_icon"
+  },
+  "render_type": "translucent"
+}

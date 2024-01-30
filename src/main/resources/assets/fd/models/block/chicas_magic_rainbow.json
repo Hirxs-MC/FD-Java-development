@@ -3,7 +3,7 @@
   "textures": {
     "all": "fd:block/angry_chicas_magic_rainbow",
     "particle": "fd:block/angry_chicas_magic_rainbow",
-    "0": "fd:block/"
+    "0": "fd:block/chicas_magic_rainbow"
   },
   "render_type": "cutout_mipped"
 }

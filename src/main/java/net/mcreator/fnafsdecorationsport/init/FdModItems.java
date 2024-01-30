@@ -200,6 +200,10 @@ public class FdModItems {
 	public static final RegistryObject<Item> ARCADE_SIGN = block(FdModBlocks.ARCADE_SIGN);
 	public static final RegistryObject<Item> BLOOD_TRAIL = block(FdModBlocks.BLOOD_TRAIL);
 	public static final RegistryObject<Item> CHICAS_MAGIC_RAINBOW = block(FdModBlocks.CHICAS_MAGIC_RAINBOW);
+	public static final RegistryObject<Item> CHICAS_MAGIC_RAINBOW_2 = block(FdModBlocks.CHICAS_MAGIC_RAINBOW_2);
+	public static final RegistryObject<Item> MAGIC_RAINBOW_3 = block(FdModBlocks.MAGIC_RAINBOW_3);
+	public static final RegistryObject<Item> MAGICRAINBOW_4 = block(FdModBlocks.MAGICRAINBOW_4);
+	public static final RegistryObject<Item> MAGURANBO_5 = block(FdModBlocks.MAGURANBO_5);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

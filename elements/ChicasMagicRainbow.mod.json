@@ -42,7 +42,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:FnafsDecorations"
+      "value": "No creative tab entry"
     },
     "destroyTool": "hoe",
     "customDrop": {

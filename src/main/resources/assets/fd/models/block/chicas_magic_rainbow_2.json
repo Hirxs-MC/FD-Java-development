@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/chicas_magic_rainbow.geo_-_converted2",
+  "textures": {
+    "all": "fd:block/old_pc",
+    "particle": "fd:block/old_pc",
+    "missing": "fd:block/angry_chicas_magic_rainbow"
+  },
+  "render_type": "cutout_mipped"
+}

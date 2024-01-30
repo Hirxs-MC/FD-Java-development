@@ -85,7 +85,6 @@ public class FdModTabs {
 					tabData.accept(FdModBlocks.ALARM_CLOCK.get().asItem());
 					tabData.accept(FdModBlocks.ARCADE_SIGN.get().asItem());
 					tabData.accept(FdModBlocks.BLOOD_TRAIL.get().asItem());
-					tabData.accept(FdModBlocks.CHICAS_MAGIC_RAINBOW.get().asItem());
 				})
 
 		);

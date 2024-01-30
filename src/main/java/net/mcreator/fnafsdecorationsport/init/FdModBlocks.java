@@ -106,6 +106,9 @@ import net.mcreator.fnafsdecorationsport.block.Monitors4Block;
 import net.mcreator.fnafsdecorationsport.block.Monitors3Block;
 import net.mcreator.fnafsdecorationsport.block.Monitors2Block;
 import net.mcreator.fnafsdecorationsport.block.Monitors1Block;
+import net.mcreator.fnafsdecorationsport.block.Maguranbo5Block;
+import net.mcreator.fnafsdecorationsport.block.Magicrainbow4Block;
+import net.mcreator.fnafsdecorationsport.block.MagicRainbow3Block;
 import net.mcreator.fnafsdecorationsport.block.GiftyellowBlock;
 import net.mcreator.fnafsdecorationsport.block.GiftpurpleBlock;
 import net.mcreator.fnafsdecorationsport.block.GiftgreenBlock;
@@ -179,6 +182,7 @@ import net.mcreator.fnafsdecorationsport.block.Curtain3Block;
 import net.mcreator.fnafsdecorationsport.block.Curtain2Block;
 import net.mcreator.fnafsdecorationsport.block.Curtain1Block;
 import net.mcreator.fnafsdecorationsport.block.ChicasMagicRainbowBlock;
+import net.mcreator.fnafsdecorationsport.block.ChicasMagicRainbow2Block;
 import net.mcreator.fnafsdecorationsport.block.Bluearcadefloor1stairsBlock;
 import net.mcreator.fnafsdecorationsport.block.Bluearcadefloor1slabBlock;
 import net.mcreator.fnafsdecorationsport.block.BloodTrailBlock;
@@ -372,4 +376,8 @@ public class FdModBlocks {
 	public static final RegistryObject<Block> ARCADE_SIGN = REGISTRY.register("arcade_sign", () -> new ArcadeSignBlock());
 	public static final RegistryObject<Block> BLOOD_TRAIL = REGISTRY.register("blood_trail", () -> new BloodTrailBlock());
 	public static final RegistryObject<Block> CHICAS_MAGIC_RAINBOW = REGISTRY.register("chicas_magic_rainbow", () -> new ChicasMagicRainbowBlock());
+	public static final RegistryObject<Block> CHICAS_MAGIC_RAINBOW_2 = REGISTRY.register("chicas_magic_rainbow_2", () -> new ChicasMagicRainbow2Block());
+	public static final RegistryObject<Block> MAGIC_RAINBOW_3 = REGISTRY.register("magic_rainbow_3", () -> new MagicRainbow3Block());
+	public static final RegistryObject<Block> MAGICRAINBOW_4 = REGISTRY.register("magicrainbow_4", () -> new Magicrainbow4Block());
+	public static final RegistryObject<Block> MAGURANBO_5 = REGISTRY.register("maguranbo_5", () -> new Maguranbo5Block());
 }

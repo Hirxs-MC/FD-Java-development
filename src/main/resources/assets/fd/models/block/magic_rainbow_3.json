@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/chicas_magic_rainbow.geo_-_converted3",
+  "textures": {
+    "all": "fd:block/fnaf_2_wall_middle",
+    "particle": "fd:block/fnaf_2_wall_middle",
+    "missing": "fd:block/hmm_chicas_magic_rainbow"
+  },
+  "render_type": "solid"
+}
