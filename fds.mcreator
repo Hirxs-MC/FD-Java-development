@@ -6603,6 +6603,70 @@
           "src/main/resources/assets/fd/models/block/fnaf_2stagewalltiles.json"
         ]
       }
+    },
+    {
+      "name": "Balloons",
+      "type": "block",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "balloons",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/BalloonsBlock.java",
+          "src/main/resources/assets/fd/models/item/balloons.json",
+          "src/main/resources/assets/fd/models/block/balloons.json",
+          "src/main/resources/assets/fd/blockstates/balloons.json"
+        ]
+      }
+    },
+    {
+      "name": "Balloons2",
+      "type": "block",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "balloons_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/block/balloons_2.json",
+          "src/main/resources/assets/fd/models/item/balloons_2.json",
+          "src/main/resources/assets/fd/blockstates/balloons_2.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Balloons2Block.java"
+        ]
+      }
+    },
+    {
+      "name": "Balloons3",
+      "type": "block",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "balloons_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Balloons3Block.java",
+          "src/main/resources/assets/fd/models/block/balloons_3.json",
+          "src/main/resources/assets/fd/models/item/balloons_3.json",
+          "src/main/resources/assets/fd/blockstates/balloons_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Bobbleheads",
+      "type": "block",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bobbleheads",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/block/bobbleheads.json",
+          "src/main/resources/assets/fd/models/item/bobbleheads.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/BobbleheadsBlock.java",
+          "src/main/resources/assets/fd/blockstates/bobbleheads.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -6620,8 +6684,8 @@
       "block.fd.officelightbuttonon": "Office light button (On) ",
       "block.fd.floorredslab": "Pizzeria floor slab (Red + Black)",
       "block.fd.monitors_1": "Monitors (Var 1)",
-      "block.fd.stagetiles": "Stage Wall (Black line + tiles)",
       "block.fd.monitors_2": "Monitors (Var 2)",
+      "block.fd.stagetiles": "Stage Wall (Black line + tiles)",
       "block.fd.officewindow": "Office window",
       "block.fd.floorredblue": "Pizzeria Floor (Blue + Red)",
       "block.fd.monitors_3": "Monitors (Var 3)",
@@ -6647,15 +6711,15 @@
       "block.fd.chicas_magic_rainbow": "Chicas Magic Rainbow",
       "block.fnafs_decorations.stagemiddle_1": "Stage Wall (Middle)",
       "block.fd.piratecovecurtainblockred_2": "Pirate cove curtain (Red + panel)",
-      "block.fd.piratecovecurtainblockred_3": "Pirate cove curtain (Red + panel)",
-      "block.fd.officedoorbuttonoff": "Office door button (Off)",
       "block.fd.fnafmoviewallmiddleexterior": "FNaF Movie Exterior wall (Red line + tiles)",
+      "block.fd.officedoorbuttonoff": "Office door button (Off)",
+      "block.fd.piratecovecurtainblockred_3": "Pirate cove curtain (Red + panel)",
       "block.fd.onlyofficedesk": "Office desk (empty)",
       "block.fnafs_decorations.fnafwallmiddle_2": "FNaF 1 Wall (Middle)",
       "block.fnafs_decorations.floorredblue": "Pizzeria Floor (Blue + Red)",
       "block.fd.piratecovecurtainblockpurple_3": "Pirate cove curtain (Purple + panel)",
-      "block.fd.piratecovecurtainblockpurple_2": "Pirate cove curtain (Purple + panel)",
       "block.fd.wallpapers_2": "Wall papers (Var 1)",
+      "block.fd.piratecovecurtainblockpurple_2": "Pirate cove curtain (Purple + panel)",
       "block.fd.wallpapers_4": "Wall papers (Var 3)",
       "block.fd.wallpapers_3": "Wall papers (Var 2)",
       "block.fd.arcade_sign": "Arcade Sign",
@@ -6669,8 +6733,8 @@
       "block.fd.officechair": "Office chair",
       "block.fnafs_decorations.whiteroof": "Celling fan Block (White)",
       "block.fnafs_decorations.monitors_2": "Monitors (Var 2)",
-      "block.fd.ffdexteriorwallmiddle": "FFD Exterior Wall (Middle)",
       "block.fnafs_decorations.monitors_1": "Monitors (Var 1)",
+      "block.fd.ffdexteriorwallmiddle": "FFD Exterior Wall (Middle)",
       "block.fnafs_decorations.monitors_4": "Monitors (Var 4)",
       "block.fnafs_decorations.monitors_3": "Monitors (Var 3)",
       "block.fd.fnafmoviewallupperexterior": "FNaF Movie Exterior wall (Up)",
@@ -6682,6 +6746,8 @@
       "block.fd.whiteroof": "Celling fan Block (White)",
       "block.fd.curtainpurpleblockpanel": "Stage curtain block (Purple + panel)",
       "block.fd.fnaf_2stagewallmiddle": "White Stage Wall (Middle)",
+      "block.fd.balloons_2": "Balloons 2 (var 1)",
+      "block.fd.balloons_3": "Balloons 3 (var 2)",
       "block.fd.stagedown": "Stage Wall (Down)",
       "block.fd.roofwires_4": "Hanging wires (Var 4)",
       "block.fd.piratecovecurtainblockblue_3": "Pirate cove curtain (Blue + panel)",
@@ -6734,7 +6800,7 @@
       "block.fd.fnafmoviewallbottomexterior": "FNaF Movie Exterior wall (Down)",
       "block.fd.pizzeriasigns_1": "Pizzeria sign (Backstage - caps)",
       "block.fnafs_decorations.fnaf_1walldown_1": "FNaF 1 Wall (Down 1)",
-      "block.fd.magicrainbow_4": "Magicrainbow 4",
+      "block.fd.magicrainbow_4": "Chicas Magic Rainbow (Var 3)",
       "block.fd.partykidschairred": "Party kids chair (Red)",
       "block.fd.piratecovecurtainblockpurpleblock_2": "Pirate cove curtain (Purple + block)",
       "block.fd.giftpurple": "Gift (Purple)",
@@ -6779,6 +6845,7 @@
       "block.fd.f_na_f_1walldown_2": "FNaF 1 Wall (Down 2)",
       "block.fd.officelightbuttonoff": "Office light button (Off) ",
       "block.fd.redarcadefloor_1stairs": "Red Arcade floor (Stairs)",
+      "block.fd.balloons": "Balloons",
       "block.fd.stageblock_2": "Stage floor (wooden black)",
       "block.fd.stageblock_1": "Stage floor (wooden)",
       "block.fd.arcadefloor_1": "Arcade floor (Var 1)",
@@ -6787,12 +6854,12 @@
       "block.fd.curtainredblockpanel": "Stage curtain block (Red + panel)",
       "block.fd.floorffdslab": "Pizzeria floor slab (Cyan + Black)",
       "block.fd.maguranbo_5": "Maguranbo 5",
-      "block.fd.chicas_magic_rainbow_2": "Chicas Magic Rainbow 2",
+      "block.fd.chicas_magic_rainbow_2": "Chicas Magic Rainbow (Var 1)",
       "block.fd.floorffdstairs": "Pizzeria floor stairs (Cyan + Black)",
       "item_group.fd.fd_walls": "FD - Build blocks",
       "block.fnafs_decorations.fnaf_1wallmiddle_1": "FNaF 1 Wall (Red line + tiles)",
       "itemGroup.fd.fnafs_decorations": "FD Items \u0026 decors",
-      "block.fd.magic_rainbow_3": "Magic Rainbow 3",
+      "block.fd.magic_rainbow_3": "Chicas Magic Rainbow (Var 2)",
       "block.fd.piratecovecurtainblockredblock": "Pirate cove curtain (Red + block)",
       "block.fd.fazsodablue": "Faz soda (Blue)",
       "block.fnafs_decorations.fnaf_1wallmiddle_4": "FNaF 1 Wall (Black line + tiles)",
@@ -6835,6 +6902,7 @@
       "block.fnafs_decorations.f_na_f_1walldown_2": "FNaF 1 Wall (Down 2)",
       "block.fd.giftyellow": "Gift (Yellow)",
       "block.fd.stagespeaker": "Stage speaker",
+      "block.fd.bobbleheads": "Bobbleheads",
       "block.fd.partykidschairblue": "Party kids chair (Blue)",
       "block.fd.curtainredblock": "Stage curtain block (Red)",
       "block.fd.piratecovecurtainblockpurpleblock": "Pirate cove curtain (Purple + block)",

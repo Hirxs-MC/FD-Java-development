@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/bobbleheads.geo_-_converted",
+  "textures": {
+    "all": "fd:block/bobbleheads",
+    "particle": "fd:block/bobbleheads",
+    "0": "fd:block/bobbleheads"
+  },
+  "render_type": "cutout_mipped"
+}

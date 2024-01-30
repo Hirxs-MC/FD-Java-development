@@ -1,0 +1,11 @@
+{
+  "parent": "fd:custom/balloons.geo_-_converted2",
+  "textures": {
+    "all": "fd:block/balloon_balloon2",
+    "particle": "fd:block/balloon_balloon2",
+    "2": "fd:block/balloon_string",
+    "3": "fd:block/balloon_balloon2",
+    "missing": "fd:block/balloon_string"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -187,11 +187,15 @@ import net.mcreator.fnafsdecorationsport.block.Curtain2Block;
 import net.mcreator.fnafsdecorationsport.block.Curtain1Block;
 import net.mcreator.fnafsdecorationsport.block.ChicasMagicRainbowBlock;
 import net.mcreator.fnafsdecorationsport.block.ChicasMagicRainbow2Block;
+import net.mcreator.fnafsdecorationsport.block.BobbleheadsBlock;
 import net.mcreator.fnafsdecorationsport.block.Bluearcadefloor1stairsBlock;
 import net.mcreator.fnafsdecorationsport.block.Bluearcadefloor1slabBlock;
 import net.mcreator.fnafsdecorationsport.block.BloodTrailBlock;
 import net.mcreator.fnafsdecorationsport.block.BlockgiftBlock;
 import net.mcreator.fnafsdecorationsport.block.BlackdoorBlock;
+import net.mcreator.fnafsdecorationsport.block.BalloonsBlock;
+import net.mcreator.fnafsdecorationsport.block.Balloons3Block;
+import net.mcreator.fnafsdecorationsport.block.Balloons2Block;
 import net.mcreator.fnafsdecorationsport.block.Arcadefloor3Block;
 import net.mcreator.fnafsdecorationsport.block.Arcadefloor2Block;
 import net.mcreator.fnafsdecorationsport.block.Arcadefloor1Block;
@@ -388,4 +392,8 @@ public class FdModBlocks {
 	public static final RegistryObject<Block> PURPLESTAGEBRICKS = REGISTRY.register("purplestagebricks", () -> new PurplestagebricksBlock());
 	public static final RegistryObject<Block> FNAF_2STAGEWALLMIDDLE = REGISTRY.register("fnaf_2stagewallmiddle", () -> new Fnaf2stagewallmiddleBlock());
 	public static final RegistryObject<Block> FNAF_2STAGEWALLTILES = REGISTRY.register("fnaf_2stagewalltiles", () -> new Fnaf2stagewalltilesBlock());
+	public static final RegistryObject<Block> BALLOONS = REGISTRY.register("balloons", () -> new BalloonsBlock());
+	public static final RegistryObject<Block> BALLOONS_2 = REGISTRY.register("balloons_2", () -> new Balloons2Block());
+	public static final RegistryObject<Block> BALLOONS_3 = REGISTRY.register("balloons_3", () -> new Balloons3Block());
+	public static final RegistryObject<Block> BOBBLEHEADS = REGISTRY.register("bobbleheads", () -> new BobbleheadsBlock());
 }

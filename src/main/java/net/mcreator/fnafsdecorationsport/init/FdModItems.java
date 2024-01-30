@@ -208,6 +208,10 @@ public class FdModItems {
 	public static final RegistryObject<Item> PURPLESTAGEBRICKS = block(FdModBlocks.PURPLESTAGEBRICKS);
 	public static final RegistryObject<Item> FNAF_2STAGEWALLMIDDLE = block(FdModBlocks.FNAF_2STAGEWALLMIDDLE);
 	public static final RegistryObject<Item> FNAF_2STAGEWALLTILES = block(FdModBlocks.FNAF_2STAGEWALLTILES);
+	public static final RegistryObject<Item> BALLOONS = block(FdModBlocks.BALLOONS);
+	public static final RegistryObject<Item> BALLOONS_2 = block(FdModBlocks.BALLOONS_2);
+	public static final RegistryObject<Item> BALLOONS_3 = block(FdModBlocks.BALLOONS_3);
+	public static final RegistryObject<Item> BOBBLEHEADS = block(FdModBlocks.BOBBLEHEADS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

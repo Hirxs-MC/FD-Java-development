@@ -86,6 +86,8 @@ public class FdModTabs {
 					tabData.accept(FdModBlocks.ARCADE_SIGN.get().asItem());
 					tabData.accept(FdModBlocks.BLOOD_TRAIL.get().asItem());
 					tabData.accept(FdModBlocks.CHICAS_MAGIC_RAINBOW.get().asItem());
+					tabData.accept(FdModBlocks.BALLOONS.get().asItem());
+					tabData.accept(FdModBlocks.BOBBLEHEADS.get().asItem());
 				})
 
 		);
