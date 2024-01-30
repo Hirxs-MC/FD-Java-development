@@ -10,17 +10,17 @@
     "textureBack": "",
     "renderType": 2,
     "customModelName": "arcade_neon_sign.geo_-_converted:default",
-    "rotationMode": 2,
+    "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "placeholder_icon",
+    "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "CUTOUT_MIPPED",
+    "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -105,7 +105,7 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "isNotColidable": true,
     "isCustomSoundType": false,
     "soundOnStep": {
       "value": "WOOD"
@@ -125,7 +125,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 9,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "isBonemealable": false,

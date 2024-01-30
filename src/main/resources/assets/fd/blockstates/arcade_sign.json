@@ -14,14 +14,6 @@
     "facing=west": {
       "model": "fd:block/arcade_sign",
       "y": 270
-    },
-    "facing=up": {
-      "model": "fd:block/arcade_sign",
-      "x": 270
-    },
-    "facing=down": {
-      "model": "fd:block/arcade_sign",
-      "x": 90
     }
   }
 }

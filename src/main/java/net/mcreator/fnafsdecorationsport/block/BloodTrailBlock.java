@@ -31,7 +31,7 @@ public class BloodTrailBlock extends FallingBlock {
 	public static final DirectionProperty FACING = DirectionalBlock.FACING;
 
 	public BloodTrailBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).noCollission().friction(1.5f).speedFactor(0.6f).jumpFactor(0.7f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.SWEET_BERRY_BUSH).strength(1f, 10f).noCollission().friction(1.5f).speedFactor(0.6f).jumpFactor(0.7f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 

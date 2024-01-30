@@ -1,8 +1,8 @@
 {
   "parent": "fd:custom/chicas_magic_rainbow.geo_-_converted",
   "textures": {
-    "all": "fd:block/angry_chicas_magic_rainbow",
-    "particle": "fd:block/angry_chicas_magic_rainbow",
+    "all": "fd:block/chicas_magic_rainbow",
+    "particle": "fd:block/chicas_magic_rainbow",
     "0": "fd:block/chicas_magic_rainbow"
   },
   "render_type": "cutout_mipped"

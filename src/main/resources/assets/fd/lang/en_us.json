@@ -1,6 +1,7 @@
 {
   "block.fd.curtainpurpleblock": "Stage curtain block (Purple)",
   "block.fnafs_decorations.ffdfloor": "Pizzeria Floor (Cyan + Black)",
+  "block.fd.purplestagebricks": "Purple Stage Bricks",
   "item.fd.changertool": "Changer tool",
   "block.fd.ffdinteriorwalldown": "FFD Interior Wall (Down)",
   "block.fd.deskprops": "Desk props",
@@ -70,6 +71,7 @@
   "block.fnafs_decorations.wallpapers": "Wall papers (Drawings)",
   "block.fd.whiteroof": "Celling fan Block (White)",
   "block.fd.curtainpurpleblockpanel": "Stage curtain block (Purple + panel)",
+  "block.fd.fnaf_2stagewallmiddle": "White Stage Wall (Middle)",
   "block.fd.stagedown": "Stage Wall (Down)",
   "block.fd.roofwires_4": "Hanging wires (Var 4)",
   "block.fd.piratecovecurtainblockblue_3": "Pirate cove curtain (Blue + panel)",
@@ -135,6 +137,7 @@
   "block.fnafs_decorations.stars_3": "Roof Stars (Var 3)",
   "block.fd.officelighton": "Office light (On)",
   "block.fnafs_decorations.stars_1": "Roof Stars (Var 1)",
+  "block.fd.fnaf_2stagewalltiles": "White Stage Wall (Tiles)",
   "block.fnafs_decorations.fnaf_1walldeco_1": "FNaF 1 Wall (Deco Left)",
   "block.fnafs_decorations.stars_2": "Roof Stars (Var 2)",
   "block.fd.fnafmoviewallupper_2exterior": "FNaF Movie Exterior wall (Up + cyan tiles)",
@@ -243,6 +246,7 @@
   "block.fd.fnaf_1wallmiddle_4": "FNaF 1 Wall (Black line + tiles)",
   "block.fnafs_decorations.wallpapers_2": "Wall papers (Var 1)",
   "block.fd.fnaf_1wallmiddle_5": "FNaF 1 Wall (Black Line)",
+  "block.fd.fnaf_2wallmiddleconfetti": "FNaF 2 Wall (Middle + Confetti)",
   "block.fnafs_decorations.wallpapers_3": "Wall papers (Var 2)",
   "block.fd.blockgift": "Gift (Red)"
 }

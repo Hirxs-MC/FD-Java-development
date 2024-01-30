@@ -85,6 +85,7 @@ public class FdModTabs {
 					tabData.accept(FdModBlocks.ALARM_CLOCK.get().asItem());
 					tabData.accept(FdModBlocks.ARCADE_SIGN.get().asItem());
 					tabData.accept(FdModBlocks.BLOOD_TRAIL.get().asItem());
+					tabData.accept(FdModBlocks.CHICAS_MAGIC_RAINBOW.get().asItem());
 				})
 
 		);
@@ -153,6 +154,10 @@ public class FdModTabs {
 			tabData.accept(FdModBlocks.REDARCADEFLOOR_1SLAB.get().asItem());
 			tabData.accept(FdModBlocks.BLUEARCADEFLOOR_1STAIRS.get().asItem());
 			tabData.accept(FdModBlocks.BLUEARCADEFLOOR_1SLAB.get().asItem());
+			tabData.accept(FdModBlocks.FNAF_2WALLMIDDLECONFETTI.get().asItem());
+			tabData.accept(FdModBlocks.PURPLESTAGEBRICKS.get().asItem());
+			tabData.accept(FdModBlocks.FNAF_2STAGEWALLMIDDLE.get().asItem());
+			tabData.accept(FdModBlocks.FNAF_2STAGEWALLTILES.get().asItem());
 		})
 
 		);

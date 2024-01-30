@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "missing": "hmm_chicas_magic_rainbow"
+        "missing": "evil_chicas_magic_rainbow"
       },
       "name": "default"
     }

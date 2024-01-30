@@ -3,7 +3,7 @@
   "textures": {
     "all": "fd:block/blood_line",
     "particle": "fd:block/blood_line",
-    "0": "fd:block/chicas_magic_rainbow"
+    "0": "fd:block/blood_line"
   },
   "render_type": "cutout_mipped"
 }

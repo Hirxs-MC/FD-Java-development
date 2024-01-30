@@ -56,6 +56,7 @@ import net.mcreator.fnafsdecorationsport.block.Redarcadefloor2Block;
 import net.mcreator.fnafsdecorationsport.block.Redarcadefloor1stairsBlock;
 import net.mcreator.fnafsdecorationsport.block.Redarcadefloor1slabBlock;
 import net.mcreator.fnafsdecorationsport.block.Redarcadefloor1Block;
+import net.mcreator.fnafsdecorationsport.block.PurplestagebricksBlock;
 import net.mcreator.fnafsdecorationsport.block.Poster1Block;
 import net.mcreator.fnafsdecorationsport.block.Pizzeriasigns4Block;
 import net.mcreator.fnafsdecorationsport.block.Pizzeriasigns3Block;
@@ -121,10 +122,13 @@ import net.mcreator.fnafsdecorationsport.block.Fnafmoviewallmiddle2exteriorBlock
 import net.mcreator.fnafsdecorationsport.block.FnafmoviewallbottomexteriorBlock;
 import net.mcreator.fnafsdecorationsport.block.Fnaf2wallup2Block;
 import net.mcreator.fnafsdecorationsport.block.Fnaf2wallup1Block;
+import net.mcreator.fnafsdecorationsport.block.Fnaf2wallmiddleconfettiBlock;
 import net.mcreator.fnafsdecorationsport.block.Fnaf2wallmiddle3Block;
 import net.mcreator.fnafsdecorationsport.block.Fnaf2wallmiddle2Block;
 import net.mcreator.fnafsdecorationsport.block.Fnaf2wallmiddle1Block;
 import net.mcreator.fnafsdecorationsport.block.Fnaf2walldown1Block;
+import net.mcreator.fnafsdecorationsport.block.Fnaf2stagewalltilesBlock;
+import net.mcreator.fnafsdecorationsport.block.Fnaf2stagewallmiddleBlock;
 import net.mcreator.fnafsdecorationsport.block.Fnaf1wallupBlock;
 import net.mcreator.fnafsdecorationsport.block.Fnaf1wallmiddle5Block;
 import net.mcreator.fnafsdecorationsport.block.Fnaf1wallmiddle4Block;
@@ -380,4 +384,8 @@ public class FdModBlocks {
 	public static final RegistryObject<Block> MAGIC_RAINBOW_3 = REGISTRY.register("magic_rainbow_3", () -> new MagicRainbow3Block());
 	public static final RegistryObject<Block> MAGICRAINBOW_4 = REGISTRY.register("magicrainbow_4", () -> new Magicrainbow4Block());
 	public static final RegistryObject<Block> MAGURANBO_5 = REGISTRY.register("maguranbo_5", () -> new Maguranbo5Block());
+	public static final RegistryObject<Block> FNAF_2WALLMIDDLECONFETTI = REGISTRY.register("fnaf_2wallmiddleconfetti", () -> new Fnaf2wallmiddleconfettiBlock());
+	public static final RegistryObject<Block> PURPLESTAGEBRICKS = REGISTRY.register("purplestagebricks", () -> new PurplestagebricksBlock());
+	public static final RegistryObject<Block> FNAF_2STAGEWALLMIDDLE = REGISTRY.register("fnaf_2stagewallmiddle", () -> new Fnaf2stagewallmiddleBlock());
+	public static final RegistryObject<Block> FNAF_2STAGEWALLTILES = REGISTRY.register("fnaf_2stagewalltiles", () -> new Fnaf2stagewalltilesBlock());
 }

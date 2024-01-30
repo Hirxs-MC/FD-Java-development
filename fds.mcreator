@@ -21,8 +21,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/item/fnaf_1wallup.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf1wallupBlock.java",
           "src/main/resources/assets/fd/models/block/fnaf_1wallup.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf1wallupBlock.java",
           "src/main/resources/assets/fd/blockstates/fnaf_1wallup.json"
         ]
       }
@@ -37,9 +37,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf1wallmiddle1Block.java",
-          "src/main/resources/assets/fd/models/block/fnaf_1wallmiddle_1.json",
+          "src/main/resources/assets/fd/blockstates/fnaf_1wallmiddle_1.json",
           "src/main/resources/assets/fd/models/item/fnaf_1wallmiddle_1.json",
-          "src/main/resources/assets/fd/blockstates/fnaf_1wallmiddle_1.json"
+          "src/main/resources/assets/fd/models/block/fnaf_1wallmiddle_1.json"
         ]
       }
     },
@@ -52,10 +52,10 @@
       "registry_name": "fnafwallmiddle_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/item/fnafwallmiddle_2.json",
-          "src/main/resources/assets/fd/blockstates/fnafwallmiddle_2.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnafwallmiddle2Block.java",
           "src/main/resources/assets/fd/models/block/fnafwallmiddle_2.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnafwallmiddle2Block.java"
+          "src/main/resources/assets/fd/models/item/fnafwallmiddle_2.json",
+          "src/main/resources/assets/fd/blockstates/fnafwallmiddle_2.json"
         ]
       }
     },
@@ -85,8 +85,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/item/fnaf_1wallmiddle_4.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf1wallmiddle4Block.java",
           "src/main/resources/assets/fd/models/block/fnaf_1wallmiddle_4.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf1wallmiddle4Block.java",
           "src/main/resources/assets/fd/blockstates/fnaf_1wallmiddle_4.json"
         ]
       }
@@ -100,10 +100,10 @@
       "registry_name": "f_na_f_1walldown_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/f_na_f_1walldown_2.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/FNaF1walldown2Block.java",
-          "src/main/resources/assets/fd/blockstates/f_na_f_1walldown_2.json",
-          "src/main/resources/assets/fd/models/item/f_na_f_1walldown_2.json"
+          "src/main/resources/assets/fd/models/item/f_na_f_1walldown_2.json",
+          "src/main/resources/assets/fd/models/block/f_na_f_1walldown_2.json",
+          "src/main/resources/assets/fd/blockstates/f_na_f_1walldown_2.json"
         ]
       }
     },
@@ -116,9 +116,9 @@
       "registry_name": "fnaf_1wallmiddle_5",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/fnaf_1wallmiddle_5.json",
-          "src/main/resources/assets/fd/models/item/fnaf_1wallmiddle_5.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf1wallmiddle5Block.java",
+          "src/main/resources/assets/fd/models/item/fnaf_1wallmiddle_5.json",
+          "src/main/resources/assets/fd/models/block/fnaf_1wallmiddle_5.json",
           "src/main/resources/assets/fd/blockstates/fnaf_1wallmiddle_5.json"
         ]
       }
@@ -132,10 +132,10 @@
       "registry_name": "fnaf_1wallbathroom",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/fnaf_1wallbathroom.json",
           "src/main/resources/assets/fd/models/item/fnaf_1wallbathroom.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf1wallbathroomBlock.java",
-          "src/main/resources/assets/fd/blockstates/fnaf_1wallbathroom.json"
+          "src/main/resources/assets/fd/models/block/fnaf_1wallbathroom.json",
+          "src/main/resources/assets/fd/blockstates/fnaf_1wallbathroom.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf1wallbathroomBlock.java"
         ]
       }
     },
@@ -150,8 +150,8 @@
         "files": [
           "src/main/resources/assets/fd/models/item/fnaf_1wallbathroom_2.json",
           "src/main/resources/assets/fd/blockstates/fnaf_1wallbathroom_2.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf1wallbathroom2Block.java",
-          "src/main/resources/assets/fd/models/block/fnaf_1wallbathroom_2.json"
+          "src/main/resources/assets/fd/models/block/fnaf_1wallbathroom_2.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf1wallbathroom2Block.java"
         ]
       }
     },
@@ -164,10 +164,10 @@
       "registry_name": "fnaf_1wallbathroom_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/fnaf_1wallbathroom_3.json",
-          "src/main/resources/assets/fd/models/item/fnaf_1wallbathroom_3.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf1wallbathroom3Block.java",
-          "src/main/resources/assets/fd/models/block/fnaf_1wallbathroom_3.json"
+          "src/main/resources/assets/fd/models/block/fnaf_1wallbathroom_3.json",
+          "src/main/resources/assets/fd/blockstates/fnaf_1wallbathroom_3.json",
+          "src/main/resources/assets/fd/models/item/fnaf_1wallbathroom_3.json"
         ]
       }
     },
@@ -180,10 +180,10 @@
       "registry_name": "stageup",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/item/stageup.json",
-          "src/main/resources/assets/fd/models/block/stageup.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/StageupBlock.java",
-          "src/main/resources/assets/fd/blockstates/stageup.json"
+          "src/main/resources/assets/fd/blockstates/stageup.json",
+          "src/main/resources/assets/fd/models/block/stageup.json",
+          "src/main/resources/assets/fd/models/item/stageup.json"
         ]
       }
     },
@@ -196,9 +196,9 @@
       "registry_name": "stagemiddle_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/stagemiddle_1.json",
           "src/main/resources/assets/fd/models/item/stagemiddle_1.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Stagemiddle1Block.java",
+          "src/main/resources/assets/fd/blockstates/stagemiddle_1.json",
           "src/main/resources/assets/fd/models/block/stagemiddle_1.json"
         ]
       }
@@ -212,10 +212,10 @@
       "registry_name": "stagetiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/stagetiles.json",
-          "src/main/resources/assets/fd/models/block/stagetiles.json",
           "src/main/resources/assets/fd/models/item/stagetiles.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/StagetilesBlock.java"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/StagetilesBlock.java",
+          "src/main/resources/assets/fd/blockstates/stagetiles.json",
+          "src/main/resources/assets/fd/models/block/stagetiles.json"
         ]
       }
     },
@@ -229,9 +229,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/item/stagetiles_2.json",
+          "src/main/resources/assets/fd/models/block/stagetiles_2.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Stagetiles2Block.java",
-          "src/main/resources/assets/fd/blockstates/stagetiles_2.json",
-          "src/main/resources/assets/fd/models/block/stagetiles_2.json"
+          "src/main/resources/assets/fd/blockstates/stagetiles_2.json"
         ]
       }
     },
@@ -244,9 +244,9 @@
       "registry_name": "stagetiles_3",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Stagetiles3Block.java",
-          "src/main/resources/assets/fd/models/item/stagetiles_3.json",
           "src/main/resources/assets/fd/models/block/stagetiles_3.json",
+          "src/main/resources/assets/fd/models/item/stagetiles_3.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Stagetiles3Block.java",
           "src/main/resources/assets/fd/blockstates/stagetiles_3.json"
         ]
       }
@@ -261,9 +261,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/blockstates/stagedown.json",
+          "src/main/resources/assets/fd/models/block/stagedown.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/StagedownBlock.java",
-          "src/main/resources/assets/fd/models/item/stagedown.json",
-          "src/main/resources/assets/fd/models/block/stagedown.json"
+          "src/main/resources/assets/fd/models/item/stagedown.json"
         ]
       }
     },
@@ -276,10 +276,10 @@
       "registry_name": "roof_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Roof1Block.java",
-          "src/main/resources/assets/fd/models/item/roof_1.json",
+          "src/main/resources/assets/fd/blockstates/roof_1.json",
           "src/main/resources/assets/fd/models/block/roof_1.json",
-          "src/main/resources/assets/fd/blockstates/roof_1.json"
+          "src/main/resources/assets/fd/models/item/roof_1.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Roof1Block.java"
         ]
       }
     },
@@ -292,9 +292,9 @@
       "registry_name": "roof_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/roof_2.json",
           "src/main/resources/assets/fd/models/item/roof_2.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Roof2Block.java",
+          "src/main/resources/assets/fd/models/block/roof_2.json",
           "src/main/resources/assets/fd/blockstates/roof_2.json"
         ]
       }
@@ -309,9 +309,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/fnafsdecorationsport/block/FloorredBlock.java",
-          "src/main/resources/assets/fd/models/block/floorred.json",
+          "src/main/resources/assets/fd/blockstates/floorred.json",
           "src/main/resources/assets/fd/models/item/floorred.json",
-          "src/main/resources/assets/fd/blockstates/floorred.json"
+          "src/main/resources/assets/fd/models/block/floorred.json"
         ]
       }
     },
@@ -324,10 +324,10 @@
       "registry_name": "floorblue",
       "metadata": {
         "files": [
+          "src/main/resources/assets/fd/models/item/floorblue.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/FloorblueBlock.java",
           "src/main/resources/assets/fd/blockstates/floorblue.json",
-          "src/main/resources/assets/fd/models/block/floorblue.json",
-          "src/main/resources/assets/fd/models/item/floorblue.json"
+          "src/main/resources/assets/fd/models/block/floorblue.json"
         ]
       }
     },
@@ -340,9 +340,9 @@
       "registry_name": "floorredblue",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/floorredblue.json",
-          "src/main/resources/assets/fd/blockstates/floorredblue.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/FloorredblueBlock.java",
+          "src/main/resources/assets/fd/blockstates/floorredblue.json",
+          "src/main/resources/assets/fd/models/block/floorredblue.json",
           "src/main/resources/assets/fd/models/item/floorredblue.json"
         ]
       }
@@ -356,9 +356,9 @@
       "registry_name": "floorwhite",
       "metadata": {
         "files": [
+          "src/main/resources/assets/fd/models/block/floorwhite.json",
           "src/main/resources/assets/fd/models/item/floorwhite.json",
           "src/main/resources/assets/fd/blockstates/floorwhite.json",
-          "src/main/resources/assets/fd/models/block/floorwhite.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/FloorwhiteBlock.java"
         ]
       }
@@ -372,10 +372,10 @@
       "registry_name": "fnaf_1walldeco_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/fnaf_1walldeco_1.json",
+          "src/main/resources/assets/fd/models/block/fnaf_1walldeco_1.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf1walldeco1Block.java",
           "src/main/resources/assets/fd/models/item/fnaf_1walldeco_1.json",
-          "src/main/resources/assets/fd/models/block/fnaf_1walldeco_1.json"
+          "src/main/resources/assets/fd/blockstates/fnaf_1walldeco_1.json"
         ]
       }
     },
@@ -388,10 +388,10 @@
       "registry_name": "fnaf_1walldeco_2",
       "metadata": {
         "files": [
+          "src/main/resources/assets/fd/blockstates/fnaf_1walldeco_2.json",
           "src/main/resources/assets/fd/models/block/fnaf_1walldeco_2.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf1walldeco2Block.java",
-          "src/main/resources/assets/fd/models/item/fnaf_1walldeco_2.json",
-          "src/main/resources/assets/fd/blockstates/fnaf_1walldeco_2.json"
+          "src/main/resources/assets/fd/models/item/fnaf_1walldeco_2.json"
         ]
       }
     },
@@ -404,10 +404,10 @@
       "registry_name": "pizzeria_light_on",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Pizzerialight1Block.java",
-          "src/main/resources/assets/fd/blockstates/pizzeria_light_on.json",
+          "src/main/resources/assets/fd/models/item/pizzeria_light_on.json",
           "src/main/resources/assets/fd/models/block/pizzeria_light_on.json",
-          "src/main/resources/assets/fd/models/item/pizzeria_light_on.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Pizzerialight1Block.java",
+          "src/main/resources/assets/fd/blockstates/pizzeria_light_on.json"
         ]
       }
     },
@@ -421,8 +421,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/item/stageblock_1.json",
-          "src/main/resources/assets/fd/blockstates/stageblock_1.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Stageblock1Block.java",
+          "src/main/resources/assets/fd/blockstates/stageblock_1.json",
           "src/main/resources/assets/fd/models/block/stageblock_1.json"
         ]
       }
@@ -452,10 +452,10 @@
       "registry_name": "pizzerialightoff",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/item/pizzerialightoff.json",
-          "src/main/resources/assets/fd/blockstates/pizzerialightoff.json",
           "src/main/resources/assets/fd/models/block/pizzerialightoff.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/PizzerialightoffBlock.java"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/PizzerialightoffBlock.java",
+          "src/main/resources/assets/fd/models/item/pizzerialightoff.json",
+          "src/main/resources/assets/fd/blockstates/pizzerialightoff.json"
         ]
       }
     },
@@ -568,10 +568,10 @@
       "registry_name": "curtain_3",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Curtain3Block.java",
           "src/main/resources/assets/fd/models/block/curtain_3.json",
-          "src/main/resources/assets/fd/models/item/curtain_3.json",
-          "src/main/resources/assets/fd/blockstates/curtain_3.json"
+          "src/main/resources/assets/fd/blockstates/curtain_3.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Curtain3Block.java",
+          "src/main/resources/assets/fd/models/item/curtain_3.json"
         ]
       }
     },
@@ -585,9 +585,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Curtain4Block.java",
-          "src/main/resources/assets/fd/models/item/curtain_4.json",
+          "src/main/resources/assets/fd/blockstates/curtain_4.json",
           "src/main/resources/assets/fd/models/block/curtain_4.json",
-          "src/main/resources/assets/fd/blockstates/curtain_4.json"
+          "src/main/resources/assets/fd/models/item/curtain_4.json"
         ]
       }
     },
@@ -600,8 +600,8 @@
       "registry_name": "curtain_5",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/curtain_5.json",
           "src/main/resources/assets/fd/models/item/curtain_5.json",
+          "src/main/resources/assets/fd/blockstates/curtain_5.json",
           "src/main/resources/assets/fd/models/block/curtain_5.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Curtain5Block.java"
         ]
@@ -792,9 +792,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/fnafsdecorationsport/block/FfdfloorBlock.java",
-          "src/main/resources/assets/fd/blockstates/ffdfloor.json",
+          "src/main/resources/assets/fd/models/block/ffdfloor.json",
           "src/main/resources/assets/fd/models/item/ffdfloor.json",
-          "src/main/resources/assets/fd/models/block/ffdfloor.json"
+          "src/main/resources/assets/fd/blockstates/ffdfloor.json"
         ]
       }
     },
@@ -893,10 +893,10 @@
       "registry_name": "officedesk",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/officedesk.json",
           "src/main/resources/assets/fd/models/item/officedesk.json",
-          "src/main/resources/assets/fd/models/block/officedesk.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/OfficedeskBlock.java"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/OfficedeskBlock.java",
+          "src/main/resources/assets/fd/blockstates/officedesk.json",
+          "src/main/resources/assets/fd/models/block/officedesk.json"
         ]
       }
     },
@@ -909,9 +909,9 @@
       "registry_name": "wallpapers",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/wallpapers.json",
           "src/main/resources/assets/fd/models/item/wallpapers.json",
           "src/main/resources/assets/fd/blockstates/wallpapers.json",
+          "src/main/resources/assets/fd/models/block/wallpapers.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/WallpapersBlock.java"
         ]
       }
@@ -925,8 +925,8 @@
       "registry_name": "wallpapers_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/item/wallpapers_2.json",
           "src/main/resources/assets/fd/blockstates/wallpapers_2.json",
+          "src/main/resources/assets/fd/models/item/wallpapers_2.json",
           "src/main/resources/assets/fd/models/block/wallpapers_2.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Wallpapers2Block.java"
         ]
@@ -957,10 +957,10 @@
       "registry_name": "stars_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/stars_1.json",
           "src/main/resources/assets/fd/models/item/stars_1.json",
           "src/main/resources/assets/fd/blockstates/stars_1.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Stars1Block.java"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Stars1Block.java",
+          "src/main/resources/assets/fd/models/block/stars_1.json"
         ]
       }
     },
@@ -973,10 +973,10 @@
       "registry_name": "stars_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Stars2Block.java",
-          "src/main/resources/assets/fd/models/block/stars_2.json",
+          "src/main/resources/assets/fd/blockstates/stars_2.json",
           "src/main/resources/assets/fd/models/item/stars_2.json",
-          "src/main/resources/assets/fd/blockstates/stars_2.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Stars2Block.java",
+          "src/main/resources/assets/fd/models/block/stars_2.json"
         ]
       }
     },
@@ -989,10 +989,10 @@
       "registry_name": "stars_3",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Stars3Block.java",
           "src/main/resources/assets/fd/models/block/stars_3.json",
           "src/main/resources/assets/fd/models/item/stars_3.json",
-          "src/main/resources/assets/fd/blockstates/stars_3.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Stars3Block.java"
+          "src/main/resources/assets/fd/blockstates/stars_3.json"
         ]
       }
     },
@@ -1006,9 +1006,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/item/wallstructure.json",
+          "src/main/resources/assets/fd/blockstates/wallstructure.json",
           "src/main/resources/assets/fd/models/block/wallstructure.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/WallstructureBlock.java",
-          "src/main/resources/assets/fd/blockstates/wallstructure.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/WallstructureBlock.java"
         ]
       }
     },
@@ -1021,10 +1021,10 @@
       "registry_name": "monitors_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Monitors1Block.java",
-          "src/main/resources/assets/fd/blockstates/monitors_1.json",
+          "src/main/resources/assets/fd/models/item/monitors_1.json",
           "src/main/resources/assets/fd/models/block/monitors_1.json",
-          "src/main/resources/assets/fd/models/item/monitors_1.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Monitors1Block.java",
+          "src/main/resources/assets/fd/blockstates/monitors_1.json"
         ]
       }
     },
@@ -1037,10 +1037,10 @@
       "registry_name": "monitors_2",
       "metadata": {
         "files": [
+          "src/main/resources/assets/fd/blockstates/monitors_2.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Monitors2Block.java",
-          "src/main/resources/assets/fd/models/item/monitors_2.json",
           "src/main/resources/assets/fd/models/block/monitors_2.json",
-          "src/main/resources/assets/fd/blockstates/monitors_2.json"
+          "src/main/resources/assets/fd/models/item/monitors_2.json"
         ]
       }
     },
@@ -1054,9 +1054,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/block/monitors_3.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Monitors3Block.java",
           "src/main/resources/assets/fd/models/item/monitors_3.json",
-          "src/main/resources/assets/fd/blockstates/monitors_3.json"
+          "src/main/resources/assets/fd/blockstates/monitors_3.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Monitors3Block.java"
         ]
       }
     },
@@ -1069,10 +1069,10 @@
       "registry_name": "monitors_4",
       "metadata": {
         "files": [
+          "src/main/resources/assets/fd/models/block/monitors_4.json",
           "src/main/resources/assets/fd/blockstates/monitors_4.json",
           "src/main/resources/assets/fd/models/item/monitors_4.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Monitors4Block.java",
-          "src/main/resources/assets/fd/models/block/monitors_4.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Monitors4Block.java"
         ]
       }
     },
@@ -1085,10 +1085,10 @@
       "registry_name": "giftblue",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/GiftblueBlock.java",
           "src/main/resources/assets/fd/blockstates/giftblue.json",
-          "src/main/resources/assets/fd/models/item/giftblue.json",
-          "src/main/resources/assets/fd/models/block/giftblue.json"
+          "src/main/resources/assets/fd/models/block/giftblue.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/GiftblueBlock.java",
+          "src/main/resources/assets/fd/models/item/giftblue.json"
         ]
       }
     },
@@ -1118,9 +1118,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/block/giftyellow.json",
-          "src/main/resources/assets/fd/models/item/giftyellow.json",
           "src/main/resources/assets/fd/blockstates/giftyellow.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/GiftyellowBlock.java"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/GiftyellowBlock.java",
+          "src/main/resources/assets/fd/models/item/giftyellow.json"
         ]
       }
     },
@@ -1134,9 +1134,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/item/giftpurple.json",
-          "src/main/resources/assets/fd/models/block/giftpurple.json",
+          "src/main/resources/assets/fd/blockstates/giftpurple.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/GiftpurpleBlock.java",
-          "src/main/resources/assets/fd/blockstates/giftpurple.json"
+          "src/main/resources/assets/fd/models/block/giftpurple.json"
         ]
       }
     },
@@ -1149,10 +1149,10 @@
       "registry_name": "roofwires_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/item/roofwires_1.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Roofwires1Block.java",
-          "src/main/resources/assets/fd/blockstates/roofwires_1.json",
-          "src/main/resources/assets/fd/models/block/roofwires_1.json"
+          "src/main/resources/assets/fd/models/item/roofwires_1.json",
+          "src/main/resources/assets/fd/models/block/roofwires_1.json",
+          "src/main/resources/assets/fd/blockstates/roofwires_1.json"
         ]
       }
     },
@@ -1165,10 +1165,10 @@
       "registry_name": "roofwires_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/roofwires_2.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Roofwires2Block.java",
+          "src/main/resources/assets/fd/models/item/roofwires_2.json",
           "src/main/resources/assets/fd/blockstates/roofwires_2.json",
-          "src/main/resources/assets/fd/models/item/roofwires_2.json"
+          "src/main/resources/assets/fd/models/block/roofwires_2.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Roofwires2Block.java"
         ]
       }
     },
@@ -1181,10 +1181,10 @@
       "registry_name": "roofwires_4",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/roofwires_4.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Roofwires4Block.java",
           "src/main/resources/assets/fd/models/item/roofwires_4.json",
-          "src/main/resources/assets/fd/models/block/roofwires_4.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Roofwires4Block.java",
+          "src/main/resources/assets/fd/models/block/roofwires_4.json",
+          "src/main/resources/assets/fd/blockstates/roofwires_4.json"
         ]
       }
     },
@@ -1198,9 +1198,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/block/roofwires_3.json",
-          "src/main/resources/assets/fd/models/item/roofwires_3.json",
+          "src/main/resources/assets/fd/blockstates/roofwires_3.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Roofwires3Block.java",
-          "src/main/resources/assets/fd/blockstates/roofwires_3.json"
+          "src/main/resources/assets/fd/models/item/roofwires_3.json"
         ]
       }
     },
@@ -1213,9 +1213,9 @@
       "registry_name": "roofwires_5",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Roofwires5Block.java",
           "src/main/resources/assets/fd/models/block/roofwires_5.json",
           "src/main/resources/assets/fd/blockstates/roofwires_5.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Roofwires5Block.java",
           "src/main/resources/assets/fd/models/item/roofwires_5.json"
         ]
       }
@@ -1229,10 +1229,10 @@
       "registry_name": "curtain_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/curtain_1.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Curtain1Block.java",
           "src/main/resources/assets/fd/models/item/curtain_1.json",
           "src/main/resources/assets/fd/blockstates/curtain_1.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Curtain1Block.java"
+          "src/main/resources/assets/fd/models/block/curtain_1.json"
         ]
       }
     },
@@ -1246,9 +1246,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/blockstates/curtain_2.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Curtain2Block.java",
+          "src/main/resources/assets/fd/models/item/curtain_2.json",
           "src/main/resources/assets/fd/models/block/curtain_2.json",
-          "src/main/resources/assets/fd/models/item/curtain_2.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Curtain2Block.java"
         ]
       }
     },
@@ -1261,10 +1261,10 @@
       "registry_name": "poster_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/poster_1.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Poster1Block.java",
           "src/main/resources/assets/fd/models/item/poster_1.json",
           "src/main/resources/assets/fd/blockstates/poster_1.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Poster1Block.java"
+          "src/main/resources/assets/fd/models/block/poster_1.json"
         ]
       }
     },
@@ -1277,10 +1277,10 @@
       "registry_name": "trash_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Trash1Block.java",
-          "src/main/resources/assets/fd/blockstates/trash_1.json",
           "src/main/resources/assets/fd/models/item/trash_1.json",
-          "src/main/resources/assets/fd/models/block/trash_1.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Trash1Block.java",
+          "src/main/resources/assets/fd/models/block/trash_1.json",
+          "src/main/resources/assets/fd/blockstates/trash_1.json"
         ]
       }
     },
@@ -1309,10 +1309,10 @@
       "registry_name": "trash_3",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Trash3Block.java",
           "src/main/resources/assets/fd/models/item/trash_3.json",
+          "src/main/resources/assets/fd/blockstates/trash_3.json",
           "src/main/resources/assets/fd/models/block/trash_3.json",
-          "src/main/resources/assets/fd/blockstates/trash_3.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Trash3Block.java"
         ]
       }
     },
@@ -1325,10 +1325,10 @@
       "registry_name": "officewindow",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/officewindow.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/OfficewindowBlock.java",
           "src/main/resources/assets/fd/models/item/officewindow.json",
           "src/main/resources/assets/fd/blockstates/officewindow.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/OfficewindowBlock.java"
+          "src/main/resources/assets/fd/models/block/officewindow.json"
         ]
       }
     },
@@ -1342,8 +1342,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/fnafsdecorationsport/block/OfficechairBlock.java",
-          "src/main/resources/assets/fd/models/item/officechair.json",
           "src/main/resources/assets/fd/models/block/officechair.json",
+          "src/main/resources/assets/fd/models/item/officechair.json",
           "src/main/resources/assets/fd/blockstates/officechair.json"
         ]
       }
@@ -1357,8 +1357,8 @@
       "registry_name": "officeposter",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/officeposter.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/OfficeposterBlock.java",
+          "src/main/resources/assets/fd/blockstates/officeposter.json",
           "src/main/resources/assets/fd/models/block/officeposter.json",
           "src/main/resources/assets/fd/models/item/officeposter.json"
         ]
@@ -1373,10 +1373,10 @@
       "registry_name": "officedoorbuttonon",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/OfficedoorbuttononBlock.java",
-          "src/main/resources/assets/fd/models/item/officedoorbuttonon.json",
           "src/main/resources/assets/fd/models/block/officedoorbuttonon.json",
-          "src/main/resources/assets/fd/blockstates/officedoorbuttonon.json"
+          "src/main/resources/assets/fd/blockstates/officedoorbuttonon.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/OfficedoorbuttononBlock.java",
+          "src/main/resources/assets/fd/models/item/officedoorbuttonon.json"
         ]
       }
     },
@@ -1390,8 +1390,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/fnafsdecorationsport/block/OfficedoorbuttonoffBlock.java",
-          "src/main/resources/assets/fd/models/block/officedoorbuttonoff.json",
           "src/main/resources/assets/fd/blockstates/officedoorbuttonoff.json",
+          "src/main/resources/assets/fd/models/block/officedoorbuttonoff.json",
           "src/main/resources/assets/fd/models/item/officedoorbuttonoff.json"
         ]
       }
@@ -1422,8 +1422,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/item/floorwires_2.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Floorwires2Block.java",
           "src/main/resources/assets/fd/models/block/floorwires_2.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Floorwires2Block.java",
           "src/main/resources/assets/fd/blockstates/floorwires_2.json"
         ]
       }
@@ -1437,9 +1437,9 @@
       "registry_name": "floorwires_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/floorwires_3.json",
           "src/main/resources/assets/fd/blockstates/floorwires_3.json",
           "src/main/resources/assets/fd/models/item/floorwires_3.json",
+          "src/main/resources/assets/fd/models/block/floorwires_3.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Floorwires3Block.java"
         ]
       }
@@ -1453,10 +1453,10 @@
       "registry_name": "ffdinteriorwallup",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/item/ffdinteriorwallup.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/FfdinteriorwallupBlock.java",
-          "src/main/resources/assets/fd/models/block/ffdinteriorwallup.json",
-          "src/main/resources/assets/fd/blockstates/ffdinteriorwallup.json"
+          "src/main/resources/assets/fd/blockstates/ffdinteriorwallup.json",
+          "src/main/resources/assets/fd/models/item/ffdinteriorwallup.json",
+          "src/main/resources/assets/fd/models/block/ffdinteriorwallup.json"
         ]
       }
     },
@@ -1469,8 +1469,8 @@
       "registry_name": "ffdinteriorwalldown",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/ffdinteriorwalldown.json",
           "src/main/resources/assets/fd/models/block/ffdinteriorwalldown.json",
+          "src/main/resources/assets/fd/blockstates/ffdinteriorwalldown.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/FfdinteriorwalldownBlock.java",
           "src/main/resources/assets/fd/models/item/ffdinteriorwalldown.json"
         ]
@@ -1485,10 +1485,10 @@
       "registry_name": "ffdinteriorwallmiddle",
       "metadata": {
         "files": [
+          "src/main/resources/assets/fd/models/item/ffdinteriorwallmiddle.json",
           "src/main/resources/assets/fd/blockstates/ffdinteriorwallmiddle.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/FfdinteriorwallmiddleBlock.java",
-          "src/main/resources/assets/fd/models/block/ffdinteriorwallmiddle.json",
-          "src/main/resources/assets/fd/models/item/ffdinteriorwallmiddle.json"
+          "src/main/resources/assets/fd/models/block/ffdinteriorwallmiddle.json"
         ]
       }
     },
@@ -1501,9 +1501,9 @@
       "registry_name": "ffdinteriorwalltiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/ffdinteriorwalltiles.json",
           "src/main/resources/assets/fd/blockstates/ffdinteriorwalltiles.json",
           "src/main/resources/assets/fd/models/item/ffdinteriorwalltiles.json",
+          "src/main/resources/assets/fd/models/block/ffdinteriorwalltiles.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/FfdinteriorwalltilesBlock.java"
         ]
       }
@@ -1517,9 +1517,9 @@
       "registry_name": "chairexecution",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/entity/ChairexecutionEntity.java",
           "src/main/resources/assets/fd/models/item/chairexecution_spawn_egg.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/client/renderer/ChairexecutionRenderer.java",
+          "src/main/java/net/mcreator/fnafsdecorationsport/entity/ChairexecutionEntity.java",
           "src/main/resources/data/fd/forge/biome_modifier/chairexecution_biome_modifier.json"
         ]
       }
@@ -1534,8 +1534,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/blockstates/partykidschairblue.json",
-          "src/main/resources/assets/fd/models/block/partykidschairblue.json",
           "src/main/resources/assets/fd/models/item/partykidschairblue.json",
+          "src/main/resources/assets/fd/models/block/partykidschairblue.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/PartykidschairblueBlock.java"
         ]
       }
@@ -1638,8 +1638,8 @@
       "registry_name": "partykidschairred",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/partykidschairred.json",
           "src/main/resources/assets/fd/models/block/partykidschairred.json",
+          "src/main/resources/assets/fd/blockstates/partykidschairred.json",
           "src/main/resources/assets/fd/models/item/partykidschairred.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/PartykidschairredBlock.java"
         ]
@@ -1686,10 +1686,10 @@
       "registry_name": "ffdexteriorwallup",
       "metadata": {
         "files": [
+          "src/main/resources/assets/fd/models/item/ffdexteriorwallup.json",
           "src/main/resources/assets/fd/blockstates/ffdexteriorwallup.json",
           "src/main/resources/assets/fd/models/block/ffdexteriorwallup.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/FfdexteriorwallupBlock.java",
-          "src/main/resources/assets/fd/models/item/ffdexteriorwallup.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/FfdexteriorwallupBlock.java"
         ]
       }
     },
@@ -1702,10 +1702,10 @@
       "registry_name": "ffdexteriorwallmiddle",
       "metadata": {
         "files": [
+          "src/main/resources/assets/fd/blockstates/ffdexteriorwallmiddle.json",
           "src/main/resources/assets/fd/models/block/ffdexteriorwallmiddle.json",
           "src/main/resources/assets/fd/models/item/ffdexteriorwallmiddle.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/FfdexteriorwallmiddleBlock.java",
-          "src/main/resources/assets/fd/blockstates/ffdexteriorwallmiddle.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/FfdexteriorwallmiddleBlock.java"
         ]
       }
     },
@@ -1718,10 +1718,10 @@
       "registry_name": "ffdexteriorwalltiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/ffdexteriorwalltiles.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/FfdexteriorwalltilesBlock.java",
           "src/main/resources/assets/fd/models/item/ffdexteriorwalltiles.json",
-          "src/main/resources/assets/fd/blockstates/ffdexteriorwalltiles.json"
+          "src/main/resources/assets/fd/blockstates/ffdexteriorwalltiles.json",
+          "src/main/resources/assets/fd/models/block/ffdexteriorwalltiles.json"
         ]
       }
     },
@@ -1735,8 +1735,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/block/ffdexteriorwalldown.json",
-          "src/main/resources/assets/fd/blockstates/ffdexteriorwalldown.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/FfdexteriorwalldownBlock.java",
+          "src/main/resources/assets/fd/blockstates/ffdexteriorwalldown.json",
           "src/main/resources/assets/fd/models/item/ffdexteriorwalldown.json"
         ]
       }
@@ -1750,10 +1750,10 @@
       "registry_name": "curtainredblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/curtainredblock.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/CurtainredblockBlock.java",
+          "src/main/resources/assets/fd/models/item/curtainredblock.json",
           "src/main/resources/assets/fd/models/block/curtainredblock.json",
-          "src/main/resources/assets/fd/models/item/curtainredblock.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/CurtainredblockBlock.java",
+          "src/main/resources/assets/fd/blockstates/curtainredblock.json"
         ]
       }
     },
@@ -1766,9 +1766,9 @@
       "registry_name": "curtainred_2block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Curtainred2blockBlock.java",
-          "src/main/resources/assets/fd/models/block/curtainred_2block.json",
           "src/main/resources/assets/fd/models/item/curtainred_2block.json",
+          "src/main/resources/assets/fd/models/block/curtainred_2block.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Curtainred2blockBlock.java",
           "src/main/resources/assets/fd/blockstates/curtainred_2block.json"
         ]
       }
@@ -1799,8 +1799,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Curtainpurple2blockBlock.java",
-          "src/main/resources/assets/fd/models/item/curtainpurple_2block.json",
           "src/main/resources/assets/fd/models/block/curtainpurple_2block.json",
+          "src/main/resources/assets/fd/models/item/curtainpurple_2block.json",
           "src/main/resources/assets/fd/blockstates/curtainpurple_2block.json"
         ]
       }
@@ -1884,10 +1884,10 @@
       "registry_name": "officelamp",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/item/officelamp.json",
+          "src/main/resources/assets/fd/blockstates/officelamp.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/OfficelampBlock.java",
           "src/main/resources/assets/fd/models/block/officelamp.json",
-          "src/main/resources/assets/fd/blockstates/officelamp.json"
+          "src/main/resources/assets/fd/models/item/officelamp.json"
         ]
       }
     },
@@ -1900,14 +1900,14 @@
       "registry_name": "curtainredblockpanel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/curtainredblockpanel_noside.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/CurtainredblockpanelBlock.java",
-          "src/main/resources/assets/fd/models/block/curtainredblockpanel_side_alt.json",
-          "src/main/resources/assets/fd/models/block/curtainredblockpanel_side.json",
           "src/main/resources/assets/fd/models/block/curtainredblockpanel_noside_alt.json",
-          "src/main/resources/assets/fd/blockstates/curtainredblockpanel.json",
+          "src/main/resources/assets/fd/models/block/curtainredblockpanel_side.json",
+          "src/main/resources/assets/fd/models/block/curtainredblockpanel_noside.json",
+          "src/main/resources/assets/fd/models/block/curtainredblockpanel_side_alt.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/CurtainredblockpanelBlock.java",
+          "src/main/resources/assets/fd/models/item/curtainredblockpanel.json",
           "src/main/resources/assets/fd/models/block/curtainredblockpanel_post.json",
-          "src/main/resources/assets/fd/models/item/curtainredblockpanel.json"
+          "src/main/resources/assets/fd/blockstates/curtainredblockpanel.json"
         ]
       }
     },
@@ -1920,14 +1920,14 @@
       "registry_name": "curtainred_2blockpanel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/curtainred_2blockpanel_side_alt.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Curtainred2blockpanelBlock.java",
-          "src/main/resources/assets/fd/models/block/curtainred_2blockpanel_noside.json",
-          "src/main/resources/assets/fd/blockstates/curtainred_2blockpanel.json",
           "src/main/resources/assets/fd/models/block/curtainred_2blockpanel_post.json",
-          "src/main/resources/assets/fd/models/item/curtainred_2blockpanel.json",
           "src/main/resources/assets/fd/models/block/curtainred_2blockpanel_noside_alt.json",
-          "src/main/resources/assets/fd/models/block/curtainred_2blockpanel_side.json"
+          "src/main/resources/assets/fd/models/block/curtainred_2blockpanel_side_alt.json",
+          "src/main/resources/assets/fd/blockstates/curtainred_2blockpanel.json",
+          "src/main/resources/assets/fd/models/block/curtainred_2blockpanel_noside.json",
+          "src/main/resources/assets/fd/models/block/curtainred_2blockpanel_side.json",
+          "src/main/resources/assets/fd/models/item/curtainred_2blockpanel.json"
         ]
       }
     },
@@ -2080,14 +2080,14 @@
       "registry_name": "curtainpurpleblockpanel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/curtainpurpleblockpanel_post.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/CurtainpurpleblockpanelBlock.java",
           "src/main/resources/assets/fd/models/block/curtainpurpleblockpanel_side_alt.json",
-          "src/main/resources/assets/fd/models/block/curtainpurpleblockpanel_noside_alt.json",
-          "src/main/resources/assets/fd/models/block/curtainpurpleblockpanel_side.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/CurtainpurpleblockpanelBlock.java",
+          "src/main/resources/assets/fd/models/block/curtainpurpleblockpanel_post.json",
           "src/main/resources/assets/fd/models/item/curtainpurpleblockpanel.json",
           "src/main/resources/assets/fd/blockstates/curtainpurpleblockpanel.json",
-          "src/main/resources/assets/fd/models/block/curtainpurpleblockpanel_noside.json"
+          "src/main/resources/assets/fd/models/block/curtainpurpleblockpanel_side.json",
+          "src/main/resources/assets/fd/models/block/curtainpurpleblockpanel_noside.json",
+          "src/main/resources/assets/fd/models/block/curtainpurpleblockpanel_noside_alt.json"
         ]
       }
     },
@@ -2100,14 +2100,14 @@
       "registry_name": "curtainpurple_2blockpanel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/item/curtainpurple_2blockpanel.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Curtainpurple2blockpanelBlock.java",
-          "src/main/resources/assets/fd/models/block/curtainpurple_2blockpanel_side.json",
-          "src/main/resources/assets/fd/models/block/curtainpurple_2blockpanel_side_alt.json",
-          "src/main/resources/assets/fd/models/block/curtainpurple_2blockpanel_post.json",
-          "src/main/resources/assets/fd/models/block/curtainpurple_2blockpanel_noside.json",
           "src/main/resources/assets/fd/blockstates/curtainpurple_2blockpanel.json",
-          "src/main/resources/assets/fd/models/block/curtainpurple_2blockpanel_noside_alt.json"
+          "src/main/resources/assets/fd/models/block/curtainpurple_2blockpanel_noside.json",
+          "src/main/resources/assets/fd/models/block/curtainpurple_2blockpanel_noside_alt.json",
+          "src/main/resources/assets/fd/models/block/curtainpurple_2blockpanel_post.json",
+          "src/main/resources/assets/fd/models/block/curtainpurple_2blockpanel_side.json",
+          "src/main/resources/assets/fd/models/item/curtainpurple_2blockpanel.json",
+          "src/main/resources/assets/fd/models/block/curtainpurple_2blockpanel_side_alt.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Curtainpurple2blockpanelBlock.java"
         ]
       }
     },
@@ -2225,10 +2225,10 @@
       "registry_name": "stagesun",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/stagesun.json",
+          "src/main/resources/assets/fd/models/item/stagesun.json",
           "src/main/resources/assets/fd/blockstates/stagesun.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/StagesunBlock.java",
-          "src/main/resources/assets/fd/models/item/stagesun.json"
+          "src/main/resources/assets/fd/models/block/stagesun.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/StagesunBlock.java"
         ]
       }
     },
@@ -2242,9 +2242,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/block/stageclouds.json",
-          "src/main/resources/assets/fd/models/item/stageclouds.json",
+          "src/main/resources/assets/fd/blockstates/stageclouds.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/StagecloudsBlock.java",
-          "src/main/resources/assets/fd/blockstates/stageclouds.json"
+          "src/main/resources/assets/fd/models/item/stageclouds.json"
         ]
       }
     },
@@ -2257,8 +2257,8 @@
       "registry_name": "changertoolsparkles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/particles/changertoolsparkles.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/client/particle/ChangertoolsparklesParticle.java"
+          "src/main/java/net/mcreator/fnafsdecorationsport/client/particle/ChangertoolsparklesParticle.java",
+          "src/main/resources/assets/fd/particles/changertoolsparkles.json"
         ]
       }
     },
@@ -2692,9 +2692,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Piratecovesign1Block.java",
+          "src/main/resources/assets/fd/models/item/piratecovesign_1.json",
           "src/main/resources/assets/fd/blockstates/piratecovesign_1.json",
-          "src/main/resources/assets/fd/models/block/piratecovesign_1.json",
-          "src/main/resources/assets/fd/models/item/piratecovesign_1.json"
+          "src/main/resources/assets/fd/models/block/piratecovesign_1.json"
         ]
       }
     },
@@ -2707,10 +2707,10 @@
       "registry_name": "piratecovesign_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Piratecovesign2Block.java",
+          "src/main/resources/assets/fd/models/item/piratecovesign_2.json",
           "src/main/resources/assets/fd/models/block/piratecovesign_2.json",
-          "src/main/resources/assets/fd/blockstates/piratecovesign_2.json",
-          "src/main/resources/assets/fd/models/item/piratecovesign_2.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Piratecovesign2Block.java",
+          "src/main/resources/assets/fd/blockstates/piratecovesign_2.json"
         ]
       }
     },
@@ -2793,14 +2793,14 @@
       "registry_name": "piratecovecurtainblockred",
       "metadata": {
         "files": [
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_side.json",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_noside_alt.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/PiratecovecurtainblockredBlock.java",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_side_alt.json",
           "src/main/resources/assets/fd/models/item/piratecovecurtainblockred.json",
           "src/main/resources/assets/fd/blockstates/piratecovecurtainblockred.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_noside.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/PiratecovecurtainblockredBlock.java",
           "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_post.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_side_alt.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_noside_alt.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_side.json"
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_noside.json"
         ]
       }
     },
@@ -2814,13 +2814,13 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/blockstates/piratecovecurtainblockred_2.json",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_2_noside.json",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_2_side.json",
           "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_2_side_alt.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Piratecovecurtainblockred2Block.java",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_2_post.json",
           "src/main/resources/assets/fd/models/item/piratecovecurtainblockred_2.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_2_side.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_2_noside_alt.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_2_noside.json"
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_2_post.json",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_2_noside_alt.json"
         ]
       }
     },
@@ -2833,14 +2833,14 @@
       "registry_name": "piratecovecurtainblockred_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_3_side.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_3_noside_alt.json",
-          "src/main/resources/assets/fd/models/item/piratecovecurtainblockred_3.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_3_side_alt.json",
           "src/main/resources/assets/fd/blockstates/piratecovecurtainblockred_3.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_3_post.json",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_3_noside.json",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_3_side.json",
+          "src/main/resources/assets/fd/models/item/piratecovecurtainblockred_3.json",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_3_noside_alt.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Piratecovecurtainblockred3Block.java",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_3_noside.json"
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_3_side_alt.json",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockred_3_post.json"
         ]
       }
     },
@@ -2853,14 +2853,14 @@
       "registry_name": "piratecovecurtainblockpurple",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/PiratecovecurtainblockpurpleBlock.java",
           "src/main/resources/assets/fd/models/item/piratecovecurtainblockpurple.json",
-          "src/main/resources/assets/fd/blockstates/piratecovecurtainblockpurple.json",
           "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_side_alt.json",
           "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_post.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/PiratecovecurtainblockpurpleBlock.java",
+          "src/main/resources/assets/fd/blockstates/piratecovecurtainblockpurple.json",
           "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_side.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_noside_alt.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_noside.json"
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_noside.json",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_noside_alt.json"
         ]
       }
     },
@@ -2873,14 +2873,14 @@
       "registry_name": "piratecovecurtainblockpurple_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Piratecovecurtainblockpurple2Block.java",
-          "src/main/resources/assets/fd/blockstates/piratecovecurtainblockpurple_2.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_2_post.json",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_2_side.json",
           "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_2_noside.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_2_noside_alt.json",
-          "src/main/resources/assets/fd/models/item/piratecovecurtainblockpurple_2.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Piratecovecurtainblockpurple2Block.java",
           "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_2_side_alt.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_2_side.json"
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_2_post.json",
+          "src/main/resources/assets/fd/blockstates/piratecovecurtainblockpurple_2.json",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_2_noside_alt.json",
+          "src/main/resources/assets/fd/models/item/piratecovecurtainblockpurple_2.json"
         ]
       }
     },
@@ -2893,14 +2893,14 @@
       "registry_name": "piratecovecurtainblockpurple_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/piratecovecurtainblockpurple_3.json",
-          "src/main/resources/assets/fd/models/item/piratecovecurtainblockpurple_3.json",
           "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_3_side.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_3_noside.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_3_noside_alt.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_3_side_alt.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Piratecovecurtainblockpurple3Block.java",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_3_post.json"
+          "src/main/resources/assets/fd/blockstates/piratecovecurtainblockpurple_3.json",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_3_side_alt.json",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_3_noside.json",
+          "src/main/resources/assets/fd/models/item/piratecovecurtainblockpurple_3.json",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_3_post.json",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurple_3_noside_alt.json"
         ]
       }
     },
@@ -2913,14 +2913,14 @@
       "registry_name": "piratecovecurtainblockblue",
       "metadata": {
         "files": [
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_side.json",
           "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_noside_alt.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/PiratecovecurtainblockblueBlock.java",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_side.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_noside.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_side_alt.json",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_post.json",
           "src/main/resources/assets/fd/models/item/piratecovecurtainblockblue.json",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_side_alt.json",
           "src/main/resources/assets/fd/blockstates/piratecovecurtainblockblue.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_post.json"
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_noside.json"
         ]
       }
     },
@@ -2933,14 +2933,14 @@
       "registry_name": "piratecovecurtainblockblue_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/item/piratecovecurtainblockblue_2.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Piratecovecurtainblockblue2Block.java",
-          "src/main/resources/assets/fd/blockstates/piratecovecurtainblockblue_2.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_2_noside_alt.json",
           "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_2_side.json",
+          "src/main/resources/assets/fd/models/item/piratecovecurtainblockblue_2.json",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_2_side_alt.json",
+          "src/main/resources/assets/fd/blockstates/piratecovecurtainblockblue_2.json",
           "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_2_noside.json",
           "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_2_post.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_2_side_alt.json"
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_2_noside_alt.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Piratecovecurtainblockblue2Block.java"
         ]
       }
     },
@@ -2953,14 +2953,14 @@
       "registry_name": "piratecovecurtainblockblue_3",
       "metadata": {
         "files": [
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_3_side.json",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_3_side_alt.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Piratecovecurtainblockblue3Block.java",
           "src/main/resources/assets/fd/blockstates/piratecovecurtainblockblue_3.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_3_post.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_3_side_alt.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_3_noside.json",
           "src/main/resources/assets/fd/models/item/piratecovecurtainblockblue_3.json",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_3_post.json",
           "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_3_noside_alt.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_3_side.json"
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblue_3_noside.json"
         ]
       }
     },
@@ -3090,9 +3090,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/item/fanblock.json",
-          "src/main/resources/assets/fd/models/block/fanblock.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/FanblockBlock.java",
-          "src/main/resources/assets/fd/blockstates/fanblock.json"
+          "src/main/resources/assets/fd/blockstates/fanblock.json",
+          "src/main/resources/assets/fd/models/block/fanblock.json"
         ]
       }
     },
@@ -3105,10 +3105,10 @@
       "registry_name": "fanblockon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/fanblockon.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/FanblockonBlock.java",
           "src/main/resources/assets/fd/models/item/fanblockon.json",
           "src/main/resources/assets/fd/blockstates/fanblockon.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/FanblockonBlock.java"
+          "src/main/resources/assets/fd/models/block/fanblockon.json"
         ]
       }
     },
@@ -3199,10 +3199,10 @@
       "registry_name": "onlyofficedesk",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/OnlyofficedeskBlock.java",
           "src/main/resources/assets/fd/models/block/onlyofficedesk.json",
-          "src/main/resources/assets/fd/models/item/onlyofficedesk.json",
           "src/main/resources/assets/fd/blockstates/onlyofficedesk.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/OnlyofficedeskBlock.java"
+          "src/main/resources/assets/fd/models/item/onlyofficedesk.json"
         ]
       }
     },
@@ -3215,10 +3215,10 @@
       "registry_name": "arcadefloor_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/arcadefloor_1.json",
-          "src/main/resources/assets/fd/models/item/arcadefloor_1.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Arcadefloor1Block.java",
-          "src/main/resources/assets/fd/models/block/arcadefloor_1.json"
+          "src/main/resources/assets/fd/blockstates/arcadefloor_1.json",
+          "src/main/resources/assets/fd/models/block/arcadefloor_1.json",
+          "src/main/resources/assets/fd/models/item/arcadefloor_1.json"
         ]
       }
     },
@@ -3232,9 +3232,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/block/arcadefloor_2.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Arcadefloor2Block.java",
           "src/main/resources/assets/fd/models/item/arcadefloor_2.json",
-          "src/main/resources/assets/fd/blockstates/arcadefloor_2.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Arcadefloor2Block.java"
+          "src/main/resources/assets/fd/blockstates/arcadefloor_2.json"
         ]
       }
     },
@@ -3247,10 +3247,10 @@
       "registry_name": "arcadefloor_3",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Arcadefloor3Block.java",
-          "src/main/resources/assets/fd/models/block/arcadefloor_3.json",
           "src/main/resources/assets/fd/models/item/arcadefloor_3.json",
-          "src/main/resources/assets/fd/blockstates/arcadefloor_3.json"
+          "src/main/resources/assets/fd/blockstates/arcadefloor_3.json",
+          "src/main/resources/assets/fd/models/block/arcadefloor_3.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Arcadefloor3Block.java"
         ]
       }
     },
@@ -3473,10 +3473,10 @@
       "registry_name": "supplyroomshelves",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/supplyroomshelves.json",
-          "src/main/resources/assets/fd/models/item/supplyroomshelves.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/SupplyroomshelvesBlock.java",
           "src/main/resources/assets/fd/models/block/supplyroomshelves.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/SupplyroomshelvesBlock.java"
+          "src/main/resources/assets/fd/blockstates/supplyroomshelves.json",
+          "src/main/resources/assets/fd/models/item/supplyroomshelves.json"
         ]
       }
     },
@@ -3664,10 +3664,10 @@
       "registry_name": "piratecovecurtainblockredblock",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/PiratecovecurtainblockredblockBlock.java",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockredblock.json",
+          "src/main/resources/assets/fd/blockstates/piratecovecurtainblockredblock.json",
           "src/main/resources/assets/fd/models/item/piratecovecurtainblockredblock.json",
-          "src/main/resources/assets/fd/blockstates/piratecovecurtainblockredblock.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/PiratecovecurtainblockredblockBlock.java",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockredblock.json"
         ]
       }
     },
@@ -3681,9 +3681,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/item/piratecovecurtainblockredblock_2.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Piratecovecurtainblockredblock2Block.java",
           "src/main/resources/assets/fd/blockstates/piratecovecurtainblockredblock_2.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockredblock_2.json"
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockredblock_2.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Piratecovecurtainblockredblock2Block.java"
         ]
       }
     },
@@ -3698,8 +3698,8 @@
         "files": [
           "src/main/resources/assets/fd/blockstates/piratecovecurtainblockblueblock.json",
           "src/main/resources/assets/fd/models/item/piratecovecurtainblockblueblock.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblueblock.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/PiratecovecurtainblockblueblockBlock.java"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/PiratecovecurtainblockblueblockBlock.java",
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockblueblock.json"
         ]
       }
     },
@@ -3712,10 +3712,10 @@
       "registry_name": "piratecovecurtainblockblueblock_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/item/piratecovecurtainblockblueblock_2.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Piratecovecurtainblockblueblock2Block.java",
+          "src/main/resources/assets/fd/blockstates/piratecovecurtainblockblueblock_2.json",
           "src/main/resources/assets/fd/models/block/piratecovecurtainblockblueblock_2.json",
-          "src/main/resources/assets/fd/blockstates/piratecovecurtainblockblueblock_2.json"
+          "src/main/resources/assets/fd/models/item/piratecovecurtainblockblueblock_2.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Piratecovecurtainblockblueblock2Block.java"
         ]
       }
     },
@@ -3728,10 +3728,10 @@
       "registry_name": "piratecovecurtainblockpurpleblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/item/piratecovecurtainblockpurpleblock.json",
-          "src/main/resources/assets/fd/blockstates/piratecovecurtainblockpurpleblock.json",
           "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurpleblock.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/PiratecovecurtainblockpurpleblockBlock.java"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/PiratecovecurtainblockpurpleblockBlock.java",
+          "src/main/resources/assets/fd/models/item/piratecovecurtainblockpurpleblock.json",
+          "src/main/resources/assets/fd/blockstates/piratecovecurtainblockpurpleblock.json"
         ]
       }
     },
@@ -3744,10 +3744,10 @@
       "registry_name": "piratecovecurtainblockpurpleblock_2",
       "metadata": {
         "files": [
+          "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurpleblock_2.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Piratecovecurtainblockpurpleblock2Block.java",
           "src/main/resources/assets/fd/models/item/piratecovecurtainblockpurpleblock_2.json",
-          "src/main/resources/assets/fd/blockstates/piratecovecurtainblockpurpleblock_2.json",
-          "src/main/resources/assets/fd/models/block/piratecovecurtainblockpurpleblock_2.json"
+          "src/main/resources/assets/fd/blockstates/piratecovecurtainblockpurpleblock_2.json"
         ]
       }
     },
@@ -3971,9 +3971,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/item/officelightbuttonon.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/OfficelightbuttononBlock.java",
+          "src/main/resources/assets/fd/blockstates/officelightbuttonon.json",
           "src/main/resources/assets/fd/models/block/officelightbuttonon.json",
-          "src/main/resources/assets/fd/blockstates/officelightbuttonon.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/OfficelightbuttononBlock.java"
         ]
       }
     },
@@ -3987,8 +3987,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/blockstates/officelightbuttonoff.json",
-          "src/main/resources/assets/fd/models/block/officelightbuttonoff.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/OfficelightbuttonoffBlock.java",
+          "src/main/resources/assets/fd/models/block/officelightbuttonoff.json",
           "src/main/resources/assets/fd/models/item/officelightbuttonoff.json"
         ]
       }
@@ -4064,10 +4064,10 @@
       "registry_name": "officedoorblock",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/OfficedoorblockBlock.java",
           "src/main/resources/assets/fd/blockstates/officedoorblock.json",
           "src/main/resources/assets/fd/models/item/officedoorblock.json",
-          "src/main/resources/assets/fd/models/block/officedoorblock.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/OfficedoorblockBlock.java"
+          "src/main/resources/assets/fd/models/block/officedoorblock.json"
         ]
       }
     },
@@ -4220,10 +4220,10 @@
       "registry_name": "officelightoff",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/officelightoff.json",
           "src/main/resources/assets/fd/models/item/officelightoff.json",
           "src/main/resources/assets/fd/blockstates/officelightoff.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/OfficelightoffBlock.java"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/OfficelightoffBlock.java",
+          "src/main/resources/assets/fd/models/block/officelightoff.json"
         ]
       }
     },
@@ -4252,12 +4252,12 @@
       "registry_name": "floorredstairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/item/floorredstairs.json",
-          "src/main/resources/assets/fd/blockstates/floorredstairs.json",
-          "src/main/resources/assets/fd/models/block/floorredstairs_outer.json",
           "src/main/resources/assets/fd/models/block/floorredstairs.json",
+          "src/main/resources/assets/fd/models/block/floorredstairs_inner.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/FloorredstairsBlock.java",
-          "src/main/resources/assets/fd/models/block/floorredstairs_inner.json"
+          "src/main/resources/assets/fd/blockstates/floorredstairs.json",
+          "src/main/resources/assets/fd/models/item/floorredstairs.json",
+          "src/main/resources/assets/fd/models/block/floorredstairs_outer.json"
         ]
       }
     },
@@ -4270,12 +4270,12 @@
       "registry_name": "floorredslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/floorredslab.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/FloorredslabBlock.java",
           "src/main/resources/assets/fd/blockstates/floorredslab.json",
-          "src/main/resources/assets/fd/models/block/floorredslab_top.json",
           "src/main/resources/assets/fd/models/block/floorredslab_full.json",
-          "src/main/resources/assets/fd/models/item/floorredslab.json"
+          "src/main/resources/assets/fd/models/block/floorredslab.json",
+          "src/main/resources/assets/fd/models/item/floorredslab.json",
+          "src/main/resources/assets/fd/models/block/floorredslab_top.json"
         ]
       }
     },
@@ -4288,12 +4288,12 @@
       "registry_name": "floorbluestairs",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/FloorbluestairsBlock.java",
-          "src/main/resources/assets/fd/models/block/floorbluestairs_inner.json",
           "src/main/resources/assets/fd/models/item/floorbluestairs.json",
           "src/main/resources/assets/fd/models/block/floorbluestairs.json",
-          "src/main/resources/assets/fd/models/block/floorbluestairs_outer.json",
-          "src/main/resources/assets/fd/blockstates/floorbluestairs.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/FloorbluestairsBlock.java",
+          "src/main/resources/assets/fd/blockstates/floorbluestairs.json",
+          "src/main/resources/assets/fd/models/block/floorbluestairs_inner.json",
+          "src/main/resources/assets/fd/models/block/floorbluestairs_outer.json"
         ]
       }
     },
@@ -4306,12 +4306,12 @@
       "registry_name": "floorwhitestairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/floorwhitestairs_outer.json",
-          "src/main/resources/assets/fd/models/block/floorwhitestairs.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/FloorwhitestairsBlock.java",
-          "src/main/resources/assets/fd/models/block/floorwhitestairs_inner.json",
           "src/main/resources/assets/fd/models/item/floorwhitestairs.json",
-          "src/main/resources/assets/fd/blockstates/floorwhitestairs.json"
+          "src/main/resources/assets/fd/models/block/floorwhitestairs_outer.json",
+          "src/main/resources/assets/fd/blockstates/floorwhitestairs.json",
+          "src/main/resources/assets/fd/models/block/floorwhitestairs.json",
+          "src/main/resources/assets/fd/models/block/floorwhitestairs_inner.json"
         ]
       }
     },
@@ -4324,12 +4324,12 @@
       "registry_name": "floorrednbluestairs",
       "metadata": {
         "files": [
+          "src/main/resources/assets/fd/models/block/floorrednbluestairs_outer.json",
+          "src/main/resources/assets/fd/models/block/floorrednbluestairs.json",
           "src/main/resources/assets/fd/blockstates/floorrednbluestairs.json",
           "src/main/resources/assets/fd/models/block/floorrednbluestairs_inner.json",
-          "src/main/resources/assets/fd/models/block/floorrednbluestairs_outer.json",
-          "src/main/resources/assets/fd/models/item/floorrednbluestairs.json",
-          "src/main/resources/assets/fd/models/block/floorrednbluestairs.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/FloorrednbluestairsBlock.java"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/FloorrednbluestairsBlock.java",
+          "src/main/resources/assets/fd/models/item/floorrednbluestairs.json"
         ]
       }
     },
@@ -4345,9 +4345,9 @@
           "src/main/resources/assets/fd/models/item/floorffdstairs.json",
           "src/main/resources/assets/fd/blockstates/floorffdstairs.json",
           "src/main/resources/assets/fd/models/block/floorffdstairs_outer.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/FloorffdstairsBlock.java",
+          "src/main/resources/assets/fd/models/block/floorffdstairs_inner.json",
           "src/main/resources/assets/fd/models/block/floorffdstairs.json",
-          "src/main/resources/assets/fd/models/block/floorffdstairs_inner.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/FloorffdstairsBlock.java"
         ]
       }
     },
@@ -4360,11 +4360,11 @@
       "registry_name": "floorblueslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/floorblueslab_full.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/FloorblueslabBlock.java",
-          "src/main/resources/assets/fd/models/block/floorblueslab.json",
           "src/main/resources/assets/fd/models/block/floorblueslab_top.json",
+          "src/main/resources/assets/fd/models/block/floorblueslab.json",
           "src/main/resources/assets/fd/blockstates/floorblueslab.json",
+          "src/main/resources/assets/fd/models/block/floorblueslab_full.json",
           "src/main/resources/assets/fd/models/item/floorblueslab.json"
         ]
       }
@@ -4378,12 +4378,12 @@
       "registry_name": "floorwhiteslab",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/FloorwhiteslabBlock.java",
           "src/main/resources/assets/fd/models/item/floorwhiteslab.json",
-          "src/main/resources/assets/fd/models/block/floorwhiteslab.json",
           "src/main/resources/assets/fd/models/block/floorwhiteslab_top.json",
           "src/main/resources/assets/fd/models/block/floorwhiteslab_full.json",
           "src/main/resources/assets/fd/blockstates/floorwhiteslab.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/FloorwhiteslabBlock.java"
+          "src/main/resources/assets/fd/models/block/floorwhiteslab.json"
         ]
       }
     },
@@ -4396,12 +4396,12 @@
       "registry_name": "floorrednblueslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/floorrednblueslab_full.json",
-          "src/main/resources/assets/fd/models/item/floorrednblueslab.json",
-          "src/main/resources/assets/fd/blockstates/floorrednblueslab.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/FloorrednblueslabBlock.java",
           "src/main/resources/assets/fd/models/block/floorrednblueslab.json",
-          "src/main/resources/assets/fd/models/block/floorrednblueslab_top.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/FloorrednblueslabBlock.java",
+          "src/main/resources/assets/fd/models/item/floorrednblueslab.json",
+          "src/main/resources/assets/fd/models/block/floorrednblueslab_top.json",
+          "src/main/resources/assets/fd/blockstates/floorrednblueslab.json",
+          "src/main/resources/assets/fd/models/block/floorrednblueslab_full.json"
         ]
       }
     },
@@ -4415,11 +4415,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/blockstates/floorffdslab.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/FloorffdslabBlock.java",
-          "src/main/resources/assets/fd/models/block/floorffdslab_top.json",
-          "src/main/resources/assets/fd/models/block/floorffdslab.json",
           "src/main/resources/assets/fd/models/block/floorffdslab_full.json",
-          "src/main/resources/assets/fd/models/item/floorffdslab.json"
+          "src/main/resources/assets/fd/models/item/floorffdslab.json",
+          "src/main/resources/assets/fd/models/block/floorffdslab.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/FloorffdslabBlock.java",
+          "src/main/resources/assets/fd/models/block/floorffdslab_top.json"
         ]
       }
     },
@@ -4712,10 +4712,10 @@
       "registry_name": "fnaf_1walldown_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/fnaf_1walldown_1.json",
-          "src/main/resources/assets/fd/models/item/fnaf_1walldown_1.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf1walldown1Block.java",
-          "src/main/resources/assets/fd/models/block/fnaf_1walldown_1.json"
+          "src/main/resources/assets/fd/models/block/fnaf_1walldown_1.json",
+          "src/main/resources/assets/fd/models/item/fnaf_1walldown_1.json",
+          "src/main/resources/assets/fd/blockstates/fnaf_1walldown_1.json"
         ]
       }
     },
@@ -4730,8 +4730,8 @@
         "files": [
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Stageblock2Block.java",
           "src/main/resources/assets/fd/models/item/stageblock_2.json",
-          "src/main/resources/assets/fd/blockstates/stageblock_2.json",
-          "src/main/resources/assets/fd/models/block/stageblock_2.json"
+          "src/main/resources/assets/fd/models/block/stageblock_2.json",
+          "src/main/resources/assets/fd/blockstates/stageblock_2.json"
         ]
       }
     },
@@ -4744,9 +4744,9 @@
       "registry_name": "stageblock_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/stageblock_3.json",
-          "src/main/resources/assets/fd/models/item/stageblock_3.json",
           "src/main/resources/assets/fd/models/block/stageblock_3.json",
+          "src/main/resources/assets/fd/models/item/stageblock_3.json",
+          "src/main/resources/assets/fd/blockstates/stageblock_3.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Stageblock3Block.java"
         ]
       }
@@ -4761,8 +4761,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/item/stageblock_4.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Stageblock4Block.java",
           "src/main/resources/assets/fd/models/block/stageblock_4.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Stageblock4Block.java",
           "src/main/resources/assets/fd/blockstates/stageblock_4.json"
         ]
       }
@@ -4776,9 +4776,9 @@
       "registry_name": "fnafmoviewallupperexterior",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/item/fnafmoviewallupperexterior.json",
           "src/main/resources/assets/fd/blockstates/fnafmoviewallupperexterior.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/FnafmoviewallupperexteriorBlock.java",
+          "src/main/resources/assets/fd/models/item/fnafmoviewallupperexterior.json",
           "src/main/resources/assets/fd/models/block/fnafmoviewallupperexterior.json"
         ]
       }
@@ -4794,8 +4794,8 @@
         "files": [
           "src/main/java/net/mcreator/fnafsdecorationsport/block/FnafmoviewallmiddleexteriorBlock.java",
           "src/main/resources/assets/fd/models/item/fnafmoviewallmiddleexterior.json",
-          "src/main/resources/assets/fd/models/block/fnafmoviewallmiddleexterior.json",
-          "src/main/resources/assets/fd/blockstates/fnafmoviewallmiddleexterior.json"
+          "src/main/resources/assets/fd/blockstates/fnafmoviewallmiddleexterior.json",
+          "src/main/resources/assets/fd/models/block/fnafmoviewallmiddleexterior.json"
         ]
       }
     },
@@ -4808,9 +4808,9 @@
       "registry_name": "fnafmoviewallmiddle_2exterior",
       "metadata": {
         "files": [
+          "src/main/resources/assets/fd/models/block/fnafmoviewallmiddle_2exterior.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnafmoviewallmiddle2exteriorBlock.java",
           "src/main/resources/assets/fd/blockstates/fnafmoviewallmiddle_2exterior.json",
-          "src/main/resources/assets/fd/models/block/fnafmoviewallmiddle_2exterior.json",
           "src/main/resources/assets/fd/models/item/fnafmoviewallmiddle_2exterior.json"
         ]
       }
@@ -4824,9 +4824,9 @@
       "registry_name": "fnafmoviewallupper_2exterior",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnafmoviewallupper2exteriorBlock.java",
           "src/main/resources/assets/fd/blockstates/fnafmoviewallupper_2exterior.json",
           "src/main/resources/assets/fd/models/item/fnafmoviewallupper_2exterior.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnafmoviewallupper2exteriorBlock.java",
           "src/main/resources/assets/fd/models/block/fnafmoviewallupper_2exterior.json"
         ]
       }
@@ -4841,8 +4841,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/item/fnafmoviewallbottomexterior.json",
-          "src/main/resources/assets/fd/blockstates/fnafmoviewallbottomexterior.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/FnafmoviewallbottomexteriorBlock.java",
+          "src/main/resources/assets/fd/blockstates/fnafmoviewallbottomexterior.json",
           "src/main/resources/assets/fd/models/block/fnafmoviewallbottomexterior.json"
         ]
       }
@@ -4856,10 +4856,10 @@
       "registry_name": "fnaf_2wallmiddle_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/fnaf_2wallmiddle_1.json",
-          "src/main/resources/assets/fd/blockstates/fnaf_2wallmiddle_1.json",
           "src/main/resources/assets/fd/models/item/fnaf_2wallmiddle_1.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf2wallmiddle1Block.java"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf2wallmiddle1Block.java",
+          "src/main/resources/assets/fd/blockstates/fnaf_2wallmiddle_1.json",
+          "src/main/resources/assets/fd/models/block/fnaf_2wallmiddle_1.json"
         ]
       }
     },
@@ -4872,10 +4872,10 @@
       "registry_name": "fnaf_2wallmiddle_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf2wallmiddle2Block.java",
-          "src/main/resources/assets/fd/models/block/fnaf_2wallmiddle_2.json",
+          "src/main/resources/assets/fd/blockstates/fnaf_2wallmiddle_2.json",
           "src/main/resources/assets/fd/models/item/fnaf_2wallmiddle_2.json",
-          "src/main/resources/assets/fd/blockstates/fnaf_2wallmiddle_2.json"
+          "src/main/resources/assets/fd/models/block/fnaf_2wallmiddle_2.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf2wallmiddle2Block.java"
         ]
       }
     },
@@ -4888,10 +4888,10 @@
       "registry_name": "fnaf_2wallmiddle_3",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf2wallmiddle3Block.java",
           "src/main/resources/assets/fd/models/item/fnaf_2wallmiddle_3.json",
+          "src/main/resources/assets/fd/models/block/fnaf_2wallmiddle_3.json",
           "src/main/resources/assets/fd/blockstates/fnaf_2wallmiddle_3.json",
-          "src/main/resources/assets/fd/models/block/fnaf_2wallmiddle_3.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf2wallmiddle3Block.java"
         ]
       }
     },
@@ -4904,10 +4904,10 @@
       "registry_name": "fnaf_2wallup_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf2wallup1Block.java",
+          "src/main/resources/assets/fd/models/block/fnaf_2wallup_1.json",
           "src/main/resources/assets/fd/models/item/fnaf_2wallup_1.json",
-          "src/main/resources/assets/fd/blockstates/fnaf_2wallup_1.json",
-          "src/main/resources/assets/fd/models/block/fnaf_2wallup_1.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf2wallup1Block.java",
+          "src/main/resources/assets/fd/blockstates/fnaf_2wallup_1.json"
         ]
       }
     },
@@ -4920,10 +4920,10 @@
       "registry_name": "fnaf_2wallup_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/fnaf_2wallup_2.json",
+          "src/main/resources/assets/fd/models/item/fnaf_2wallup_2.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf2wallup2Block.java",
           "src/main/resources/assets/fd/blockstates/fnaf_2wallup_2.json",
-          "src/main/resources/assets/fd/models/item/fnaf_2wallup_2.json"
+          "src/main/resources/assets/fd/models/block/fnaf_2wallup_2.json"
         ]
       }
     },
@@ -4936,10 +4936,10 @@
       "registry_name": "fnaf_2walldown_1",
       "metadata": {
         "files": [
+          "src/main/resources/assets/fd/models/block/fnaf_2walldown_1.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf2walldown1Block.java",
-          "src/main/resources/assets/fd/models/item/fnaf_2walldown_1.json",
           "src/main/resources/assets/fd/blockstates/fnaf_2walldown_1.json",
-          "src/main/resources/assets/fd/models/block/fnaf_2walldown_1.json"
+          "src/main/resources/assets/fd/models/item/fnaf_2walldown_1.json"
         ]
       }
     },
@@ -4952,10 +4952,10 @@
       "registry_name": "partyhatred",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/item/partyhatred.json",
-          "src/main/resources/assets/fd/blockstates/partyhatred.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/PartyhatredBlock.java",
-          "src/main/resources/assets/fd/models/block/partyhatred.json"
+          "src/main/resources/assets/fd/models/item/partyhatred.json",
+          "src/main/resources/assets/fd/models/block/partyhatred.json",
+          "src/main/resources/assets/fd/blockstates/partyhatred.json"
         ]
       }
     },
@@ -4968,10 +4968,10 @@
       "registry_name": "partyhatgreen",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/PartyhatgreenBlock.java",
-          "src/main/resources/assets/fd/models/item/partyhatgreen.json",
           "src/main/resources/assets/fd/blockstates/partyhatgreen.json",
-          "src/main/resources/assets/fd/models/block/partyhatgreen.json"
+          "src/main/resources/assets/fd/models/block/partyhatgreen.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/PartyhatgreenBlock.java",
+          "src/main/resources/assets/fd/models/item/partyhatgreen.json"
         ]
       }
     },
@@ -4985,9 +4985,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/block/partyhatblue.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/PartyhatblueBlock.java",
           "src/main/resources/assets/fd/models/item/partyhatblue.json",
-          "src/main/resources/assets/fd/blockstates/partyhatblue.json"
+          "src/main/resources/assets/fd/blockstates/partyhatblue.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/PartyhatblueBlock.java"
         ]
       }
     },
@@ -5000,10 +5000,10 @@
       "registry_name": "partyhatpurple",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/partyhatpurple.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/PartyhatpurpleBlock.java",
-          "src/main/resources/assets/fd/models/item/partyhatpurple.json",
-          "src/main/resources/assets/fd/models/block/partyhatpurple.json"
+          "src/main/resources/assets/fd/models/block/partyhatpurple.json",
+          "src/main/resources/assets/fd/blockstates/partyhatpurple.json",
+          "src/main/resources/assets/fd/models/item/partyhatpurple.json"
         ]
       }
     },
@@ -5016,10 +5016,10 @@
       "registry_name": "pizzeriasigns_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/pizzeriasigns_1.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Pizzeriasigns1Block.java",
+          "src/main/resources/assets/fd/models/item/pizzeriasigns_1.json",
           "src/main/resources/assets/fd/models/block/pizzeriasigns_1.json",
-          "src/main/resources/assets/fd/models/item/pizzeriasigns_1.json"
+          "src/main/resources/assets/fd/blockstates/pizzeriasigns_1.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Pizzeriasigns1Block.java"
         ]
       }
     },
@@ -5032,10 +5032,10 @@
       "registry_name": "pizzeriasigns_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/item/pizzeriasigns_2.json",
           "src/main/resources/assets/fd/blockstates/pizzeriasigns_2.json",
-          "src/main/resources/assets/fd/models/block/pizzeriasigns_2.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Pizzeriasigns2Block.java"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Pizzeriasigns2Block.java",
+          "src/main/resources/assets/fd/models/item/pizzeriasigns_2.json",
+          "src/main/resources/assets/fd/models/block/pizzeriasigns_2.json"
         ]
       }
     },
@@ -5048,10 +5048,10 @@
       "registry_name": "pizzeriasigns_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/pizzeriasigns_3.json",
-          "src/main/resources/assets/fd/models/block/pizzeriasigns_3.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Pizzeriasigns3Block.java",
-          "src/main/resources/assets/fd/models/item/pizzeriasigns_3.json"
+          "src/main/resources/assets/fd/models/item/pizzeriasigns_3.json",
+          "src/main/resources/assets/fd/models/block/pizzeriasigns_3.json",
+          "src/main/resources/assets/fd/blockstates/pizzeriasigns_3.json"
         ]
       }
     },
@@ -5064,10 +5064,10 @@
       "registry_name": "pizzeriasigns_4",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/pizzeriasigns_4.json",
-          "src/main/resources/assets/fd/models/block/pizzeriasigns_4.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Pizzeriasigns4Block.java",
-          "src/main/resources/assets/fd/models/item/pizzeriasigns_4.json"
+          "src/main/resources/assets/fd/blockstates/pizzeriasigns_4.json",
+          "src/main/resources/assets/fd/models/item/pizzeriasigns_4.json",
+          "src/main/resources/assets/fd/models/block/pizzeriasigns_4.json"
         ]
       }
     },
@@ -5080,10 +5080,10 @@
       "registry_name": "wallwarningsign",
       "metadata": {
         "files": [
+          "src/main/resources/assets/fd/blockstates/wallwarningsign.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/WallwarningsignBlock.java",
           "src/main/resources/assets/fd/models/item/wallwarningsign.json",
-          "src/main/resources/assets/fd/models/block/wallwarningsign.json",
-          "src/main/resources/assets/fd/blockstates/wallwarningsign.json"
+          "src/main/resources/assets/fd/models/block/wallwarningsign.json"
         ]
       }
     },
@@ -5096,10 +5096,10 @@
       "registry_name": "fazsodared",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/fazsodared.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/FazsodaredBlock.java",
           "src/main/resources/assets/fd/models/item/fazsodared.json",
-          "src/main/resources/assets/fd/blockstates/fazsodared.json"
+          "src/main/resources/assets/fd/blockstates/fazsodared.json",
+          "src/main/resources/assets/fd/models/block/fazsodared.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/FazsodaredBlock.java"
         ]
       }
     },
@@ -5129,9 +5129,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Wallpaper1Block.java",
-          "src/main/resources/assets/fd/models/block/wallpaper_1.json",
           "src/main/resources/assets/fd/models/item/wallpaper_1.json",
-          "src/main/resources/assets/fd/blockstates/wallpaper_1.json"
+          "src/main/resources/assets/fd/blockstates/wallpaper_1.json",
+          "src/main/resources/assets/fd/models/block/wallpaper_1.json"
         ]
       }
     },
@@ -5145,9 +5145,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/block/wallpaper_2.json",
+          "src/main/resources/assets/fd/blockstates/wallpaper_2.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Wallpaper2Block.java",
-          "src/main/resources/assets/fd/models/item/wallpaper_2.json",
-          "src/main/resources/assets/fd/blockstates/wallpaper_2.json"
+          "src/main/resources/assets/fd/models/item/wallpaper_2.json"
         ]
       }
     },
@@ -5160,10 +5160,10 @@
       "registry_name": "wallpaper_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/wallpaper_3.json",
           "src/main/resources/assets/fd/models/item/wallpaper_3.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Wallpaper3Block.java",
-          "src/main/resources/assets/fd/models/block/wallpaper_3.json"
+          "src/main/resources/assets/fd/models/block/wallpaper_3.json",
+          "src/main/resources/assets/fd/blockstates/wallpaper_3.json"
         ]
       }
     },
@@ -5178,8 +5178,8 @@
         "files": [
           "src/main/resources/assets/fd/models/block/wallpaper_4.json",
           "src/main/resources/assets/fd/blockstates/wallpaper_4.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Wallpaper4Block.java",
-          "src/main/resources/assets/fd/models/item/wallpaper_4.json"
+          "src/main/resources/assets/fd/models/item/wallpaper_4.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Wallpaper4Block.java"
         ]
       }
     },
@@ -5193,9 +5193,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Wallpapers4Block.java",
-          "src/main/resources/assets/fd/models/block/wallpapers_4.json",
           "src/main/resources/assets/fd/blockstates/wallpapers_4.json",
-          "src/main/resources/assets/fd/models/item/wallpapers_4.json"
+          "src/main/resources/assets/fd/models/item/wallpapers_4.json",
+          "src/main/resources/assets/fd/models/block/wallpapers_4.json"
         ]
       }
     },
@@ -5734,9 +5734,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/item/redarcadefloor_1.json",
+          "src/main/resources/assets/fd/models/block/redarcadefloor_1.json",
           "src/main/resources/assets/fd/blockstates/redarcadefloor_1.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Redarcadefloor1Block.java",
-          "src/main/resources/assets/fd/models/block/redarcadefloor_1.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Redarcadefloor1Block.java"
         ]
       }
     },
@@ -5749,10 +5749,10 @@
       "registry_name": "redarcadefloor_2",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Redarcadefloor2Block.java",
           "src/main/resources/assets/fd/models/item/redarcadefloor_2.json",
-          "src/main/resources/assets/fd/models/block/redarcadefloor_2.json",
           "src/main/resources/assets/fd/blockstates/redarcadefloor_2.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Redarcadefloor2Block.java"
+          "src/main/resources/assets/fd/models/block/redarcadefloor_2.json"
         ]
       }
     },
@@ -5765,10 +5765,10 @@
       "registry_name": "redarcadefloor_3",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Redarcadefloor3Block.java",
-          "src/main/resources/assets/fd/models/block/redarcadefloor_3.json",
           "src/main/resources/assets/fd/models/item/redarcadefloor_3.json",
-          "src/main/resources/assets/fd/blockstates/redarcadefloor_3.json"
+          "src/main/resources/assets/fd/blockstates/redarcadefloor_3.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Redarcadefloor3Block.java",
+          "src/main/resources/assets/fd/models/block/redarcadefloor_3.json"
         ]
       }
     },
@@ -5886,10 +5886,10 @@
       "registry_name": "shelf_1",
       "metadata": {
         "files": [
+          "src/main/resources/assets/fd/models/block/shelf_1.json",
           "src/main/resources/assets/fd/models/item/shelf_1.json",
           "src/main/resources/assets/fd/blockstates/shelf_1.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Shelf1Block.java",
-          "src/main/resources/assets/fd/models/block/shelf_1.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Shelf1Block.java"
         ]
       }
     },
@@ -5903,9 +5903,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Shelf2Block.java",
-          "src/main/resources/assets/fd/models/block/shelf_2.json",
           "src/main/resources/assets/fd/blockstates/shelf_2.json",
-          "src/main/resources/assets/fd/models/item/shelf_2.json"
+          "src/main/resources/assets/fd/models/item/shelf_2.json",
+          "src/main/resources/assets/fd/models/block/shelf_2.json"
         ]
       }
     },
@@ -5988,17 +5988,17 @@
       "registry_name": "blackdoor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/blackdoor_bottom_right_open.json",
-          "src/main/resources/assets/fd/models/item/blackdoor.json",
-          "src/main/resources/assets/fd/models/block/blackdoor_bottom_left_open.json",
-          "src/main/resources/assets/fd/models/block/blackdoor_top_left.json",
+          "src/main/resources/assets/fd/models/block/blackdoor_bottom_left.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/BlackdoorBlock.java",
-          "src/main/resources/assets/fd/models/block/blackdoor_top_right.json",
+          "src/main/resources/assets/fd/models/block/blackdoor_bottom_right.json",
+          "src/main/resources/assets/fd/models/block/blackdoor_top_left.json",
+          "src/main/resources/assets/fd/models/block/blackdoor_bottom_left_open.json",
+          "src/main/resources/assets/fd/models/block/blackdoor_bottom_right_open.json",
           "src/main/resources/assets/fd/blockstates/blackdoor.json",
           "src/main/resources/assets/fd/models/block/blackdoor_top_right_open.json",
-          "src/main/resources/assets/fd/models/block/blackdoor_top_left_open.json",
-          "src/main/resources/assets/fd/models/block/blackdoor_bottom_left.json",
-          "src/main/resources/assets/fd/models/block/blackdoor_bottom_right.json"
+          "src/main/resources/assets/fd/models/item/blackdoor.json",
+          "src/main/resources/assets/fd/models/block/blackdoor_top_right.json",
+          "src/main/resources/assets/fd/models/block/blackdoor_top_left_open.json"
         ]
       }
     },
@@ -6011,17 +6011,17 @@
       "registry_name": "reddoor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/reddoor_top_left.json",
-          "src/main/resources/assets/fd/models/block/reddoor_top_left_open.json",
           "src/main/resources/assets/fd/models/block/reddoor_top_right.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/ReddoorBlock.java",
-          "src/main/resources/assets/fd/models/item/reddoor.json",
-          "src/main/resources/assets/fd/blockstates/reddoor.json",
-          "src/main/resources/assets/fd/models/block/reddoor_bottom_left_open.json",
           "src/main/resources/assets/fd/models/block/reddoor_top_right_open.json",
           "src/main/resources/assets/fd/models/block/reddoor_bottom_right_open.json",
+          "src/main/resources/assets/fd/models/block/reddoor_top_left_open.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/ReddoorBlock.java",
+          "src/main/resources/assets/fd/models/block/reddoor_bottom_right.json",
+          "src/main/resources/assets/fd/models/block/reddoor_top_left.json",
+          "src/main/resources/assets/fd/models/item/reddoor.json",
+          "src/main/resources/assets/fd/blockstates/reddoor.json",
           "src/main/resources/assets/fd/models/block/reddoor_bottom_left.json",
-          "src/main/resources/assets/fd/models/block/reddoor_bottom_right.json"
+          "src/main/resources/assets/fd/models/block/reddoor_bottom_left_open.json"
         ]
       }
     },
@@ -6175,10 +6175,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/block/redarcadefloor_1slab_full.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Redarcadefloor1slabBlock.java",
-          "src/main/resources/assets/fd/blockstates/redarcadefloor_1slab.json",
           "src/main/resources/assets/fd/models/block/redarcadefloor_1slab_top.json",
           "src/main/resources/assets/fd/models/block/redarcadefloor_1slab.json",
+          "src/main/resources/assets/fd/blockstates/redarcadefloor_1slab.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Redarcadefloor1slabBlock.java",
           "src/main/resources/assets/fd/models/item/redarcadefloor_1slab.json"
         ]
       }
@@ -6192,12 +6192,12 @@
       "registry_name": "redarcadefloor_1stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/redarcadefloor_1stairs_inner.json",
           "src/main/resources/assets/fd/models/block/redarcadefloor_1stairs.json",
+          "src/main/resources/assets/fd/models/item/redarcadefloor_1stairs.json",
+          "src/main/resources/assets/fd/models/block/redarcadefloor_1stairs_inner.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Redarcadefloor1stairsBlock.java",
           "src/main/resources/assets/fd/blockstates/redarcadefloor_1stairs.json",
-          "src/main/resources/assets/fd/models/block/redarcadefloor_1stairs_outer.json",
-          "src/main/resources/assets/fd/models/item/redarcadefloor_1stairs.json"
+          "src/main/resources/assets/fd/models/block/redarcadefloor_1stairs_outer.json"
         ]
       }
     },
@@ -6210,12 +6210,12 @@
       "registry_name": "bluearcadefloor_1slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/bluearcadefloor_1slab.json",
-          "src/main/resources/assets/fd/models/block/bluearcadefloor_1slab_top.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Bluearcadefloor1slabBlock.java",
           "src/main/resources/assets/fd/models/block/bluearcadefloor_1slab_full.json",
           "src/main/resources/assets/fd/blockstates/bluearcadefloor_1slab.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Bluearcadefloor1slabBlock.java",
-          "src/main/resources/assets/fd/models/item/bluearcadefloor_1slab.json"
+          "src/main/resources/assets/fd/models/item/bluearcadefloor_1slab.json",
+          "src/main/resources/assets/fd/models/block/bluearcadefloor_1slab_top.json",
+          "src/main/resources/assets/fd/models/block/bluearcadefloor_1slab.json"
         ]
       }
     },
@@ -6228,11 +6228,11 @@
       "registry_name": "bluearcadefloor_1stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/bluearcadefloor_1stairs.json",
-          "src/main/resources/assets/fd/models/block/bluearcadefloor_1stairs_inner.json",
           "src/main/resources/assets/fd/models/block/bluearcadefloor_1stairs.json",
-          "src/main/resources/assets/fd/models/block/bluearcadefloor_1stairs_outer.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Bluearcadefloor1stairsBlock.java",
+          "src/main/resources/assets/fd/models/block/bluearcadefloor_1stairs_inner.json",
+          "src/main/resources/assets/fd/blockstates/bluearcadefloor_1stairs.json",
+          "src/main/resources/assets/fd/models/block/bluearcadefloor_1stairs_outer.json",
           "src/main/resources/assets/fd/models/item/bluearcadefloor_1stairs.json"
         ]
       }
@@ -6246,10 +6246,10 @@
       "registry_name": "alarm_clock",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/AlarmClockBlock.java",
-          "src/main/resources/assets/fd/blockstates/alarm_clock.json",
           "src/main/resources/assets/fd/models/item/alarm_clock.json",
-          "src/main/resources/assets/fd/models/block/alarm_clock.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/AlarmClockBlock.java",
+          "src/main/resources/assets/fd/models/block/alarm_clock.json",
+          "src/main/resources/assets/fd/blockstates/alarm_clock.json"
         ]
       }
     },
@@ -6262,10 +6262,10 @@
       "registry_name": "arcade_sign",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/arcade_sign.json",
-          "src/main/resources/assets/fd/models/block/arcade_sign.json",
+          "src/main/resources/assets/fd/models/item/arcade_sign.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/ArcadeSignBlock.java",
-          "src/main/resources/assets/fd/models/item/arcade_sign.json"
+          "src/main/resources/assets/fd/models/block/arcade_sign.json",
+          "src/main/resources/assets/fd/blockstates/arcade_sign.json"
         ]
       }
     },
@@ -6278,9 +6278,9 @@
       "registry_name": "blood_trail",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/BloodTrailBlock.java",
           "src/main/resources/assets/fd/models/item/blood_trail.json",
           "src/main/resources/assets/fd/blockstates/blood_trail.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/BloodTrailBlock.java",
           "src/main/resources/assets/fd/models/block/blood_trail.json"
         ]
       }
@@ -6294,8 +6294,8 @@
       "registry_name": "chicas_magic_rainbow",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/chicas_magic_rainbow.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/ChicasMagicRainbowBlock.java",
+          "src/main/resources/assets/fd/models/block/chicas_magic_rainbow.json",
           "src/main/resources/assets/fd/models/item/chicas_magic_rainbow.json",
           "src/main/resources/assets/fd/blockstates/chicas_magic_rainbow.json"
         ]
@@ -6310,10 +6310,10 @@
       "registry_name": "chicas_magic_rainbow_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/chicas_magic_rainbow_2.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/ChicasMagicRainbow2Block.java",
           "src/main/resources/assets/fd/blockstates/chicas_magic_rainbow_2.json",
-          "src/main/resources/assets/fd/models/item/chicas_magic_rainbow_2.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/ChicasMagicRainbow2Block.java"
+          "src/main/resources/assets/fd/models/block/chicas_magic_rainbow_2.json",
+          "src/main/resources/assets/fd/models/item/chicas_magic_rainbow_2.json"
         ]
       }
     },
@@ -6326,10 +6326,10 @@
       "registry_name": "magic_rainbow_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/blockstates/magic_rainbow_3.json",
+          "src/main/resources/assets/fd/models/item/magic_rainbow_3.json",
           "src/main/resources/assets/fd/models/block/magic_rainbow_3.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/MagicRainbow3Block.java",
-          "src/main/resources/assets/fd/models/item/magic_rainbow_3.json"
+          "src/main/resources/assets/fd/blockstates/magic_rainbow_3.json"
         ]
       }
     },
@@ -6342,10 +6342,10 @@
       "registry_name": "magicrainbow_4",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Magicrainbow4Block.java",
           "src/main/resources/assets/fd/models/item/magicrainbow_4.json",
-          "src/main/resources/assets/fd/blockstates/magicrainbow_4.json",
-          "src/main/resources/assets/fd/models/block/magicrainbow_4.json"
+          "src/main/resources/assets/fd/models/block/magicrainbow_4.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Magicrainbow4Block.java",
+          "src/main/resources/assets/fd/blockstates/magicrainbow_4.json"
         ]
       }
     },
@@ -6358,10 +6358,249 @@
       "registry_name": "maguranbo_5",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/maguranbo_5.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/block/Maguranbo5Block.java",
+          "src/main/resources/assets/fd/models/block/maguranbo_5.json",
           "src/main/resources/assets/fd/blockstates/maguranbo_5.json",
           "src/main/resources/assets/fd/models/item/maguranbo_5.json"
+        ]
+      }
+    },
+    {
+      "name": "Rainbow1",
+      "type": "procedure",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainbow_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/procedures/Rainbow1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rainbow2",
+      "type": "procedure",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainbow_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/procedures/Rainbow2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rainbow3",
+      "type": "procedure",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainbow_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/procedures/Rainbow3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rainbow4",
+      "type": "procedure",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainbow_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/procedures/Rainbow4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rainbow5",
+      "type": "procedure",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainbow_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/procedures/Rainbow5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fnaf2wallmiddleconfetti",
+      "type": "block",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fnaf_2wallmiddleconfetti",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf2wallmiddleconfettiBlock.java",
+          "src/main/resources/assets/fd/models/block/fnaf_2wallmiddleconfetti.json",
+          "src/main/resources/assets/fd/models/item/fnaf_2wallmiddleconfetti.json",
+          "src/main/resources/assets/fd/blockstates/fnaf_2wallmiddleconfetti.json"
+        ]
+      }
+    },
+    {
+      "name": "Purplestagebricks",
+      "type": "block",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purplestagebricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/block/purplestagebricks.json",
+          "src/main/resources/assets/fd/blockstates/purplestagebricks.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/PurplestagebricksBlock.java",
+          "src/main/resources/assets/fd/models/item/purplestagebricks.json"
+        ]
+      }
+    },
+    {
+      "name": "Fnaf2stagewallmiddle",
+      "type": "block",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fnaf_2stagewallmiddle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/item/fnaf_2stagewallmiddle.json",
+          "src/main/resources/assets/fd/blockstates/fnaf_2stagewallmiddle.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf2stagewallmiddleBlock.java",
+          "src/main/resources/assets/fd/models/block/fnaf_2stagewallmiddle.json"
+        ]
+      }
+    },
+    {
+      "name": "Fnaf2stagewalltiles",
+      "type": "block",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fnaf_2stagewalltiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/item/fnaf_2stagewalltiles.json",
+          "src/main/resources/assets/fd/blockstates/fnaf_2stagewalltiles.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Fnaf2stagewalltilesBlock.java",
+          "src/main/resources/assets/fd/models/block/fnaf_2stagewalltiles.json"
         ]
       }
     }
@@ -6372,6 +6611,7 @@
     "en_us": {
       "block.fd.curtainpurpleblock": "Stage curtain block (Purple)",
       "block.fnafs_decorations.ffdfloor": "Pizzeria Floor (Cyan + Black)",
+      "block.fd.purplestagebricks": "Purple Stage Bricks",
       "item.fd.changertool": "Changer tool",
       "block.fd.ffdinteriorwalldown": "FFD Interior Wall (Down)",
       "block.fd.deskprops": "Desk props",
@@ -6441,6 +6681,7 @@
       "block.fnafs_decorations.wallpapers": "Wall papers (Drawings)",
       "block.fd.whiteroof": "Celling fan Block (White)",
       "block.fd.curtainpurpleblockpanel": "Stage curtain block (Purple + panel)",
+      "block.fd.fnaf_2stagewallmiddle": "White Stage Wall (Middle)",
       "block.fd.stagedown": "Stage Wall (Down)",
       "block.fd.roofwires_4": "Hanging wires (Var 4)",
       "block.fd.piratecovecurtainblockblue_3": "Pirate cove curtain (Blue + panel)",
@@ -6506,6 +6747,7 @@
       "block.fnafs_decorations.stars_3": "Roof Stars (Var 3)",
       "block.fd.officelighton": "Office light (On)",
       "block.fnafs_decorations.stars_1": "Roof Stars (Var 1)",
+      "block.fd.fnaf_2stagewalltiles": "White Stage Wall (Tiles)",
       "block.fnafs_decorations.fnaf_1walldeco_1": "FNaF 1 Wall (Deco Left)",
       "block.fnafs_decorations.stars_2": "Roof Stars (Var 2)",
       "block.fd.fnafmoviewallupper_2exterior": "FNaF Movie Exterior wall (Up + cyan tiles)",
@@ -6614,6 +6856,7 @@
       "block.fd.fnaf_1wallmiddle_4": "FNaF 1 Wall (Black line + tiles)",
       "block.fnafs_decorations.wallpapers_2": "Wall papers (Var 1)",
       "block.fd.fnaf_1wallmiddle_5": "FNaF 1 Wall (Black Line)",
+      "block.fd.fnaf_2wallmiddleconfetti": "FNaF 2 Wall (Middle + Confetti)",
       "block.fnafs_decorations.wallpapers_3": "Wall papers (Var 2)",
       "block.fd.blockgift": "Gift (Red)"
     }

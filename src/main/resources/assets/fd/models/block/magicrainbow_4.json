@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/chicas_magic_rainbow.geo_-_converted4",
   "textures": {
-    "all": "fd:block/gray_roof",
-    "particle": "fd:block/gray_roof",
-    "missing": "fd:block/"
+    "all": "fd:block/hmm_chicas_magic_rainbow",
+    "particle": "fd:block/hmm_chicas_magic_rainbow",
+    "missing": "fd:block/just_mouth_chicas_magic_rainbow"
   },
-  "render_type": "solid"
+  "render_type": "cutout_mipped"
 }
