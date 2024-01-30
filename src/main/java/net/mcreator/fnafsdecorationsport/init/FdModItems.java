@@ -199,6 +199,7 @@ public class FdModItems {
 	public static final RegistryObject<Item> ALARM_CLOCK = block(FdModBlocks.ALARM_CLOCK);
 	public static final RegistryObject<Item> ARCADE_SIGN = block(FdModBlocks.ARCADE_SIGN);
 	public static final RegistryObject<Item> BLOOD_TRAIL = block(FdModBlocks.BLOOD_TRAIL);
+	public static final RegistryObject<Item> CHICAS_MAGIC_RAINBOW = block(FdModBlocks.CHICAS_MAGIC_RAINBOW);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

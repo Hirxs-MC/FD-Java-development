@@ -178,6 +178,7 @@ import net.mcreator.fnafsdecorationsport.block.Curtain4Block;
 import net.mcreator.fnafsdecorationsport.block.Curtain3Block;
 import net.mcreator.fnafsdecorationsport.block.Curtain2Block;
 import net.mcreator.fnafsdecorationsport.block.Curtain1Block;
+import net.mcreator.fnafsdecorationsport.block.ChicasMagicRainbowBlock;
 import net.mcreator.fnafsdecorationsport.block.Bluearcadefloor1stairsBlock;
 import net.mcreator.fnafsdecorationsport.block.Bluearcadefloor1slabBlock;
 import net.mcreator.fnafsdecorationsport.block.BloodTrailBlock;
@@ -370,4 +371,5 @@ public class FdModBlocks {
 	public static final RegistryObject<Block> ALARM_CLOCK = REGISTRY.register("alarm_clock", () -> new AlarmClockBlock());
 	public static final RegistryObject<Block> ARCADE_SIGN = REGISTRY.register("arcade_sign", () -> new ArcadeSignBlock());
 	public static final RegistryObject<Block> BLOOD_TRAIL = REGISTRY.register("blood_trail", () -> new BloodTrailBlock());
+	public static final RegistryObject<Block> CHICAS_MAGIC_RAINBOW = REGISTRY.register("chicas_magic_rainbow", () -> new ChicasMagicRainbowBlock());
 }

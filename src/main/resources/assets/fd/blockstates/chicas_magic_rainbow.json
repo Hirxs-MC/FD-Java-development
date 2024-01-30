@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/chicas_magic_rainbow"
+    },
+    "facing=east": {
+      "model": "fd:block/chicas_magic_rainbow",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/chicas_magic_rainbow",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/chicas_magic_rainbow",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fd:block/chicas_magic_rainbow",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fd:block/chicas_magic_rainbow",
+      "x": 90
+    }
+  }
+}
