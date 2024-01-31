@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/emergency_lightom_-_converted",
+  "textures": {
+    "all": "fd:block/emergency_light_on",
+    "particle": "fd:block/emergency_light_on",
+    "0": "fd:block/emergency_light_on"
+  },
+  "render_type": "cutout_mipped"
+}

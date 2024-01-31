@@ -171,6 +171,8 @@ import net.mcreator.fnafsdecorationsport.block.FanblockonBlock;
 import net.mcreator.fnafsdecorationsport.block.FanblockBlock;
 import net.mcreator.fnafsdecorationsport.block.FNaF1wallmiddle3Block;
 import net.mcreator.fnafsdecorationsport.block.FNaF1walldown2Block;
+import net.mcreator.fnafsdecorationsport.block.EmergencyLightOnBlock;
+import net.mcreator.fnafsdecorationsport.block.EmergencyLightBlock;
 import net.mcreator.fnafsdecorationsport.block.DeskpropsBlock;
 import net.mcreator.fnafsdecorationsport.block.CurtainredblockpanelBlock;
 import net.mcreator.fnafsdecorationsport.block.CurtainredblockBlock;
@@ -193,6 +195,7 @@ import net.mcreator.fnafsdecorationsport.block.Bluearcadefloor1slabBlock;
 import net.mcreator.fnafsdecorationsport.block.BloodTrailBlock;
 import net.mcreator.fnafsdecorationsport.block.BlockgiftBlock;
 import net.mcreator.fnafsdecorationsport.block.BlackdoorBlock;
+import net.mcreator.fnafsdecorationsport.block.BirthdayCakeBlock;
 import net.mcreator.fnafsdecorationsport.block.BalloonsBlock;
 import net.mcreator.fnafsdecorationsport.block.Balloons3Block;
 import net.mcreator.fnafsdecorationsport.block.Balloons2Block;
@@ -396,4 +399,7 @@ public class FdModBlocks {
 	public static final RegistryObject<Block> BALLOONS_2 = REGISTRY.register("balloons_2", () -> new Balloons2Block());
 	public static final RegistryObject<Block> BALLOONS_3 = REGISTRY.register("balloons_3", () -> new Balloons3Block());
 	public static final RegistryObject<Block> BOBBLEHEADS = REGISTRY.register("bobbleheads", () -> new BobbleheadsBlock());
+	public static final RegistryObject<Block> BIRTHDAY_CAKE = REGISTRY.register("birthday_cake", () -> new BirthdayCakeBlock());
+	public static final RegistryObject<Block> EMERGENCY_LIGHT = REGISTRY.register("emergency_light", () -> new EmergencyLightBlock());
+	public static final RegistryObject<Block> EMERGENCY_LIGHT_ON = REGISTRY.register("emergency_light_on", () -> new EmergencyLightOnBlock());
 }

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/emergency_light_on"
+    },
+    "facing=east": {
+      "model": "fd:block/emergency_light_on",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/emergency_light_on",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/emergency_light_on",
+      "y": 270
+    }
+  }
+}

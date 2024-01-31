@@ -88,6 +88,8 @@ public class FdModTabs {
 					tabData.accept(FdModBlocks.CHICAS_MAGIC_RAINBOW.get().asItem());
 					tabData.accept(FdModBlocks.BALLOONS.get().asItem());
 					tabData.accept(FdModBlocks.BOBBLEHEADS.get().asItem());
+					tabData.accept(FdModBlocks.BIRTHDAY_CAKE.get().asItem());
+					tabData.accept(FdModBlocks.EMERGENCY_LIGHT.get().asItem());
 				})
 
 		);

@@ -6667,6 +6667,54 @@
           "src/main/resources/assets/fd/blockstates/bobbleheads.json"
         ]
       }
+    },
+    {
+      "name": "BirthdayCake",
+      "type": "block",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birthday_cake",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/block/birthday_cake.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/BirthdayCakeBlock.java",
+          "src/main/resources/assets/fd/blockstates/birthday_cake.json",
+          "src/main/resources/assets/fd/models/item/birthday_cake.json"
+        ]
+      }
+    },
+    {
+      "name": "EmergencyLight",
+      "type": "block",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emergency_light",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/item/emergency_light.json",
+          "src/main/resources/assets/fd/models/block/emergency_light.json",
+          "src/main/resources/assets/fd/blockstates/emergency_light.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/EmergencyLightBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "EmergencyLightOn",
+      "type": "block",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emergency_light_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/EmergencyLightOnBlock.java",
+          "src/main/resources/assets/fd/models/item/emergency_light_on.json",
+          "src/main/resources/assets/fd/blockstates/emergency_light_on.json",
+          "src/main/resources/assets/fd/models/block/emergency_light_on.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -6680,12 +6728,12 @@
       "block.fd.ffdinteriorwalldown": "FFD Interior Wall (Down)",
       "block.fd.deskprops": "Desk props",
       "block.fd.floorwhitestairs": "Pizzeria floor stairs (White + Black)",
-      "block.fd.ffdfloor": "Pizzeria Floor (Cyan + Black)",
       "block.fd.officelightbuttonon": "Office light button (On) ",
+      "block.fd.ffdfloor": "Pizzeria Floor (Cyan + Black)",
       "block.fd.floorredslab": "Pizzeria floor slab (Red + Black)",
       "block.fd.monitors_1": "Monitors (Var 1)",
-      "block.fd.monitors_2": "Monitors (Var 2)",
       "block.fd.stagetiles": "Stage Wall (Black line + tiles)",
+      "block.fd.monitors_2": "Monitors (Var 2)",
       "block.fd.officewindow": "Office window",
       "block.fd.floorredblue": "Pizzeria Floor (Blue + Red)",
       "block.fd.monitors_3": "Monitors (Var 3)",
@@ -6698,6 +6746,7 @@
       "block.fd.pizzerialightoff": "Pizzeria Light OFF",
       "block.fnafs_decorations.giftblue": "Gift (Blue)",
       "block.fd.ffdinteriorwalltiles": "FFD Interior Wall (Middle + Tiles)",
+      "block.fd.birthday_cake": "Birthday Cake",
       "block.fd.stagemiddle_1": "Stage Wall (Middle)",
       "block.fnafs_decorations.stagedown": "Stage Wall (Down)",
       "block.fnafs_decorations.pizzeria_light_on": "Pizzeria Light 1",
@@ -6711,15 +6760,15 @@
       "block.fd.chicas_magic_rainbow": "Chicas Magic Rainbow",
       "block.fnafs_decorations.stagemiddle_1": "Stage Wall (Middle)",
       "block.fd.piratecovecurtainblockred_2": "Pirate cove curtain (Red + panel)",
-      "block.fd.fnafmoviewallmiddleexterior": "FNaF Movie Exterior wall (Red line + tiles)",
-      "block.fd.officedoorbuttonoff": "Office door button (Off)",
       "block.fd.piratecovecurtainblockred_3": "Pirate cove curtain (Red + panel)",
+      "block.fd.officedoorbuttonoff": "Office door button (Off)",
+      "block.fd.fnafmoviewallmiddleexterior": "FNaF Movie Exterior wall (Red line + tiles)",
       "block.fd.onlyofficedesk": "Office desk (empty)",
       "block.fnafs_decorations.fnafwallmiddle_2": "FNaF 1 Wall (Middle)",
       "block.fnafs_decorations.floorredblue": "Pizzeria Floor (Blue + Red)",
       "block.fd.piratecovecurtainblockpurple_3": "Pirate cove curtain (Purple + panel)",
-      "block.fd.wallpapers_2": "Wall papers (Var 1)",
       "block.fd.piratecovecurtainblockpurple_2": "Pirate cove curtain (Purple + panel)",
+      "block.fd.wallpapers_2": "Wall papers (Var 1)",
       "block.fd.wallpapers_4": "Wall papers (Var 3)",
       "block.fd.wallpapers_3": "Wall papers (Var 2)",
       "block.fd.arcade_sign": "Arcade Sign",
@@ -6733,8 +6782,8 @@
       "block.fd.officechair": "Office chair",
       "block.fnafs_decorations.whiteroof": "Celling fan Block (White)",
       "block.fnafs_decorations.monitors_2": "Monitors (Var 2)",
-      "block.fnafs_decorations.monitors_1": "Monitors (Var 1)",
       "block.fd.ffdexteriorwallmiddle": "FFD Exterior Wall (Middle)",
+      "block.fnafs_decorations.monitors_1": "Monitors (Var 1)",
       "block.fnafs_decorations.monitors_4": "Monitors (Var 4)",
       "block.fnafs_decorations.monitors_3": "Monitors (Var 3)",
       "block.fd.fnafmoviewallupperexterior": "FNaF Movie Exterior wall (Up)",
@@ -6764,6 +6813,7 @@
       "block.fd.wallstructure": "Wall structure",
       "block.fnafs_decorations.fnaf_1wallbathroom_2": "FNaF 1 Wall (Tiles 2)",
       "item.fnafs_decorations.changertool": "Changer tool",
+      "block.fd.emergency_light_on": "Emergency Light On",
       "block.fd.trash_1": "Floor props (Trash)",
       "block.fd.blood_trail": "Blood Trail",
       "block.fnafs_decorations.stageup": "Stage Wall (Up)",
@@ -6836,6 +6886,7 @@
       "block.fd.stagetiles_2": "Stage Wall (Purple line + tiles)",
       "block.fd.stagetiles_3": "Stage Wall (Red line + tiles)",
       "item.fd.chairexecution_spawn_egg": "Chair_execution Spawn Egg",
+      "block.fd.emergency_light": "Emergency Light",
       "block.fd.fnaf_1walldown_1": "FNaF 1 Wall (Down)",
       "block.fd.piratecovecurtainblockblueblock": "Pirate cove curtain (Blue + block)",
       "block.fd.ffdexteriorwalldown": "FFD Exterior Wall (Down)",

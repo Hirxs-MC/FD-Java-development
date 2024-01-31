@@ -212,6 +212,9 @@ public class FdModItems {
 	public static final RegistryObject<Item> BALLOONS_2 = block(FdModBlocks.BALLOONS_2);
 	public static final RegistryObject<Item> BALLOONS_3 = block(FdModBlocks.BALLOONS_3);
 	public static final RegistryObject<Item> BOBBLEHEADS = block(FdModBlocks.BOBBLEHEADS);
+	public static final RegistryObject<Item> BIRTHDAY_CAKE = block(FdModBlocks.BIRTHDAY_CAKE);
+	public static final RegistryObject<Item> EMERGENCY_LIGHT = block(FdModBlocks.EMERGENCY_LIGHT);
+	public static final RegistryObject<Item> EMERGENCY_LIGHT_ON = block(FdModBlocks.EMERGENCY_LIGHT_ON);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
