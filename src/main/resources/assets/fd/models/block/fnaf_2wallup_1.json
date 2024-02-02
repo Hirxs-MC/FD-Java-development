@@ -2,7 +2,7 @@
   "parent": "block/grass_block",
   "textures": {
     "bottom": "fd:block/fnaf_2_wall_middle",
-    "top": "fd:block/asffg",
+    "top": "fd:block/fnaf_2_wall_middle",
     "side": "fd:block/fnaf_2_wall_up_2",
     "overlay": "fd:block/fnaf_2_wall_up_2",
     "particle": "fd:block/fnaf_2_wall_middle"

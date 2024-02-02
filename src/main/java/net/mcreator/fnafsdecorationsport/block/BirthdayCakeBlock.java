@@ -57,14 +57,10 @@ public class BirthdayCakeBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default ->
-				Shapes.or(box(7, 1, 7, 9, 3, 9), box(-1, 0, -1, 17, 6, 17), box(1, 6, 1, 15, 11, 15), box(3, 11, 3, 13, 15, 13), box(-1.3, -0.3, -1.3, 17.3, 6.3, 17.3), box(0.7, 5.7, 0.7, 15.3, 11.3, 15.3), box(2.7, 10.7, 2.7, 13.3, 15.3, 13.3));
-			case NORTH ->
-				Shapes.or(box(7, 1, 7, 9, 3, 9), box(-1, 0, -1, 17, 6, 17), box(1, 6, 1, 15, 11, 15), box(3, 11, 3, 13, 15, 13), box(-1.3, -0.3, -1.3, 17.3, 6.3, 17.3), box(0.7, 5.7, 0.7, 15.3, 11.3, 15.3), box(2.7, 10.7, 2.7, 13.3, 15.3, 13.3));
-			case EAST ->
-				Shapes.or(box(7, 1, 7, 9, 3, 9), box(-1, 0, -1, 17, 6, 17), box(1, 6, 1, 15, 11, 15), box(3, 11, 3, 13, 15, 13), box(-1.3, -0.3, -1.3, 17.3, 6.3, 17.3), box(0.7, 5.7, 0.7, 15.3, 11.3, 15.3), box(2.7, 10.7, 2.7, 13.3, 15.3, 13.3));
-			case WEST ->
-				Shapes.or(box(7, 1, 7, 9, 3, 9), box(-1, 0, -1, 17, 6, 17), box(1, 6, 1, 15, 11, 15), box(3, 11, 3, 13, 15, 13), box(-1.3, -0.3, -1.3, 17.3, 6.3, 17.3), box(0.7, 5.7, 0.7, 15.3, 11.3, 15.3), box(2.7, 10.7, 2.7, 13.3, 15.3, 13.3));
+			default -> Shapes.or(box(7, 1, 7, 9, 3, 9), box(-1, 0, -1, 17, 6, 17), box(1, 6, 1, 15, 11, 15), box(3, 11, 3, 13, 15, 13));
+			case NORTH -> Shapes.or(box(7, 1, 7, 9, 3, 9), box(-1, 0, -1, 17, 6, 17), box(1, 6, 1, 15, 11, 15), box(3, 11, 3, 13, 15, 13));
+			case EAST -> Shapes.or(box(7, 1, 7, 9, 3, 9), box(-1, 0, -1, 17, 6, 17), box(1, 6, 1, 15, 11, 15), box(3, 11, 3, 13, 15, 13));
+			case WEST -> Shapes.or(box(7, 1, 7, 9, 3, 9), box(-1, 0, -1, 17, 6, 17), box(1, 6, 1, 15, 11, 15), box(3, 11, 3, 13, 15, 13));
 		};
 	}
 

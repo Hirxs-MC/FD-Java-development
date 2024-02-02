@@ -3,7 +3,7 @@
   "_type": "block",
   "definition": {
     "texture": "fnaf_2_wall_middle",
-    "textureTop": "asffg",
+    "textureTop": "fnaf_2_wall_middle",
     "textureLeft": "fnaf_2_wall_up_2",
     "textureFront": "fnaf_2_wall_up_2",
     "textureRight": "wall_block2_1",

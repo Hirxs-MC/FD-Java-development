@@ -137,6 +137,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "Emergencylightonn"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

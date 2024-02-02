@@ -6614,9 +6614,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/fnafsdecorationsport/block/BalloonsBlock.java",
-          "src/main/resources/assets/fd/models/item/balloons.json",
+          "src/main/resources/assets/fd/blockstates/balloons.json",
           "src/main/resources/assets/fd/models/block/balloons.json",
-          "src/main/resources/assets/fd/blockstates/balloons.json"
+          "src/main/resources/assets/fd/models/item/balloons.json"
         ]
       }
     },
@@ -6629,10 +6629,10 @@
       "registry_name": "balloons_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/balloons_2.json",
           "src/main/resources/assets/fd/models/item/balloons_2.json",
-          "src/main/resources/assets/fd/blockstates/balloons_2.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Balloons2Block.java"
+          "src/main/resources/assets/fd/models/block/balloons_2.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Balloons2Block.java",
+          "src/main/resources/assets/fd/blockstates/balloons_2.json"
         ]
       }
     },
@@ -6645,10 +6645,10 @@
       "registry_name": "balloons_3",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/Balloons3Block.java",
           "src/main/resources/assets/fd/models/block/balloons_3.json",
-          "src/main/resources/assets/fd/models/item/balloons_3.json",
-          "src/main/resources/assets/fd/blockstates/balloons_3.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Balloons3Block.java",
+          "src/main/resources/assets/fd/blockstates/balloons_3.json",
+          "src/main/resources/assets/fd/models/item/balloons_3.json"
         ]
       }
     },
@@ -6662,9 +6662,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/block/bobbleheads.json",
+          "src/main/resources/assets/fd/blockstates/bobbleheads.json",
           "src/main/resources/assets/fd/models/item/bobbleheads.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/BobbleheadsBlock.java",
-          "src/main/resources/assets/fd/blockstates/bobbleheads.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/BobbleheadsBlock.java"
         ]
       }
     },
@@ -6677,10 +6677,10 @@
       "registry_name": "birthday_cake",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/block/birthday_cake.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/BirthdayCakeBlock.java",
           "src/main/resources/assets/fd/blockstates/birthday_cake.json",
-          "src/main/resources/assets/fd/models/item/birthday_cake.json"
+          "src/main/resources/assets/fd/models/block/birthday_cake.json",
+          "src/main/resources/assets/fd/models/item/birthday_cake.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/BirthdayCakeBlock.java"
         ]
       }
     },
@@ -6693,10 +6693,10 @@
       "registry_name": "emergency_light",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fd/models/item/emergency_light.json",
-          "src/main/resources/assets/fd/models/block/emergency_light.json",
           "src/main/resources/assets/fd/blockstates/emergency_light.json",
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/EmergencyLightBlock.java"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/EmergencyLightBlock.java",
+          "src/main/resources/assets/fd/models/item/emergency_light.json",
+          "src/main/resources/assets/fd/models/block/emergency_light.json"
         ]
       }
     },
@@ -6709,10 +6709,177 @@
       "registry_name": "emergency_light_on",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafsdecorationsport/block/EmergencyLightOnBlock.java",
           "src/main/resources/assets/fd/models/item/emergency_light_on.json",
+          "src/main/resources/assets/fd/models/block/emergency_light_on.json",
           "src/main/resources/assets/fd/blockstates/emergency_light_on.json",
-          "src/main/resources/assets/fd/models/block/emergency_light_on.json"
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/EmergencyLightOnBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Emergencylightoff",
+      "type": "procedure",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emergencylightoff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/procedures/EmergencylightoffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Emergencylightonn",
+      "type": "procedure",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emergencylightonn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/procedures/EmergencylightonnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Balloonchangertool1",
+      "type": "procedure",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "balloonchangertool_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/procedures/Balloonchangertool1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Balloonchangertool2",
+      "type": "procedure",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "balloonchangertool_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/procedures/Balloonchangertool2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Balloonchangertool3",
+      "type": "procedure",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "balloonchangertool_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/procedures/Balloonchangertool3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
@@ -6850,7 +7017,7 @@
       "block.fd.fnafmoviewallbottomexterior": "FNaF Movie Exterior wall (Down)",
       "block.fd.pizzeriasigns_1": "Pizzeria sign (Backstage - caps)",
       "block.fnafs_decorations.fnaf_1walldown_1": "FNaF 1 Wall (Down 1)",
-      "block.fd.magicrainbow_4": "Chicas Magic Rainbow (Var 3)",
+      "block.fd.magicrainbow_4": "Magicrainbow 4",
       "block.fd.partykidschairred": "Party kids chair (Red)",
       "block.fd.piratecovecurtainblockpurpleblock_2": "Pirate cove curtain (Purple + block)",
       "block.fd.giftpurple": "Gift (Purple)",
@@ -6905,12 +7072,12 @@
       "block.fd.curtainredblockpanel": "Stage curtain block (Red + panel)",
       "block.fd.floorffdslab": "Pizzeria floor slab (Cyan + Black)",
       "block.fd.maguranbo_5": "Maguranbo 5",
-      "block.fd.chicas_magic_rainbow_2": "Chicas Magic Rainbow (Var 1)",
+      "block.fd.chicas_magic_rainbow_2": "Chicas Magic Rainbow 2",
       "block.fd.floorffdstairs": "Pizzeria floor stairs (Cyan + Black)",
       "item_group.fd.fd_walls": "FD - Build blocks",
       "block.fnafs_decorations.fnaf_1wallmiddle_1": "FNaF 1 Wall (Red line + tiles)",
       "itemGroup.fd.fnafs_decorations": "FD Items \u0026 decors",
-      "block.fd.magic_rainbow_3": "Chicas Magic Rainbow (Var 2)",
+      "block.fd.magic_rainbow_3": "Magic Rainbow 3",
       "block.fd.piratecovecurtainblockredblock": "Pirate cove curtain (Red + block)",
       "block.fd.fazsodablue": "Faz soda (Blue)",
       "block.fnafs_decorations.fnaf_1wallmiddle_4": "FNaF 1 Wall (Black line + tiles)",

@@ -155,6 +155,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "Balloonchangertool1"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
