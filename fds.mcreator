@@ -6882,10 +6882,544 @@
           }
         ]
       }
+    },
+    {
+      "name": "Wallposterfacesf",
+      "type": "block",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wallposterfacesf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/block/wallposterfacesf.json",
+          "src/main/resources/assets/fd/models/item/wallposterfacesf.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/WallposterfacesfBlock.java",
+          "src/main/resources/assets/fd/blockstates/wallposterfacesf.json"
+        ]
+      }
+    },
+    {
+      "name": "Fdposters",
+      "type": "tab",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fdposters",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Wallposterfacesc",
+      "type": "block",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wallposterfacesc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/block/wallposterfacesc.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/WallposterfacescBlock.java",
+          "src/main/resources/assets/fd/models/item/wallposterfacesc.json",
+          "src/main/resources/assets/fd/blockstates/wallposterfacesc.json"
+        ]
+      }
+    },
+    {
+      "name": "Wallposterfacesb",
+      "type": "block",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wallposterfacesb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/WallposterfacesbBlock.java",
+          "src/main/resources/assets/fd/models/item/wallposterfacesb.json",
+          "src/main/resources/assets/fd/models/block/wallposterfacesb.json",
+          "src/main/resources/assets/fd/blockstates/wallposterfacesb.json"
+        ]
+      }
+    },
+    {
+      "name": "Ffdwallposterfaces1",
+      "type": "block",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ffdwallposterfaces_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/item/ffdwallposterfaces_1.json",
+          "src/main/resources/assets/fd/blockstates/ffdwallposterfaces_1.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Ffdwallposterfaces1Block.java",
+          "src/main/resources/assets/fd/models/block/ffdwallposterfaces_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Ffdwallposterfaces2",
+      "type": "block",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ffdwallposterfaces_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/block/ffdwallposterfaces_2.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Ffdwallposterfaces2Block.java",
+          "src/main/resources/assets/fd/blockstates/ffdwallposterfaces_2.json",
+          "src/main/resources/assets/fd/models/item/ffdwallposterfaces_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Chicaplush",
+      "type": "block",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicaplush",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/item/chicaplush.json",
+          "src/main/resources/assets/fd/blockstates/chicaplush.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/ChicaplushBlock.java",
+          "src/main/resources/assets/fd/models/block/chicaplush.json"
+        ]
+      }
+    },
+    {
+      "name": "Chicabetaplush",
+      "type": "block",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicabetaplush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/ChicabetaplushBlock.java",
+          "src/main/resources/assets/fd/blockstates/chicabetaplush.json",
+          "src/main/resources/assets/fd/models/item/chicabetaplush.json",
+          "src/main/resources/assets/fd/models/block/chicabetaplush.json"
+        ]
+      }
+    },
+    {
+      "name": "Freddyplush",
+      "type": "block",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freddyplush",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/item/freddyplush.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/FreddyplushBlock.java",
+          "src/main/resources/assets/fd/blockstates/freddyplush.json",
+          "src/main/resources/assets/fd/models/block/freddyplush.json"
+        ]
+      }
+    },
+    {
+      "name": "Bonnieplush",
+      "type": "block",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonnieplush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/BonnieplushBlock.java",
+          "src/main/resources/assets/fd/models/item/bonnieplush.json",
+          "src/main/resources/assets/fd/models/block/bonnieplush.json",
+          "src/main/resources/assets/fd/blockstates/bonnieplush.json"
+        ]
+      }
+    },
+    {
+      "name": "Foxyplush",
+      "type": "block",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foxyplush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/FoxyplushBlock.java",
+          "src/main/resources/assets/fd/models/item/foxyplush.json",
+          "src/main/resources/assets/fd/blockstates/foxyplush.json",
+          "src/main/resources/assets/fd/models/block/foxyplush.json"
+        ]
+      }
+    },
+    {
+      "name": "Plushiesound",
+      "type": "procedure",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plushiesound",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/procedures/PlushiesoundProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Springbonnieplush",
+      "type": "block",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "springbonnieplush",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/blockstates/springbonnieplush.json",
+          "src/main/resources/assets/fd/models/item/springbonnieplush.json",
+          "src/main/resources/assets/fd/models/block/springbonnieplush.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/SpringbonnieplushBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Goldenfreddyplush",
+      "type": "block",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenfreddyplush",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/blockstates/goldenfreddyplush.json",
+          "src/main/resources/assets/fd/models/block/goldenfreddyplush.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/GoldenfreddyplushBlock.java",
+          "src/main/resources/assets/fd/models/item/goldenfreddyplush.json"
+        ]
+      }
+    },
+    {
+      "name": "Fredbearplush",
+      "type": "block",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fredbearplush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/FredbearplushBlock.java",
+          "src/main/resources/assets/fd/blockstates/fredbearplush.json",
+          "src/main/resources/assets/fd/models/item/fredbearplush.json",
+          "src/main/resources/assets/fd/models/block/fredbearplush.json"
+        ]
+      }
+    },
+    {
+      "name": "Fnafmovieofficedoor",
+      "type": "block",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fnafmovieofficedoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/block/fnafmovieofficedoor_bottom_left_open.json",
+          "src/main/resources/assets/fd/models/item/fnafmovieofficedoor.json",
+          "src/main/resources/assets/fd/models/block/fnafmovieofficedoor_bottom_left.json",
+          "src/main/resources/assets/fd/models/block/fnafmovieofficedoor_top_right_open.json",
+          "src/main/resources/assets/fd/models/block/fnafmovieofficedoor_top_left_open.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/FnafmovieofficedoorBlock.java",
+          "src/main/resources/assets/fd/models/block/fnafmovieofficedoor_bottom_right_open.json",
+          "src/main/resources/assets/fd/models/block/fnafmovieofficedoor_bottom_right.json",
+          "src/main/resources/assets/fd/models/block/fnafmovieofficedoor_top_left.json",
+          "src/main/resources/assets/fd/blockstates/fnafmovieofficedoor.json",
+          "src/main/resources/assets/fd/models/block/fnafmovieofficedoor_top_right.json"
+        ]
+      }
+    },
+    {
+      "name": "Fnafmoviebathroomdoor",
+      "type": "block",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fnafmoviebathroomdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/block/fnafmoviebathroomdoor_top_left_open.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/FnafmoviebathroomdoorBlock.java",
+          "src/main/resources/assets/fd/models/block/fnafmoviebathroomdoor_top_right_open.json",
+          "src/main/resources/assets/fd/models/block/fnafmoviebathroomdoor_top_right.json",
+          "src/main/resources/assets/fd/models/block/fnafmoviebathroomdoor_bottom_left.json",
+          "src/main/resources/assets/fd/models/block/fnafmoviebathroomdoor_top_left.json",
+          "src/main/resources/assets/fd/models/block/fnafmoviebathroomdoor_bottom_left_open.json",
+          "src/main/resources/assets/fd/models/block/fnafmoviebathroomdoor_bottom_right.json",
+          "src/main/resources/assets/fd/models/item/fnafmoviebathroomdoor.json",
+          "src/main/resources/assets/fd/models/block/fnafmoviebathroomdoor_bottom_right_open.json",
+          "src/main/resources/assets/fd/blockstates/fnafmoviebathroomdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Ffdpizzeriadoor",
+      "type": "block",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ffdpizzeriadoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/block/ffdpizzeriadoor_bottom_left_open.json",
+          "src/main/resources/assets/fd/models/block/ffdpizzeriadoor_top_right.json",
+          "src/main/resources/assets/fd/models/block/ffdpizzeriadoor_top_right_open.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/FfdpizzeriadoorBlock.java",
+          "src/main/resources/assets/fd/models/block/ffdpizzeriadoor_bottom_right.json",
+          "src/main/resources/assets/fd/models/item/ffdpizzeriadoor.json",
+          "src/main/resources/assets/fd/models/block/ffdpizzeriadoor_bottom_left.json",
+          "src/main/resources/assets/fd/models/block/ffdpizzeriadoor_top_left.json",
+          "src/main/resources/assets/fd/models/block/ffdpizzeriadoor_bottom_right_open.json",
+          "src/main/resources/assets/fd/models/block/ffdpizzeriadoor_top_left_open.json",
+          "src/main/resources/assets/fd/blockstates/ffdpizzeriadoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Battingtonfloor",
+      "type": "block",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battingtonfloor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/item/battingtonfloor.json",
+          "src/main/resources/assets/fd/models/block/battingtonfloor.json",
+          "src/main/resources/assets/fd/blockstates/battingtonfloor.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/BattingtonfloorBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Battingtonfloor2",
+      "type": "block",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battingtonfloor_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Battingtonfloor2Block.java",
+          "src/main/resources/assets/fd/models/block/battingtonfloor_2.json",
+          "src/main/resources/assets/fd/blockstates/battingtonfloor_2.json",
+          "src/main/resources/assets/fd/models/item/battingtonfloor_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Battingtonfloor3",
+      "type": "block",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battingtonfloor_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/item/battingtonfloor_3.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Battingtonfloor3Block.java",
+          "src/main/resources/assets/fd/blockstates/battingtonfloor_3.json",
+          "src/main/resources/assets/fd/models/block/battingtonfloor_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Battingtonfloor4",
+      "type": "block",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battingtonfloor_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/blockstates/battingtonfloor_4.json",
+          "src/main/resources/assets/fd/models/item/battingtonfloor_4.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Battingtonfloor4Block.java",
+          "src/main/resources/assets/fd/models/block/battingtonfloor_4.json"
+        ]
+      }
+    },
+    {
+      "name": "Battingtonfloor5",
+      "type": "block",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battingtonfloor_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/block/battingtonfloor_5.json",
+          "src/main/resources/assets/fd/blockstates/battingtonfloor_5.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Battingtonfloor5Block.java",
+          "src/main/resources/assets/fd/models/item/battingtonfloor_5.json"
+        ]
+      }
+    },
+    {
+      "name": "Battingtonfloor6",
+      "type": "block",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battingtonfloor_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Battingtonfloor6Block.java",
+          "src/main/resources/assets/fd/models/block/battingtonfloor_6.json",
+          "src/main/resources/assets/fd/models/item/battingtonfloor_6.json",
+          "src/main/resources/assets/fd/blockstates/battingtonfloor_6.json"
+        ]
+      }
+    },
+    {
+      "name": "Battingtonfloor7",
+      "type": "block",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battingtonfloor_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/block/battingtonfloor_7.json",
+          "src/main/resources/assets/fd/blockstates/battingtonfloor_7.json",
+          "src/main/resources/assets/fd/models/item/battingtonfloor_7.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/Battingtonfloor7Block.java"
+        ]
+      }
+    },
+    {
+      "name": "Switchoff",
+      "type": "block",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "switchoff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/SwitchoffBlock.java",
+          "src/main/resources/assets/fd/blockstates/switchoff.json",
+          "src/main/resources/assets/fd/models/item/switchoff.json",
+          "src/main/resources/assets/fd/models/block/switchoff.json"
+        ]
+      }
+    },
+    {
+      "name": "Switchon",
+      "type": "block",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "switchon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/block/switchon.json",
+          "src/main/resources/assets/fd/blockstates/switchon.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/SwitchonBlock.java",
+          "src/main/resources/assets/fd/models/item/switchon.json"
+        ]
+      }
+    },
+    {
+      "name": "SwitchoffOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "switch_off_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/procedures/SwitchoffOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Switchonblockrightclicked",
+      "type": "procedure",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "switchonblockrightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafsdecorationsport/procedures/SwitchonblockrightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "plushie_sound",
+      "files": [
+        "freddy_noze"
+      ],
+      "category": "block",
+      "subtitle": "plushie sound"
+    }
+  ],
   "language_map": {
     "en_us": {
       "block.fd.curtainpurpleblock": "Stage curtain block (Purple)",
@@ -6906,12 +7440,15 @@
       "block.fd.monitors_3": "Monitors (Var 3)",
       "block.fd.monitors_4": "Monitors (Var 4)",
       "block.fd.partyhatpurple": "Party hats (Purple)",
+      "block.fd.battingtonfloor": "Colorful Tiles floor ",
       "block.fd.fanblock": "Office fan",
       "block.fd.fnaf_2wallup_1": "FNaF 2 Wall (Up)",
       "block.fd.fnaf_2wallup_2": "FNaF 2 Wall (Up + supports)",
       "block.fd.giftblue": "Gift (Blue)",
       "block.fd.pizzerialightoff": "Pizzeria Light OFF",
       "block.fnafs_decorations.giftblue": "Gift (Blue)",
+      "block.fd.ffdwallposterfaces_2": "Fredbear\u0027s Pizzeria Poster (Springbonnie)",
+      "block.fd.ffdwallposterfaces_1": "Fredbear\u0027s Pizzeria Poster (Fredbear)",
       "block.fd.ffdinteriorwalltiles": "FFD Interior Wall (Middle + Tiles)",
       "block.fd.birthday_cake": "Birthday Cake",
       "block.fd.stagemiddle_1": "Stage Wall (Middle)",
@@ -6930,15 +7467,17 @@
       "block.fd.piratecovecurtainblockred_3": "Pirate cove curtain (Red + panel)",
       "block.fd.officedoorbuttonoff": "Office door button (Off)",
       "block.fd.fnafmoviewallmiddleexterior": "FNaF Movie Exterior wall (Red line + tiles)",
+      "block.fd.switchon": "Switch (On)",
       "block.fd.onlyofficedesk": "Office desk (empty)",
       "block.fnafs_decorations.fnafwallmiddle_2": "FNaF 1 Wall (Middle)",
       "block.fnafs_decorations.floorredblue": "Pizzeria Floor (Blue + Red)",
       "block.fd.piratecovecurtainblockpurple_3": "Pirate cove curtain (Purple + panel)",
-      "block.fd.piratecovecurtainblockpurple_2": "Pirate cove curtain (Purple + panel)",
       "block.fd.wallpapers_2": "Wall papers (Var 1)",
+      "block.fd.piratecovecurtainblockpurple_2": "Pirate cove curtain (Purple + panel)",
       "block.fd.wallpapers_4": "Wall papers (Var 3)",
       "block.fd.wallpapers_3": "Wall papers (Var 2)",
       "block.fd.arcade_sign": "Arcade Sign",
+      "block.fd.chicabetaplush": "Chica Plushy (BETA)",
       "block.fd.piratecovecurtainblockred": "Pirate cove curtain (Red + panel)",
       "block.fnafs_decorations.officedesk": "Office desk",
       "block.fd.ffdexteriorwalltiles": "FFD Exterior Wall (Middle + Tiles)",
@@ -6954,6 +7493,7 @@
       "block.fnafs_decorations.monitors_4": "Monitors (Var 4)",
       "block.fnafs_decorations.monitors_3": "Monitors (Var 3)",
       "block.fd.fnafmoviewallupperexterior": "FNaF Movie Exterior wall (Up)",
+      "block.fd.fnafmovieofficedoor": "Office door",
       "block.fd.floorred": "Pizzeria Floor (Red + Black)",
       "block.fnafs_decorations.floorwhite": "Pizzeria Floor (White + black)",
       "block.fnafs_decorations.giftyellow": "Gift (Yellow)",
@@ -6976,6 +7516,7 @@
       "block.fnafs_decorations.roof_1": "Roof Block (Black)",
       "block.fd.officedoorbuttonon": "Office door button on",
       "block.fd.officedoorblockopen": "Office door block (Open)",
+      "subtitles.plushie_sound": "plushie sound",
       "block.fd.stageclouds": "Stage clouds",
       "block.fd.wallstructure": "Wall structure",
       "block.fnafs_decorations.fnaf_1wallbathroom_2": "FNaF 1 Wall (Tiles 2)",
@@ -6995,6 +7536,7 @@
       "block.fd.curtain_4": "Curtain (Red)",
       "block.fd.piratecovesign_1": "Pirate cove sign (Normal)",
       "block.fd.redarcadefloor_2": "Red Arcade floor (Var 2)",
+      "block.fd.switchoff": "Switch (Off)",
       "block.fd.fnafmoviewallmiddle_2exterior": "FNaF Movie Exterior wall (Middle)",
       "block.fd.roof_1": "Ceiling block (Black)",
       "block.fd.redarcadefloor_1slab": "Red Arcade floor (Slab)",
@@ -7010,6 +7552,7 @@
       "block.fd.curtainred_2blockpanel": "Stage curtain block (Red + panel)",
       "block.fd.fnaf_2walldown_1": "FNaF 2 Wall (Down)",
       "block.fd.ffdexteriorwallup": "FFD Exterior Wall (Up)",
+      "block.fd.ffdpizzeriadoor": "FFD Pizzeria Door",
       "block.fd.floorblue": "Pizzeria Floor (Blue + Black)",
       "block.fd.pizzeriasigns_4": "Pizzeria sign (Security + minus)",
       "block.fd.pizzeriasigns_2": "Pizzeria sign (Backstage + minus)",
@@ -7025,8 +7568,15 @@
       "block.fd.fnaf_2wallmiddle_2": "FNaF 2 Wall (Middle)",
       "block.fd.fnaf_2wallmiddle_1": "FNaF 2 Wall (Black line + tiles)",
       "block.fd.fnaf_2wallmiddle_3": "FNaF 2 Wall (Middle + supports)",
+      "block.fd.bonnieplush": "Bonnie Plushy",
       "block.fnafs_decorations.wallstructure": "Wall structure",
+      "block.fd.battingtonfloor_3": "Colorful Tiles floor (Var 3)",
+      "block.fd.battingtonfloor_2": "Colorful Tiles floor (Var 2)",
       "block.fd.reddoor": "Red door",
+      "block.fd.battingtonfloor_5": "Colorful Tiles floor (Var 5)",
+      "block.fd.battingtonfloor_4": "Colorful Tiles floor (Var 4)",
+      "block.fd.battingtonfloor_7": "Colorful Tiles floor (Var 7)",
+      "block.fd.battingtonfloor_6": "Colorful Tiles floor (Var 6)",
       "block.fnafs_decorations.stars_3": "Roof Stars (Var 3)",
       "block.fd.officelighton": "Office light (On)",
       "block.fnafs_decorations.stars_1": "Roof Stars (Var 1)",
@@ -7047,13 +7597,16 @@
       "block.fd.arcadefloor_2": "Arcade floor (Var 2)",
       "block.fd.officelamp": "Office lamp",
       "block.fd.officelightoff": "Office light (Off)",
+      "block.fd.freddyplush": "Freddy Plushy",
       "block.fd.pizzeria_light_on": "Pizzeria Light 1",
       "block.fd.piratecovecurtainblockpurple": "Pirate cove curtain (Purple + panel)",
       "block.fd.floorrednblueslab": "Pizzeria floor slab (Red + Blue)",
       "block.fd.stagetiles_2": "Stage Wall (Purple line + tiles)",
       "block.fd.stagetiles_3": "Stage Wall (Red line + tiles)",
+      "block.fd.springbonnieplush": "Springbonnie Plushy",
       "item.fd.chairexecution_spawn_egg": "Chair_execution Spawn Egg",
       "block.fd.emergency_light": "Emergency Light",
+      "block.fd.chicaplush": "Chica Plushy",
       "block.fd.fnaf_1walldown_1": "FNaF 1 Wall (Down)",
       "block.fd.piratecovecurtainblockblueblock": "Pirate cove curtain (Blue + block)",
       "block.fd.ffdexteriorwalldown": "FFD Exterior Wall (Down)",
@@ -7075,8 +7628,11 @@
       "block.fd.chicas_magic_rainbow_2": "Chicas Magic Rainbow 2",
       "block.fd.floorffdstairs": "Pizzeria floor stairs (Cyan + Black)",
       "item_group.fd.fd_walls": "FD - Build blocks",
+      "block.fd.wallposterfacesb": "Pizzeria Poster (Bonnie)",
       "block.fnafs_decorations.fnaf_1wallmiddle_1": "FNaF 1 Wall (Red line + tiles)",
+      "block.fd.wallposterfacesc": "Pizzeria Poster (Chica)",
       "itemGroup.fd.fnafs_decorations": "FD Items \u0026 decors",
+      "block.fd.wallposterfacesf": "Pizzeria Poster (Freddy)",
       "block.fd.magic_rainbow_3": "Magic Rainbow 3",
       "block.fd.piratecovecurtainblockredblock": "Pirate cove curtain (Red + block)",
       "block.fd.fazsodablue": "Faz soda (Blue)",
@@ -7086,6 +7642,7 @@
       "block.fd.f_na_f_1wallmiddle_3": "FNaF 1 Wall (Purple line + tiles)",
       "block.fnafs_decorations.giftgreen": "Gift (Green)",
       "block.fd.fnaf_1wallmiddle_1": "FNaF 1 Wall (Red line + tiles)",
+      "block.fd.foxyplush": "Foxy Plushy",
       "block.fd.fanblockon": "Office fan (On)",
       "block.fd.partyhatblue": "Party hats (Blue)",
       "block.fd.curtainpurple_2block": "Stage curtain block (Purple)",
@@ -7112,12 +7669,16 @@
       "block.fd.wallpaper_2": "Wall papers (Var 2)",
       "block.fd.wallpaper_1": "Wall papers",
       "block.fnafs_decorations.curtain_3": "Curtain (Red)",
+      "block.fd.fredbearplush": "Fredbear Plushy",
       "block.fnafs_decorations.curtain_2": "Curtain (Red)",
+      "block.fd.fnafmoviebathroomdoor": "Bathroom Door",
       "block.fnafs_decorations.curtain_5": "Curtain (Red)",
       "block.fnafs_decorations.curtain_4": "Curtain (Red)",
       "block.fd.stagesun": "Stage sun",
       "block.fd.curtainred_2block": "Stage curtain block (Red)",
       "block.fnafs_decorations.f_na_f_1walldown_2": "FNaF 1 Wall (Down 2)",
+      "item_group.fd.fdposters": "FD Posters \u0026 Papers",
+      "block.fd.goldenfreddyplush": "Golden Freddy Plushy",
       "block.fd.giftyellow": "Gift (Yellow)",
       "block.fd.stagespeaker": "Stage speaker",
       "block.fd.bobbleheads": "Bobbleheads",

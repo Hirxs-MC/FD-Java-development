@@ -121,7 +121,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "Curtainpurplechange2panel"
+      "name": "Curtainpurplechange1panel"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

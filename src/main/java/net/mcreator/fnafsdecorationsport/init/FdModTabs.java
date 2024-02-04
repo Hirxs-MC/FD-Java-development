@@ -90,6 +90,19 @@ public class FdModTabs {
 					tabData.accept(FdModBlocks.BOBBLEHEADS.get().asItem());
 					tabData.accept(FdModBlocks.BIRTHDAY_CAKE.get().asItem());
 					tabData.accept(FdModBlocks.EMERGENCY_LIGHT.get().asItem());
+					tabData.accept(FdModBlocks.CHICAPLUSH.get().asItem());
+					tabData.accept(FdModBlocks.CHICABETAPLUSH.get().asItem());
+					tabData.accept(FdModBlocks.FREDDYPLUSH.get().asItem());
+					tabData.accept(FdModBlocks.BONNIEPLUSH.get().asItem());
+					tabData.accept(FdModBlocks.FOXYPLUSH.get().asItem());
+					tabData.accept(FdModBlocks.SPRINGBONNIEPLUSH.get().asItem());
+					tabData.accept(FdModBlocks.GOLDENFREDDYPLUSH.get().asItem());
+					tabData.accept(FdModBlocks.FREDBEARPLUSH.get().asItem());
+					tabData.accept(FdModBlocks.FNAFMOVIEOFFICEDOOR.get().asItem());
+					tabData.accept(FdModBlocks.FNAFMOVIEBATHROOMDOOR.get().asItem());
+					tabData.accept(FdModBlocks.FFDPIZZERIADOOR.get().asItem());
+					tabData.accept(FdModBlocks.SWITCHOFF.get().asItem());
+					tabData.accept(FdModBlocks.SWITCHON.get().asItem());
 				})
 
 		);
@@ -162,7 +175,18 @@ public class FdModTabs {
 			tabData.accept(FdModBlocks.PURPLESTAGEBRICKS.get().asItem());
 			tabData.accept(FdModBlocks.FNAF_2STAGEWALLMIDDLE.get().asItem());
 			tabData.accept(FdModBlocks.FNAF_2STAGEWALLTILES.get().asItem());
+			tabData.accept(FdModBlocks.BATTINGTONFLOOR.get().asItem());
 		})
+
+		);
+		event.registerCreativeModeTab(new ResourceLocation("fd", "fdposters"),
+				builder -> builder.title(Component.translatable("item_group.fd.fdposters")).icon(() -> new ItemStack(FdModBlocks.WALLPOSTERFACESF.get())).displayItems((parameters, tabData) -> {
+					tabData.accept(FdModBlocks.WALLPOSTERFACESF.get().asItem());
+					tabData.accept(FdModBlocks.WALLPOSTERFACESC.get().asItem());
+					tabData.accept(FdModBlocks.WALLPOSTERFACESB.get().asItem());
+					tabData.accept(FdModBlocks.FFDWALLPOSTERFACES_1.get().asItem());
+					tabData.accept(FdModBlocks.FFDWALLPOSTERFACES_2.get().asItem());
+				})
 
 		);
 	}

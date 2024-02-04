@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/springbonnieplush"
+    },
+    "facing=east": {
+      "model": "fd:block/springbonnieplush",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/springbonnieplush",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/springbonnieplush",
+      "y": 270
+    }
+  }
+}

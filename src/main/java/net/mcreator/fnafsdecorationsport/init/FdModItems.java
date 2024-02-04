@@ -215,6 +215,31 @@ public class FdModItems {
 	public static final RegistryObject<Item> BIRTHDAY_CAKE = block(FdModBlocks.BIRTHDAY_CAKE);
 	public static final RegistryObject<Item> EMERGENCY_LIGHT = block(FdModBlocks.EMERGENCY_LIGHT);
 	public static final RegistryObject<Item> EMERGENCY_LIGHT_ON = block(FdModBlocks.EMERGENCY_LIGHT_ON);
+	public static final RegistryObject<Item> WALLPOSTERFACESF = block(FdModBlocks.WALLPOSTERFACESF);
+	public static final RegistryObject<Item> WALLPOSTERFACESC = block(FdModBlocks.WALLPOSTERFACESC);
+	public static final RegistryObject<Item> WALLPOSTERFACESB = block(FdModBlocks.WALLPOSTERFACESB);
+	public static final RegistryObject<Item> FFDWALLPOSTERFACES_1 = block(FdModBlocks.FFDWALLPOSTERFACES_1);
+	public static final RegistryObject<Item> FFDWALLPOSTERFACES_2 = block(FdModBlocks.FFDWALLPOSTERFACES_2);
+	public static final RegistryObject<Item> CHICAPLUSH = block(FdModBlocks.CHICAPLUSH);
+	public static final RegistryObject<Item> CHICABETAPLUSH = block(FdModBlocks.CHICABETAPLUSH);
+	public static final RegistryObject<Item> FREDDYPLUSH = block(FdModBlocks.FREDDYPLUSH);
+	public static final RegistryObject<Item> BONNIEPLUSH = block(FdModBlocks.BONNIEPLUSH);
+	public static final RegistryObject<Item> FOXYPLUSH = block(FdModBlocks.FOXYPLUSH);
+	public static final RegistryObject<Item> SPRINGBONNIEPLUSH = block(FdModBlocks.SPRINGBONNIEPLUSH);
+	public static final RegistryObject<Item> GOLDENFREDDYPLUSH = block(FdModBlocks.GOLDENFREDDYPLUSH);
+	public static final RegistryObject<Item> FREDBEARPLUSH = block(FdModBlocks.FREDBEARPLUSH);
+	public static final RegistryObject<Item> FNAFMOVIEOFFICEDOOR = doubleBlock(FdModBlocks.FNAFMOVIEOFFICEDOOR);
+	public static final RegistryObject<Item> FNAFMOVIEBATHROOMDOOR = doubleBlock(FdModBlocks.FNAFMOVIEBATHROOMDOOR);
+	public static final RegistryObject<Item> FFDPIZZERIADOOR = doubleBlock(FdModBlocks.FFDPIZZERIADOOR);
+	public static final RegistryObject<Item> BATTINGTONFLOOR = block(FdModBlocks.BATTINGTONFLOOR);
+	public static final RegistryObject<Item> BATTINGTONFLOOR_2 = block(FdModBlocks.BATTINGTONFLOOR_2);
+	public static final RegistryObject<Item> BATTINGTONFLOOR_3 = block(FdModBlocks.BATTINGTONFLOOR_3);
+	public static final RegistryObject<Item> BATTINGTONFLOOR_4 = block(FdModBlocks.BATTINGTONFLOOR_4);
+	public static final RegistryObject<Item> BATTINGTONFLOOR_5 = block(FdModBlocks.BATTINGTONFLOOR_5);
+	public static final RegistryObject<Item> BATTINGTONFLOOR_6 = block(FdModBlocks.BATTINGTONFLOOR_6);
+	public static final RegistryObject<Item> BATTINGTONFLOOR_7 = block(FdModBlocks.BATTINGTONFLOOR_7);
+	public static final RegistryObject<Item> SWITCHOFF = block(FdModBlocks.SWITCHOFF);
+	public static final RegistryObject<Item> SWITCHON = block(FdModBlocks.SWITCHON);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

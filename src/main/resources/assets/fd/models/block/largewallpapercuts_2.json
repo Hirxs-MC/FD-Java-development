@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/large_wall_papercuts_2",
+  "textures": {
+    "all": "fd:block/hanging_papercuts_2",
+    "particle": "fd:block/hanging_papercuts_2",
+    "0": "fd:block/hanging_papercuts_2"
+  },
+  "render_type": "cutout"
+}

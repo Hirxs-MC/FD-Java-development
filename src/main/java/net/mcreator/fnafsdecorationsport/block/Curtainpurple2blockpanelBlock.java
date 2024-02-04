@@ -19,7 +19,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.fnafsdecorationsport.procedures.Curtainpurplechange2panelProcedure;
+import net.mcreator.fnafsdecorationsport.procedures.Curtainpurplechange1panelProcedure;
 
 import java.util.List;
 import java.util.Collections;
@@ -57,7 +57,7 @@ public class Curtainpurple2blockpanelBlock extends IronBarsBlock {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		Curtainpurplechange2panelProcedure.execute(world, x, y, z, entity);
+		Curtainpurplechange1panelProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }

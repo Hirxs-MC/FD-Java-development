@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "spring_bonnie"
+      },
+      "name": "default"
+    }
+  }
+}

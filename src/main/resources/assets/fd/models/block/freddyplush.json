@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/freddy_plush",
+  "textures": {
+    "all": "fd:block/teddy1",
+    "particle": "fd:block/teddy1",
+    "1": "fd:block/teddy1"
+  },
+  "render_type": "cutout_mipped"
+}

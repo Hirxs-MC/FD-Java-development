@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/wallposterfacesb"
+    },
+    "facing=east": {
+      "model": "fd:block/wallposterfacesb",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/wallposterfacesb",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/wallposterfacesb",
+      "y": 270
+    }
+  }
+}

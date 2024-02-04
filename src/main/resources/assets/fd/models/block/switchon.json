@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/switch_on_1",
+  "textures": {
+    "all": "fd:block/switch_on",
+    "particle": "fd:block/switch_on",
+    "1": "fd:block/switch_on"
+  },
+  "render_type": "cutout_mipped"
+}

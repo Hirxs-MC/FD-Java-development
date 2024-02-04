@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/neonwalllights"
+    },
+    "facing=east": {
+      "model": "fd:block/neonwalllights",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/neonwalllights",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/neonwalllights",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fd:block/neonwalllights",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fd:block/neonwalllights",
+      "x": 90
+    }
+  }
+}

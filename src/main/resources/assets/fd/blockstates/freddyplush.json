@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/freddyplush"
+    },
+    "facing=east": {
+      "model": "fd:block/freddyplush",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/freddyplush",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/freddyplush",
+      "y": 270
+    }
+  }
+}

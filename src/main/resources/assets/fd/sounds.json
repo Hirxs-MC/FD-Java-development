@@ -1,0 +1,11 @@
+{
+  "plushie_sound": {
+    "subtitle": "subtitles.plushie_sound",
+    "sounds": [
+      {
+        "name": "fd:freddy_noze",
+        "stream": false
+      }
+    ]
+  }
+}

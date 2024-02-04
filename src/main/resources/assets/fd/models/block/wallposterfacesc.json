@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/wall_poster_faces_c",
+  "textures": {
+    "all": "fd:block/chica",
+    "particle": "fd:block/chica",
+    "0": "fd:block/chica"
+  },
+  "render_type": "cutout_mipped"
+}

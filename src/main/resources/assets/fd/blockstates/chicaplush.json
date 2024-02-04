@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/chicaplush"
+    },
+    "facing=east": {
+      "model": "fd:block/chicaplush",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/chicaplush",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/chicaplush",
+      "y": 270
+    }
+  }
+}

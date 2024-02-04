@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/confettiblock_3"
+    },
+    "facing=east": {
+      "model": "fd:block/confettiblock_3",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/confettiblock_3",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/confettiblock_3",
+      "y": 270
+    }
+  }
+}

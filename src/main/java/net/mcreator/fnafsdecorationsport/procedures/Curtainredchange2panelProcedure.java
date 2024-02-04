@@ -1,18 +1,24 @@
 package net.mcreator.fnafsdecorationsport.procedures;
 
+import net.minecraftforge.registries.ForgeRegistries;
+
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.nbt.CompoundTag;
-import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.fnafsdecorationsport.init.FdModParticleTypes;
+import net.mcreator.fnafsdecorationsport.init.FdModItems;
 import net.mcreator.fnafsdecorationsport.init.FdModBlocks;
 
 import java.util.Map;
@@ -21,9 +27,8 @@ public class Curtainredchange2panelProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() instanceof AxeItem && FdModBlocks.CURTAINRED_2BLOCKPANEL.get() == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {
-			if (world instanceof ServerLevel _level)
-				_level.sendParticles(ParticleTypes.WAX_ON, x, y, z, 10, 0.5, 0.5, 0.5, 1);
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == FdModItems.CHANGERTOOL.get()
+				&& FdModBlocks.CURTAINRED_2BLOCKPANEL.get() == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {
 			{
 				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockState _bs = FdModBlocks.CURTAINREDBLOCKPANEL.get().defaultBlockState();
@@ -51,6 +56,15 @@ public class Curtainredchange2panelProcedure {
 						} catch (Exception ignored) {
 						}
 					}
+				}
+			}
+			if (world instanceof ServerLevel _level)
+				_level.sendParticles((SimpleParticleType) (FdModParticleTypes.CHANGERTOOLSPARKLES.get()), x, y, z, 20, 0.5, 1, 0.5, 0.2);
+			if (world instanceof Level _level) {
+				if (!_level.isClientSide()) {
+					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.lantern.break")), SoundSource.BLOCKS, 1, 1);
+				} else {
+					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.lantern.break")), SoundSource.BLOCKS, 1, 1, false);
 				}
 			}
 		}
