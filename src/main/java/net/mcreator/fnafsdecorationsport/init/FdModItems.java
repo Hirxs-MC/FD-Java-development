@@ -240,6 +240,9 @@ public class FdModItems {
 	public static final RegistryObject<Item> BATTINGTONFLOOR_7 = block(FdModBlocks.BATTINGTONFLOOR_7);
 	public static final RegistryObject<Item> SWITCHOFF = block(FdModBlocks.SWITCHOFF);
 	public static final RegistryObject<Item> SWITCHON = block(FdModBlocks.SWITCHON);
+	public static final RegistryObject<Item> FREDDY_FAZBEARTRASHCAN = block(FdModBlocks.FREDDY_FAZBEARTRASHCAN);
+	public static final RegistryObject<Item> POLE_1 = block(FdModBlocks.POLE_1);
+	public static final RegistryObject<Item> POLE_2 = block(FdModBlocks.POLE_2);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

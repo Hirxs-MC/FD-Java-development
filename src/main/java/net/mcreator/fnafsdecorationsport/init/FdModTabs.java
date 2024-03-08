@@ -103,6 +103,8 @@ public class FdModTabs {
 					tabData.accept(FdModBlocks.FFDPIZZERIADOOR.get().asItem());
 					tabData.accept(FdModBlocks.SWITCHOFF.get().asItem());
 					tabData.accept(FdModBlocks.SWITCHON.get().asItem());
+					tabData.accept(FdModBlocks.FREDDY_FAZBEARTRASHCAN.get().asItem());
+					tabData.accept(FdModBlocks.POLE_1.get().asItem());
 				})
 
 		);

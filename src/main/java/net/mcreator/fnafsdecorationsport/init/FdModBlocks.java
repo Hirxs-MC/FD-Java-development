@@ -64,6 +64,8 @@ import net.mcreator.fnafsdecorationsport.block.Redarcadefloor1slabBlock;
 import net.mcreator.fnafsdecorationsport.block.Redarcadefloor1Block;
 import net.mcreator.fnafsdecorationsport.block.PurplestagebricksBlock;
 import net.mcreator.fnafsdecorationsport.block.Poster1Block;
+import net.mcreator.fnafsdecorationsport.block.Pole2Block;
+import net.mcreator.fnafsdecorationsport.block.Pole1Block;
 import net.mcreator.fnafsdecorationsport.block.Pizzeriasigns4Block;
 import net.mcreator.fnafsdecorationsport.block.Pizzeriasigns3Block;
 import net.mcreator.fnafsdecorationsport.block.Pizzeriasigns2Block;
@@ -122,6 +124,7 @@ import net.mcreator.fnafsdecorationsport.block.GiftpurpleBlock;
 import net.mcreator.fnafsdecorationsport.block.GiftgreenBlock;
 import net.mcreator.fnafsdecorationsport.block.GiftblueBlock;
 import net.mcreator.fnafsdecorationsport.block.FreddyplushBlock;
+import net.mcreator.fnafsdecorationsport.block.FreddyFazbeartrashcanBlock;
 import net.mcreator.fnafsdecorationsport.block.FredbearplushBlock;
 import net.mcreator.fnafsdecorationsport.block.FoxyplushBlock;
 import net.mcreator.fnafsdecorationsport.block.Fnafwallmiddle2Block;
@@ -452,4 +455,7 @@ public class FdModBlocks {
 	public static final RegistryObject<Block> BATTINGTONFLOOR_7 = REGISTRY.register("battingtonfloor_7", () -> new Battingtonfloor7Block());
 	public static final RegistryObject<Block> SWITCHOFF = REGISTRY.register("switchoff", () -> new SwitchoffBlock());
 	public static final RegistryObject<Block> SWITCHON = REGISTRY.register("switchon", () -> new SwitchonBlock());
+	public static final RegistryObject<Block> FREDDY_FAZBEARTRASHCAN = REGISTRY.register("freddy_fazbeartrashcan", () -> new FreddyFazbeartrashcanBlock());
+	public static final RegistryObject<Block> POLE_1 = REGISTRY.register("pole_1", () -> new Pole1Block());
+	public static final RegistryObject<Block> POLE_2 = REGISTRY.register("pole_2", () -> new Pole2Block());
 }

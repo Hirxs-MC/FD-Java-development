@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/freddy_fazbeartrashcan"
+    },
+    "facing=east": {
+      "model": "fd:block/freddy_fazbeartrashcan",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/freddy_fazbeartrashcan",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/freddy_fazbeartrashcan",
+      "y": 270
+    }
+  }
+}
