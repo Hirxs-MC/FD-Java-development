@@ -135,6 +135,7 @@ import net.mcreator.fnafsdecorationsport.block.Fnafmoviewallmiddle2exteriorBlock
 import net.mcreator.fnafsdecorationsport.block.FnafmoviewallbottomexteriorBlock;
 import net.mcreator.fnafsdecorationsport.block.FnafmovieofficedoorBlock;
 import net.mcreator.fnafsdecorationsport.block.FnafmoviebathroomdoorBlock;
+import net.mcreator.fnafsdecorationsport.block.Fnaf2wallupperconfettiBlock;
 import net.mcreator.fnafsdecorationsport.block.Fnaf2wallup2Block;
 import net.mcreator.fnafsdecorationsport.block.Fnaf2wallup1Block;
 import net.mcreator.fnafsdecorationsport.block.Fnaf2wallmiddleconfettiBlock;
@@ -176,6 +177,9 @@ import net.mcreator.fnafsdecorationsport.block.Ffdwallposterfaces1Block;
 import net.mcreator.fnafsdecorationsport.block.FfdpizzeriadoorBlock;
 import net.mcreator.fnafsdecorationsport.block.FfdinteriorwallupBlock;
 import net.mcreator.fnafsdecorationsport.block.FfdinteriorwalltilesBlock;
+import net.mcreator.fnafsdecorationsport.block.Ffdinteriorwallmiddleconfetti3Block;
+import net.mcreator.fnafsdecorationsport.block.Ffdinteriorwallmiddleconfetti2Block;
+import net.mcreator.fnafsdecorationsport.block.Ffdinteriorwallmiddleconfetti1Block;
 import net.mcreator.fnafsdecorationsport.block.FfdinteriorwallmiddleBlock;
 import net.mcreator.fnafsdecorationsport.block.FfdinteriorwalldownBlock;
 import net.mcreator.fnafsdecorationsport.block.FfdfloorBlock;
@@ -458,4 +462,8 @@ public class FdModBlocks {
 	public static final RegistryObject<Block> FREDDY_FAZBEARTRASHCAN = REGISTRY.register("freddy_fazbeartrashcan", () -> new FreddyFazbeartrashcanBlock());
 	public static final RegistryObject<Block> POLE_1 = REGISTRY.register("pole_1", () -> new Pole1Block());
 	public static final RegistryObject<Block> POLE_2 = REGISTRY.register("pole_2", () -> new Pole2Block());
+	public static final RegistryObject<Block> FNAF_2WALLUPPERCONFETTI = REGISTRY.register("fnaf_2wallupperconfetti", () -> new Fnaf2wallupperconfettiBlock());
+	public static final RegistryObject<Block> FFDINTERIORWALLMIDDLECONFETTI_1 = REGISTRY.register("ffdinteriorwallmiddleconfetti_1", () -> new Ffdinteriorwallmiddleconfetti1Block());
+	public static final RegistryObject<Block> FFDINTERIORWALLMIDDLECONFETTI_2 = REGISTRY.register("ffdinteriorwallmiddleconfetti_2", () -> new Ffdinteriorwallmiddleconfetti2Block());
+	public static final RegistryObject<Block> FFDINTERIORWALLMIDDLECONFETTI_3 = REGISTRY.register("ffdinteriorwallmiddleconfetti_3", () -> new Ffdinteriorwallmiddleconfetti3Block());
 }

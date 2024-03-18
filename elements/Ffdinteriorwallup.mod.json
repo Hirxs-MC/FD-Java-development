@@ -4,8 +4,8 @@
   "definition": {
     "texture": "ffd_wall_middle_1",
     "textureTop": "texture_black",
-    "textureLeft": "ffd_wall_up_2",
-    "textureFront": "ffd_wall_up_2",
+    "textureLeft": "interior_ffd_wall_up_dirty",
+    "textureFront": "interior_ffd_wall_up_dirty",
     "textureRight": "",
     "textureBack": "",
     "renderType": 14,

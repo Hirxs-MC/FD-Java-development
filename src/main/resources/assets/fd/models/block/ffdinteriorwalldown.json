@@ -2,9 +2,9 @@
   "parent": "block/grass_block",
   "textures": {
     "bottom": "fd:block/texture_black",
-    "top": "fd:block/ffd_wall_middle_1",
-    "side": "fd:block/ffd_wall_down_2",
-    "overlay": "fd:block/ffd_wall_down_2",
+    "top": "fd:block/interior_ffd_wall_middle",
+    "side": "fd:block/interior_ffd_wall_down_dirty",
+    "overlay": "fd:block/interior_ffd_wall_down_dirty",
     "particle": "fd:block/texture_black"
   },
   "render_type": "cutout_mipped"

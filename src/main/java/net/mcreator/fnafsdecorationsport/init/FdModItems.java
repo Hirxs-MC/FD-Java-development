@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.fnafsdecorationsport.item.RotatetoolItem;
 import net.mcreator.fnafsdecorationsport.item.ChangertoolItem;
 import net.mcreator.fnafsdecorationsport.FdMod;
 
@@ -243,6 +244,19 @@ public class FdModItems {
 	public static final RegistryObject<Item> FREDDY_FAZBEARTRASHCAN = block(FdModBlocks.FREDDY_FAZBEARTRASHCAN);
 	public static final RegistryObject<Item> POLE_1 = block(FdModBlocks.POLE_1);
 	public static final RegistryObject<Item> POLE_2 = block(FdModBlocks.POLE_2);
+	public static final RegistryObject<Item> FNAF_2WALLUPPERCONFETTI = block(FdModBlocks.FNAF_2WALLUPPERCONFETTI);
+	public static final RegistryObject<Item> FFDINTERIORWALLMIDDLECONFETTI_1 = block(FdModBlocks.FFDINTERIORWALLMIDDLECONFETTI_1);
+	public static final RegistryObject<Item> FFDINTERIORWALLMIDDLECONFETTI_2 = block(FdModBlocks.FFDINTERIORWALLMIDDLECONFETTI_2);
+	public static final RegistryObject<Item> FFDINTERIORWALLMIDDLECONFETTI_3 = block(FdModBlocks.FFDINTERIORWALLMIDDLECONFETTI_3);
+	public static final RegistryObject<Item> FREDDYFAZBEAR_SPAWN_EGG = REGISTRY.register("freddyfazbear_spawn_egg", () -> new ForgeSpawnEggItem(FdModEntities.FREDDYFAZBEAR, -5878528, -14803685, new Item.Properties()));
+	public static final RegistryObject<Item> BONNIEBUNNY_SPAWN_EGG = REGISTRY.register("bonniebunny_spawn_egg", () -> new ForgeSpawnEggItem(FdModEntities.BONNIEBUNNY, -12901768, -14803685, new Item.Properties()));
+	public static final RegistryObject<Item> FREDDYFAZBEARIDLE_SPAWN_EGG = REGISTRY.register("freddyfazbearidle_spawn_egg", () -> new ForgeSpawnEggItem(FdModEntities.FREDDYFAZBEARIDLE, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> BONNIEBUNNYIDLE_SPAWN_EGG = REGISTRY.register("bonniebunnyidle_spawn_egg", () -> new ForgeSpawnEggItem(FdModEntities.BONNIEBUNNYIDLE, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> CHICACHICKEN_SPAWN_EGG = REGISTRY.register("chicachicken_spawn_egg", () -> new ForgeSpawnEggItem(FdModEntities.CHICACHICKEN, -2311665, -14803685, new Item.Properties()));
+	public static final RegistryObject<Item> CHICACHICKENIDLE_SPAWN_EGG = REGISTRY.register("chicachickenidle_spawn_egg", () -> new ForgeSpawnEggItem(FdModEntities.CHICACHICKENIDLE, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> FOXY_SPAWN_EGG = REGISTRY.register("foxy_spawn_egg", () -> new ForgeSpawnEggItem(FdModEntities.FOXY, -7526369, -14803685, new Item.Properties()));
+	public static final RegistryObject<Item> FOXYIDLE_SPAWN_EGG = REGISTRY.register("foxyidle_spawn_egg", () -> new ForgeSpawnEggItem(FdModEntities.FOXYIDLE, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> ROTATETOOL = REGISTRY.register("rotatetool", () -> new RotatetoolItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

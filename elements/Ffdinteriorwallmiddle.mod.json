@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "ffd_wall_middle_1",
+    "texture": "interior_ffd_wall_middle",
     "textureTop": "ffd_wall_middle_1",
     "textureLeft": "ffd_wall_middle_1",
     "textureFront": "ffd_wall_middle_1",

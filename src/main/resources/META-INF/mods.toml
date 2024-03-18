@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[45,)"
+loaderVersion="[47,)"
 license="Academic Free License v3.0"
 
 [[mods]]
@@ -15,10 +15,16 @@ description="Have you ever wanted to replicate a restaurant from FNAF but in Min
 [[dependencies.fd]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.4]"
+    versionRange="[1.20.1]"
     ordering="NONE"
     side="BOTH"
 
 
 
+[[dependencies.fd]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

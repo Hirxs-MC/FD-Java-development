@@ -3,9 +3,9 @@
   "_type": "block",
   "definition": {
     "texture": "texture_black",
-    "textureTop": "ffd_wall_middle_1",
-    "textureLeft": "ffd_wall_down_2",
-    "textureFront": "ffd_wall_down_2",
+    "textureTop": "interior_ffd_wall_middle",
+    "textureLeft": "interior_ffd_wall_down_dirty",
+    "textureFront": "interior_ffd_wall_down_dirty",
     "textureRight": "",
     "textureBack": "",
     "renderType": 14,
