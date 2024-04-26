@@ -1,0 +1,66 @@
+{"providers":[
+		{
+			"type": "bitmap",
+			"file": "minecraft:text_icons/fnaf1_logo.png",
+			"height": 9,
+			"ascent": 9,
+			"chars": [
+				"色"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:text_icons/fnaf2_logo.png",
+			"height": 9,
+			"ascent": 9,
+			"chars": [
+				"氣"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:text_icons/fnafmovie_logo.png",
+			"height": 9,
+			"ascent": 9,
+			"chars": [
+				"廳"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:text_icons/ffd_logo.png",
+			"height": 9,
+			"ascent": 9,
+			"chars": [
+				"德"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:text_icons/changer_tool_check.png",
+			"height": 9,
+			"ascent": 9,
+			"chars": [
+				"贝"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:text_icons/changer_tool_deny.png",
+			"height": 9,
+			"ascent": 9,
+			"chars": [
+				"阿"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:text_icons/f&f_logo.png",
+			"height": 9,
+			"ascent": 9,
+			"chars": [
+				"日"
+			]
+		}
+]
+}
