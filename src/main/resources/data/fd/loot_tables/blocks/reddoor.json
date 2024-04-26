@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "fd:blocks/reddoor",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fd:reddoor",
+          "conditions": [
+            {
+              "block": "fd:reddoor",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

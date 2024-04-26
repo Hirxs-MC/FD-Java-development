@@ -102,6 +102,20 @@ public class FdModTabs {
 				tabData.accept(FdModBlocks.FREDDY_FAZBEARTRASHCAN.get().asItem());
 				tabData.accept(FdModBlocks.POLE_1.get().asItem());
 				tabData.accept(FdModItems.ROTATETOOL.get());
+				tabData.accept(FdModBlocks.BOX_1.get().asItem());
+				tabData.accept(FdModBlocks.BOX_2.get().asItem());
+				tabData.accept(FdModBlocks.BOX_3.get().asItem());
+				tabData.accept(FdModBlocks.WOODENWALLREDDOWN.get().asItem());
+				tabData.accept(FdModBlocks.WOODENWALLREDSINGLE.get().asItem());
+				tabData.accept(FdModBlocks.WOODENWALLBROWNTILES.get().asItem());
+				tabData.accept(FdModBlocks.WOODENWALLBROWNSINGLE.get().asItem());
+				tabData.accept(FdModBlocks.WOODENWALLBROWNTOP.get().asItem());
+				tabData.accept(FdModBlocks.WOODENWALLBROWNTOPDIRTY.get().asItem());
+				tabData.accept(FdModBlocks.LARGEWALLWIRES_1.get().asItem());
+				tabData.accept(FdModBlocks.CUPCAKE.get().asItem());
+				tabData.accept(FdModBlocks.LARGEWALLSTARS_1.get().asItem());
+				tabData.accept(FdModBlocks.LARGEWALLPAPERCUTS_1.get().asItem());
+				tabData.accept(FdModBlocks.LARGEWALLPARTYBANNERS_1.get().asItem());
 			})
 
 					.build());
@@ -171,6 +185,16 @@ public class FdModTabs {
 				tabData.accept(FdModBlocks.REDARCADEFLOOR_1SLAB.get().asItem());
 				tabData.accept(FdModBlocks.BLUEARCADEFLOOR_1STAIRS.get().asItem());
 				tabData.accept(FdModBlocks.BLUEARCADEFLOOR_1SLAB.get().asItem());
+				tabData.accept(FdModBlocks.BATTINGTONWALLTOP.get().asItem());
+				tabData.accept(FdModBlocks.BATTINGTONWALLYELLOW.get().asItem());
+				tabData.accept(FdModBlocks.BATTINGTONWALLTILES_1.get().asItem());
+				tabData.accept(FdModBlocks.BATTINGTONWALLTILES_2.get().asItem());
+				tabData.accept(FdModBlocks.BATTINGTONWALLDOWN.get().asItem());
+				tabData.accept(FdModBlocks.BATTINGTONWALLDOWNRED.get().asItem());
+				tabData.accept(FdModBlocks.BATTINGTONWALLPURPLE.get().asItem());
+				tabData.accept(FdModBlocks.BATTINGTONWALLRED.get().asItem());
+				tabData.accept(FdModBlocks.BATTINGTONWALLWHITETILES.get().asItem());
+				tabData.accept(FdModBlocks.BATTINGTONWALLTILESWHITE.get().asItem());
 				tabData.accept(FdModBlocks.FNAF_2WALLMIDDLECONFETTI.get().asItem());
 				tabData.accept(FdModBlocks.PURPLESTAGEBRICKS.get().asItem());
 				tabData.accept(FdModBlocks.FNAF_2STAGEWALLMIDDLE.get().asItem());
@@ -180,6 +204,19 @@ public class FdModTabs {
 				tabData.accept(FdModBlocks.FFDINTERIORWALLMIDDLECONFETTI_1.get().asItem());
 				tabData.accept(FdModBlocks.FFDINTERIORWALLMIDDLECONFETTI_2.get().asItem());
 				tabData.accept(FdModBlocks.FFDINTERIORWALLMIDDLECONFETTI_3.get().asItem());
+				tabData.accept(FdModBlocks.TESTINGBLOCK.get().asItem());
+				tabData.accept(FdModBlocks.TABLENORTH.get().asItem());
+				tabData.accept(FdModBlocks.TABLESOUTH.get().asItem());
+				tabData.accept(FdModBlocks.FLOORGREENBLUE.get().asItem());
+				tabData.accept(FdModBlocks.FLOORYELLOWBLUE.get().asItem());
+				tabData.accept(FdModBlocks.FNAF_2WALLUPPERCONFETTI_2.get().asItem());
+				tabData.accept(FdModBlocks.FLOORGREENBLUESTAIR.get().asItem());
+				tabData.accept(FdModBlocks.FLOORGREENBLUESLAB.get().asItem());
+				tabData.accept(FdModBlocks.FLOORYELLOWBLUESLAB.get().asItem());
+				tabData.accept(FdModBlocks.FLOORYELLOWBLUESTAIR.get().asItem());
+				tabData.accept(FdModBlocks.WHITEBLACKFLOORINVERTED.get().asItem());
+				tabData.accept(FdModBlocks.WHITEBLACKFLOORINVERTEDSLAB.get().asItem());
+				tabData.accept(FdModBlocks.WHITEBLACKFLOORINVERTEDSTAIR.get().asItem());
 			})
 
 					.build());
@@ -212,6 +249,7 @@ public class FdModTabs {
 			tabData.accept(FdModItems.BONNIEBUNNYIDLE_SPAWN_EGG.get());
 			tabData.accept(FdModItems.CHICACHICKENIDLE_SPAWN_EGG.get());
 			tabData.accept(FdModItems.FOXYIDLE_SPAWN_EGG.get());
+			tabData.accept(FdModItems.TOYCHICASHOWTIME_SPAWN_EGG.get());
 		}
 	}
 }

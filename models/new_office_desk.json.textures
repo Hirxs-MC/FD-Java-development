@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "new_office_desk_off"
+      },
+      "name": "default"
+    }
+  }
+}

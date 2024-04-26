@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fd:block/whiteblackfloorinvertedslab"
+    },
+    "type=top": {
+      "model": "fd:block/whiteblackfloorinvertedslab_top"
+    },
+    "type=double": {
+      "model": "fd:block/whiteblackfloorinvertedslab_full"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "fd:bluearcadefloor_1stairs",
+    "fd:redarcadefloor_1stairs",
+    "fd:floorffdstairs",
+    "fd:floorrednbluestairs",
+    "fd:floorwhitestairs",
+    "fd:floorbluestairs",
+    "fd:floorredstairs"
+  ]
+}

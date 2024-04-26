@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "new_office_door_open",
+	"ambientocclusion": false,
+	"elements": [
+		{
+			"from": [0, 27, 5],
+			"to": [16, 32, 11],
+			"faces": {
+				"north": {"uv": [13, 6.875, 15, 7.5], "texture": "#1"},
+				"east": {"uv": [9.25, 8.875, 10, 9.5], "texture": "#1"},
+				"south": {"uv": [13, 6.875, 15, 7.5], "texture": "#1"},
+				"west": {"uv": [9.25, 8.875, 10, 9.5], "texture": "#1"},
+				"up": {"uv": [13.125, 8.5, 15.125, 9.25], "texture": "#1"},
+				"down": {"uv": [14, 8.25, 16, 9], "texture": "#1"}
+			}
+		}
+	]
+}

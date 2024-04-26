@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "fd:block/middle_2",
+    "top": "fd:block/middle_2",
+    "side": "fd:block/redwall_2",
+    "overlay": "fd:block/redwall_2",
+    "particle": "fd:block/middle_2"
+  },
+  "render_type": "solid"
+}

@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.fnafsdecorationsport.entity.ToychicashowtimeEntity;
 import net.mcreator.fnafsdecorationsport.entity.FreddyfazbearidleEntity;
 import net.mcreator.fnafsdecorationsport.entity.FreddyfazbearEntity;
 import net.mcreator.fnafsdecorationsport.entity.FoxyidleEntity;
@@ -58,6 +59,10 @@ public class FdModEntities {
 			EntityType.Builder.<FoxyidleEntity>of(FoxyidleEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FoxyidleEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ToychicashowtimeEntity>> TOYCHICASHOWTIME = register("toychicashowtime",
+			EntityType.Builder.<ToychicashowtimeEntity>of(ToychicashowtimeEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ToychicashowtimeEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -75,6 +80,7 @@ public class FdModEntities {
 			ChicachickenidleEntity.init();
 			FoxyEntity.init();
 			FoxyidleEntity.init();
+			ToychicashowtimeEntity.init();
 		});
 	}
 
@@ -89,5 +95,6 @@ public class FdModEntities {
 		event.put(CHICACHICKENIDLE.get(), ChicachickenidleEntity.createAttributes().build());
 		event.put(FOXY.get(), FoxyEntity.createAttributes().build());
 		event.put(FOXYIDLE.get(), FoxyidleEntity.createAttributes().build());
+		event.put(TOYCHICASHOWTIME.get(), ToychicashowtimeEntity.createAttributes().build());
 	}
 }

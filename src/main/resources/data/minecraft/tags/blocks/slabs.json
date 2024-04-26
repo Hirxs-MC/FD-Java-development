@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "fd:bluearcadefloor_1slab",
+    "fd:redarcadefloor_1slab",
+    "fd:floorffdslab",
+    "fd:floorrednblueslab",
+    "fd:floorwhiteslab",
+    "fd:floorblueslab",
+    "fd:floorredslab"
+  ]
+}

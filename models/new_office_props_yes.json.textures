@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "office_decors_fan_on"
+      },
+      "name": "default"
+    }
+  }
+}

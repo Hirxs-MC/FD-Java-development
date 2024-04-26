@@ -27,7 +27,7 @@ public class SwitchonblockrightclickedProcedure {
 		if (FdModBlocks.SWITCHON.get() == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"fill ~25 ~-5 ~-25 ~-25 ~8 ~25 fd:pizzerialightoff replace fd:pizzeria_light_on");
+						"fill ~20 ~-5 ~-20 ~-20 ~8 ~20 fd:pizzerialightoff replace fd:pizzeria_light_on");
 			{
 				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockState _bs = FdModBlocks.SWITCHOFF.get().defaultBlockState();

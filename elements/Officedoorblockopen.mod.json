@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "office_door_open1:default",
+    "customModelName": "new_office_door_open:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,

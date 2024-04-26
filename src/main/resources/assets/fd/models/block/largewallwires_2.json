@@ -2,8 +2,7 @@
   "parent": "fd:custom/large_wall_wires_2",
   "textures": {
     "all": "fd:block/large_wall_wires_2",
-    "particle": "fd:block/large_wall_wires_2",
-    "0": "fd:block/large_wall_wires_2"
+    "particle": "fd:block/large_wall_wires_2"
   },
   "render_type": "cutout"
 }

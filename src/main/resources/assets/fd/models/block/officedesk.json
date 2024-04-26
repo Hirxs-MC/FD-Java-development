@@ -1,9 +1,9 @@
 {
-  "parent": "fd:custom/office_desk",
+  "parent": "fd:custom/new_office_desk",
   "textures": {
-    "all": "fd:block/fafn",
-    "particle": "fd:block/fafn",
-    "0": "fd:block/fafn"
+    "all": "fd:block/new_office_desk_off",
+    "particle": "fd:block/new_office_desk_off",
+    "3": "fd:block/new_office_desk_off"
   },
   "render_type": "cutout"
 }

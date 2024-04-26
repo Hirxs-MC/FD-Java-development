@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/table_test_south",
+  "textures": {
+    "all": "fd:block/party_table",
+    "particle": "fd:block/party_table",
+    "0": "fd:block/party_table"
+  },
+  "render_type": "cutout"
+}

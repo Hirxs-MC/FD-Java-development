@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.fnafsdecorationsport.client.renderer.ToychicashowtimeRenderer;
 import net.mcreator.fnafsdecorationsport.client.renderer.FreddyfazbearidleRenderer;
 import net.mcreator.fnafsdecorationsport.client.renderer.FreddyfazbearRenderer;
 import net.mcreator.fnafsdecorationsport.client.renderer.FoxyidleRenderer;
@@ -32,5 +33,6 @@ public class FdModEntityRenderers {
 		event.registerEntityRenderer(FdModEntities.CHICACHICKENIDLE.get(), ChicachickenidleRenderer::new);
 		event.registerEntityRenderer(FdModEntities.FOXY.get(), FoxyRenderer::new);
 		event.registerEntityRenderer(FdModEntities.FOXYIDLE.get(), FoxyidleRenderer::new);
+		event.registerEntityRenderer(FdModEntities.TOYCHICASHOWTIME.get(), ToychicashowtimeRenderer::new);
 	}
 }

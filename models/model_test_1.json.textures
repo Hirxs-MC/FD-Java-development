@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "missing": "new_cupcake"
+      },
+      "name": "default"
+    }
+  }
+}

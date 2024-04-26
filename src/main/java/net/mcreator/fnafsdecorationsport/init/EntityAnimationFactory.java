@@ -4,6 +4,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.living.LivingEvent;
 
+import net.mcreator.fnafsdecorationsport.entity.ToychicashowtimeEntity;
 import net.mcreator.fnafsdecorationsport.entity.FreddyfazbearidleEntity;
 import net.mcreator.fnafsdecorationsport.entity.FreddyfazbearEntity;
 import net.mcreator.fnafsdecorationsport.entity.FoxyidleEntity;
@@ -68,6 +69,13 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof FoxyidleEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof ToychicashowtimeEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

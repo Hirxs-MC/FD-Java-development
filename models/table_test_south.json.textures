@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "party_table"
+      },
+      "name": "default"
+    }
+  }
+}

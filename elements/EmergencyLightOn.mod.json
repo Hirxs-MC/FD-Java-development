@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "emergency_lightom_-_converted:default",
+    "customModelName": "emergency_light.geo_-_converted:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,

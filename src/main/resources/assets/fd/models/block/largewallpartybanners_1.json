@@ -2,8 +2,7 @@
   "parent": "fd:custom/large_wall_banners_1",
   "textures": {
     "all": "fd:block/large_banners_1",
-    "particle": "fd:block/large_banners_1",
-    "0": "fd:block/large_banners_1"
+    "particle": "fd:block/large_banners_1"
   },
   "render_type": "cutout"
 }

@@ -1,0 +1,277 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "box_1",
+  "elements": [
+    {
+      "name": "bb_main",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            9.75,
+            4,
+            13.75
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            8,
+            9.75,
+            12,
+            13.75
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            9.75,
+            4,
+            13.75
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            4,
+            9.75,
+            8,
+            13.75
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            12,
+            9.75,
+            16,
+            13.75
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "bb_main",
+      "from": [
+        0,
+        0.5,
+        0
+      ],
+      "to": [
+        16,
+        0.5,
+        16
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12,
+            9.75,
+            16,
+            13.75
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "bb_main",
+      "from": [
+        8,
+        16,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "z",
+        "origin": [
+          12,
+          16,
+          8
+        ]
+      },
+      "faces": {
+        "up": {
+          "uv": [
+            10,
+            9.75,
+            8,
+            5.75
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "bb_main",
+      "from": [
+        0,
+        16,
+        0
+      ],
+      "to": [
+        8,
+        16,
+        16
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "z",
+        "origin": [
+          4,
+          16,
+          8
+        ]
+      },
+      "faces": {
+        "up": {
+          "uv": [
+            12,
+            9.75,
+            10,
+            5.75
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        0,
+        -2.25
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        0,
+        -2.25
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        -3.25,
+        4.75,
+        3.75
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "firstperson_lefthand": {
+      "translation": [
+        -3.25,
+        4.75,
+        3.75
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "ground": {
+      "translation": [
+        -0.25,
+        0,
+        -0.25
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "gui": {
+      "rotation": [
+        25,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -2.25
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "fixed": {
+      "translation": [
+        -0.25,
+        0,
+        -1
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "bone2",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "nbt": "{}",
+      "children": [
+        {
+          "name": "bb_main",
+          "origin": [
+            0,
+            0,
+            0
+          ],
+          "color": 1,
+          "nbt": "{}",
+          "children": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    }
+  ]
+}
