@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "large_wall_stars_4"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cover_3"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "large_wall_wires_3"
+      },
+      "name": "default"
+    }
+  }
+}

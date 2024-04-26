@@ -1,6 +1,21 @@
 
 package net.mcreator.fnafsdecorationsport.client.renderer;
 
+import software.bernie.geckolib.renderer.GeoEntityRenderer;
+import software.bernie.geckolib.cache.object.BakedGeoModel;
+
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
+
+import net.mcreator.fnafsdecorationsport.entity.model.BonniebunnyidleModel;
+import net.mcreator.fnafsdecorationsport.entity.layer.BonniebunnyidleLayer;
+import net.mcreator.fnafsdecorationsport.entity.BonniebunnyidleEntity;
+
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
 public class BonniebunnyidleRenderer extends GeoEntityRenderer<BonniebunnyidleEntity> {
 	public BonniebunnyidleRenderer(EntityRendererProvider.Context renderManager) {
 		super(renderManager, new BonniebunnyidleModel());
@@ -21,5 +36,4 @@ public class BonniebunnyidleRenderer extends GeoEntityRenderer<BonniebunnyidleEn
 		this.scaleWidth = scale;
 		super.preRender(poseStack, entity, model, bufferSource, buffer, isReRender, partialTick, packedLight, packedOverlay, red, green, blue, alpha);
 	}
-
 }

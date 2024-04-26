@@ -1,8 +1,18 @@
 package net.mcreator.fnafsdecorationsport.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.level.block.state.properties.Property;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.core.Direction;
+import net.minecraft.core.BlockPos;
 
-import javax.annotation.Nullable;
+import net.mcreator.fnafsdecorationsport.init.FdModBlocks;
+
+import java.util.Map;
 
 public class TestconnectplacedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
@@ -39,7 +49,7 @@ public class TestconnectplacedProcedure {
 		}.getDirection(BlockPos.containing(x, y, z))) == Direction.NORTH && (world.getBlockState(BlockPos.containing(x + 1, y, z))).getBlock() == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {
 			{
 				BlockPos _bp = BlockPos.containing(x, y, z);
-				BlockState _bs = FdModItems.DELETED_MOD_ELEMENT.get().defaultBlockState();
+				BlockState _bs = FdModBlocks.TABLESOUTH.get().defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 					Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
@@ -81,7 +91,7 @@ public class TestconnectplacedProcedure {
 		}.getDirection(BlockPos.containing(x, y, z))) == Direction.NORTH && (world.getBlockState(BlockPos.containing(x - 1, y, z))).getBlock() == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {
 			{
 				BlockPos _bp = BlockPos.containing(x, y, z);
-				BlockState _bs = FdModItems.DELETED_MOD_ELEMENT.get().defaultBlockState();
+				BlockState _bs = FdModBlocks.TABLESOUTH.get().defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 					Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
@@ -123,7 +133,7 @@ public class TestconnectplacedProcedure {
 		}.getDirection(BlockPos.containing(x, y, z))) == Direction.NORTH && (world.getBlockState(BlockPos.containing(x, y, z + 1))).getBlock() == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {
 			{
 				BlockPos _bp = BlockPos.containing(x, y, z);
-				BlockState _bs = FdModItems.DELETED_MOD_ELEMENT.get().defaultBlockState();
+				BlockState _bs = FdModBlocks.TABLESOUTH.get().defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 					Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
@@ -165,7 +175,7 @@ public class TestconnectplacedProcedure {
 		}.getDirection(BlockPos.containing(x, y, z))) == Direction.NORTH && (world.getBlockState(BlockPos.containing(x, y, z - 1))) == (world.getBlockState(BlockPos.containing(x, y, z)))) {
 			{
 				BlockPos _bp = BlockPos.containing(x, y, z);
-				BlockState _bs = FdModItems.DELETED_MOD_ELEMENT.get().defaultBlockState();
+				BlockState _bs = FdModBlocks.TABLESOUTH.get().defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 					Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());

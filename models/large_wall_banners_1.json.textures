@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "large_banners_1"
+      },
+      "name": "default"
+    }
+  }
+}
