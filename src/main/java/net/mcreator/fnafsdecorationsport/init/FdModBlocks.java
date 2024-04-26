@@ -534,8 +534,8 @@ public class FdModBlocks {
 	public static final RegistryObject<Block> WOODENWALLBROWNSINGLE = REGISTRY.register("woodenwallbrownsingle", () -> new WoodenwallbrownsingleBlock());
 	public static final RegistryObject<Block> WOODENWALLBROWNTOP = REGISTRY.register("woodenwallbrowntop", () -> new WoodenwallbrowntopBlock());
 	public static final RegistryObject<Block> WOODENWALLBROWNTOPDIRTY = REGISTRY.register("woodenwallbrowntopdirty", () -> new WoodenwallbrowntopdirtyBlock());
-	public static final RegistryObject<Block> FLOORGREENBLUE = REGISTRY.register("floorgreenblue", () -> new FloorgreenblueBlock());
 	public static final RegistryObject<Block> LARGEWALLWIRES_1 = REGISTRY.register("largewallwires_1", () -> new Largewallwires1Block());
+	public static final RegistryObject<Block> FLOORGREENBLUE = REGISTRY.register("floorgreenblue", () -> new FloorgreenblueBlock());
 	public static final RegistryObject<Block> FLOORYELLOWBLUE = REGISTRY.register("flooryellowblue", () -> new FlooryellowblueBlock());
 	public static final RegistryObject<Block> LARGEWALLWIRES_2 = REGISTRY.register("largewallwires_2", () -> new Largewallwires2Block());
 	public static final RegistryObject<Block> CUPCAKE = REGISTRY.register("cupcake", () -> new CupcakeBlock());
@@ -543,10 +543,10 @@ public class FdModBlocks {
 	public static final RegistryObject<Block> LARGEWALLSTARS_1 = REGISTRY.register("largewallstars_1", () -> new Largewallstars1Block());
 	public static final RegistryObject<Block> FNAF_2WALLUPPERCONFETTI_2 = REGISTRY.register("fnaf_2wallupperconfetti_2", () -> new Fnaf2wallupperconfetti2Block());
 	public static final RegistryObject<Block> LARGEWALLSTARS_2 = REGISTRY.register("largewallstars_2", () -> new Largewallstars2Block());
-	public static final RegistryObject<Block> FLOORGREENBLUESTAIR = REGISTRY.register("floorgreenbluestair", () -> new FloorgreenbluestairBlock());
 	public static final RegistryObject<Block> LARGEWALLSTARS_3 = REGISTRY.register("largewallstars_3", () -> new Largewallstars3Block());
-	public static final RegistryObject<Block> FLOORGREENBLUESLAB = REGISTRY.register("floorgreenblueslab", () -> new FloorgreenblueslabBlock());
+	public static final RegistryObject<Block> FLOORGREENBLUESTAIR = REGISTRY.register("floorgreenbluestair", () -> new FloorgreenbluestairBlock());
 	public static final RegistryObject<Block> LARGEWALLSTARS_4 = REGISTRY.register("largewallstars_4", () -> new Largewallstars4Block());
+	public static final RegistryObject<Block> FLOORGREENBLUESLAB = REGISTRY.register("floorgreenblueslab", () -> new FloorgreenblueslabBlock());
 	public static final RegistryObject<Block> FLOORYELLOWBLUESLAB = REGISTRY.register("flooryellowblueslab", () -> new FlooryellowblueslabBlock());
 	public static final RegistryObject<Block> LARGEWALLPAPERCUTS_1 = REGISTRY.register("largewallpapercuts_1", () -> new Largewallpapercuts1Block());
 	public static final RegistryObject<Block> FLOORYELLOWBLUESTAIR = REGISTRY.register("flooryellowbluestair", () -> new FlooryellowbluestairBlock());
@@ -555,7 +555,7 @@ public class FdModBlocks {
 	public static final RegistryObject<Block> LARGEWALLPAPERCUTS_3 = REGISTRY.register("largewallpapercuts_3", () -> new Largewallpapercuts3Block());
 	public static final RegistryObject<Block> WHITEBLACKFLOORINVERTEDSLAB = REGISTRY.register("whiteblackfloorinvertedslab", () -> new WhiteblackfloorinvertedslabBlock());
 	public static final RegistryObject<Block> LARGEWALLPARTYBANNERS_1 = REGISTRY.register("largewallpartybanners_1", () -> new Largewallpartybanners1Block());
-	public static final RegistryObject<Block> WHITEBLACKFLOORINVERTEDSTAIR = REGISTRY.register("whiteblackfloorinvertedstair", () -> new WhiteblackfloorinvertedstairBlock());
 	public static final RegistryObject<Block> LARGEWALLPARTYBANNERS_2 = REGISTRY.register("largewallpartybanners_2", () -> new Largewallpartybanners2Block());
+	public static final RegistryObject<Block> WHITEBLACKFLOORINVERTEDSTAIR = REGISTRY.register("whiteblackfloorinvertedstair", () -> new WhiteblackfloorinvertedstairBlock());
 	public static final RegistryObject<Block> LARGEWALLPARTYBANNERS_3 = REGISTRY.register("largewallpartybanners_3", () -> new Largewallpartybanners3Block());
 }

@@ -1,28 +1,8 @@
 package net.mcreator.fnafsdecorationsport.procedures;
 
-import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.minecraft.world.level.block.state.properties.Property;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.sounds.SoundSource;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.nbt.CompoundTag;
-import net.minecraft.core.particles.SimpleParticleType;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.fnafsdecorationsport.init.FdModParticleTypes;
-import net.mcreator.fnafsdecorationsport.init.FdModItems;
-import net.mcreator.fnafsdecorationsport.init.FdModBlocks;
-
-import java.util.Map;
+import javax.annotation.Nullable;
 
 public class Largewallpapercutschange1Procedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -33,11 +13,10 @@ public class Largewallpapercutschange1Procedure {
 		double sy = 0;
 		double sz = 0;
 		BlockState wheatBlock = Blocks.AIR.defaultBlockState();
-		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == FdModItems.CHANGERTOOL.get()
-				&& FdModBlocks.LARGEWALLPAPERCUTS_1.get() == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == FdModItems.CHANGERTOOL.get() && FdModItems.DELETED_MOD_ELEMENT.get() == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {
 			{
 				BlockPos _bp = BlockPos.containing(x, y, z);
-				BlockState _bs = FdModBlocks.LARGEWALLPAPERCUTS_2.get().defaultBlockState();
+				BlockState _bs = FdModItems.DELETED_MOD_ELEMENT.get().defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 					Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());

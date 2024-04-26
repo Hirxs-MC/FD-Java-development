@@ -279,20 +279,20 @@ public class FdModItems {
 	public static final RegistryObject<Item> WOODENWALLBROWNSINGLE = block(FdModBlocks.WOODENWALLBROWNSINGLE);
 	public static final RegistryObject<Item> WOODENWALLBROWNTOP = block(FdModBlocks.WOODENWALLBROWNTOP);
 	public static final RegistryObject<Item> WOODENWALLBROWNTOPDIRTY = block(FdModBlocks.WOODENWALLBROWNTOPDIRTY);
-	public static final RegistryObject<Item> FLOORGREENBLUE = block(FdModBlocks.FLOORGREENBLUE);
 	public static final RegistryObject<Item> LARGEWALLWIRES_1 = block(FdModBlocks.LARGEWALLWIRES_1);
+	public static final RegistryObject<Item> FLOORGREENBLUE = block(FdModBlocks.FLOORGREENBLUE);
 	public static final RegistryObject<Item> FLOORYELLOWBLUE = block(FdModBlocks.FLOORYELLOWBLUE);
 	public static final RegistryObject<Item> LARGEWALLWIRES_2 = block(FdModBlocks.LARGEWALLWIRES_2);
 	public static final RegistryObject<Item> CUPCAKE = block(FdModBlocks.CUPCAKE);
 	public static final RegistryObject<Item> LARGEWALLWIRES_3 = block(FdModBlocks.LARGEWALLWIRES_3);
-	public static final RegistryObject<Item> TOYCHICASHOWTIME_SPAWN_EGG = REGISTRY.register("toychicashowtime_spawn_egg", () -> new ForgeSpawnEggItem(FdModEntities.TOYCHICASHOWTIME, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> LARGEWALLSTARS_1 = block(FdModBlocks.LARGEWALLSTARS_1);
+	public static final RegistryObject<Item> TOYCHICASHOWTIME_SPAWN_EGG = REGISTRY.register("toychicashowtime_spawn_egg", () -> new ForgeSpawnEggItem(FdModEntities.TOYCHICASHOWTIME, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> FNAF_2WALLUPPERCONFETTI_2 = block(FdModBlocks.FNAF_2WALLUPPERCONFETTI_2);
 	public static final RegistryObject<Item> LARGEWALLSTARS_2 = block(FdModBlocks.LARGEWALLSTARS_2);
-	public static final RegistryObject<Item> FLOORGREENBLUESTAIR = block(FdModBlocks.FLOORGREENBLUESTAIR);
 	public static final RegistryObject<Item> LARGEWALLSTARS_3 = block(FdModBlocks.LARGEWALLSTARS_3);
-	public static final RegistryObject<Item> FLOORGREENBLUESLAB = block(FdModBlocks.FLOORGREENBLUESLAB);
+	public static final RegistryObject<Item> FLOORGREENBLUESTAIR = block(FdModBlocks.FLOORGREENBLUESTAIR);
 	public static final RegistryObject<Item> LARGEWALLSTARS_4 = block(FdModBlocks.LARGEWALLSTARS_4);
+	public static final RegistryObject<Item> FLOORGREENBLUESLAB = block(FdModBlocks.FLOORGREENBLUESLAB);
 	public static final RegistryObject<Item> FLOORYELLOWBLUESLAB = block(FdModBlocks.FLOORYELLOWBLUESLAB);
 	public static final RegistryObject<Item> LARGEWALLPAPERCUTS_1 = block(FdModBlocks.LARGEWALLPAPERCUTS_1);
 	public static final RegistryObject<Item> FLOORYELLOWBLUESTAIR = block(FdModBlocks.FLOORYELLOWBLUESTAIR);
@@ -301,8 +301,8 @@ public class FdModItems {
 	public static final RegistryObject<Item> LARGEWALLPAPERCUTS_3 = block(FdModBlocks.LARGEWALLPAPERCUTS_3);
 	public static final RegistryObject<Item> WHITEBLACKFLOORINVERTEDSLAB = block(FdModBlocks.WHITEBLACKFLOORINVERTEDSLAB);
 	public static final RegistryObject<Item> LARGEWALLPARTYBANNERS_1 = block(FdModBlocks.LARGEWALLPARTYBANNERS_1);
-	public static final RegistryObject<Item> WHITEBLACKFLOORINVERTEDSTAIR = block(FdModBlocks.WHITEBLACKFLOORINVERTEDSTAIR);
 	public static final RegistryObject<Item> LARGEWALLPARTYBANNERS_2 = block(FdModBlocks.LARGEWALLPARTYBANNERS_2);
+	public static final RegistryObject<Item> WHITEBLACKFLOORINVERTEDSTAIR = block(FdModBlocks.WHITEBLACKFLOORINVERTEDSTAIR);
 	public static final RegistryObject<Item> LARGEWALLPARTYBANNERS_3 = block(FdModBlocks.LARGEWALLPARTYBANNERS_3);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
