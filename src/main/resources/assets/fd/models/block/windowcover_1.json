@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/window_cover_1",
   "textures": {
-    "all": "fd:block/sombrilla",
-    "particle": "fd:block/sombrilla",
-    "0": "fd:block/sombrilla"
+    "all": "fd:blocks/sombrilla",
+    "particle": "fd:blocks/sombrilla",
+    "0": "fd:blocks/sombrilla"
   },
   "render_type": "cutout"
 }

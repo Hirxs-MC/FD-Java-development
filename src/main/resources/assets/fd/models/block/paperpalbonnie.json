@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/n_paperlpal_3",
+  "textures": {
+    "all": "fd:blocks/2_2",
+    "particle": "fd:blocks/2_2",
+    "0": "fd:blocks/2_2"
+  },
+  "render_type": "cutout"
+}

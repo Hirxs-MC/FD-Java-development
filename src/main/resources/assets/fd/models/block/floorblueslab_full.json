@@ -1,9 +1,9 @@
 {
   "parent": "block/cube_bottom_top",
   "textures": {
-    "bottom": "fd:block/hgdf",
-    "top": "fd:block/hgdf",
-    "side": "fd:block/hgdf"
+    "bottom": "fd:blocks/hgdf",
+    "top": "fd:blocks/hgdf",
+    "side": "fd:blocks/hgdf"
   },
   "render_type": "solid"
 }

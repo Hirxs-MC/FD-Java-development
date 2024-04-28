@@ -1,9 +1,9 @@
 {
   "parent": "block/outer_stairs",
   "textures": {
-    "bottom": "fd:block/fg",
-    "top": "fd:block/fg",
-    "side": "fd:block/fg"
+    "bottom": "fd:blocks/fg",
+    "top": "fd:blocks/fg",
+    "side": "fd:blocks/fg"
   },
   "render_type": "solid"
 }

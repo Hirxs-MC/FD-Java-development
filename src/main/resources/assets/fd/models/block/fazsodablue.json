@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/fazsoda_blue",
   "textures": {
-    "all": "fd:block/soda_blue",
-    "particle": "fd:block/soda_blue",
-    "0": "fd:block/soda_blue"
+    "all": "fd:blocks/soda_blue",
+    "particle": "fd:blocks/soda_blue",
+    "0": "fd:blocks/soda_blue"
   },
   "render_type": "cutout"
 }

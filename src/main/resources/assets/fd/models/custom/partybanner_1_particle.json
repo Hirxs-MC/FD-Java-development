@@ -1,6 +1,6 @@
 {
   "parent": "fd:displaysettings/n_party_banner_1.item",
   "textures": {
-    "particle": "fd:block/party_banner_1"
+    "particle": "fd:blocks/party_banner_1"
   }
 }

@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fd:block/e"
+    "layer0": "fd:blocks/e"
   },
   "render_type": "cutout"
 }

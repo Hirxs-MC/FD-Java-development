@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fd:item/stars4"
+    "layer0": "fd:items/stars4"
   },
   "render_type": "translucent"
 }

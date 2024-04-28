@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "celling_large_light"
+      },
+      "name": "default"
+    }
+  }
+}

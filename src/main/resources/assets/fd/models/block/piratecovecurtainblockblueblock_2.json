@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fd:block/blue_4",
-    "particle": "fd:block/blue_4"
+    "all": "fd:blocks/blue_4",
+    "particle": "fd:blocks/blue_4"
   },
   "render_type": "solid"
 }

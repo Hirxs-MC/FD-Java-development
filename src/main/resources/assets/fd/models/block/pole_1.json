@@ -1,10 +1,10 @@
 {
   "parent": "fd:custom/pole.geo_-_converted",
   "textures": {
-    "all": "fd:block/pole",
-    "particle": "fd:block/pole",
-    "2": "fd:block/pole",
-    "missing": "fd:block/"
+    "all": "fd:blocks/pole",
+    "particle": "fd:blocks/pole",
+    "2": "fd:blocks/pole",
+    "missing": "fd:blocks/"
   },
   "render_type": "cutout_mipped"
 }

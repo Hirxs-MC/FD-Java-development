@@ -7,7 +7,7 @@ public class PartykidschairblueOnBlockRightClickedProcedure {
 		if (entity == null)
 			return;
 		if (entity.isVehicle() == false) {
-			if (!entity.level().isClientSide())
+			if (!entity.level.isClientSide())
 				entity.discard();
 		}
 	}

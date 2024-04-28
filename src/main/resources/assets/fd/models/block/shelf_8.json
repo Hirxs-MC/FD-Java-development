@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/new_shelf_fredbear",
   "textures": {
-    "all": "fd:block/6",
-    "particle": "fd:block/6",
-    "0": "fd:block/6"
+    "all": "fd:blocks/6",
+    "particle": "fd:blocks/6",
+    "0": "fd:blocks/6"
   },
   "render_type": "cutout"
 }

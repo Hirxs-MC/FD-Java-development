@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fd:block/interior_ffd_wall_middle",
-    "particle": "fd:block/interior_ffd_wall_middle"
+    "all": "fd:blocks/interior_ffd_wall_middle",
+    "particle": "fd:blocks/interior_ffd_wall_middle"
   },
   "render_type": "cutout_mipped"
 }

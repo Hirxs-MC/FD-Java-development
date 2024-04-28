@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/arcade",
   "textures": {
-    "all": "fd:block/base",
-    "particle": "fd:block/base",
-    "0": "fd:block/base"
+    "all": "fd:blocks/base",
+    "particle": "fd:blocks/base",
+    "0": "fd:blocks/base"
   },
   "render_type": "cutout"
 }

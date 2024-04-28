@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/acurtain2",
   "textures": {
-    "all": "fd:block/0red",
-    "particle": "fd:block/0red",
-    "missing": "fd:block/0red"
+    "all": "fd:blocks/0red",
+    "particle": "fd:blocks/0red",
+    "missing": "fd:blocks/0red"
   },
   "render_type": "cutout_mipped"
 }

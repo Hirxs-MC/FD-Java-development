@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "emergency_light_on",
+    "texture": "fix_emergency_light_on",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",

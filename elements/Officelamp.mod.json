@@ -24,15 +24,6 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 6.79289,
-        "my": 10.0,
-        "mz": 7.29289,
-        "Mx": 9.79289,
-        "My": 16.0,
-        "Mz": 7.29289,
-        "subtract": false
-      },
-      {
         "mx": 6.5,
         "my": 2.0,
         "mz": 6.5,
@@ -103,18 +94,9 @@
         "My": 5.4,
         "Mz": 9.9,
         "subtract": false
-      },
-      {
-        "mx": 9.79289,
-        "my": 16.0,
-        "mz": 7.29289,
-        "Mx": 6.79289,
-        "My": 10.0,
-        "Mz": 7.29289,
-        "subtract": false
       }
     ],
-    "name": "Office lamp",
+    "name": "Office Lamp (Black)",
     "specialInformation": {
       "fixedValue": []
     },

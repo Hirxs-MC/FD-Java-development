@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/n_celling_large_light",
+  "textures": {
+    "all": "fd:blocks/celling_large_light",
+    "particle": "fd:blocks/celling_large_light",
+    "0": "fd:blocks/celling_large_light"
+  },
+  "render_type": "cutout"
+}

@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/stage_clouds",
   "textures": {
-    "all": "fd:block/clouds",
-    "particle": "fd:block/clouds",
-    "0": "fd:block/clouds"
+    "all": "fd:blocks/clouds",
+    "particle": "fd:blocks/clouds",
+    "0": "fd:blocks/clouds"
   },
   "render_type": "cutout"
 }

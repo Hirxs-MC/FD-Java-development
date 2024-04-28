@@ -4,8 +4,8 @@ package net.mcreator.fnafsdecorationsport.block;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.level.storage.loot.LootParams;
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -21,12 +21,12 @@ import java.util.Collections;
 
 public class FazsodablueBlock extends Block {
 	public FazsodablueBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
+	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
 		list.add(Component.literal("\u963F (without variations)"));
 	}
 
@@ -51,7 +51,7 @@ public class FazsodablueBlock extends Block {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

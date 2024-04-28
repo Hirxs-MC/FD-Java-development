@@ -1,13 +1,14 @@
 package net.mcreator.fnafsdecorationsport.block.entity;
 
-import software.bernie.geckolib.util.GeckoLibUtil;
-import software.bernie.geckolib.core.object.PlayState;
-import software.bernie.geckolib.core.animation.RawAnimation;
-import software.bernie.geckolib.core.animation.AnimationState;
-import software.bernie.geckolib.core.animation.AnimationController;
-import software.bernie.geckolib.core.animation.AnimatableManager;
-import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
-import software.bernie.geckolib.animatable.GeoBlockEntity;
+import software.bernie.geckolib3.util.GeckoLibUtil;
+import software.bernie.geckolib3.core.manager.AnimationFactory;
+import software.bernie.geckolib3.core.manager.AnimationData;
+import software.bernie.geckolib3.core.event.predicate.AnimationEvent;
+import software.bernie.geckolib3.core.controller.AnimationController;
+import software.bernie.geckolib3.core.builder.ILoopType.EDefaultLoopTypes;
+import software.bernie.geckolib3.core.builder.AnimationBuilder;
+import software.bernie.geckolib3.core.PlayState;
+import software.bernie.geckolib3.core.IAnimatable;
 
 import net.minecraftforge.items.wrapper.SidedInvWrapper;
 import net.minecraftforge.items.IItemHandler;
@@ -18,6 +19,7 @@ import net.minecraftforge.common.capabilities.Capability;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.ChestMenu;
 import net.minecraft.world.inventory.AbstractContainerMenu;
@@ -37,8 +39,8 @@ import javax.annotation.Nullable;
 
 import java.util.stream.IntStream;
 
-public class CarouselTileEntity extends RandomizableContainerBlockEntity implements GeoBlockEntity, WorldlyContainer {
-	private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
+public class CarouselTileEntity extends RandomizableContainerBlockEntity implements IAnimatable, WorldlyContainer {
+	public AnimationFactory factory = GeckoLibUtil.createFactory(this);
 	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(9, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
@@ -46,22 +48,23 @@ public class CarouselTileEntity extends RandomizableContainerBlockEntity impleme
 		super(FdModBlockEntities.CAROUSEL.get(), pos, state);
 	}
 
-	private PlayState predicate(AnimationState event) {
+	private <E extends BlockEntity & IAnimatable> PlayState predicate(AnimationEvent<E> event) {
 		String animationprocedure = ("" + ((this.getBlockState()).getBlock().getStateDefinition().getProperty("animation") instanceof IntegerProperty _getip1 ? (this.getBlockState()).getValue(_getip1) : 0));
 		if (animationprocedure.equals("0")) {
-			return event.setAndContinue(RawAnimation.begin().thenLoop(animationprocedure));
+			event.getController().setAnimation(new AnimationBuilder().addAnimation(animationprocedure, EDefaultLoopTypes.LOOP));
+			return PlayState.CONTINUE;
 		}
 		return PlayState.STOP;
 	}
 
-	private PlayState procedurePredicate(AnimationState event) {
+	private <E extends BlockEntity & IAnimatable> PlayState procedurePredicate(AnimationEvent<E> event) {
 		String animationprocedure = ("" + ((this.getBlockState()).getBlock().getStateDefinition().getProperty("animation") instanceof IntegerProperty _getip1 ? (this.getBlockState()).getValue(_getip1) : 0));
-		if (!animationprocedure.equals("0") && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
-			event.getController().setAnimation(RawAnimation.begin().thenPlay(animationprocedure));
-			if (event.getController().getAnimationState() == AnimationController.State.STOPPED) {
+		if (!animationprocedure.equals("0") && event.getController().getAnimationState().equals(software.bernie.geckolib3.core.AnimationState.Stopped)) {
+			event.getController().setAnimation(new AnimationBuilder().addAnimation(animationprocedure, EDefaultLoopTypes.PLAY_ONCE));
+			if (event.getController().getAnimationState().equals(software.bernie.geckolib3.core.AnimationState.Stopped)) {
 				if (this.getBlockState().getBlock().getStateDefinition().getProperty("animation") instanceof IntegerProperty _integerProp)
 					level.setBlock(this.getBlockPos(), this.getBlockState().setValue(_integerProp, 0), 3);
-				event.getController().forceAnimationReset();
+				event.getController().markNeedsReload();
 			}
 		} else if (animationprocedure.equals("0")) {
 			return PlayState.STOP;
@@ -70,14 +73,14 @@ public class CarouselTileEntity extends RandomizableContainerBlockEntity impleme
 	}
 
 	@Override
-	public void registerControllers(AnimatableManager.ControllerRegistrar data) {
-		data.add(new AnimationController<CarouselTileEntity>(this, "controller", 0, this::predicate));
-		data.add(new AnimationController<CarouselTileEntity>(this, "procedurecontroller", 0, this::procedurePredicate));
+	public void registerControllers(AnimationData data) {
+		data.addAnimationController(new AnimationController<CarouselTileEntity>(this, "controller", 0, this::predicate));
+		data.addAnimationController(new AnimationController<CarouselTileEntity>(this, "procedurecontroller", 0, this::procedurePredicate));
 	}
 
 	@Override
-	public AnimatableInstanceCache getAnimatableInstanceCache() {
-		return this.cache;
+	public AnimationFactory getFactory() {
+		return factory;
 	}
 
 	@Override

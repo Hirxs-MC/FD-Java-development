@@ -1,11 +1,11 @@
 {
   "parent": "block/grass_block",
   "textures": {
-    "bottom": "fd:block/interior_ffd_wall_middle",
-    "top": "fd:block/interior_ffd_wall_middle",
-    "side": "fd:block/interior_ffd_wall_tile",
-    "overlay": "fd:block/interior_ffd_wall_tile",
-    "particle": "fd:block/interior_ffd_wall_middle"
+    "bottom": "fd:blocks/interior_ffd_wall_middle",
+    "top": "fd:blocks/interior_ffd_wall_middle",
+    "side": "fd:blocks/interior_ffd_wall_tile",
+    "overlay": "fd:blocks/interior_ffd_wall_tile",
+    "particle": "fd:blocks/interior_ffd_wall_middle"
   },
   "render_type": "cutout_mipped"
 }

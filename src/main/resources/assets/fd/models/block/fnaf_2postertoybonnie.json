@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/fnaf_2_posters_bonnie",
   "textures": {
-    "all": "fd:block/fnaf2_poster_2",
-    "particle": "fd:block/fnaf2_poster_2",
-    "1": "fd:block/fnaf2_poster_2"
+    "all": "fd:blocks/fnaf2_poster_2",
+    "particle": "fd:blocks/fnaf2_poster_2",
+    "1": "fd:blocks/fnaf2_poster_2"
   },
   "render_type": "cutout_mipped"
 }

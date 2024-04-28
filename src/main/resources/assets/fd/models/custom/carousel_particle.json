@@ -1,6 +1,6 @@
 {
   "parent": "fd:displaysettings/carousel.item",
   "textures": {
-    "particle": "fd:block/carousel_single"
+    "particle": "fd:blocks/carousel_single"
   }
 }

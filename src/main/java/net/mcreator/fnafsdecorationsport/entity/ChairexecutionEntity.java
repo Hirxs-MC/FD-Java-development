@@ -18,7 +18,6 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.Difficulty;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.fnafsdecorationsport.procedures.PartykidschairblueOnBlockRightClickedProcedure;
@@ -31,13 +30,13 @@ public class ChairexecutionEntity extends Monster {
 
 	public ChairexecutionEntity(EntityType<ChairexecutionEntity> type, Level world) {
 		super(type, world);
-		setMaxUpStep(0.6f);
+		maxUpStep = 0.6f;
 		xpReward = 0;
 		setNoAi(true);
 	}
 
 	@Override
-	public Packet<ClientGamePacketListener> getAddEntityPacket() {
+	public Packet<?> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
 	}
 

@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/pole2.geo_-_converted",
   "textures": {
-    "all": "fd:block/pole_2",
-    "particle": "fd:block/pole_2",
-    "0": "fd:block/pole_2"
+    "all": "fd:blocks/pole_2",
+    "particle": "fd:blocks/pole_2",
+    "0": "fd:blocks/pole_2"
   },
   "render_type": "solid"
 }

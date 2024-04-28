@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/acurtain4",
   "textures": {
-    "all": "fd:block/3",
-    "particle": "fd:block/3",
-    "1": "fd:block/3"
+    "all": "fd:blocks/3",
+    "particle": "fd:blocks/3",
+    "1": "fd:blocks/3"
   },
   "render_type": "cutout_mipped"
 }

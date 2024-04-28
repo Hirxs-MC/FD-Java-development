@@ -4,7 +4,8 @@ package net.mcreator.fnafsdecorationsport.block;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -33,13 +34,13 @@ public class OfficedoorblockBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public OfficedoorblockBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
+	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
 	}
 
 	@Override
@@ -91,7 +92,7 @@ public class OfficedoorblockBlock extends Block {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

@@ -8,7 +8,8 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -39,7 +40,7 @@ public class SpringbonnieplushBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public SpringbonnieplushBlock() {
-		super(BlockBehaviour.Properties.of()
+		super(BlockBehaviour.Properties.of(Material.REPLACEABLE_WATER_PLANT)
 				.sound(new ForgeSoundType(1.0f, 1.0f, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fd:plushie_sound")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fd:plushie_sound")),
 						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fd:plushie_sound")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fd:plushie_sound")),
 						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fd:plushie_sound"))))
@@ -48,8 +49,8 @@ public class SpringbonnieplushBlock extends Block {
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
+	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
 	}
 
 	@Override
@@ -70,14 +71,10 @@ public class SpringbonnieplushBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> Shapes.or(box(4.5, 0, 5, 11.5, 7, 11), box(3.5, 8, 4, 12.5, 11, 12), box(4.5, 11, 5, 11.5, 15, 12), box(5.5, 6, 12, 10.5, 10, 14), box(4.5, 15, 8, 7.5, 18, 9), box(8.5, 15, 8, 11.5, 18, 9), box(8.5, 18, 8, 11.5, 22, 9),
-					box(4.5, 18, 8, 7.5, 22, 9), box(4.5, 7, 5, 11.5, 8, 12));
-			case NORTH -> Shapes.or(box(4.5, 0, 5, 11.5, 7, 11), box(3.5, 8, 4, 12.5, 11, 12), box(4.5, 11, 4, 11.5, 15, 11), box(5.5, 6, 2, 10.5, 10, 4), box(8.5, 15, 7, 11.5, 18, 8), box(4.5, 15, 7, 7.5, 18, 8), box(4.5, 18, 7, 7.5, 22, 8),
-					box(8.5, 18, 7, 11.5, 22, 8), box(4.5, 7, 4, 11.5, 8, 11));
-			case EAST -> Shapes.or(box(5, 0, 4.5, 11, 7, 11.5), box(4, 8, 3.5, 12, 11, 12.5), box(5, 11, 4.5, 12, 15, 11.5), box(12, 6, 5.5, 14, 10, 10.5), box(8, 15, 8.5, 9, 18, 11.5), box(8, 15, 4.5, 9, 18, 7.5), box(8, 18, 4.5, 9, 22, 7.5),
-					box(8, 18, 8.5, 9, 22, 11.5), box(5, 7, 4.5, 12, 8, 11.5));
-			case WEST -> Shapes.or(box(5, 0, 4.5, 11, 7, 11.5), box(4, 8, 3.5, 12, 11, 12.5), box(4, 11, 4.5, 11, 15, 11.5), box(2, 6, 5.5, 4, 10, 10.5), box(7, 15, 4.5, 8, 18, 7.5), box(7, 15, 8.5, 8, 18, 11.5), box(7, 18, 8.5, 8, 22, 11.5),
-					box(7, 18, 4.5, 8, 22, 7.5), box(4, 7, 4.5, 11, 8, 11.5));
+			default -> box(3, 0, 3, 13, 15, 13);
+			case NORTH -> box(3, 0, 3, 13, 15, 13);
+			case EAST -> box(3, 0, 3, 13, 15, 13);
+			case WEST -> box(3, 0, 3, 13, 15, 13);
 		};
 	}
 
@@ -100,7 +97,7 @@ public class SpringbonnieplushBlock extends Block {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

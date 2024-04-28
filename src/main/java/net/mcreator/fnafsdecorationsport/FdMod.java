@@ -53,14 +53,13 @@ public class FdMod {
 
 	public FdMod() {
 		MinecraftForge.EVENT_BUS.register(this);
+		FdModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		FdModSounds.REGISTRY.register(bus);
 		FdModBlocks.REGISTRY.register(bus);
-		FdModBlockEntities.REGISTRY.register(bus);
 		FdModItems.REGISTRY.register(bus);
 		FdModEntities.REGISTRY.register(bus);
-
-		FdModTabs.REGISTRY.register(bus);
+		FdModBlockEntities.REGISTRY.register(bus);
 
 		FdModParticleTypes.REGISTRY.register(bus);
 

@@ -24,12 +24,12 @@ import java.util.Map;
 
 public class SwitchoffOnBlockRightClickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (FdModBlocks.SWITCHOFF.get() == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {
+		if (FdModBlocks.SWITCHOFF.get() == (world.getBlockState(new BlockPos(x, y, z))).getBlock()) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"fill ~20 ~-5 ~-20 ~-20 ~8 ~20 fd:pizzeria_light_on replace fd:pizzerialightoff");
 			{
-				BlockPos _bp = BlockPos.containing(x, y, z);
+				BlockPos _bp = new BlockPos(x, y, z);
 				BlockState _bs = FdModBlocks.SWITCHON.get().defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
@@ -59,7 +59,7 @@ public class SwitchoffOnBlockRightClickedProcedure {
 			}
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
-					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wooden_pressure_plate.click_off")), SoundSource.BLOCKS, 1, 1);
+					_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wooden_pressure_plate.click_off")), SoundSource.BLOCKS, 1, 1);
 				} else {
 					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wooden_pressure_plate.click_off")), SoundSource.BLOCKS, 1, 1, false);
 				}

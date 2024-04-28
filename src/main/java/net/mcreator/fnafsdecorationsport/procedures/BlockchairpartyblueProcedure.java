@@ -4,7 +4,6 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.level.block.state.properties.Property;
-import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.LivingEntity;
@@ -31,13 +30,12 @@ public class BlockchairpartyblueProcedure {
 				Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
 				if (property != null && _bs.getValue(property) instanceof Direction _dir)
 					return _dir;
-				else if (_bs.hasProperty(BlockStateProperties.AXIS))
-					return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
-				else if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_AXIS))
-					return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
+				property = _bs.getBlock().getStateDefinition().getProperty("axis");
+				if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
+					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(BlockPos.containing(x, y, z))) == Direction.SOUTH) {
+		}.getDirection(new BlockPos(x, y, z))) == Direction.SOUTH) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"/summon fd:chairexecution ~0.5 ~ ~0.5 {Rotation:[0f,0f],Invulnerable:1,NoAI:1,ActiveEffects:[{Id:14,Amplifier:1,Duration:199999980,ShowParticles:0b}]}");
@@ -54,13 +52,12 @@ public class BlockchairpartyblueProcedure {
 				Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
 				if (property != null && _bs.getValue(property) instanceof Direction _dir)
 					return _dir;
-				else if (_bs.hasProperty(BlockStateProperties.AXIS))
-					return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
-				else if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_AXIS))
-					return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
+				property = _bs.getBlock().getStateDefinition().getProperty("axis");
+				if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
+					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(BlockPos.containing(x, y, z))) == Direction.NORTH) {
+		}.getDirection(new BlockPos(x, y, z))) == Direction.NORTH) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"/summon fd:chairexecution ~0.5 ~ ~0.5 {Rotation:[180f,0f],Invulnerable:1,NoAI:1,ActiveEffects:[{Id:14,Amplifier:1,Duration:199999980,ShowParticles:0b}]}");
@@ -77,13 +74,12 @@ public class BlockchairpartyblueProcedure {
 				Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
 				if (property != null && _bs.getValue(property) instanceof Direction _dir)
 					return _dir;
-				else if (_bs.hasProperty(BlockStateProperties.AXIS))
-					return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
-				else if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_AXIS))
-					return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
+				property = _bs.getBlock().getStateDefinition().getProperty("axis");
+				if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
+					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(BlockPos.containing(x, y, z))) == Direction.EAST) {
+		}.getDirection(new BlockPos(x, y, z))) == Direction.EAST) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"/summon fd:chairexecution ~0.5 ~ ~0.5 {Rotation:[270f,0f],Invulnerable:1,NoAI:1,ActiveEffects:[{Id:14,Amplifier:1,Duration:199999980,ShowParticles:0b}]}");
@@ -100,13 +96,12 @@ public class BlockchairpartyblueProcedure {
 				Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
 				if (property != null && _bs.getValue(property) instanceof Direction _dir)
 					return _dir;
-				else if (_bs.hasProperty(BlockStateProperties.AXIS))
-					return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
-				else if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_AXIS))
-					return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
+				property = _bs.getBlock().getStateDefinition().getProperty("axis");
+				if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
+					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(BlockPos.containing(x, y, z))) == Direction.WEST) {
+		}.getDirection(new BlockPos(x, y, z))) == Direction.WEST) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"/summon fd:chairexecution ~0.5 ~ ~0.5 {Rotation:[90f,0f],Invulnerable:1,NoAI:1,ActiveEffects:[{Id:14,Amplifier:1,Duration:199999980,ShowParticles:0b}]}");
@@ -125,13 +120,12 @@ public class BlockchairpartyblueProcedure {
 					Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
 					if (property != null && _bs.getValue(property) instanceof Direction _dir)
 						return _dir;
-					else if (_bs.hasProperty(BlockStateProperties.AXIS))
-						return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
-					else if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_AXIS))
-						return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
+					property = _bs.getBlock().getStateDefinition().getProperty("axis");
+					if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
+						return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 					return Direction.NORTH;
 				}
-			}.getDirection(BlockPos.containing(x, y, z))) == Direction.SOUTH) {
+			}.getDirection(new BlockPos(x, y, z))) == Direction.SOUTH) {
 				{
 					Entity _ent = entity;
 					_ent.setYRot(0);
@@ -151,13 +145,12 @@ public class BlockchairpartyblueProcedure {
 					Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
 					if (property != null && _bs.getValue(property) instanceof Direction _dir)
 						return _dir;
-					else if (_bs.hasProperty(BlockStateProperties.AXIS))
-						return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
-					else if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_AXIS))
-						return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
+					property = _bs.getBlock().getStateDefinition().getProperty("axis");
+					if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
+						return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 					return Direction.NORTH;
 				}
-			}.getDirection(BlockPos.containing(x, y, z))) == Direction.NORTH) {
+			}.getDirection(new BlockPos(x, y, z))) == Direction.NORTH) {
 				{
 					Entity _ent = entity;
 					_ent.setYRot(180);
@@ -177,13 +170,12 @@ public class BlockchairpartyblueProcedure {
 					Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
 					if (property != null && _bs.getValue(property) instanceof Direction _dir)
 						return _dir;
-					else if (_bs.hasProperty(BlockStateProperties.AXIS))
-						return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
-					else if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_AXIS))
-						return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
+					property = _bs.getBlock().getStateDefinition().getProperty("axis");
+					if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
+						return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 					return Direction.NORTH;
 				}
-			}.getDirection(BlockPos.containing(x, y, z))) == Direction.EAST) {
+			}.getDirection(new BlockPos(x, y, z))) == Direction.EAST) {
 				{
 					Entity _ent = entity;
 					_ent.setYRot(270);
@@ -203,13 +195,12 @@ public class BlockchairpartyblueProcedure {
 					Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
 					if (property != null && _bs.getValue(property) instanceof Direction _dir)
 						return _dir;
-					else if (_bs.hasProperty(BlockStateProperties.AXIS))
-						return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
-					else if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_AXIS))
-						return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.HORIZONTAL_AXIS), Direction.AxisDirection.POSITIVE);
+					property = _bs.getBlock().getStateDefinition().getProperty("axis");
+					if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
+						return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 					return Direction.NORTH;
 				}
-			}.getDirection(BlockPos.containing(x, y, z))) == Direction.WEST) {
+			}.getDirection(new BlockPos(x, y, z))) == Direction.WEST) {
 				{
 					Entity _ent = entity;
 					_ent.setYRot(90);

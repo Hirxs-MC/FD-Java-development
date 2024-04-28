@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/wall_paper_4",
   "textures": {
-    "all": "fd:block/news_paper",
-    "particle": "fd:block/news_paper",
-    "missing": "fd:block/news_paper"
+    "all": "fd:blocks/news_paper",
+    "particle": "fd:blocks/news_paper",
+    "missing": "fd:blocks/news_paper"
   },
   "render_type": "cutout"
 }

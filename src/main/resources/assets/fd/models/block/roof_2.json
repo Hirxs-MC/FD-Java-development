@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fd:block/gray_roof",
-    "particle": "fd:block/gray_roof"
+    "all": "fd:blocks/gray_roof",
+    "particle": "fd:blocks/gray_roof"
   },
   "render_type": "solid"
 }

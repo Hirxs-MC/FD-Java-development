@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/cupcake",
   "textures": {
-    "all": "fd:block/new_cupcake",
-    "particle": "fd:block/new_cupcake",
-    "1": "fd:block/cupcake"
+    "all": "fd:blocks/new_cupcake",
+    "particle": "fd:blocks/new_cupcake",
+    "1": "fd:blocks/cupcake"
   },
   "render_type": "cutout"
 }

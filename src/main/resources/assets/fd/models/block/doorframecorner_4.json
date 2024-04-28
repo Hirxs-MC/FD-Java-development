@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/door_frame_corner_4",
   "textures": {
-    "all": "fd:block/w1",
-    "particle": "fd:block/w1",
-    "1": "fd:block/w1"
+    "all": "fd:blocks/w1",
+    "particle": "fd:blocks/w1",
+    "1": "fd:blocks/w1"
   },
   "render_type": "cutout"
 }

@@ -15,6 +15,6 @@ import net.mcreator.fnafsdecorationsport.client.particle.ChangertoolsparklesPart
 public class FdModParticles {
 	@SubscribeEvent
 	public static void registerParticles(RegisterParticleProvidersEvent event) {
-		event.registerSpriteSet(FdModParticleTypes.CHANGERTOOLSPARKLES.get(), ChangertoolsparklesParticle::provider);
+		event.register(FdModParticleTypes.CHANGERTOOLSPARKLES.get(), ChangertoolsparklesParticle::provider);
 	}
 }

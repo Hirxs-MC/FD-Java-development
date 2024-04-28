@@ -7345,7 +7345,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/fnafsdecorationsport/entity/layer/FreddyfazbearLayer.java",
-          "src/main/resources/data/fd/forge/biome_modifier/freddyfazbear_biome_modifier.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/entity/model/FreddyfazbearModel.java",
           "src/main/java/net/mcreator/fnafsdecorationsport/client/renderer/FreddyfazbearRenderer.java",
           "src/main/resources/assets/fd/models/item/freddyfazbear_spawn_egg.json",
@@ -7363,7 +7362,6 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fd/models/item/bonniebunny_spawn_egg.json",
-          "src/main/resources/data/fd/forge/biome_modifier/bonniebunny_biome_modifier.json",
           "src/main/java/net/mcreator/fnafsdecorationsport/entity/model/BonniebunnyModel.java",
           "src/main/java/net/mcreator/fnafsdecorationsport/client/renderer/BonniebunnyRenderer.java",
           "src/main/java/net/mcreator/fnafsdecorationsport/entity/BonniebunnyEntity.java",
@@ -7463,8 +7461,7 @@
           "src/main/java/net/mcreator/fnafsdecorationsport/entity/layer/FoxyLayer.java",
           "src/main/java/net/mcreator/fnafsdecorationsport/client/renderer/FoxyRenderer.java",
           "src/main/java/net/mcreator/fnafsdecorationsport/entity/FoxyEntity.java",
-          "src/main/resources/assets/fd/models/item/foxy_spawn_egg.json",
-          "src/main/resources/data/fd/forge/biome_modifier/foxy_biome_modifier.json"
+          "src/main/resources/assets/fd/models/item/foxy_spawn_egg.json"
         ]
       }
     },
@@ -11517,6 +11514,86 @@
           "src/main/java/net/mcreator/fnafsdecorationsport/entity/model/ToyfoxyshowtimeModel.java"
         ]
       }
+    },
+    {
+      "name": "Paperpalclassic",
+      "type": "block",
+      "sortid": 529,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paperpalclassic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/blockstates/paperpalclassic.json",
+          "src/main/resources/assets/fd/models/block/paperpalclassic.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/PaperpalclassicBlock.java",
+          "src/main/resources/assets/fd/models/item/paperpalclassic.json"
+        ]
+      }
+    },
+    {
+      "name": "Paperpalfreddy",
+      "type": "block",
+      "sortid": 530,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paperpalfreddy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/item/paperpalfreddy.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/PaperpalfreddyBlock.java",
+          "src/main/resources/assets/fd/models/block/paperpalfreddy.json",
+          "src/main/resources/assets/fd/blockstates/paperpalfreddy.json"
+        ]
+      }
+    },
+    {
+      "name": "Paperpalbonnie",
+      "type": "block",
+      "sortid": 531,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paperpalbonnie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/block/paperpalbonnie.json",
+          "src/main/resources/assets/fd/blockstates/paperpalbonnie.json",
+          "src/main/resources/assets/fd/models/item/paperpalbonnie.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/PaperpalbonnieBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Officelampgray",
+      "type": "block",
+      "sortid": 532,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "officelampgray",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/item/officelampgray.json",
+          "src/main/resources/assets/fd/blockstates/officelampgray.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/OfficelampgrayBlock.java",
+          "src/main/resources/assets/fd/models/block/officelampgray.json"
+        ]
+      }
+    },
+    {
+      "name": "Ceilingpizzerialight",
+      "type": "block",
+      "sortid": 533,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceilingpizzerialight",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fd/models/block/ceilingpizzerialight.json",
+          "src/main/resources/assets/fd/models/item/ceilingpizzerialight.json",
+          "src/main/java/net/mcreator/fnafsdecorationsport/block/CeilingpizzerialightBlock.java",
+          "src/main/resources/assets/fd/blockstates/ceilingpizzerialight.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -11540,6 +11617,7 @@
   ],
   "language_map": {
     "en_us": {
+      "itemGroup.tabtoolkitandmore": "FB\u0026D - Items \u0026 Suits",
       "block.fnafs_decorations.ffdfloor": "Pizzeria Floor (Cyan + Black)",
       "block.fd.purplestagebricks": "Purple Stage Bricks",
       "item.fd.changertool": "Changer tool",
@@ -11554,6 +11632,7 @@
       "block.fd.battingtonwalldownred": "Battingtoon Wall down (Red)",
       "block.fd.monitors_3": "Monitors (Var 3)",
       "block.fd.monitors_4": "Monitors (Var 4)",
+      "block.fd.paperpalclassic": "Paperpal (Classic)",
       "block.fd.partyhatpurple": "Party hats (Purple)",
       "block.fd.battingtonfloor": "Colorful Tiles floor ",
       "block.fd.fanblock": "Office fan",
@@ -11565,9 +11644,10 @@
       "block.fd.largesupplyroomshelves_2": "Large Supply Room Shelves",
       "block.fd.largesupplyroomshelves_3": "Large Supply Room Shelves",
       "block.fd.largesupplyroomshelves_4": "Large Supply Room Shelves",
+      "itemGroup.tabfdposters": "FB\u0026D Posters \u0026 Papers",
       "block.fnafs_decorations.stagedown": "Stage Wall (Down)",
       "block.fnafs_decorations.pizzeria_light_on": "Pizzeria Light 1",
-      "itemGroup.tabfnafs_decorations": "FD Items \u0026 decors",
+      "itemGroup.tabfnafs_decorations": "FB\u0026D Decors",
       "block.fd.supplyroomshelves": "Supply room shelves (empty)",
       "block.fd.floorrednbluestairs": "Pizzeria floor stairs (Red + Blue)",
       "block.fd.largewallwires_3": "Large wall wires (Var 3)",
@@ -11624,6 +11704,7 @@
       "block.fd.wallstructure": "Wall structure",
       "block.fd.fnaf_2posterfourfaces": "FNAF2 Pizzeria Poster (Let\u0027s Party,Fun,Rock,Eat)",
       "block.fd.carousel": "Carousel",
+      "block.fd.officelampgray": "Office Lamp (Gray)",
       "block.fnafs_decorations.fnaf_1wallbathroom_2": "FNaF 1 Wall (Tiles 2)",
       "item.fnafs_decorations.changertool": "Changer tool",
       "subtitles.jumpscare": "fnaf_jumpscare",
@@ -11653,6 +11734,7 @@
       "block.fd.partykidschairred": "Party kids chair (Red)",
       "block.fd.fazbearsfriendswalltiles": "Fazbear\u0027s \u0026 Friends (Middle)",
       "block.fd.arcadechica": "Pizzeria Arcade (Chica)",
+      "itemGroup.tabanimatronics": "FB\u0026D Animatronics (ALPHA)",
       "block.fd.giftgreen": "Gift (Green)",
       "block.fd.giftpurple": "Gift (Purple)",
       "item.fd.toychicashowtime_spawn_egg": "Toy Chica (Statue Showtime) Spawn Egg",
@@ -11672,6 +11754,7 @@
       "block.fd.fnafmoviewallupper_2exterior": "FNaF Movie Exterior wall (Up + cyan tiles)",
       "block.fnafs_decorations.fnaf_1walldeco_2": "FNaF 1 Wall (Deco Right)",
       "block.fd.partyhatred": "Party hats (Red)",
+      "block.fd.ceilingpizzerialight": "Ceiling Pizzeria Light",
       "block.fd.ffdinteriorwallmiddle": "FFD Interior Wall (Middle)",
       "subtitles.plushie": "plushie sound",
       "block.fd.blackdoor": "Black door",
@@ -11729,6 +11812,7 @@
       "item.fd.security_guardsuit_leggings": "Security Guard Suit Leggings",
       "block.fd.fanblockon": "Office fan (On)",
       "block.fd.partyhatblue": "Party hats (Blue)",
+      "block.fd.paperpalfreddy": "Paperpal (Freddy)",
       "item.fd.foxy_spawn_egg": "Foxy the Pirate Spawn Egg",
       "block.fnafs_decorations.fnaf_1wallbathroom": "FNaF 1 Wall (Tiles)",
       "block.fnafs_decorations.curtain": "Curtain (Red)",
@@ -11877,13 +11961,14 @@
       "block.fd.largewallstars_2": "Large wall stars (Var 2)",
       "block.fd.fnaf_2stagewalltiles": "White Stage Wall (Tiles)",
       "item.fd.freddyfazbeartest_spawn_egg": "Freddy Fazbear Spawn Egg",
+      "block.fd.paperpalbonnie": "Paperpal (Bonnie)",
       "block.fd.stageup": "Stage Wall (Up)",
       "block.fd.piratecovecurtainblockblue": "Pirate cove curtain (Blue + panel)",
       "block.fd.officeposter": "Office poster",
       "block.fd.wallwarningsign": "Wall warning sign",
       "block.fd.arcadefloor_3": "Arcade floor (Var 3)",
       "block.fd.arcadefloor_2": "Arcade floor (Var 2)",
-      "block.fd.officelamp": "Office lamp",
+      "block.fd.officelamp": "Office Lamp (Black)",
       "block.fd.officelightoff": "Office light (Off)",
       "block.fd.freddyplush": "Freddy Plushy",
       "block.fd.battingtonwalltop": "Battingtoon Wall (Up)",
@@ -11927,7 +12012,7 @@
       "block.fd.doorframecorner_2": "Door frame (corner)",
       "block.fd.doorframecorner_3": "Door frame (corner)",
       "block.fd.floorwires_1": "Floor wires (Var 1)",
-      "itemGroup.tabfd_walls": "FD - Build blocks",
+      "itemGroup.tabfd_walls": "FB\u0026D - Build Blocks",
       "block.fd.bluearcadefloor_1stairs": "Blue Arcade floor (Stairs)",
       "block.fd.piratecovecurtainblockredblock_2": "Pirate cove curtain (Red + block)",
       "subtitles.freddy_laughs_1": "freddy lughts",
@@ -11997,7 +12082,8 @@
     "mcreatorDependencies": [
       "geckolib"
     ],
-    "currentGenerator": "forge-1.20.1",
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.fnafsdecorationsport",
     "lockBaseModFiles": false
   },

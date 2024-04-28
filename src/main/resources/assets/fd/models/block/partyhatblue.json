@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/new_party_hat_blue",
   "textures": {
-    "all": "fd:block/party_hat_3",
-    "particle": "fd:block/party_hat_3",
-    "1": "fd:block/party_hat_3"
+    "all": "fd:blocks/party_hat_3",
+    "particle": "fd:blocks/party_hat_3",
+    "1": "fd:blocks/party_hat_3"
   },
   "render_type": "cutout"
 }

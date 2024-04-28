@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/new_shelf_foxy",
   "textures": {
-    "all": "fd:block/new_shelf_foxy",
-    "particle": "fd:block/new_shelf_foxy",
-    "0": "fd:block/new_shelf_foxy"
+    "all": "fd:blocks/new_shelf_foxy",
+    "particle": "fd:blocks/new_shelf_foxy",
+    "0": "fd:blocks/new_shelf_foxy"
   },
   "render_type": "cutout"
 }

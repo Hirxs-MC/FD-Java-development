@@ -2,7 +2,8 @@
 package net.mcreator.fnafsdecorationsport.block;
 
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -25,12 +26,12 @@ import java.util.Collections;
 
 public class Piratecovecurtainblockblue2Block extends IronBarsBlock {
 	public Piratecovecurtainblockblue2Block() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().sound(SoundType.WOOL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.WOOL).sound(SoundType.WOOL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
+	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
 	}
 
 	@Override
@@ -39,7 +40,7 @@ public class Piratecovecurtainblockblue2Block extends IronBarsBlock {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/wall_poster_faces_f",
   "textures": {
-    "all": "fd:block/freddy",
-    "particle": "fd:block/freddy",
-    "0": "fd:block/freddy"
+    "all": "fd:blocks/freddy",
+    "particle": "fd:blocks/freddy",
+    "0": "fd:blocks/freddy"
   },
   "render_type": "cutout_mipped"
 }

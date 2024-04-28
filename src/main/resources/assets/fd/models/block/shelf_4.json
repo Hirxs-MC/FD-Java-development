@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/nnew_shelf_bonnie",
   "textures": {
-    "all": "fd:block/new_shelf_bonnie",
-    "particle": "fd:block/new_shelf_bonnie",
-    "0": "fd:block/new_shelf_bonnie"
+    "all": "fd:blocks/new_shelf_bonnie",
+    "particle": "fd:blocks/new_shelf_bonnie",
+    "0": "fd:blocks/new_shelf_bonnie"
   },
   "render_type": "cutout"
 }

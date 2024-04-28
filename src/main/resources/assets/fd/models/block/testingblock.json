@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/table_test_normal",
   "textures": {
-    "all": "fd:block/party_table",
-    "particle": "fd:block/party_table",
-    "0": "fd:block/party_table"
+    "all": "fd:blocks/party_table",
+    "particle": "fd:blocks/party_table",
+    "0": "fd:blocks/party_table"
   },
   "render_type": "cutout_mipped"
 }

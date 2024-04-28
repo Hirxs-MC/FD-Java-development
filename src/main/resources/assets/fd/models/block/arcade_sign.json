@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/arcade_neon_sign.geo_-_converted",
   "textures": {
-    "all": "fd:block/arcade_neon_sign",
-    "particle": "fd:block/arcade_neon_sign",
-    "0": "fd:block/arcade_neon_sign"
+    "all": "fd:blocks/arcade_neon_sign",
+    "particle": "fd:blocks/arcade_neon_sign",
+    "0": "fd:blocks/arcade_neon_sign"
   },
   "render_type": "translucent"
 }

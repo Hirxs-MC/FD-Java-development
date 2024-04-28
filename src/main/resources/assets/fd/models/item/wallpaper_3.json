@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fd:item/new_item2"
+    "layer0": "fd:items/new_item2"
   },
   "render_type": "translucent"
 }

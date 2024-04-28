@@ -15,6 +15,6 @@ import net.mcreator.fnafsdecorationsport.FdMod;
 
 public class FdModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, FdMod.MODID);
-	public static final RegistryObject<SoundEvent> PLUSHIE_SOUND = REGISTRY.register("plushie_sound", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("fd", "plushie_sound")));
-	public static final RegistryObject<SoundEvent> OFFICE_DOOR = REGISTRY.register("office_door", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("fd", "office_door")));
+	public static final RegistryObject<SoundEvent> PLUSHIE_SOUND = REGISTRY.register("plushie_sound", () -> new SoundEvent(new ResourceLocation("fd", "plushie_sound")));
+	public static final RegistryObject<SoundEvent> OFFICE_DOOR = REGISTRY.register("office_door", () -> new SoundEvent(new ResourceLocation("fd", "office_door")));
 }

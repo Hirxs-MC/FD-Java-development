@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/pizzeria_light",
   "textures": {
-    "all": "fd:block/light_on",
-    "particle": "fd:block/light_on",
-    "missing": "fd:block/light_on"
+    "all": "fd:blocks/light_on",
+    "particle": "fd:blocks/light_on",
+    "missing": "fd:blocks/light_on"
   },
   "render_type": "cutout"
 }

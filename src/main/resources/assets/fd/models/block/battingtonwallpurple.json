@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fd:block/battington_wall_lower",
-    "particle": "fd:block/battington_wall_lower"
+    "all": "fd:blocks/battington_wall_lower",
+    "particle": "fd:blocks/battington_wall_lower"
   },
   "render_type": "cutout_mipped"
 }

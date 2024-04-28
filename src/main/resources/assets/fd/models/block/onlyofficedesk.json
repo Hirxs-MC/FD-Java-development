@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/new_office_desk_empty_a",
   "textures": {
-    "all": "fd:block/new_office_desk",
-    "particle": "fd:block/new_office_desk",
-    "1": "fd:block/new_office_desk"
+    "all": "fd:blocks/new_office_desk",
+    "particle": "fd:blocks/new_office_desk",
+    "1": "fd:blocks/new_office_desk"
   },
   "render_type": "cutout"
 }

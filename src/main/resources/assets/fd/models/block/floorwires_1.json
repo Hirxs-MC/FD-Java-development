@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/floor_wires",
   "textures": {
-    "all": "fd:block/floor_wires_texture_1",
-    "particle": "fd:block/floor_wires_texture_1",
-    "0": "fd:block/floor_wires_texture_1"
+    "all": "fd:blocks/floor_wires_texture_1",
+    "particle": "fd:blocks/floor_wires_texture_1",
+    "0": "fd:blocks/floor_wires_texture_1"
   },
   "render_type": "cutout"
 }

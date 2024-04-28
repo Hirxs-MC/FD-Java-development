@@ -31,6 +31,7 @@ public class ChangertoolsparklesParticle extends TextureSheetParticle {
 	}
 
 	private final SpriteSet spriteSet;
+
 	private float angularVelocity;
 	private float angularAcceleration;
 
@@ -38,6 +39,7 @@ public class ChangertoolsparklesParticle extends TextureSheetParticle {
 		super(world, x, y, z);
 		this.spriteSet = spriteSet;
 		this.setSize(0.1f, 0.1f);
+
 		this.lifetime = (int) Math.max(1, 20 + (this.random.nextInt(10) - 5));
 		this.gravity = 0.1f;
 		this.hasPhysics = false;

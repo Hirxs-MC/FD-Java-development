@@ -1,9 +1,9 @@
 {
   "parent": "block/inner_stairs",
   "textures": {
-    "bottom": "fd:block/green_and_blue",
-    "top": "fd:block/green_and_blue",
-    "side": "fd:block/green_and_blue"
+    "bottom": "fd:blocks/green_and_blue",
+    "top": "fd:blocks/green_and_blue",
+    "side": "fd:blocks/green_and_blue"
   },
   "render_type": "solid"
 }

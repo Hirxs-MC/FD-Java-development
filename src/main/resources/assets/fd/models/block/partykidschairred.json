@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/new_pizzeria_chair_red_a",
   "textures": {
-    "all": "fd:block/redpartychair",
-    "particle": "fd:block/redpartychair",
-    "1": "fd:block/redpartychair"
+    "all": "fd:blocks/redpartychair",
+    "particle": "fd:blocks/redpartychair",
+    "1": "fd:blocks/redpartychair"
   },
   "render_type": "cutout"
 }

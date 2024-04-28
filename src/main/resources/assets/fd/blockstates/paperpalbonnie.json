@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/paperpalbonnie"
+    },
+    "facing=east": {
+      "model": "fd:block/paperpalbonnie",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/paperpalbonnie",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/paperpalbonnie",
+      "y": 270
+    }
+  }
+}

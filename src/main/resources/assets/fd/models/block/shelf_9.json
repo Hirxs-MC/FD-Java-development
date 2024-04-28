@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/nnew_shelf_springbonnie",
   "textures": {
-    "all": "fd:block/5",
-    "particle": "fd:block/5",
-    "0": "fd:block/5"
+    "all": "fd:blocks/5",
+    "particle": "fd:blocks/5",
+    "0": "fd:blocks/5"
   },
   "render_type": "cutout"
 }

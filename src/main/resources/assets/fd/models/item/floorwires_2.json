@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fd:item/wires_item"
+    "layer0": "fd:items/wires_item"
   },
   "render_type": "translucent"
 }

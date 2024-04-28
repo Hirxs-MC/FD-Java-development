@@ -1,9 +1,9 @@
 {
   "parent": "block/stairs",
   "textures": {
-    "bottom": "fd:block/0_3",
-    "top": "fd:block/0_3",
-    "side": "fd:block/0_3"
+    "bottom": "fd:blocks/0_3",
+    "top": "fd:blocks/0_3",
+    "side": "fd:blocks/0_3"
   },
   "render_type": "solid"
 }

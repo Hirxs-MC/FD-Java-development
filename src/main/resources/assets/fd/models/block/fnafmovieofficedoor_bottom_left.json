@@ -1,8 +1,8 @@
 {
   "parent": "block/door_bottom_left",
   "textures": {
-    "bottom": "fd:block/office_door_lower",
-    "top": "fd:block/office_door_upper"
+    "bottom": "fd:blocks/office_door_lower",
+    "top": "fd:blocks/office_door_upper"
   },
   "render_type": "solid"
 }

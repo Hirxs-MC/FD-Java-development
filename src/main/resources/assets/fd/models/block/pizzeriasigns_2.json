@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/pizzeria_sign_2",
   "textures": {
-    "all": "fd:block/employees_only_sc",
-    "particle": "fd:block/employees_only_sc",
-    "0": "fd:block/employees_only_sc"
+    "all": "fd:blocks/employees_only_sc",
+    "particle": "fd:blocks/employees_only_sc",
+    "0": "fd:blocks/employees_only_sc"
   },
   "render_type": "cutout"
 }

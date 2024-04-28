@@ -1,14 +1,15 @@
 
 package net.mcreator.fnafsdecorationsport.entity;
 
-import software.bernie.geckolib.util.GeckoLibUtil;
-import software.bernie.geckolib.core.object.PlayState;
-import software.bernie.geckolib.core.animation.RawAnimation;
-import software.bernie.geckolib.core.animation.AnimationState;
-import software.bernie.geckolib.core.animation.AnimationController;
-import software.bernie.geckolib.core.animation.AnimatableManager;
-import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
-import software.bernie.geckolib.animatable.GeoEntity;
+import software.bernie.geckolib3.util.GeckoLibUtil;
+import software.bernie.geckolib3.core.manager.AnimationFactory;
+import software.bernie.geckolib3.core.manager.AnimationData;
+import software.bernie.geckolib3.core.event.predicate.AnimationEvent;
+import software.bernie.geckolib3.core.controller.AnimationController;
+import software.bernie.geckolib3.core.builder.ILoopType.EDefaultLoopTypes;
+import software.bernie.geckolib3.core.builder.AnimationBuilder;
+import software.bernie.geckolib3.core.PlayState;
+import software.bernie.geckolib3.core.IAnimatable;
 
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
@@ -33,7 +34,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
-import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 
@@ -42,11 +42,11 @@ import net.mcreator.fnafsdecorationsport.init.FdModEntities;
 
 import javax.annotation.Nullable;
 
-public class FreddyfazbearidleEntity extends Monster implements GeoEntity {
+public class FreddyfazbearidleEntity extends Monster implements IAnimatable {
 	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(FreddyfazbearidleEntity.class, EntityDataSerializers.BOOLEAN);
 	public static final EntityDataAccessor<String> ANIMATION = SynchedEntityData.defineId(FreddyfazbearidleEntity.class, EntityDataSerializers.STRING);
 	public static final EntityDataAccessor<String> TEXTURE = SynchedEntityData.defineId(FreddyfazbearidleEntity.class, EntityDataSerializers.STRING);
-	private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
+	private AnimationFactory factory = GeckoLibUtil.createFactory(this);
 	private boolean swinging;
 	private boolean lastloop;
 	private long lastSwing;
@@ -80,7 +80,7 @@ public class FreddyfazbearidleEntity extends Monster implements GeoEntity {
 	}
 
 	@Override
-	public Packet<ClientGamePacketListener> getAddEntityPacket() {
+	public Packet<?> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
 	}
 
@@ -148,27 +148,27 @@ public class FreddyfazbearidleEntity extends Monster implements GeoEntity {
 		return builder;
 	}
 
-	private PlayState movementPredicate(AnimationState event) {
+	private <E extends IAnimatable> PlayState movementPredicate(AnimationEvent<E> event) {
 		if (this.animationprocedure.equals("empty")) {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
 
 			) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop(""));
+				event.getController().setAnimation(new AnimationBuilder().addAnimation("", EDefaultLoopTypes.LOOP));
+				return PlayState.CONTINUE;
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.feddy.geo.stage"));
+			event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.feddy.geo.stage", EDefaultLoopTypes.LOOP));
+			return PlayState.CONTINUE;
 		}
 		return PlayState.STOP;
 	}
 
-	private PlayState procedurePredicate(AnimationState event) {
-		if (!animationprocedure.equals("empty") && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
-			event.getController().setAnimation(RawAnimation.begin().thenPlay(this.animationprocedure));
-			if (event.getController().getAnimationState() == AnimationController.State.STOPPED) {
+	private <E extends IAnimatable> PlayState procedurePredicate(AnimationEvent<E> event) {
+		if (!this.animationprocedure.equals("empty") && event.getController().getAnimationState().equals(software.bernie.geckolib3.core.AnimationState.Stopped)) {
+			event.getController().setAnimation(new AnimationBuilder().addAnimation(this.animationprocedure, EDefaultLoopTypes.PLAY_ONCE));
+			if (event.getController().getAnimationState().equals(software.bernie.geckolib3.core.AnimationState.Stopped)) {
 				this.animationprocedure = "empty";
-				event.getController().forceAnimationReset();
+				event.getController().markNeedsReload();
 			}
-		} else if (animationprocedure.equals("empty")) {
-			return PlayState.STOP;
 		}
 		return PlayState.CONTINUE;
 	}
@@ -191,13 +191,13 @@ public class FreddyfazbearidleEntity extends Monster implements GeoEntity {
 	}
 
 	@Override
-	public void registerControllers(AnimatableManager.ControllerRegistrar data) {
-		data.add(new AnimationController<>(this, "movement", 4, this::movementPredicate));
-		data.add(new AnimationController<>(this, "procedure", 4, this::procedurePredicate));
+	public void registerControllers(AnimationData data) {
+		data.addAnimationController(new AnimationController<>(this, "movement", 4, this::movementPredicate));
+		data.addAnimationController(new AnimationController<>(this, "procedure", 4, this::procedurePredicate));
 	}
 
 	@Override
-	public AnimatableInstanceCache getAnimatableInstanceCache() {
-		return this.cache;
+	public AnimationFactory getFactory() {
+		return this.factory;
 	}
 }

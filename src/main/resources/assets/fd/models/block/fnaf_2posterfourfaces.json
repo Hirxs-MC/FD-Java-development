@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/fourfaces",
   "textures": {
-    "all": "fd:block/fnaf_2_poster_1",
-    "particle": "fd:block/fnaf_2_poster_1",
-    "1": "fd:block/fnaf_2_poster_1"
+    "all": "fd:blocks/fnaf_2_poster_1",
+    "particle": "fd:blocks/fnaf_2_poster_1",
+    "1": "fd:blocks/fnaf_2_poster_1"
   },
   "render_type": "cutout_mipped"
 }

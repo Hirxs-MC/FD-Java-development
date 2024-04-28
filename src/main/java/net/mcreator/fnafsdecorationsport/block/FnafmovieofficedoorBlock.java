@@ -1,11 +1,10 @@
 
 package net.mcreator.fnafsdecorationsport.block;
 
-import net.minecraft.world.level.storage.loot.LootParams;
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DoubleBlockHalf;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
-import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -21,12 +20,12 @@ import java.util.Collections;
 
 public class FnafmovieofficedoorBlock extends DoorBlock {
 	public FnafmovieofficedoorBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.WOOD).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape(), BlockSetType.OAK);
+		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape());
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
+	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
 		list.add(Component.literal("\u963F (without variations)"));
 	}
 
@@ -36,7 +35,7 @@ public class FnafmovieofficedoorBlock extends DoorBlock {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 		if (state.getValue(BlockStateProperties.DOUBLE_BLOCK_HALF) != DoubleBlockHalf.LOWER)
 			return Collections.emptyList();
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);

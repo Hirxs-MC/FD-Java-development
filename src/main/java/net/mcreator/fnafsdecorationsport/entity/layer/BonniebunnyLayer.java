@@ -1,29 +1,31 @@
 package net.mcreator.fnafsdecorationsport.entity.layer;
 
-import software.bernie.geckolib.renderer.layer.GeoRenderLayer;
-import software.bernie.geckolib.renderer.GeoRenderer;
-import software.bernie.geckolib.cache.object.BakedGeoModel;
+import software.bernie.geckolib3.renderers.geo.IGeoRenderer;
+import software.bernie.geckolib3.renderers.geo.GeoLayerRenderer;
 
+import net.minecraft.world.entity.Entity;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
 
-import net.mcreator.fnafsdecorationsport.entity.BonniebunnyEntity;
-
-import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class BonniebunnyLayer extends GeoRenderLayer<BonniebunnyEntity> {
+public class BonniebunnyLayer extends GeoLayerRenderer {
 	private static final ResourceLocation LAYER = new ResourceLocation("fd", "textures/entities/bonnie_2.png");
+	private static final ResourceLocation MODEL = new ResourceLocation("fd", "geo/bonnie_bunny.geo.json");
 
-	public BonniebunnyLayer(GeoRenderer<BonniebunnyEntity> entityRenderer) {
-		super(entityRenderer);
+	public BonniebunnyLayer(IGeoRenderer<?> entityRendererIn) {
+		super(entityRendererIn);
 	}
 
 	@Override
-	public void render(PoseStack poseStack, BonniebunnyEntity animatable, BakedGeoModel bakedModel, RenderType renderType, MultiBufferSource bufferSource, VertexConsumer buffer, float partialTick, int packedLight, int packedOverlay) {
-		RenderType glowRenderType = RenderType.eyes(LAYER);
-		getRenderer().reRender(getDefaultBakedModel(animatable), poseStack, bufferSource, animatable, glowRenderType, bufferSource.getBuffer(glowRenderType), partialTick, packedLight, OverlayTexture.NO_OVERLAY, 1, 1, 1, 1);
+	public void render(PoseStack matrixStackIn, MultiBufferSource bufferIn, int packedLightIn, Entity entityLivingBaseIn, float limbSwing, float limbSwingAmount, float partialTicks, float ageInTicks, float netHeadYaw, float headPitch) {
+		RenderType cameo = RenderType.eyes(LAYER);
+		matrixStackIn.pushPose();
+		matrixStackIn.scale(1.0f, 1.0f, 1.0f);
+		matrixStackIn.translate(0.0d, 0.0d, 0.0d);
+		this.getRenderer().render(this.getEntityModel().getModel(MODEL), entityLivingBaseIn, partialTicks, cameo, matrixStackIn, bufferIn, bufferIn.getBuffer(cameo), packedLightIn, OverlayTexture.NO_OVERLAY, 1f, 1f, 1f, 1f);
+		matrixStackIn.popPose();
 	}
 }

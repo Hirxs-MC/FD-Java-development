@@ -12,17 +12,18 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.network.chat.Component;
 
 import net.mcreator.fnafsdecorationsport.procedures.RotatetoolRightclickedProcedure;
+import net.mcreator.fnafsdecorationsport.init.FdModTabs;
 
 import java.util.List;
 
 public class RotatetoolItem extends Item {
 	public RotatetoolItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(FdModTabs.TAB_TOOLKITANDMORE).stacksTo(64).rarity(Rarity.EPIC));
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
+	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
 		list.add(Component.literal("(Temp Unused)"));
 	}
 

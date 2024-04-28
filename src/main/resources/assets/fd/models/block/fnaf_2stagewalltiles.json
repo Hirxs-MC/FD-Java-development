@@ -1,11 +1,11 @@
 {
   "parent": "block/grass_block",
   "textures": {
-    "bottom": "fd:block/stage_wall_white",
-    "top": "fd:block/stage_wall_white",
-    "side": "fd:block/stage_wall_tiles",
-    "overlay": "fd:block/stage_wall_tiles",
-    "particle": "fd:block/stage_wall_white"
+    "bottom": "fd:blocks/stage_wall_white",
+    "top": "fd:blocks/stage_wall_white",
+    "side": "fd:blocks/stage_wall_tiles",
+    "overlay": "fd:blocks/stage_wall_tiles",
+    "particle": "fd:blocks/stage_wall_white"
   },
   "render_type": "solid"
 }

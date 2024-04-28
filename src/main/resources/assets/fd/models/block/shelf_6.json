@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/new_shelf_chica",
   "textures": {
-    "all": "fd:block/new_shelf_chica",
-    "particle": "fd:block/new_shelf_chica",
-    "0": "fd:block/new_shelf_chica"
+    "all": "fd:blocks/new_shelf_chica",
+    "particle": "fd:blocks/new_shelf_chica",
+    "0": "fd:blocks/new_shelf_chica"
   },
   "render_type": "cutout"
 }

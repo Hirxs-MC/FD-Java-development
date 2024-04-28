@@ -8,7 +8,8 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -39,7 +40,7 @@ public class GoldenfreddyplushBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public GoldenfreddyplushBlock() {
-		super(BlockBehaviour.Properties.of()
+		super(BlockBehaviour.Properties.of(Material.REPLACEABLE_WATER_PLANT)
 				.sound(new ForgeSoundType(1.0f, 1.0f, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fd:plushie_sound")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fd:plushie_sound")),
 						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fd:plushie_sound")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fd:plushie_sound")),
 						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fd:plushie_sound"))))
@@ -48,8 +49,8 @@ public class GoldenfreddyplushBlock extends Block {
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
+	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
 	}
 
 	@Override
@@ -70,14 +71,10 @@ public class GoldenfreddyplushBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> Shapes.or(box(4.5, 0, 4, 11.5, 7, 10), box(3.5, 8, 3, 12.5, 11, 11), box(4.5, 11, 4, 11.5, 15, 11), box(5.5, 7, 11, 10.5, 10, 13), box(2.5, 13, 7, 5.5, 16, 8), box(10.5, 13, 7, 13.5, 16, 8), box(5.5, 15, 5, 10.5, 16, 10),
-					box(6.5, 16, 6, 9.5, 19, 9), box(4.5, 7, 4, 11.5, 8, 11));
-			case NORTH -> Shapes.or(box(4.5, 0, 6, 11.5, 7, 12), box(3.5, 8, 5, 12.5, 11, 13), box(4.5, 11, 5, 11.5, 15, 12), box(5.5, 7, 3, 10.5, 10, 5), box(10.5, 13, 8, 13.5, 16, 9), box(2.5, 13, 8, 5.5, 16, 9), box(5.5, 15, 6, 10.5, 16, 11),
-					box(6.5, 16, 7, 9.5, 19, 10), box(4.5, 7, 5, 11.5, 8, 12));
-			case EAST -> Shapes.or(box(4, 0, 4.5, 10, 7, 11.5), box(3, 8, 3.5, 11, 11, 12.5), box(4, 11, 4.5, 11, 15, 11.5), box(11, 7, 5.5, 13, 10, 10.5), box(7, 13, 10.5, 8, 16, 13.5), box(7, 13, 2.5, 8, 16, 5.5), box(5, 15, 5.5, 10, 16, 10.5),
-					box(6, 16, 6.5, 9, 19, 9.5), box(4, 7, 4.5, 11, 8, 11.5));
-			case WEST -> Shapes.or(box(6, 0, 4.5, 12, 7, 11.5), box(5, 8, 3.5, 13, 11, 12.5), box(5, 11, 4.5, 12, 15, 11.5), box(3, 7, 5.5, 5, 10, 10.5), box(8, 13, 2.5, 9, 16, 5.5), box(8, 13, 10.5, 9, 16, 13.5), box(6, 15, 5.5, 11, 16, 10.5),
-					box(7, 16, 6.5, 10, 19, 9.5), box(5, 7, 4.5, 12, 8, 11.5));
+			default -> box(3, 0, 3, 13, 15, 13);
+			case NORTH -> box(3, 0, 3, 13, 15, 13);
+			case EAST -> box(3, 0, 3, 13, 15, 13);
+			case WEST -> box(3, 0, 3, 13, 15, 13);
 		};
 	}
 
@@ -100,7 +97,7 @@ public class GoldenfreddyplushBlock extends Block {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

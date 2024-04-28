@@ -1,11 +1,11 @@
 {
   "parent": "block/grass_block",
   "textures": {
-    "bottom": "fd:block/fm_wall_middle_1",
-    "top": "fd:block/fm_wall_middle_1",
-    "side": "fd:block/fm_wall_middle_3",
-    "overlay": "fd:block/fm_wall_middle_3",
-    "particle": "fd:block/fm_wall_middle_1"
+    "bottom": "fd:blocks/fm_wall_middle_1",
+    "top": "fd:blocks/fm_wall_middle_1",
+    "side": "fd:blocks/fm_wall_middle_3",
+    "overlay": "fd:blocks/fm_wall_middle_3",
+    "particle": "fd:blocks/fm_wall_middle_1"
   },
   "render_type": "cutout_mipped"
 }

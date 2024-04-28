@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/new_supply_shelf_2",
   "textures": {
-    "all": "fd:block/new_supply_closet_shelves",
-    "particle": "fd:block/new_supply_closet_shelves",
-    "1": "fd:block/new_supply_closet_shelves"
+    "all": "fd:blocks/new_supply_closet_shelves",
+    "particle": "fd:blocks/new_supply_closet_shelves",
+    "1": "fd:blocks/new_supply_closet_shelves"
   },
   "render_type": "cutout"
 }

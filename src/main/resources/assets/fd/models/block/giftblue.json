@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/new_gift_blue",
   "textures": {
-    "all": "fd:block/blue",
-    "particle": "fd:block/blue",
-    "0": "fd:block/blue"
+    "all": "fd:blocks/blue",
+    "particle": "fd:blocks/blue",
+    "0": "fd:blocks/blue"
   },
   "render_type": "cutout_mipped"
 }
