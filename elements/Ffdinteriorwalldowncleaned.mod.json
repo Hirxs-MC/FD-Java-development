@@ -3,9 +3,9 @@
   "_type": "block",
   "definition": {
     "texture": "texture_black",
-    "textureTop": "ffd_wall_middle_1",
-    "textureLeft": "ffd_wall_down",
-    "textureFront": "ffd_wall_down",
+    "textureTop": "interior_ffd_wall_middle",
+    "textureLeft": "interior_ffd_wall_down",
+    "textureFront": "interior_ffd_wall_down",
     "textureRight": "",
     "textureBack": "",
     "renderType": 14,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "FFD Interior Wall (Down - dirty)",
+    "name": "FFD Interior Wall (Down)",
     "specialInformation": {
       "fixedValue": [
         "德"

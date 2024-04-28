@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/arcade_chica",
+  "textures": {
+    "all": "fd:block/arcade4",
+    "particle": "fd:block/arcade4",
+    "0": "fd:block/arcade4"
+  },
+  "render_type": "cutout"
+}

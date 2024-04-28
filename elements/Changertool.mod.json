@@ -10,7 +10,7 @@
     "name": "Changer tool",
     "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "CUSTOM:FnafsDecorations"
+      "value": "CUSTOM:Toolkitandmore"
     },
     "stackSize": 1,
     "enchantability": 0,
@@ -31,11 +31,17 @@
         "This item can change the variations of blocks with this icon 贝"
       ]
     },
+    "glowCondition": {
+      "fixedValue": false
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "enableRanged": false,
     "shootConstantly": false,
+    "projectile": {
+      "value": "Arrow"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

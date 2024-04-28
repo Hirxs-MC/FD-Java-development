@@ -1,9 +1,9 @@
 {
-  "parent": "fd:custom/party_kids_chair_red",
+  "parent": "fd:custom/new_pizzeria_chair_red_a",
   "textures": {
-    "all": "fd:block/chair",
-    "particle": "fd:block/chair",
-    "0": "fd:block/chair"
+    "all": "fd:block/redpartychair",
+    "particle": "fd:block/redpartychair",
+    "1": "fd:block/redpartychair"
   },
   "render_type": "cutout"
 }

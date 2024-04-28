@@ -62,6 +62,18 @@ public class Magicrainbow4Block extends Block {
 	}
 
 	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return switch (state.getValue(FACING)) {
+			default -> box(0, 0, 1, 16, 16, 3);
+			case NORTH -> box(0, 0, 13, 16, 16, 15);
+			case EAST -> box(1, 0, 0, 3, 16, 16);
+			case WEST -> box(13, 0, 0, 15, 16, 16);
+			case UP -> box(0, 1, 0, 16, 3, 16);
+			case DOWN -> box(0, 13, 0, 16, 15, 16);
+		};
+	}
+
+	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		builder.add(FACING);
 	}

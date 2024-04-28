@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "blue_party_chair"
+      },
+      "name": "default"
+    }
+  }
+}

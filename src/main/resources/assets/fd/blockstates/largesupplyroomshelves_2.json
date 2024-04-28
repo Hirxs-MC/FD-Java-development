@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/largesupplyroomshelves_2"
+    },
+    "facing=east": {
+      "model": "fd:block/largesupplyroomshelves_2",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/largesupplyroomshelves_2",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/largesupplyroomshelves_2",
+      "y": 270
+    }
+  }
+}

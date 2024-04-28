@@ -2,10 +2,10 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "ffd_wall_middle_1",
+    "texture": "interior_ffd_wall_middle",
     "textureTop": "texture_black",
-    "textureLeft": "ffd_wall_up_1",
-    "textureFront": "ffd_wall_up_1",
+    "textureLeft": "interior_ffd_wall_up",
+    "textureFront": "interior_ffd_wall_up",
     "textureRight": "",
     "textureBack": "",
     "renderType": 14,

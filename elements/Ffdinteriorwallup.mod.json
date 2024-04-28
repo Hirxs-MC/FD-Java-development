@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "ffd_wall_middle_1",
+    "texture": "interior_ffd_wall_middle",
     "textureTop": "texture_black",
     "textureLeft": "interior_ffd_wall_up_dirty",
     "textureFront": "interior_ffd_wall_up_dirty",
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "FFD Interior Wall (Up)",
+    "name": "FFD Interior Wall (Dirty + Up)",
     "specialInformation": {
       "fixedValue": [
         "德"

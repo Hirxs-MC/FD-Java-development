@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/fnaf_2celebrateposter"
+    },
+    "facing=east": {
+      "model": "fd:block/fnaf_2celebrateposter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/fnaf_2celebrateposter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/fnaf_2celebrateposter",
+      "y": 270
+    }
+  }
+}

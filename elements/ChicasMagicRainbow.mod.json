@@ -26,16 +26,18 @@
       {
         "mx": 0.0,
         "my": 0.0,
-        "mz": 0.0,
+        "mz": 15.0,
         "Mx": 16.0,
         "My": 16.0,
-        "Mz": 16.0,
+        "Mz": 13.0,
         "subtract": false
       }
     ],
     "name": "Chicas Magic Rainbow",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "贝 (with variations)"
+      ]
     },
     "hardness": 1.0,
     "resistance": 10.0,

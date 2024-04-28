@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "party_hat_4"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -35,6 +35,7 @@ import net.mcreator.fnafsdecorationsport.init.FdModParticleTypes;
 import net.mcreator.fnafsdecorationsport.init.FdModItems;
 import net.mcreator.fnafsdecorationsport.init.FdModEntities;
 import net.mcreator.fnafsdecorationsport.init.FdModBlocks;
+import net.mcreator.fnafsdecorationsport.init.FdModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -55,7 +56,7 @@ public class FdMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		FdModSounds.REGISTRY.register(bus);
 		FdModBlocks.REGISTRY.register(bus);
-
+		FdModBlockEntities.REGISTRY.register(bus);
 		FdModItems.REGISTRY.register(bus);
 		FdModEntities.REGISTRY.register(bus);
 

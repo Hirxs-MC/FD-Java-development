@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/balloons_down",
+  "textures": {
+    "all": "fd:block/balloons_tring_new",
+    "particle": "fd:block/balloons_tring_new",
+    "0": "fd:block/balloons_tring_new"
+  },
+  "render_type": "cutout_mipped"
+}

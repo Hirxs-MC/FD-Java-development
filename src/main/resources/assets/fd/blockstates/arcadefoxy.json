@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/arcadefoxy"
+    },
+    "facing=east": {
+      "model": "fd:block/arcadefoxy",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/arcadefoxy",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/arcadefoxy",
+      "y": 270
+    }
+  }
+}

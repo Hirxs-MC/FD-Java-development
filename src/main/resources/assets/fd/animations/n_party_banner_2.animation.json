@@ -1,0 +1,9 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.n_party_banner_2.test": {
+			"loop": true
+		}
+	},
+	"geckolib_format_version": 2
+}

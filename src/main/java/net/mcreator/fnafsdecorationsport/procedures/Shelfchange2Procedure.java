@@ -36,7 +36,7 @@ public class Shelfchange2Procedure {
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == FdModItems.CHANGERTOOL.get() && FdModBlocks.SHELF_2.get() == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {
 			{
 				BlockPos _bp = BlockPos.containing(x, y, z);
-				BlockState _bs = FdModBlocks.SHELF_1.get().defaultBlockState();
+				BlockState _bs = FdModBlocks.SHELF_3.get().defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 					Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());

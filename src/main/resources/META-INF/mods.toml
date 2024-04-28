@@ -4,11 +4,11 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="fd"
-version="0.23.07.1"
-displayName="FNaFs Decorations (Java Edition) - Snapshot"
-displayURL="https://hirxs-web.weebly.com/"
+version="0.24.01.1"
+displayName="FNaF's: Build & Decor (Java Edition) - Snapshot"
+displayURL="https://hirxs-website.nett"
 logoFile="logo.png"
-credits="Hyru,Chill's,Cheez & Mura"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
 authors="Hirx's | Hirxs_mc"
 description="Have you ever wanted to replicate a restaurant from FNAF but in Minecraft?"
 

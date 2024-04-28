@@ -43,6 +43,7 @@ public class Box1Block extends Block {
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
+		list.add(Component.literal("\u8D1D (with variations)"));
 	}
 
 	@Override

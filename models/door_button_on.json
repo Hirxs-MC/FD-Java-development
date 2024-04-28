@@ -3,15 +3,14 @@
 	"parent": "door_button_on",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "RP:blocks/button/1",
-		"particle": "RP:blocks/button/1"
+		"0": "fd:block/office_button",
+		"particle": "fd:block/office_button"
 	},
 	"elements": [
 		{
 			"name": "bone",
 			"from": [4.5, 0, 14],
 			"to": [11.5, 9, 16],
-			"rotation": {"angle": 0, "axis": "x", "origin": [8, 3.325, 6.3325]},
 			"faces": {
 				"north": {"uv": [0.25, 0.25, 2, 2.5], "texture": "#0"},
 				"east": {"uv": [2, 5.75, 2.5, 8], "texture": "#0"},
@@ -23,11 +22,10 @@
 		},
 		{
 			"name": "bone",
-			"from": [5.2, 0.3, 13.63],
-			"to": [10.8, 2.2, 13.7],
-			"rotation": {"angle": 0, "axis": "x", "origin": [8, 3.325, 6.3325]},
+			"from": [5, 0.3, 13.7],
+			"to": [11, 2.3, 13.7],
 			"faces": {
-				"north": {"uv": [0.25, 12.25, 4, 13.75], "texture": "#0"},
+				"north": {"uv": [0.25, 6.5, 1.75, 7], "texture": "#0"},
 				"east": {"uv": [11.5, 13.5, 15.25, 15.75], "texture": "#0"},
 				"south": {"uv": [11.5, 13.5, 15.25, 15.75], "texture": "#0"},
 				"west": {"uv": [11.5, 13.5, 15.25, 15.75], "texture": "#0"},
@@ -39,7 +37,6 @@
 			"name": "bone3",
 			"from": [5, 2.4, 13.5],
 			"to": [11, 8.4, 14.5],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5.4, 14]},
 			"faces": {
 				"north": {"uv": [11, 0.25, 12.5, 1.75], "texture": "#0"},
 				"east": {"uv": [10.75, 0.25, 11, 1.75], "texture": "#0"},
@@ -86,26 +83,23 @@
 		{
 			"name": "bone2",
 			"origin": [0, 0, 0],
-			"rotation": [0, -180, 0],
+			"rotation": [180, 0, 180],
 			"color": 0,
+			"nbt": "{}",
 			"children": [
-				{
-					"name": "bb_main",
-					"origin": [0, 0, 0],
-					"color": 1,
-					"children": []
-				},
 				{
 					"name": "bone",
 					"origin": [0, -8, 2.5],
-					"color": 2,
+					"color": 1,
+					"nbt": "{}",
 					"children": [
 						0,
 						1,
 						{
 							"name": "bone3",
 							"origin": [0, 0, 0],
-							"color": 3,
+							"color": 2,
+							"nbt": "{}",
 							"children": [2]
 						}
 					]

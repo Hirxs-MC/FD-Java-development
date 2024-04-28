@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "door_button_off:default",
+    "customModelName": "n_door_button_off:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,

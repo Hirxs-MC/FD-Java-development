@@ -1,5 +1,5 @@
 {
-  "parent": "fd:custom/party_hat_4",
+  "parent": "fd:custom/new_party_hat_purple",
   "textures": {
     "all": "fd:block/party_hat_4",
     "particle": "fd:block/party_hat_4",

@@ -119,6 +119,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "Battingtonfloorchange4"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

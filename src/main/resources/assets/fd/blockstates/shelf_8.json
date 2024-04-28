@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fd:block/shelf_8"
+    },
+    "facing=east": {
+      "model": "fd:block/shelf_8",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fd:block/shelf_8",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fd:block/shelf_8",
+      "y": 270
+    }
+  }
+}

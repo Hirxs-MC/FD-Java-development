@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "light_button_off",
 	"textures": {
-		"0": "office_button",
-		"particle": "office_button"
+		"0": "fd:block/office_button",
+		"particle": "fd:block/office_button"
 	},
 	"elements": [
 		{
@@ -21,23 +21,23 @@
 		},
 		{
 			"name": "bone3",
-			"from": [5, 9.4, 13],
-			"to": [11, 15.4, 15],
+			"from": [5, 9.4, 12.5],
+			"to": [11, 15.4, 14.5],
 			"faces": {
 				"north": {"uv": [11, 4.25, 12.5, 5.75], "texture": "#0"},
-				"east": {"uv": [10.75, 4.25, 11, 5.75], "texture": "#0"},
+				"east": {"uv": [10.5, 4.25, 11, 5.75], "texture": "#0"},
 				"south": {"uv": [11, 4.25, 12.5, 5.75], "texture": "#0"},
-				"west": {"uv": [12.5, 4.25, 12.75, 5.75], "texture": "#0"},
-				"up": {"uv": [12.5, 4.25, 11, 4], "texture": "#0"},
-				"down": {"uv": [12.5, 5.75, 11, 6], "texture": "#0"}
+				"west": {"uv": [12.5, 4.25, 13, 5.75], "texture": "#0"},
+				"up": {"uv": [12.5, 4.25, 11, 3.75], "texture": "#0"},
+				"down": {"uv": [12.5, 6.25, 11, 5.75], "texture": "#0"}
 			}
 		},
 		{
 			"name": "bone3",
-			"from": [4.7, 7.3, 13.63],
-			"to": [11.3, 9.2, 13.7],
+			"from": [5, 7.3, 13.63],
+			"to": [11, 9.3, 13.63],
 			"faces": {
-				"north": {"uv": [4.25, 12.25, 8.5, 13.75], "texture": "#0"},
+				"north": {"uv": [0.25, 7.25, 1.75, 7.75], "texture": "#0"},
 				"east": {"uv": [11.5, 13.5, 15.25, 15.75], "texture": "#0"},
 				"south": {"uv": [11.5, 13.5, 15.25, 15.75], "texture": "#0"},
 				"west": {"uv": [11.5, 13.5, 15.25, 15.75], "texture": "#0"},
@@ -88,11 +88,13 @@
 			"origin": [0, 0, 0],
 			"rotation": [0, -180, 0],
 			"color": 2,
+			"nbt": "{}",
 			"children": [
 				{
 					"name": "bone3",
 					"origin": [0, -1, 2.5],
 					"color": 4,
+					"nbt": "{}",
 					"children": [0, 1, 2]
 				}
 			]

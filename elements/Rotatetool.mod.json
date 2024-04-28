@@ -10,7 +10,7 @@
     "name": "Rotate Tool",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "CUSTOM:FnafsDecorations"
+      "value": "CUSTOM:Toolkitandmore"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -27,7 +27,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "(Temp Unused)"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/arcade_freddy",
+  "textures": {
+    "all": "fd:block/arcade1",
+    "particle": "fd:block/arcade1",
+    "0": "fd:block/arcade1"
+  },
+  "render_type": "cutout"
+}

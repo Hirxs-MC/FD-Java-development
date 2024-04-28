@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "new_shelf_bonnie"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -3,7 +3,7 @@
   "_type": "block",
   "definition": {
     "texture": "stage_floor_3",
-    "textureTop": "stage_up_fm",
+    "textureTop": "stage_ffloor",
     "textureLeft": "stage_side_fm",
     "textureFront": "stage_side_fm",
     "textureRight": "wall_block2_1",
@@ -58,7 +58,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "ROCK"
+      "value": "WOOD"
     },
     "tickRate": 0,
     "tickRandomly": false,

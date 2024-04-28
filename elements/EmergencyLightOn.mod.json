@@ -9,10 +9,10 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "emergency_light.geo_-_converted:default",
+    "customModelName": "emergency_light_on_fix:default",
     "rotationMode": 1,
     "enablePitch": false,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -74,7 +74,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "ROCK"
+      "value": "IRON"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -99,7 +99,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "NETHERITE"
     },
     "breakSound": {
       "value": ""
@@ -116,7 +116,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 7,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "isBonemealable": false,

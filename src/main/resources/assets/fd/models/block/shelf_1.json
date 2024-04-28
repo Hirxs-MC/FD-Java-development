@@ -1,9 +1,9 @@
 {
-  "parent": "fd:custom/shelf",
+  "parent": "fd:custom/new_shelf",
   "textures": {
-    "all": "fd:block/shelf",
-    "particle": "fd:block/shelf",
-    "0": "fd:block/shelf"
+    "all": "fd:block/new_shelf_empty",
+    "particle": "fd:block/new_shelf_empty",
+    "0": "fd:block/new_shelf_empty"
   },
   "render_type": "cutout"
 }

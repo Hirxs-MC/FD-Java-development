@@ -1,0 +1,9 @@
+{
+  "parent": "fd:custom/fnaf_2_posters_freddy",
+  "textures": {
+    "all": "fd:block/fnaf2_poster_3",
+    "particle": "fd:block/fnaf2_poster_3",
+    "1": "fd:block/fnaf2_poster_3"
+  },
+  "render_type": "cutout_mipped"
+}

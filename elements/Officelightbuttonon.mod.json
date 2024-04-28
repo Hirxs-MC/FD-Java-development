@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "light_button_on:default",
+    "customModelName": "n_light_button_on:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,

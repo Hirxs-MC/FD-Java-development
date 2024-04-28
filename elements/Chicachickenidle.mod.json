@@ -23,11 +23,11 @@
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -1,
+      "value": -14803685,
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Animatronics"
     },
     "isBoss": false,
     "bossBarColor": "PINK",

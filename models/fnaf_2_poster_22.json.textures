@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "poster_fnaf2_1"
+      },
+      "name": "default"
+    }
+  }
+}

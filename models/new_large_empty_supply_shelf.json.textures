@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "new_large_empty_supply_shelf"
+      },
+      "name": "default"
+    }
+  }
+}

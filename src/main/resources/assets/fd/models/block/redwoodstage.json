@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fd:block/redwood_stage_top",
+    "up": "fd:block/redwood_stage_top",
+    "north": "fd:block/redwood_stage_side",
+    "east": "fd:block/redwood_stage_side",
+    "south": "fd:block/redwood_stage_top",
+    "west": "fd:block/redwood_stage_top",
+    "particle": "fd:block/redwood_stage_top"
+  },
+  "render_type": "solid"
+}

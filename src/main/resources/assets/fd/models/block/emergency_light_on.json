@@ -1,9 +1,9 @@
 {
-  "parent": "fd:custom/emergency_light.geo_-_converted",
+  "parent": "fd:custom/emergency_light_on_fix",
   "textures": {
     "all": "fd:block/emergency_light_on",
     "particle": "fd:block/emergency_light_on",
-    "0": "fd:block/emergency_light_off"
+    "0": "fd:block/emergency_light_on"
   },
   "render_type": "cutout_mipped"
 }

@@ -1,10 +1,9 @@
 {
-  "parent": "fd:custom/shelf_2",
+  "parent": "fd:custom/new_shelf_freddy",
   "textures": {
-    "all": "fd:block/shelf",
-    "particle": "fd:block/shelf",
-    "0": "fd:block/shelf",
-    "1": "fd:block/party_hat_1"
+    "all": "fd:block/new_shelf_freddy",
+    "particle": "fd:block/new_shelf_freddy",
+    "0": "fd:block/new_shelf_freddy"
   },
   "render_type": "cutout"
 }
