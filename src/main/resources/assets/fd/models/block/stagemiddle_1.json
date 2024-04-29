@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fd:blocks/stage_2",
-    "particle": "fd:blocks/stage_2"
+    "all": "fd:block/stage_2",
+    "particle": "fd:block/stage_2"
   },
   "render_type": "solid"
 }

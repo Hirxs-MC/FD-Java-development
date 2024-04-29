@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/large_wall_stars_2",
   "textures": {
-    "all": "fd:blocks/large_wall_stars_2",
-    "particle": "fd:blocks/large_wall_stars_2",
-    "0": "fd:blocks/large_wall_stars_2"
+    "all": "fd:block/large_wall_stars_2",
+    "particle": "fd:block/large_wall_stars_2",
+    "0": "fd:block/large_wall_stars_2"
   },
   "render_type": "cutout"
 }

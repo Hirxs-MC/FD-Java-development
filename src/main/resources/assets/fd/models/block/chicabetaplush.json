@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/chica_plush_beta",
   "textures": {
-    "all": "fd:blocks/teddy3_",
-    "particle": "fd:blocks/teddy3_",
-    "2": "fd:blocks/teddy3_"
+    "all": "fd:block/teddy3_",
+    "particle": "fd:block/teddy3_",
+    "2": "fd:block/teddy3_"
   },
   "render_type": "cutout_mipped"
 }

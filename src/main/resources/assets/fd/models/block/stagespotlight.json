@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/spotlight",
   "textures": {
-    "all": "fd:blocks/sp0",
-    "particle": "fd:blocks/sp0",
-    "1": "fd:blocks/sp0"
+    "all": "fd:block/sp0",
+    "particle": "fd:block/sp0",
+    "1": "fd:block/sp0"
   },
   "render_type": "cutout"
 }

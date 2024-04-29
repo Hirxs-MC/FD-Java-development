@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/roof_wires_5",
   "textures": {
-    "all": "fd:blocks/cable1",
-    "particle": "fd:blocks/cable1",
-    "0": "fd:blocks/cable1"
+    "all": "fd:block/cable1",
+    "particle": "fd:block/cable1",
+    "0": "fd:block/cable1"
   },
   "render_type": "cutout"
 }

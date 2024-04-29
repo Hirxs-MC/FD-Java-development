@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/pizzeria_sign_4",
   "textures": {
-    "all": "fd:blocks/supply_room_sc",
-    "particle": "fd:blocks/supply_room_sc",
-    "0": "fd:blocks/supply_room_sc"
+    "all": "fd:block/supply_room_sc",
+    "particle": "fd:block/supply_room_sc",
+    "0": "fd:block/supply_room_sc"
   },
   "render_type": "cutout"
 }

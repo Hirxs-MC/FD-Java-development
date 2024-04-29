@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/office_lamp_2",
   "textures": {
-    "all": "fd:blocks/light_1",
-    "particle": "fd:blocks/light_1",
-    "0": "fd:blocks/light_1"
+    "all": "fd:block/light_1",
+    "particle": "fd:block/light_1",
+    "0": "fd:block/light_1"
   },
   "render_type": "translucent"
 }

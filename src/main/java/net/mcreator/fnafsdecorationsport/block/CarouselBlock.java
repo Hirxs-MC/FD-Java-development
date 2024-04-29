@@ -1,8 +1,7 @@
 
 package net.mcreator.fnafsdecorationsport.block;
 
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
@@ -25,7 +24,9 @@ import net.minecraft.world.level.block.BaseEntityBlock;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
@@ -42,7 +43,7 @@ public class CarouselBlock extends BaseEntityBlock implements SimpleWaterloggedB
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public CarouselBlock() {
-		super(BlockBehaviour.Properties.of(Material.HEAVY_METAL).sound(SoundType.NETHERITE_BLOCK).strength(1f, 10f).noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(1f, 10f).noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
 	}
 
@@ -55,6 +56,11 @@ public class CarouselBlock extends BaseEntityBlock implements SimpleWaterloggedB
 	@Override
 	public BlockEntity newBlockEntity(BlockPos blockPos, BlockState blockState) {
 		return FdModBlockEntities.CAROUSEL.get().create(blockPos, blockState);
+	}
+
+	@Override
+	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
 	}
 
 	@Override
@@ -100,7 +106,7 @@ public class CarouselBlock extends BaseEntityBlock implements SimpleWaterloggedB
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

@@ -1,7 +1,8 @@
 
 package net.mcreator.fnafsdecorationsport.client.renderer;
 
-import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
+import software.bernie.geckolib.renderer.GeoEntityRenderer;
+import software.bernie.geckolib.cache.object.BakedGeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
@@ -19,12 +20,20 @@ public class ChicachickenRenderer extends GeoEntityRenderer<ChicachickenEntity> 
 	public ChicachickenRenderer(EntityRendererProvider.Context renderManager) {
 		super(renderManager, new ChicachickenModel());
 		this.shadowRadius = 0.5f;
-		this.addLayer(new ChicachickenLayer(this));
+		this.addRenderLayer(new ChicachickenLayer(this));
 	}
 
 	@Override
-	public RenderType getRenderType(ChicachickenEntity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
-		stack.scale(1f, 1f, 1f);
-		return RenderType.entityTranslucent(getTextureLocation(entity));
+	public RenderType getRenderType(ChicachickenEntity animatable, ResourceLocation texture, MultiBufferSource bufferSource, float partialTick) {
+		return RenderType.entityTranslucent(getTextureLocation(animatable));
+	}
+
+	@Override
+	public void preRender(PoseStack poseStack, ChicachickenEntity entity, BakedGeoModel model, MultiBufferSource bufferSource, VertexConsumer buffer, boolean isReRender, float partialTick, int packedLight, int packedOverlay, float red, float green,
+			float blue, float alpha) {
+		float scale = 1f;
+		this.scaleHeight = scale;
+		this.scaleWidth = scale;
+		super.preRender(poseStack, entity, model, bufferSource, buffer, isReRender, partialTick, packedLight, packedOverlay, red, green, blue, alpha);
 	}
 }

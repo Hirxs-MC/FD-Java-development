@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/wall_paper_3",
   "textures": {
-    "all": "fd:blocks/new_paper_1",
-    "particle": "fd:blocks/new_paper_1",
-    "missing": "fd:blocks/new_paper_1"
+    "all": "fd:block/new_paper_1",
+    "particle": "fd:block/new_paper_1",
+    "missing": "fd:block/new_paper_1"
   },
   "render_type": "cutout"
 }

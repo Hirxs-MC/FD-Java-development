@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "blood_line"
+		"0": "fd:blocks/blood_line"
 	},
 	"elements": [
 		{
@@ -32,20 +32,60 @@
 				"up": {"uv": [15, 0, 16, 1], "texture": "#0"},
 				"down": {"uv": [15, 0, 16, 1], "texture": "#0"}
 			}
+		},
+		{
+			"name": "bb_main inverted",
+			"from": [14, 0.5, 28],
+			"to": [3, 0.5, 0],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 5.5, 0], "texture": "#0"},
+				"east": {"uv": [0, 0, 14, 0], "texture": "#0"},
+				"south": {"uv": [0, 0, 5.5, 0], "texture": "#0"},
+				"west": {"uv": [0, 0, 14, 0], "texture": "#0"},
+				"up": {"uv": [5.5, 0, 11, 14], "texture": "#0"},
+				"down": {"uv": [0, 14, 5.5, 0], "texture": "#0"}
+			}
 		}
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 7.75, 4.25]
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 2.25],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 2.25],
+			"scale": [0.375, 0.375, 0.375]
 		},
 		"firstperson_righthand": {
-			"rotation": [74, 0, 0],
-			"translation": [9.75, 11.75, -0.5]
+			"rotation": [103.42, -4.81, 96.22],
+			"translation": [-2.75, 4.5, 1],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [103.42, -4.81, 96.22],
+			"translation": [-2.75, 4.5, 1],
+			"scale": [0.5, 0.5, 0.5]
 		},
 		"ground": {
-			"rotation": [-1, 0, 0],
-			"translation": [0, 15.25, -5.75],
-			"scale": [2.01, 2.01, 1.9]
+			"translation": [0, 0.5, -2],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [3, 1.5, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"rotation": [70.75, 0, 0],
+			"translation": [0, -10.25, 12.5]
+		},
+		"fixed": {
+			"rotation": [90, 0, -180],
+			"translation": [0, 2.75, -3.25],
+			"scale": [0.5, 0.5, 0.5]
 		}
 	},
 	"groups": [
@@ -53,7 +93,8 @@
 			"name": "bb_main",
 			"origin": [8, 0, 8],
 			"color": 0,
-			"children": [0, 1]
+			"nbt": "{}",
+			"children": [0, 1, 2]
 		}
 	]
 }

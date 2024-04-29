@@ -1,7 +1,7 @@
 {
   "parent": "block/template_glass_pane_noside",
   "textures": {
-    "pane": "fd:blocks/blue_4"
+    "pane": "fd:block/blue_4"
   },
   "render_type": "cutout"
 }

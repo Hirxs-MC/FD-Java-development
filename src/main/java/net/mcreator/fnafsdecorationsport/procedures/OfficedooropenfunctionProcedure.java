@@ -25,7 +25,7 @@ public class OfficedooropenfunctionProcedure {
 		double sz = 0;
 		BlockState wheatBlock = Blocks.AIR.defaultBlockState();
 		{
-			BlockPos _bp = new BlockPos(x, y, z);
+			BlockPos _bp = BlockPos.containing(x, y, z);
 			BlockState _bs = FdModBlocks.OFFICEDOORBLOCKOPEN.get().defaultBlockState();
 			BlockState _bso = world.getBlockState(_bp);
 			for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
@@ -55,7 +55,7 @@ public class OfficedooropenfunctionProcedure {
 		}
 		if (world instanceof Level _level) {
 			if (!_level.isClientSide()) {
-				_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.metal_pressure_plate.click_off")), SoundSource.BLOCKS, 1, 1);
+				_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.metal_pressure_plate.click_off")), SoundSource.BLOCKS, 1, 1);
 			} else {
 				_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.metal_pressure_plate.click_off")), SoundSource.BLOCKS, 1, 1, false);
 			}

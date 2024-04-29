@@ -1,9 +1,9 @@
 {
   "parent": "block/stairs",
   "textures": {
-    "bottom": "fd:blocks/yellow_and_blue",
-    "top": "fd:blocks/yellow_and_blue",
-    "side": "fd:blocks/yellow_and_blue"
+    "bottom": "fd:block/yellow_and_blue",
+    "top": "fd:block/yellow_and_blue",
+    "side": "fd:block/yellow_and_blue"
   },
   "render_type": "solid"
 }

@@ -26,11 +26,11 @@ public class Changer_tool_testProcedure {
 		double raytrace_x = 0;
 		double raytrace_z = 0;
 		BlockState wheatBlock = Blocks.AIR.defaultBlockState();
-		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() instanceof AxeItem && FdModBlocks.PIZZERIA_LIGHT_ON.get() == (world.getBlockState(new BlockPos(x, y, z))).getBlock()) {
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() instanceof AxeItem && FdModBlocks.PIZZERIA_LIGHT_ON.get() == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {
 			if (world instanceof ServerLevel _level)
 				_level.sendParticles(ParticleTypes.WAX_ON, x, y, z, 10, 0.5, 0.5, 0.5, 1);
 			{
-				BlockPos _bp = new BlockPos(x, y, z);
+				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockState _bs = FdModBlocks.PIZZERIALIGHTOFF.get().defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {

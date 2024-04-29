@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/blood_floor.geo_-_converted",
   "textures": {
-    "all": "fd:blocks/blood_line",
-    "particle": "fd:blocks/blood_line",
-    "0": "fd:blocks/blood_line"
+    "all": "fd:block/blood_line",
+    "particle": "fd:block/blood_line",
+    "0": "fd:block/blood_line"
   },
   "render_type": "cutout_mipped"
 }

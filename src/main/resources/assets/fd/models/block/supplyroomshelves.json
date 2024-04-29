@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/new_large_empty_supply_shelf",
   "textures": {
-    "all": "fd:blocks/new_large_empty_supply_shelf",
-    "particle": "fd:blocks/new_large_empty_supply_shelf",
-    "1": "fd:blocks/new_large_empty_supply_shelf"
+    "all": "fd:block/new_large_empty_supply_shelf",
+    "particle": "fd:block/new_large_empty_supply_shelf",
+    "1": "fd:block/new_large_empty_supply_shelf"
   },
   "render_type": "cutout"
 }

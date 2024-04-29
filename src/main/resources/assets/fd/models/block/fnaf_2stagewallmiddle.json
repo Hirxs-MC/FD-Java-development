@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fd:blocks/stage_wall_white",
-    "particle": "fd:blocks/stage_wall_white"
+    "all": "fd:block/stage_wall_white",
+    "particle": "fd:block/stage_wall_white"
   },
   "render_type": "solid"
 }

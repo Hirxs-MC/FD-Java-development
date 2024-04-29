@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/roof_wires_1",
   "textures": {
-    "all": "fd:blocks/stars4",
-    "particle": "fd:blocks/stars4",
-    "0": "fd:blocks/stars4"
+    "all": "fd:block/stars4",
+    "particle": "fd:block/stars4",
+    "0": "fd:block/stars4"
   },
   "render_type": "cutout"
 }

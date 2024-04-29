@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fd:blocks/white_and_black_inverted",
-    "particle": "fd:blocks/white_and_black_inverted"
+    "all": "fd:block/white_and_black_inverted",
+    "particle": "fd:block/white_and_black_inverted"
   },
   "render_type": "solid"
 }

@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/n_balloons_1_up",
   "textures": {
-    "all": "fd:blocks/balloons",
-    "particle": "fd:blocks/balloons",
-    "0": "fd:blocks/balloons"
+    "all": "fd:block/balloons",
+    "particle": "fd:block/balloons",
+    "0": "fd:block/balloons"
   },
   "render_type": "cutout_mipped"
 }

@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fd:blocks/fnaf_2_wall_up_2_confetti",
-    "particle": "fd:blocks/fnaf_2_wall_up_2_confetti"
+    "all": "fd:block/fnaf_2_wall_up_2_confetti",
+    "particle": "fd:block/fnaf_2_wall_up_2_confetti"
   },
   "render_type": "solid"
 }

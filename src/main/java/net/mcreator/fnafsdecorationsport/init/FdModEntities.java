@@ -42,30 +42,30 @@ public class FdModEntities {
 			EntityType.Builder.<FreddyfazbearidleEntity>of(FreddyfazbearidleEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FreddyfazbearidleEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<FreddyfazbearEntity>> FREDDYFAZBEAR = register("freddyfazbear", EntityType.Builder.<FreddyfazbearEntity>of(FreddyfazbearEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FreddyfazbearEntity::new).fireImmune().sized(0.5f, 2.2f));
 	public static final RegistryObject<EntityType<BonniebunnyidleEntity>> BONNIEBUNNYIDLE = register("bonniebunnyidle",
 			EntityType.Builder.<BonniebunnyidleEntity>of(BonniebunnyidleEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BonniebunnyidleEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<BonniebunnyEntity>> BONNIEBUNNY = register("bonniebunny", EntityType.Builder.<BonniebunnyEntity>of(BonniebunnyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BonniebunnyEntity::new).fireImmune().sized(0.5f, 2.2f));
 	public static final RegistryObject<EntityType<ChicachickenidleEntity>> CHICACHICKENIDLE = register("chicachickenidle",
 			EntityType.Builder.<ChicachickenidleEntity>of(ChicachickenidleEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ChicachickenidleEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ChicachickenEntity>> CHICACHICKEN = register("chicachicken", EntityType.Builder.<ChicachickenEntity>of(ChicachickenEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ChicachickenEntity::new).fireImmune().sized(0.5f, 2.2f));
 	public static final RegistryObject<EntityType<FoxyidleEntity>> FOXYIDLE = register("foxyidle",
 			EntityType.Builder.<FoxyidleEntity>of(FoxyidleEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FoxyidleEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<FoxyEntity>> FOXY = register("foxy",
+			EntityType.Builder.<FoxyEntity>of(FoxyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FoxyEntity::new).fireImmune().sized(0.5f, 2.2f));
 	public static final RegistryObject<EntityType<ToychicashowtimeEntity>> TOYCHICASHOWTIME = register("toychicashowtime",
 			EntityType.Builder.<ToychicashowtimeEntity>of(ToychicashowtimeEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ToychicashowtimeEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<FreddyfazbearEntity>> FREDDYFAZBEAR = register("freddyfazbear", EntityType.Builder.<FreddyfazbearEntity>of(FreddyfazbearEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
-			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FreddyfazbearEntity::new).fireImmune().sized(0.5f, 2.2f));
-	public static final RegistryObject<EntityType<BonniebunnyEntity>> BONNIEBUNNY = register("bonniebunny", EntityType.Builder.<BonniebunnyEntity>of(BonniebunnyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
-			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BonniebunnyEntity::new).fireImmune().sized(0.5f, 2.2f));
-	public static final RegistryObject<EntityType<ChicachickenEntity>> CHICACHICKEN = register("chicachicken", EntityType.Builder.<ChicachickenEntity>of(ChicachickenEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
-			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ChicachickenEntity::new).fireImmune().sized(0.5f, 2.2f));
-	public static final RegistryObject<EntityType<FoxyEntity>> FOXY = register("foxy",
-			EntityType.Builder.<FoxyEntity>of(FoxyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FoxyEntity::new).fireImmune().sized(0.5f, 2.2f));
 	public static final RegistryObject<EntityType<ToyfreddyshowtimeEntity>> TOYFREDDYSHOWTIME = register("toyfreddyshowtime",
 			EntityType.Builder.<ToyfreddyshowtimeEntity>of(ToyfreddyshowtimeEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ToyfreddyshowtimeEntity::new)
 
@@ -88,14 +88,14 @@ public class FdModEntities {
 		event.enqueueWork(() -> {
 			ChairexecutionEntity.init();
 			FreddyfazbearidleEntity.init();
-			BonniebunnyidleEntity.init();
-			ChicachickenidleEntity.init();
-			FoxyidleEntity.init();
-			ToychicashowtimeEntity.init();
 			FreddyfazbearEntity.init();
+			BonniebunnyidleEntity.init();
 			BonniebunnyEntity.init();
+			ChicachickenidleEntity.init();
 			ChicachickenEntity.init();
+			FoxyidleEntity.init();
 			FoxyEntity.init();
+			ToychicashowtimeEntity.init();
 			ToyfreddyshowtimeEntity.init();
 			ToybonnieshowtimeEntity.init();
 			ToyfoxyshowtimeEntity.init();
@@ -106,14 +106,14 @@ public class FdModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(CHAIREXECUTION.get(), ChairexecutionEntity.createAttributes().build());
 		event.put(FREDDYFAZBEARIDLE.get(), FreddyfazbearidleEntity.createAttributes().build());
-		event.put(BONNIEBUNNYIDLE.get(), BonniebunnyidleEntity.createAttributes().build());
-		event.put(CHICACHICKENIDLE.get(), ChicachickenidleEntity.createAttributes().build());
-		event.put(FOXYIDLE.get(), FoxyidleEntity.createAttributes().build());
-		event.put(TOYCHICASHOWTIME.get(), ToychicashowtimeEntity.createAttributes().build());
 		event.put(FREDDYFAZBEAR.get(), FreddyfazbearEntity.createAttributes().build());
+		event.put(BONNIEBUNNYIDLE.get(), BonniebunnyidleEntity.createAttributes().build());
 		event.put(BONNIEBUNNY.get(), BonniebunnyEntity.createAttributes().build());
+		event.put(CHICACHICKENIDLE.get(), ChicachickenidleEntity.createAttributes().build());
 		event.put(CHICACHICKEN.get(), ChicachickenEntity.createAttributes().build());
+		event.put(FOXYIDLE.get(), FoxyidleEntity.createAttributes().build());
 		event.put(FOXY.get(), FoxyEntity.createAttributes().build());
+		event.put(TOYCHICASHOWTIME.get(), ToychicashowtimeEntity.createAttributes().build());
 		event.put(TOYFREDDYSHOWTIME.get(), ToyfreddyshowtimeEntity.createAttributes().build());
 		event.put(TOYBONNIESHOWTIME.get(), ToybonnieshowtimeEntity.createAttributes().build());
 		event.put(TOYFOXYSHOWTIME.get(), ToyfoxyshowtimeEntity.createAttributes().build());

@@ -1,15 +1,14 @@
 
 package net.mcreator.fnafsdecorationsport.entity;
 
-import software.bernie.geckolib3.util.GeckoLibUtil;
-import software.bernie.geckolib3.core.manager.AnimationFactory;
-import software.bernie.geckolib3.core.manager.AnimationData;
-import software.bernie.geckolib3.core.event.predicate.AnimationEvent;
-import software.bernie.geckolib3.core.controller.AnimationController;
-import software.bernie.geckolib3.core.builder.ILoopType.EDefaultLoopTypes;
-import software.bernie.geckolib3.core.builder.AnimationBuilder;
-import software.bernie.geckolib3.core.PlayState;
-import software.bernie.geckolib3.core.IAnimatable;
+import software.bernie.geckolib.util.GeckoLibUtil;
+import software.bernie.geckolib.core.object.PlayState;
+import software.bernie.geckolib.core.animation.RawAnimation;
+import software.bernie.geckolib.core.animation.AnimationState;
+import software.bernie.geckolib.core.animation.AnimationController;
+import software.bernie.geckolib.core.animation.AnimatableManager;
+import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
+import software.bernie.geckolib.animatable.GeoEntity;
 
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
@@ -34,22 +33,24 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.entity.AreaEffectCloud;
+import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
+import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 
 import net.mcreator.fnafsdecorationsport.init.FdModEntities;
 
-public class FreddyfazbearEntity extends Monster implements IAnimatable {
+public class FreddyfazbearEntity extends Monster implements GeoEntity {
 	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(FreddyfazbearEntity.class, EntityDataSerializers.BOOLEAN);
 	public static final EntityDataAccessor<String> ANIMATION = SynchedEntityData.defineId(FreddyfazbearEntity.class, EntityDataSerializers.STRING);
 	public static final EntityDataAccessor<String> TEXTURE = SynchedEntityData.defineId(FreddyfazbearEntity.class, EntityDataSerializers.STRING);
-	private AnimationFactory factory = GeckoLibUtil.createFactory(this);
+	private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
 	private boolean swinging;
 	private boolean lastloop;
 	private long lastSwing;
@@ -83,7 +84,7 @@ public class FreddyfazbearEntity extends Monster implements IAnimatable {
 	}
 
 	@Override
-	public Packet<?> getAddEntityPacket() {
+	public Packet<ClientGamePacketListener> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
 	}
 
@@ -129,19 +130,21 @@ public class FreddyfazbearEntity extends Monster implements IAnimatable {
 
 	@Override
 	public boolean hurt(DamageSource source, float amount) {
+		if (source.is(DamageTypes.IN_FIRE))
+			return false;
 		if (source.getDirectEntity() instanceof ThrownPotion || source.getDirectEntity() instanceof AreaEffectCloud)
 			return false;
-		if (source == DamageSource.CACTUS)
+		if (source.is(DamageTypes.CACTUS))
 			return false;
-		if (source == DamageSource.DROWN)
+		if (source.is(DamageTypes.DROWN))
 			return false;
-		if (source == DamageSource.ANVIL)
+		if (source.is(DamageTypes.FALLING_ANVIL))
 			return false;
-		if (source == DamageSource.DRAGON_BREATH)
+		if (source.is(DamageTypes.DRAGON_BREATH))
 			return false;
-		if (source == DamageSource.WITHER)
+		if (source.is(DamageTypes.WITHER))
 			return false;
-		if (source.getMsgId().equals("witherSkull"))
+		if (source.is(DamageTypes.WITHER_SKULL))
 			return false;
 		return super.hurt(source, amount);
 	}
@@ -185,50 +188,48 @@ public class FreddyfazbearEntity extends Monster implements IAnimatable {
 		return builder;
 	}
 
-	private <E extends IAnimatable> PlayState movementPredicate(AnimationEvent<E> event) {
+	private PlayState movementPredicate(AnimationState event) {
 		if (this.animationprocedure.equals("empty")) {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
 
 			) {
-				event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.feddy.geo.walk", EDefaultLoopTypes.LOOP));
-				return PlayState.CONTINUE;
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.feddy.geo.walk"));
 			}
 			if (this.isSprinting()) {
-				event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.feddy.geo.walk", EDefaultLoopTypes.LOOP));
-				return PlayState.CONTINUE;
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.feddy.geo.walk"));
 			}
-			event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.feddy.geo.idle", EDefaultLoopTypes.LOOP));
-			return PlayState.CONTINUE;
+			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.feddy.geo.idle"));
 		}
 		return PlayState.STOP;
 	}
 
-	private <E extends IAnimatable> PlayState attackingPredicate(AnimationEvent<E> event) {
+	private PlayState attackingPredicate(AnimationState event) {
 		double d1 = this.getX() - this.xOld;
 		double d0 = this.getZ() - this.zOld;
 		float velocity = (float) Math.sqrt(d1 * d1 + d0 * d0);
 		if (getAttackAnim(event.getPartialTick()) > 0f && !this.swinging) {
 			this.swinging = true;
-			this.lastSwing = level.getGameTime();
+			this.lastSwing = level().getGameTime();
 		}
-		if (this.swinging && this.lastSwing + 15L <= level.getGameTime()) {
+		if (this.swinging && this.lastSwing + 7L <= level().getGameTime()) {
 			this.swinging = false;
 		}
-		if (this.swinging && event.getController().getAnimationState().equals(software.bernie.geckolib3.core.AnimationState.Stopped)) {
-			event.getController().markNeedsReload();
-			event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.feddy.geo.attack", EDefaultLoopTypes.PLAY_ONCE));
-			return PlayState.CONTINUE;
+		if (this.swinging && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
+			event.getController().forceAnimationReset();
+			return event.setAndContinue(RawAnimation.begin().thenPlay("animation.feddy.geo.attack"));
 		}
 		return PlayState.CONTINUE;
 	}
 
-	private <E extends IAnimatable> PlayState procedurePredicate(AnimationEvent<E> event) {
-		if (!this.animationprocedure.equals("empty") && event.getController().getAnimationState().equals(software.bernie.geckolib3.core.AnimationState.Stopped)) {
-			event.getController().setAnimation(new AnimationBuilder().addAnimation(this.animationprocedure, EDefaultLoopTypes.PLAY_ONCE));
-			if (event.getController().getAnimationState().equals(software.bernie.geckolib3.core.AnimationState.Stopped)) {
+	private PlayState procedurePredicate(AnimationState event) {
+		if (!animationprocedure.equals("empty") && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
+			event.getController().setAnimation(RawAnimation.begin().thenPlay(this.animationprocedure));
+			if (event.getController().getAnimationState() == AnimationController.State.STOPPED) {
 				this.animationprocedure = "empty";
-				event.getController().markNeedsReload();
+				event.getController().forceAnimationReset();
 			}
+		} else if (animationprocedure.equals("empty")) {
+			return PlayState.STOP;
 		}
 		return PlayState.CONTINUE;
 	}
@@ -251,14 +252,14 @@ public class FreddyfazbearEntity extends Monster implements IAnimatable {
 	}
 
 	@Override
-	public void registerControllers(AnimationData data) {
-		data.addAnimationController(new AnimationController<>(this, "movement", 4, this::movementPredicate));
-		data.addAnimationController(new AnimationController<>(this, "attacking", 4, this::attackingPredicate));
-		data.addAnimationController(new AnimationController<>(this, "procedure", 4, this::procedurePredicate));
+	public void registerControllers(AnimatableManager.ControllerRegistrar data) {
+		data.add(new AnimationController<>(this, "movement", 4, this::movementPredicate));
+		data.add(new AnimationController<>(this, "attacking", 4, this::attackingPredicate));
+		data.add(new AnimationController<>(this, "procedure", 4, this::procedurePredicate));
 	}
 
 	@Override
-	public AnimationFactory getFactory() {
-		return this.factory;
+	public AnimatableInstanceCache getAnimatableInstanceCache() {
+		return this.cache;
 	}
 }

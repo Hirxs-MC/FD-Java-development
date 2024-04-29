@@ -1,12 +1,12 @@
 package net.mcreator.fnafsdecorationsport.entity.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fnafsdecorationsport.entity.ChicachickenEntity;
 
-public class ChicachickenModel extends AnimatedGeoModel<ChicachickenEntity> {
+public class ChicachickenModel extends GeoModel<ChicachickenEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(ChicachickenEntity entity) {
 		return new ResourceLocation("fd", "animations/chica_chicken.animation.json");

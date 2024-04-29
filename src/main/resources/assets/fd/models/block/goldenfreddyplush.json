@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/golden_freddy_plush",
   "textures": {
-    "all": "fd:blocks/golden_freddy",
-    "particle": "fd:blocks/golden_freddy",
-    "1": "fd:blocks/golden_freddy"
+    "all": "fd:block/golden_freddy",
+    "particle": "fd:block/golden_freddy",
+    "1": "fd:block/golden_freddy"
   },
   "render_type": "cutout_mipped"
 }

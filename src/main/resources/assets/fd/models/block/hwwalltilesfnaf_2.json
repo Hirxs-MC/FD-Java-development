@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "fd:block/fnaf_2_wall_middle",
+    "top": "fd:block/fnaf_2_wall_middle",
+    "side": "fd:block/hw_wall_f2_1",
+    "overlay": "fd:block/hw_wall_f2_1",
+    "particle": "fd:block/fnaf_2_wall_middle"
+  },
+  "render_type": "cutout_mipped"
+}

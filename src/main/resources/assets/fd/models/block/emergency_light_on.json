@@ -1,9 +1,9 @@
 {
-  "parent": "fd:custom/emergency_light_on_fix",
+  "parent": "fd:custom/n_emergency_light_on_fix",
   "textures": {
-    "all": "fd:blocks/fix_emergency_light_on",
-    "particle": "fd:blocks/fix_emergency_light_on",
-    "0": "fd:blocks/emergency_light_on"
+    "all": "fd:block/fix_emergency_light_on",
+    "particle": "fd:block/fix_emergency_light_on",
+    "0": "fd:block/fix_emergency_light_on"
   },
-  "render_type": "cutout_mipped"
+  "render_type": "cutout"
 }

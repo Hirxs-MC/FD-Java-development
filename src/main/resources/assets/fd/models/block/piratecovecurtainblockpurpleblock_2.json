@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fd:blocks/j",
-    "particle": "fd:blocks/j"
+    "all": "fd:block/j",
+    "particle": "fd:block/j"
   },
   "render_type": "solid"
 }

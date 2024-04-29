@@ -17,8 +17,8 @@ public class ClientListener {
 	@OnlyIn(Dist.CLIENT)
 	@SubscribeEvent
 	public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerBlockEntityRenderer(FdModBlockEntities.PARTYBANNER_1.get(), Partybanner1TileRenderer::new);
-		event.registerBlockEntityRenderer(FdModBlockEntities.PARTYBANNER_2.get(), Partybanner2TileRenderer::new);
-		event.registerBlockEntityRenderer(FdModBlockEntities.CAROUSEL.get(), CarouselTileRenderer::new);
+		event.registerBlockEntityRenderer(FdModBlockEntities.PARTYBANNER_1.get(), context -> new Partybanner1TileRenderer());
+		event.registerBlockEntityRenderer(FdModBlockEntities.PARTYBANNER_2.get(), context -> new Partybanner2TileRenderer());
+		event.registerBlockEntityRenderer(FdModBlockEntities.CAROUSEL.get(), context -> new CarouselTileRenderer());
 	}
 }

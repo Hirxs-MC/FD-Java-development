@@ -1,8 +1,8 @@
 
 package net.mcreator.fnafsdecorationsport.block;
 
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.StairBlock;
@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class FlooryellowbluestairBlock extends StairBlock {
 	public FlooryellowbluestairBlock() {
-		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.DEEPSLATE_BRICKS).strength(1f, 10f).dynamicShape());
+		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.DEEPSLATE_BRICKS).strength(1f, 10f).dynamicShape());
 	}
 
 	@Override
@@ -32,12 +32,12 @@ public class FlooryellowbluestairBlock extends StairBlock {
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, level, list, flag);
+	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

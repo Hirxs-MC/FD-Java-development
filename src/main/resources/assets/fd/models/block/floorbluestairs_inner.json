@@ -1,9 +1,9 @@
 {
   "parent": "block/inner_stairs",
   "textures": {
-    "bottom": "fd:blocks/hgdf",
-    "top": "fd:blocks/hgdf",
-    "side": "fd:blocks/hgdf"
+    "bottom": "fd:block/hgdf",
+    "top": "fd:block/hgdf",
+    "side": "fd:block/hgdf"
   },
   "render_type": "solid"
 }

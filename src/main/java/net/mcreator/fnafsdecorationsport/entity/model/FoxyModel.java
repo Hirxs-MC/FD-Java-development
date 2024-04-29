@@ -1,12 +1,12 @@
 package net.mcreator.fnafsdecorationsport.entity.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fnafsdecorationsport.entity.FoxyEntity;
 
-public class FoxyModel extends AnimatedGeoModel<FoxyEntity> {
+public class FoxyModel extends GeoModel<FoxyEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(FoxyEntity entity) {
 		return new ResourceLocation("fd", "animations/foxy.animation.json");

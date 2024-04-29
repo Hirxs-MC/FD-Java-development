@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/spring_bonnie_plush",
   "textures": {
-    "all": "fd:blocks/spring_bonnie",
-    "particle": "fd:blocks/spring_bonnie",
-    "1": "fd:blocks/spring_bonnie"
+    "all": "fd:block/spring_bonnie",
+    "particle": "fd:block/spring_bonnie",
+    "1": "fd:block/spring_bonnie"
   },
   "render_type": "cutout_mipped"
 }

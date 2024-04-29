@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/arcade_bonnie",
   "textures": {
-    "all": "fd:blocks/arcade2",
-    "particle": "fd:blocks/arcade2",
-    "0": "fd:blocks/arcade2"
+    "all": "fd:block/arcade2",
+    "particle": "fd:block/arcade2",
+    "0": "fd:block/arcade2"
   },
   "render_type": "cutout"
 }

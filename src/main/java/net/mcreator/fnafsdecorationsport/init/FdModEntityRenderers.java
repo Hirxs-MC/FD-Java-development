@@ -29,14 +29,14 @@ public class FdModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(FdModEntities.CHAIREXECUTION.get(), ChairexecutionRenderer::new);
 		event.registerEntityRenderer(FdModEntities.FREDDYFAZBEARIDLE.get(), FreddyfazbearidleRenderer::new);
-		event.registerEntityRenderer(FdModEntities.BONNIEBUNNYIDLE.get(), BonniebunnyidleRenderer::new);
-		event.registerEntityRenderer(FdModEntities.CHICACHICKENIDLE.get(), ChicachickenidleRenderer::new);
-		event.registerEntityRenderer(FdModEntities.FOXYIDLE.get(), FoxyidleRenderer::new);
-		event.registerEntityRenderer(FdModEntities.TOYCHICASHOWTIME.get(), ToychicashowtimeRenderer::new);
 		event.registerEntityRenderer(FdModEntities.FREDDYFAZBEAR.get(), FreddyfazbearRenderer::new);
+		event.registerEntityRenderer(FdModEntities.BONNIEBUNNYIDLE.get(), BonniebunnyidleRenderer::new);
 		event.registerEntityRenderer(FdModEntities.BONNIEBUNNY.get(), BonniebunnyRenderer::new);
+		event.registerEntityRenderer(FdModEntities.CHICACHICKENIDLE.get(), ChicachickenidleRenderer::new);
 		event.registerEntityRenderer(FdModEntities.CHICACHICKEN.get(), ChicachickenRenderer::new);
+		event.registerEntityRenderer(FdModEntities.FOXYIDLE.get(), FoxyidleRenderer::new);
 		event.registerEntityRenderer(FdModEntities.FOXY.get(), FoxyRenderer::new);
+		event.registerEntityRenderer(FdModEntities.TOYCHICASHOWTIME.get(), ToychicashowtimeRenderer::new);
 		event.registerEntityRenderer(FdModEntities.TOYFREDDYSHOWTIME.get(), ToyfreddyshowtimeRenderer::new);
 		event.registerEntityRenderer(FdModEntities.TOYBONNIESHOWTIME.get(), ToybonnieshowtimeRenderer::new);
 		event.registerEntityRenderer(FdModEntities.TOYFOXYSHOWTIME.get(), ToyfoxyshowtimeRenderer::new);

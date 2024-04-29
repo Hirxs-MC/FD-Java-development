@@ -29,35 +29,14 @@ public class EntityAnimationFactory {
 					syncable.animationprocedure = animation;
 				}
 			}
-			if (event.getEntity() instanceof BonniebunnyidleEntity syncable) {
-				String animation = syncable.getSyncedAnimation();
-				if (!animation.equals("undefined")) {
-					syncable.setAnimation("undefined");
-					syncable.animationprocedure = animation;
-				}
-			}
-			if (event.getEntity() instanceof ChicachickenidleEntity syncable) {
-				String animation = syncable.getSyncedAnimation();
-				if (!animation.equals("undefined")) {
-					syncable.setAnimation("undefined");
-					syncable.animationprocedure = animation;
-				}
-			}
-			if (event.getEntity() instanceof FoxyidleEntity syncable) {
-				String animation = syncable.getSyncedAnimation();
-				if (!animation.equals("undefined")) {
-					syncable.setAnimation("undefined");
-					syncable.animationprocedure = animation;
-				}
-			}
-			if (event.getEntity() instanceof ToychicashowtimeEntity syncable) {
-				String animation = syncable.getSyncedAnimation();
-				if (!animation.equals("undefined")) {
-					syncable.setAnimation("undefined");
-					syncable.animationprocedure = animation;
-				}
-			}
 			if (event.getEntity() instanceof FreddyfazbearEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof BonniebunnyidleEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");
@@ -71,6 +50,13 @@ public class EntityAnimationFactory {
 					syncable.animationprocedure = animation;
 				}
 			}
+			if (event.getEntity() instanceof ChicachickenidleEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
 			if (event.getEntity() instanceof ChicachickenEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
@@ -78,7 +64,21 @@ public class EntityAnimationFactory {
 					syncable.animationprocedure = animation;
 				}
 			}
+			if (event.getEntity() instanceof FoxyidleEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
 			if (event.getEntity() instanceof FoxyEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof ToychicashowtimeEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

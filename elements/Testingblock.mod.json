@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "FFD Interior Wall (Middle)",
+    "name": "Party Table (White)",
     "specialInformation": {
       "fixedValue": [
         "德"
@@ -44,7 +44,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:FDWalls"
+      "value": "CUSTOM:FnafsDecorations"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -58,7 +58,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "ROCK"
+      "value": "WOOD"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -83,7 +83,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "WOOD"
     },
     "breakSound": {
       "value": ""

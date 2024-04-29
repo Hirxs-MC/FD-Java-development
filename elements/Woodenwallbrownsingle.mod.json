@@ -42,7 +42,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:FnafsDecorations"
+      "value": "CUSTOM:FDWalls"
     },
     "destroyTool": "Not specified",
     "customDrop": {

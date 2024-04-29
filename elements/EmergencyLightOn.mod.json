@@ -9,8 +9,8 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "emergency_light_on_fix:default",
-    "rotationMode": 1,
+    "customModelName": "n_emergency_light_on_fix:default",
+    "rotationMode": 4,
     "enablePitch": false,
     "emissiveRendering": true,
     "displayFluidOverlay": false,
@@ -20,7 +20,7 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "CUTOUT_MIPPED",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {

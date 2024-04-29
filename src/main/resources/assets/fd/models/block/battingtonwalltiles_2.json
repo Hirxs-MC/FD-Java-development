@@ -1,11 +1,11 @@
 {
   "parent": "block/grass_block",
   "textures": {
-    "bottom": "fd:blocks/battington_wall_lower2",
-    "top": "fd:blocks/battington_wall_upper",
-    "side": "fd:blocks/battington_wall_middle1",
-    "overlay": "fd:blocks/battington_wall_middle1",
-    "particle": "fd:blocks/battington_wall_lower2"
+    "bottom": "fd:block/battington_wall_lower2",
+    "top": "fd:block/battington_wall_upper",
+    "side": "fd:block/battington_wall_middle1",
+    "overlay": "fd:block/battington_wall_middle1",
+    "particle": "fd:block/battington_wall_lower2"
   },
   "render_type": "cutout_mipped"
 }

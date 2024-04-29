@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/stage_sun",
   "textures": {
-    "all": "fd:blocks/new_sun",
-    "particle": "fd:blocks/new_sun",
-    "0": "fd:blocks/new_sun"
+    "all": "fd:block/new_sun",
+    "particle": "fd:block/new_sun",
+    "0": "fd:block/new_sun"
   },
   "render_type": "cutout"
 }

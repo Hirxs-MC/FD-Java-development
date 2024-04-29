@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/warning_sign",
   "textures": {
-    "all": "fd:blocks/warning_sign_1.json",
-    "particle": "fd:blocks/warning_sign_1.json",
-    "0": "fd:blocks/warning_sign_1.json"
+    "all": "fd:block/warning_sign_1.json",
+    "particle": "fd:block/warning_sign_1.json",
+    "0": "fd:block/warning_sign_1.json"
   },
   "render_type": "cutout"
 }

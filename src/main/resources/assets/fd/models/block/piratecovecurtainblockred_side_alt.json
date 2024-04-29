@@ -1,8 +1,8 @@
 {
   "parent": "block/template_glass_pane_side_alt",
   "textures": {
-    "edge": "fd:blocks/inv",
-    "pane": "fd:blocks/e"
+    "edge": "fd:block/inv",
+    "pane": "fd:block/e"
   },
   "render_type": "cutout"
 }

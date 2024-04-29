@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fd:blocks/battington_7",
-    "particle": "fd:blocks/battington_7"
+    "all": "fd:block/battington_7",
+    "particle": "fd:block/battington_7"
   },
   "render_type": "solid"
 }

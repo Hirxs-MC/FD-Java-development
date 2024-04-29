@@ -6,8 +6,8 @@ import org.checkerframework.checker.units.qual.s;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -32,13 +32,13 @@ public class ArcadeSignBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public ArcadeSignBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(1f, 10f).lightLevel(s -> 9).noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.WOOD).strength(1f, 10f).lightLevel(s -> 9).noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, level, list, flag);
+	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
 	}
 
 	@Override
@@ -59,10 +59,10 @@ public class ArcadeSignBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(7, 0, 7, 9, 2, 9);
-			case NORTH -> box(7, 0, 7, 9, 2, 9);
-			case EAST -> box(7, 0, 7, 9, 2, 9);
-			case WEST -> box(7, 0, 7, 9, 2, 9);
+			default -> box(0, 0, 0.2, 16, 16, 2.2);
+			case NORTH -> box(0, 0, 13.8, 16, 16, 15.8);
+			case EAST -> box(0.2, 0, 0, 2.2, 16, 16);
+			case WEST -> box(13.8, 0, 0, 15.8, 16, 16);
 		};
 	}
 
@@ -85,7 +85,7 @@ public class ArcadeSignBlock extends Block {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

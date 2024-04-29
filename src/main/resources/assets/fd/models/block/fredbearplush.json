@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/fredbear_plush",
   "textures": {
-    "all": "fd:blocks/fredbear",
-    "particle": "fd:blocks/fredbear",
-    "1": "fd:blocks/fredbear"
+    "all": "fd:block/fredbear",
+    "particle": "fd:block/fredbear",
+    "1": "fd:block/fredbear"
   },
   "render_type": "cutout_mipped"
 }

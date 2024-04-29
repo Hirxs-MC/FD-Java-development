@@ -1,11 +1,11 @@
 {
   "parent": "block/grass_block",
   "textures": {
-    "bottom": "fd:blocks/gray_texture",
-    "top": "fd:blocks/battington_wall_lower",
-    "side": "fd:blocks/battington_wall_lower1",
-    "overlay": "fd:blocks/battington_wall_lower1",
-    "particle": "fd:blocks/gray_texture"
+    "bottom": "fd:block/gray_texture",
+    "top": "fd:block/battington_wall_lower",
+    "side": "fd:block/battington_wall_lower1",
+    "overlay": "fd:block/battington_wall_lower1",
+    "particle": "fd:block/gray_texture"
   },
   "render_type": "cutout_mipped"
 }

@@ -1,9 +1,9 @@
 {
   "parent": "block/cube_bottom_top",
   "textures": {
-    "bottom": "fd:blocks/white_and_black_inverted",
-    "top": "fd:blocks/white_and_black_inverted",
-    "side": "fd:blocks/white_and_black_inverted"
+    "bottom": "fd:block/white_and_black_inverted",
+    "top": "fd:block/white_and_black_inverted",
+    "side": "fd:block/white_and_black_inverted"
   },
   "render_type": "solid"
 }

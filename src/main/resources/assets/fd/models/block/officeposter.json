@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/new_office_poster",
   "textures": {
-    "all": "fd:blocks/new_office_poster",
-    "particle": "fd:blocks/new_office_poster",
-    "1": "fd:blocks/new_office_poster"
+    "all": "fd:block/new_office_poster",
+    "particle": "fd:block/new_office_poster",
+    "1": "fd:block/new_office_poster"
   },
   "render_type": "cutout"
 }

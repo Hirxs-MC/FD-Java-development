@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "fix_emergency_light_on"
+      },
+      "name": "default"
+    }
+  }
+}

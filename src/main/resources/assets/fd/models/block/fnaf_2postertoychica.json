@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/fnaf_2_posters_chica",
   "textures": {
-    "all": "fd:blocks/fnaf2_poster_4",
-    "particle": "fd:blocks/fnaf2_poster_4",
-    "1": "fd:blocks/fnaf2_poster_4"
+    "all": "fd:block/fnaf2_poster_4",
+    "particle": "fd:block/fnaf2_poster_4",
+    "1": "fd:block/fnaf2_poster_4"
   },
   "render_type": "cutout_mipped"
 }

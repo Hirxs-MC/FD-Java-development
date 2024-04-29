@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fd:items/bathroom_door"
+    "layer0": "fd:item/bathroom_door"
   },
   "render_type": "translucent"
 }

@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/monitors_4",
   "textures": {
-    "all": "fd:blocks/new_monitor_blue",
-    "particle": "fd:blocks/new_monitor_blue",
-    "0": "fd:blocks/new_monitor_blue"
+    "all": "fd:block/new_monitor_blue",
+    "particle": "fd:block/new_monitor_blue",
+    "0": "fd:block/new_monitor_blue"
   },
   "render_type": "cutout"
 }

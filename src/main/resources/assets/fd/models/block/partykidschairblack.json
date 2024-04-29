@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/new_pizzeria_chair_purple_a",
   "textures": {
-    "all": "fd:blocks/purplepartychair",
-    "particle": "fd:blocks/purplepartychair",
-    "1": "fd:blocks/purplepartychair"
+    "all": "fd:block/purplepartychair",
+    "particle": "fd:block/purplepartychair",
+    "1": "fd:block/purplepartychair"
   },
   "render_type": "cutout"
 }

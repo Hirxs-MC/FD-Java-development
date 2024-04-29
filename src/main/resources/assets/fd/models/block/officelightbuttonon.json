@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/n_light_button_on",
   "textures": {
-    "all": "fd:blocks/office_button",
-    "particle": "fd:blocks/office_button",
-    "1": "fd:blocks/office_button"
+    "all": "fd:block/office_button",
+    "particle": "fd:block/office_button",
+    "1": "fd:block/office_button"
   },
   "render_type": "solid"
 }

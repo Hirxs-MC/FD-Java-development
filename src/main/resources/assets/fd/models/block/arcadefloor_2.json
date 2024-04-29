@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fd:blocks/arcade_floor_2",
-    "particle": "fd:blocks/arcade_floor_2"
+    "all": "fd:block/arcade_floor_2",
+    "particle": "fd:block/arcade_floor_2"
   },
   "render_type": "solid"
 }

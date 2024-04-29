@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/wall_poster_faces_b",
   "textures": {
-    "all": "fd:blocks/bonnie",
-    "particle": "fd:blocks/bonnie",
-    "0": "fd:blocks/bonnie"
+    "all": "fd:block/bonnie",
+    "particle": "fd:block/bonnie",
+    "0": "fd:block/bonnie"
   },
   "render_type": "cutout_mipped"
 }

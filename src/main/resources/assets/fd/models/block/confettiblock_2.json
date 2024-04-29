@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/confetti_block_2",
   "textures": {
-    "all": "fd:blocks/confetti_2",
-    "particle": "fd:blocks/confetti_2",
-    "missing": "fd:blocks/confetti_2"
+    "all": "fd:block/confetti_2",
+    "particle": "fd:block/confetti_2",
+    "missing": "fd:block/confetti_2"
   },
   "render_type": "cutout"
 }

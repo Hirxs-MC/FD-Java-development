@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/new_office_door_open",
   "textures": {
-    "all": "fd:blocks/office_door_texture",
-    "particle": "fd:blocks/office_door_texture",
-    "1": "fd:blocks/office_door_test"
+    "all": "fd:block/office_door_texture",
+    "particle": "fd:block/office_door_texture",
+    "1": "fd:block/office_door_test"
   },
   "render_type": "cutout"
 }

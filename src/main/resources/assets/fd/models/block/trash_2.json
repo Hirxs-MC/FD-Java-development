@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/trash_2",
   "textures": {
-    "all": "fd:blocks/soda",
-    "particle": "fd:blocks/soda",
-    "0": "fd:blocks/soda"
+    "all": "fd:block/soda",
+    "particle": "fd:block/soda",
+    "0": "fd:block/soda"
   },
   "render_type": "cutout"
 }

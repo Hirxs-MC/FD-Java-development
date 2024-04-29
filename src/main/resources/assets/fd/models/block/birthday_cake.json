@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/party_cake.geo_-_converted",
   "textures": {
-    "all": "fd:blocks/party_cake",
-    "particle": "fd:blocks/party_cake",
-    "0": "fd:blocks/party_cake"
+    "all": "fd:block/party_cake",
+    "particle": "fd:block/party_cake",
+    "0": "fd:block/party_cake"
   },
   "render_type": "cutout_mipped"
 }

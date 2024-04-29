@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/switch_off",
   "textures": {
-    "all": "fd:blocks/switch_on",
-    "particle": "fd:blocks/switch_on",
-    "0": "fd:blocks/switch_on"
+    "all": "fd:block/switch_on",
+    "particle": "fd:block/switch_on",
+    "0": "fd:block/switch_on"
   },
   "render_type": "cutout_mipped"
 }

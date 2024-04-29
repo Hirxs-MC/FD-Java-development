@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/office_light_off",
   "textures": {
-    "all": "fd:blocks/office_light_off",
-    "particle": "fd:blocks/office_light_off",
-    "missing": "fd:blocks/office_light_off"
+    "all": "fd:block/office_light_off",
+    "particle": "fd:block/office_light_off",
+    "missing": "fd:block/office_light_off"
   },
   "render_type": "cutout"
 }

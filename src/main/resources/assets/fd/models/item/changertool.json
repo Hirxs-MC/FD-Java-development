@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "fd:items/changer_tool"
+    "layer0": "fd:item/changer_tool"
   }
 }

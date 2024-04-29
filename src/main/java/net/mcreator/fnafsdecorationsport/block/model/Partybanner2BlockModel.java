@@ -1,12 +1,12 @@
 package net.mcreator.fnafsdecorationsport.block.model;
 
-import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.fnafsdecorationsport.block.entity.Partybanner2TileEntity;
 
-public class Partybanner2BlockModel extends AnimatedGeoModel<Partybanner2TileEntity> {
+public class Partybanner2BlockModel extends GeoModel<Partybanner2TileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(Partybanner2TileEntity animatable) {
 		return new ResourceLocation("fd", "animations/n_party_banner_2.animation.json");
@@ -19,6 +19,6 @@ public class Partybanner2BlockModel extends AnimatedGeoModel<Partybanner2TileEnt
 
 	@Override
 	public ResourceLocation getTextureResource(Partybanner2TileEntity entity) {
-		return new ResourceLocation("fd", "textures/blocks/lets_party_banner.png");
+		return new ResourceLocation("fd", "textures/block/lets_party_banner.png");
 	}
 }

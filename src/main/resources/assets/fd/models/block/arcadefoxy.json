@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/arcade_foxy",
   "textures": {
-    "all": "fd:blocks/arcade3",
-    "particle": "fd:blocks/arcade3",
-    "0": "fd:blocks/arcade3"
+    "all": "fd:block/arcade3",
+    "particle": "fd:block/arcade3",
+    "0": "fd:block/arcade3"
   },
   "render_type": "cutout"
 }

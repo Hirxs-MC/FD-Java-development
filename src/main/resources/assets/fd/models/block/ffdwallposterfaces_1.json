@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/ffd_wall_poster_faces_1",
   "textures": {
-    "all": "fd:blocks/poster1",
-    "particle": "fd:blocks/poster1",
-    "missing": "fd:blocks/poster1"
+    "all": "fd:block/poster1",
+    "particle": "fd:block/poster1",
+    "missing": "fd:block/poster1"
   },
   "render_type": "cutout_mipped"
 }

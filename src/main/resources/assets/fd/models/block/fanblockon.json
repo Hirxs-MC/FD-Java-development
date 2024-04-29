@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/fan_on",
   "textures": {
-    "all": "fd:blocks/fantextureon",
-    "particle": "fd:blocks/fantextureon",
-    "0": "fd:blocks/fantextureon"
+    "all": "fd:block/fantextureon",
+    "particle": "fd:block/fantextureon",
+    "0": "fd:block/fantextureon"
   },
   "render_type": "cutout"
 }

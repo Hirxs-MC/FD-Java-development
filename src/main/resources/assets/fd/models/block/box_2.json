@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/box_2",
   "textures": {
-    "all": "fd:blocks/box_1",
-    "particle": "fd:blocks/box_1",
-    "0": "fd:blocks/box_1"
+    "all": "fd:block/box_1",
+    "particle": "fd:block/box_1",
+    "0": "fd:block/box_1"
   },
   "render_type": "cutout"
 }

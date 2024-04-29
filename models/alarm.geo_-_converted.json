@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "alarm"
+		"0": "fd:blocks/alarm"
 	},
 	"elements": [
 		{
@@ -40,12 +40,34 @@
 			"scale": [0.66, 0.68, 0.66]
 		},
 		"thirdperson_lefthand": {
-			"translation": [0, 4.25, 0]
+			"rotation": [93, 0, 0],
+			"translation": [0, 2.25, 5.25],
+			"scale": [0.66, 0.68, 0.66]
 		},
 		"firstperson_righthand": {
 			"rotation": [-13, 149, 0],
 			"translation": [-1.25, 7.75, 0],
 			"scale": [0.66, 0.72, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-13, 149, 0],
+			"translation": [-1.25, 7.75, 0],
+			"scale": [0.66, 0.72, 1]
+		},
+		"ground": {
+			"translation": [0, 2.25, -1],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0.75, 2.5, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"translation": [0, 14.5, 0]
+		},
+		"fixed": {
+			"translation": [0, 7, -2.75]
 		}
 	},
 	"groups": [
@@ -53,6 +75,7 @@
 			"name": "bb_main",
 			"origin": [8, 0, 8],
 			"color": 0,
+			"nbt": "{}",
 			"children": [0, 1]
 		}
 	]

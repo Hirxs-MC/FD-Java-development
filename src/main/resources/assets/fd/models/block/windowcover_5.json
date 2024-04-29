@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/window_cover_4",
   "textures": {
-    "all": "fd:blocks/cover_5",
-    "particle": "fd:blocks/cover_5",
-    "0": "fd:blocks/cover_4"
+    "all": "fd:block/cover_5",
+    "particle": "fd:block/cover_5",
+    "0": "fd:block/cover_4"
   },
   "render_type": "cutout"
 }

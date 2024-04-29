@@ -1,9 +1,9 @@
 {
   "parent": "fd:custom/is_that_freddy_fazbear.geo_-_converted",
   "textures": {
-    "all": "fd:blocks/isthatfreddyfazbear",
-    "particle": "fd:blocks/isthatfreddyfazbear",
-    "0": "fd:blocks/isthatfreddyfazbear"
+    "all": "fd:block/isthatfreddyfazbear",
+    "particle": "fd:block/isthatfreddyfazbear",
+    "0": "fd:block/isthatfreddyfazbear"
   },
   "render_type": "cutout_mipped"
 }
