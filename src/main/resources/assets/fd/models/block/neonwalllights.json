@@ -3,7 +3,7 @@
   "textures": {
     "all": "fd:block/neon_light",
     "particle": "fd:block/neon_light",
-    "0": "fd:block/neon_light"
+    "1": "fd:block/neon_light"
   },
   "render_type": "cutout"
 }

@@ -24,9 +24,7 @@ import net.minecraft.world.level.block.BaseEntityBlock;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
-import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
@@ -56,11 +54,6 @@ public class Partybanner1Block extends BaseEntityBlock implements SimpleWaterlog
 	@Override
 	public BlockEntity newBlockEntity(BlockPos blockPos, BlockState blockState) {
 		return FdModBlockEntities.PARTYBANNER_1.get().create(blockPos, blockState);
-	}
-
-	@Override
-	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
 	}
 
 	@Override

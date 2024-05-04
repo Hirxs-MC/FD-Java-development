@@ -18,7 +18,9 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.ThrownPotion;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.Monster;
+import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
@@ -32,6 +34,7 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AreaEffectCloud;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
@@ -44,6 +47,8 @@ import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 
+import net.mcreator.fnafsdecorationsport.procedures.NightmodeProcedure;
+import net.mcreator.fnafsdecorationsport.procedures.AnimatronicattackProcedure;
 import net.mcreator.fnafsdecorationsport.init.FdModEntities;
 
 public class FoxyEntity extends Monster implements GeoEntity {
@@ -64,6 +69,7 @@ public class FoxyEntity extends Monster implements GeoEntity {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
+		setMaxUpStep(0.6f);
 		setPersistenceRequired();
 	}
 
@@ -97,10 +103,21 @@ public class FoxyEntity extends Monster implements GeoEntity {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1));
-		this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(5, new FloatGoal(this));
+		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, Player.class, true, true) {
+			@Override
+			public boolean canUse() {
+				double x = FoxyEntity.this.getX();
+				double y = FoxyEntity.this.getY();
+				double z = FoxyEntity.this.getZ();
+				Entity entity = FoxyEntity.this;
+				Level world = FoxyEntity.this.level();
+				return super.canUse() && NightmodeProcedure.execute(world);
+			}
+		});
+		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 1));
+		this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(6, new FloatGoal(this));
 	}
 
 	@Override
@@ -163,6 +180,12 @@ public class FoxyEntity extends Monster implements GeoEntity {
 	}
 
 	@Override
+	public void awardKillScore(Entity entity, int score, DamageSource damageSource) {
+		super.awardKillScore(entity, score, damageSource);
+		AnimatronicattackProcedure.execute(entity);
+	}
+
+	@Override
 	public void baseTick() {
 		super.baseTick();
 		this.refreshDimensions();
@@ -181,10 +204,10 @@ public class FoxyEntity extends Monster implements GeoEntity {
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
 		builder = builder.add(Attributes.MAX_HEALTH, 40);
 		builder = builder.add(Attributes.ARMOR, 10);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 40);
-		builder = builder.add(Attributes.FOLLOW_RANGE, 44);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 70);
+		builder = builder.add(Attributes.FOLLOW_RANGE, 64);
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 3);
-		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 0.3);
+		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 0.5);
 		return builder;
 	}
 

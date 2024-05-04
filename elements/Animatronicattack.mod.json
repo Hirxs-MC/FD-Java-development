@@ -1,0 +1,7 @@
+{
+  "_fv": 60,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable type=\"Boolean\" id=\"found\">found</variable><variable type=\"Number\" id=\"sx\">sx</variable><variable type=\"Number\" id=\"sy\">sy</variable><variable type=\"Number\" id=\"sz\">sz</variable><variable type=\"MCItemBlock\" id=\"wheatBlock\">wheatBlock</variable></variables><block type=\"event_trigger\" deletable=\"false\" x=\"25\" y=\"-44\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"entity_execute_command\"><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">effect @p blindness 10 10</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><next><block type=\"entity_execute_command\"><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">playsound fd:jumpscare hostile @p</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></next></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,597 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "new_fan",
+  "elements": [
+    {
+      "name": "Bottompart",
+      "from": [
+        4.5,
+        0,
+        5
+      ],
+      "to": [
+        11.5,
+        2,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.5,
+            3,
+            12,
+            4
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            9.5,
+            4,
+            13,
+            5
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            9.5,
+            5,
+            13,
+            6
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            9.5,
+            6,
+            13,
+            7
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            8,
+            7.5,
+            4.5,
+            4
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            8,
+            7.5,
+            4.5,
+            11
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "Toppart inverted",
+      "from": [
+        11.5,
+        2,
+        12
+      ],
+      "to": [
+        4.5,
+        0,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.5,
+            6,
+            13,
+            5
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            9.5,
+            7,
+            13,
+            6
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            8.5,
+            4,
+            12,
+            3
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            9.5,
+            5,
+            13,
+            4
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            7.5,
+            8,
+            11
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            7.5,
+            8,
+            4
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "Upperpart",
+      "from": [
+        3.5,
+        3,
+        7
+      ],
+      "to": [
+        12.5,
+        12,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            4.5,
+            4.5
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            8,
+            4,
+            9.5,
+            8.5
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            4.5,
+            4.5
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            8,
+            8.5,
+            9.5,
+            13
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            13,
+            1.5,
+            8.5,
+            0
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            13,
+            0,
+            8.5,
+            1.5
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "Upperpart",
+      "from": [
+        4,
+        3.4,
+        8.5
+      ],
+      "to": [
+        12,
+        11.4,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.5,
+            0,
+            8.5,
+            4
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "Upperpart",
+      "from": [
+        6,
+        5.5,
+        10
+      ],
+      "to": [
+        10,
+        9.5,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            9,
+            2,
+            11
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            4,
+            9,
+            4.5,
+            11
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            0,
+            9,
+            2,
+            11
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            9.5,
+            9,
+            10,
+            11
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            12,
+            9.5,
+            10,
+            9
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            12,
+            9.5,
+            10,
+            10
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "Upperpart",
+      "from": [
+        7,
+        2,
+        10.5
+      ],
+      "to": [
+        9,
+        6,
+        10.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.5,
+            7,
+            10.5,
+            9
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "Upperpart inverted",
+      "from": [
+        12.5,
+        12,
+        10
+      ],
+      "to": [
+        3.5,
+        3,
+        7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            4.5,
+            4.5,
+            0
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            8,
+            13,
+            9.5,
+            8.5
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            0,
+            4.5,
+            4.5,
+            0
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            8,
+            8.5,
+            9.5,
+            4
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            8.5,
+            0,
+            13,
+            1.5
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            8.5,
+            1.5,
+            13,
+            0
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "Upperpart inverted",
+      "from": [
+        12,
+        11.4,
+        8.5
+      ],
+      "to": [
+        4,
+        3.4,
+        8.5
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            4.5,
+            4,
+            8.5,
+            0
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "Upperpart inverted",
+      "from": [
+        9,
+        6,
+        10.5
+      ],
+      "to": [
+        7,
+        2,
+        10.5
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            9.5,
+            9,
+            10.5,
+            7
+          ],
+          "texture": "#1"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        1.5,
+        -1.5
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        1.5,
+        -1.5
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -180,
+        60.5,
+        -180
+      ],
+      "translation": [
+        0,
+        3.25,
+        1
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -180,
+        60.5,
+        -180
+      ],
+      "translation": [
+        0,
+        3.25,
+        1
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "gui": {
+      "rotation": [
+        25,
+        135,
+        0
+      ],
+      "translation": [
+        0,
+        0.75,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        14.25,
+        0
+      ]
+    },
+    "fixed": {
+      "translation": [
+        0,
+        0,
+        -3.75
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "Fan",
+      "origin": [
+        0,
+        0,
+        -1
+      ],
+      "color": 1,
+      "nbt": "{}",
+      "children": [
+        {
+          "name": "Bottompart",
+          "origin": [
+            0,
+            0,
+            -1
+          ],
+          "color": 2,
+          "nbt": "{}",
+          "children": [
+            0,
+            1
+          ]
+        },
+        {
+          "name": "Upperpart",
+          "origin": [
+            0,
+            0,
+            -1
+          ],
+          "color": 3,
+          "nbt": "{}",
+          "children": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    }
+  ]
+}

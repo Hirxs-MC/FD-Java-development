@@ -4,7 +4,6 @@ package net.mcreator.fnafsdecorationsport.block;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -17,7 +16,6 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
 import java.util.List;
-import java.util.Collections;
 
 public class Stageblock4Block extends Block {
 	public Stageblock4Block() {
@@ -25,8 +23,8 @@ public class Stageblock4Block extends Block {
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
+	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
 		list.add(Component.literal("\u8272 & \u5FB7"));
 	}
 
@@ -43,13 +41,5 @@ public class Stageblock4Block extends Block {
 	@Override
 	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return Shapes.empty();
-	}
-
-	@Override
-	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
-		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-		if (!dropsOriginal.isEmpty())
-			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
 	}
 }

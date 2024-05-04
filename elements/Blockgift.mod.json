@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 60,
   "_type": "block",
   "definition": {
     "texture": "red",
@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 2,
     "customModelName": "new_gifts:default",
-    "rotationMode": 1,
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,

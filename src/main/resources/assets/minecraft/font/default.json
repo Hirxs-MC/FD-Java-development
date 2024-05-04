@@ -55,29 +55,11 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "minecraft:text_icons/f&f_logo.png",
+			"file": "minecraft:text_icons/fandf_logo.png",
 			"height": 9,
 			"ascent": 9,
 			"chars": [
 				"日"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:text_icons/hw.png",
-			"height": 9,
-			"ascent": 9,
-			"chars": [
-				""
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:text_icons/extra.png",
-			"height": 9,
-			"ascent": 9,
-			"chars": [
-				""
 			]
 		}
 ]

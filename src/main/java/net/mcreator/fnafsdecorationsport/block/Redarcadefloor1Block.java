@@ -2,7 +2,6 @@
 package net.mcreator.fnafsdecorationsport.block;
 
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -21,7 +20,6 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.fnafsdecorationsport.procedures.Redarcadefloor1changeProcedure;
 
 import java.util.List;
-import java.util.Collections;
 
 public class Redarcadefloor1Block extends Block {
 	public Redarcadefloor1Block() {
@@ -29,22 +27,14 @@ public class Redarcadefloor1Block extends Block {
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
+	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
 		list.add(Component.literal("\u8D1D (with variations)"));
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
-	}
-
-	@Override
-	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
-		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-		if (!dropsOriginal.isEmpty())
-			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
 	}
 
 	@Override

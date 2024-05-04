@@ -1,0 +1,6 @@
+{
+  "parent": "fd:displaysettings/fredbear_papercut.item",
+  "textures": {
+    "particle": "fd:block/fredbear_cardboard"
+  }
+}

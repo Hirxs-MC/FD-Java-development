@@ -5,5 +5,5 @@
     "particle": "fd:block/pole_2",
     "0": "fd:block/pole_2"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 60,
   "_type": "block",
   "definition": {
     "texture": "pole_2",
@@ -20,16 +20,16 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 0.0,
+        "mx": 6.0,
         "my": 0.0,
-        "mz": 0.0,
-        "Mx": 4.0,
+        "mz": 6.0,
+        "Mx": 10.0,
         "My": 16.0,
-        "Mz": 4.0,
+        "Mz": 10.0,
         "subtract": false
       }
     ],
@@ -81,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "NETHERITE"
     },
     "breakSound": {
       "value": ""
@@ -119,6 +119,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "Polechange2"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

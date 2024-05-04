@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "fd:blocks/fnaf_2stagewalltiles",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fd:fnaf_2stagewalltiles"
+        }
+      ]
+    }
+  ]
+}

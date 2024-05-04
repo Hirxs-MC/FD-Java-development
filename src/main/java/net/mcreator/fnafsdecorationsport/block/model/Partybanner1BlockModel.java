@@ -18,7 +18,7 @@ public class Partybanner1BlockModel extends GeoModel<Partybanner1TileEntity> {
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(Partybanner1TileEntity entity) {
+	public ResourceLocation getTextureResource(Partybanner1TileEntity animatable) {
 		return new ResourceLocation("fd", "textures/block/party_banner_1.png");
 	}
 }

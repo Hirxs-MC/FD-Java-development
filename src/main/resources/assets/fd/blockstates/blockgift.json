@@ -1,19 +1,7 @@
 {
   "variants": {
-    "facing=north": {
+    "": {
       "model": "fd:block/blockgift"
-    },
-    "facing=east": {
-      "model": "fd:block/blockgift",
-      "y": 90
-    },
-    "facing=south": {
-      "model": "fd:block/blockgift",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "fd:block/blockgift",
-      "y": 270
     }
   }
 }

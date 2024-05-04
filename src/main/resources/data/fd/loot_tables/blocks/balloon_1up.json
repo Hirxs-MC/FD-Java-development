@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "fd:blocks/balloon_1up",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fd:balloon_1up"
+        }
+      ]
+    }
+  ]
+}

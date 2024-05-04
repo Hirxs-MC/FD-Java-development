@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "fd:blocks/pole_1",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fd:pole_1"
+        }
+      ]
+    }
+  ]
+}

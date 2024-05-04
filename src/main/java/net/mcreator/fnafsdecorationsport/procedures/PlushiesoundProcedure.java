@@ -9,9 +9,13 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.sounds.SoundSource;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
+
+import net.mcreator.fnafsdecorationsport.init.FdModParticleTypes;
 
 public class PlushiesoundProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
@@ -40,6 +44,8 @@ public class PlushiesoundProcedure {
 					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fd:plushie_sound")), SoundSource.BLOCKS, 1, 1, false);
 				}
 			}
+			if (world instanceof ServerLevel _level)
+				_level.sendParticles((SimpleParticleType) (FdModParticleTypes.CHANGERTOOLSPARKLES.get()), x, y, z, 20, 0.5, 1, 0.5, 0.2);
 		} else if ((new Object() {
 			public Direction getDirection(BlockPos pos) {
 				BlockState _bs = world.getBlockState(pos);
@@ -60,6 +66,8 @@ public class PlushiesoundProcedure {
 					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fd:plushie_sound")), SoundSource.BLOCKS, 1, 1, false);
 				}
 			}
+			if (world instanceof ServerLevel _level)
+				_level.sendParticles((SimpleParticleType) (FdModParticleTypes.CHANGERTOOLSPARKLES.get()), x, y, z, 20, 0.5, 1, 0.5, 0.2);
 		} else if ((new Object() {
 			public Direction getDirection(BlockPos pos) {
 				BlockState _bs = world.getBlockState(pos);
@@ -80,6 +88,8 @@ public class PlushiesoundProcedure {
 					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fd:plushie_sound")), SoundSource.BLOCKS, 1, 1, false);
 				}
 			}
+			if (world instanceof ServerLevel _level)
+				_level.sendParticles((SimpleParticleType) (FdModParticleTypes.CHANGERTOOLSPARKLES.get()), x, y, z, 20, 0.5, 1, 0.5, 0.2);
 		} else if ((new Object() {
 			public Direction getDirection(BlockPos pos) {
 				BlockState _bs = world.getBlockState(pos);
@@ -100,6 +110,8 @@ public class PlushiesoundProcedure {
 					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fd:plushie_sound")), SoundSource.BLOCKS, 1, 1, false);
 				}
 			}
+			if (world instanceof ServerLevel _level)
+				_level.sendParticles((SimpleParticleType) (FdModParticleTypes.CHANGERTOOLSPARKLES.get()), x, y, z, 20, 0.5, 1, 0.5, 0.2);
 		}
 	}
 }

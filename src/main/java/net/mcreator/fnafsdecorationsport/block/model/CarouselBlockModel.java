@@ -18,7 +18,7 @@ public class CarouselBlockModel extends GeoModel<CarouselTileEntity> {
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(CarouselTileEntity entity) {
+	public ResourceLocation getTextureResource(CarouselTileEntity animatable) {
 		return new ResourceLocation("fd", "textures/block/carousel_single.png");
 	}
 }

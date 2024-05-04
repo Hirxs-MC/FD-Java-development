@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "fd",
-  "version": "0.23.11.1",
-  "name": "FNaFs Decorations (Java Edition) - Snapshot",
+  "version": "0.24.01.2",
+  "name": "FNaF's: Build & Decor (Java Edition) - Snapshot",
   "description": "Have you ever wanted to replicate a restaurant from FNAF but in Minecraft?",
   "authors": [
     "Hirx's | Hirxs_mc"
   ],
   "contact": {
-    "homepage": "https://hirxs-web.weebly.com/",
+    "homepage": "https://hirxs-website.nett",
     "sources": ""
   },
   "license": "Academic Free License v3.0",

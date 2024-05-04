@@ -1,6 +1,16 @@
 {
   "replace": false,
   "values": [
+    "fd:battingtonfloorstair_7",
+    "fd:battingtonfloorstair_6",
+    "fd:battingtonfloorstair_5",
+    "fd:battingtonfloorstair_4",
+    "fd:battingtonfloorstair_3",
+    "fd:battingtonfloorstair_2",
+    "fd:battingtonfloorstair",
+    "fd:floorgreenbluestair",
+    "fd:whiteblackfloorinvertedstair",
+    "fd:flooryellowbluestair",
     "fd:bluearcadefloor_1stairs",
     "fd:redarcadefloor_1stairs",
     "fd:floorffdstairs",

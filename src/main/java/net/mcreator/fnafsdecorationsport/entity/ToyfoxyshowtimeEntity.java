@@ -53,6 +53,7 @@ public class ToyfoxyshowtimeEntity extends Monster implements GeoEntity {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(true);
+		setMaxUpStep(0.6f);
 		setPersistenceRequired();
 	}
 

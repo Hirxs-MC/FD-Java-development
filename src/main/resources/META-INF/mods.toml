@@ -4,11 +4,11 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="fd"
-version="0.24.01.1"
+version="0.24.02.1"
 displayName="FNaF's: Build & Decor (Java Edition) - Snapshot"
-displayURL="https://hirxs-website.nett"
+displayURL="https://hirxs-website.net"
 logoFile="logo.png"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="By FB&D Team"
 authors="Hirx's | Hirxs_mc"
 description="Have you ever wanted to replicate a restaurant from FNAF but in Minecraft?"
 
@@ -19,6 +19,12 @@ description="Have you ever wanted to replicate a restaurant from FNAF but in Min
     ordering="NONE"
     side="BOTH"
 
+[[dependencies.fd]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.2.0]"
+    ordering="NONE"
+    side="BOTH"
 
 
 [[dependencies.fd]]

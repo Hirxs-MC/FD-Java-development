@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "fd:blocks/fnafmoviebathroomdoor",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fd:fnafmoviebathroomdoor",
+          "conditions": [
+            {
+              "block": "fd:fnafmoviebathroomdoor",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

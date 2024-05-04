@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "fd:blocks/blood_trail",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fd:blood_trail"
+        }
+      ]
+    }
+  ]
+}

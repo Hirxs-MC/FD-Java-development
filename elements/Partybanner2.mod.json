@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 60,
   "_type": "animatedblock",
   "definition": {
     "texture": "lets_party_banner",
@@ -101,13 +101,6 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "CUSTOM:Changertoolsparkles"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -134,6 +127,7 @@
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
     "normal": "n_party_banner_2.geo.json",
-    "displaySettings": "n_party_banner_1.item.json"
+    "displaySettings": "n_party_banner_1.item.json",
+    "blockstateList": []
   }
 }

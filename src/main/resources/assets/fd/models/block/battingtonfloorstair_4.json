@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "fd:block/battington_4",
+    "top": "fd:block/battington_4",
+    "side": "fd:block/battington_4"
+  },
+  "render_type": "solid"
+}

@@ -29,13 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.fnafsdecorationsport.init.FdModTabs;
 import net.mcreator.fnafsdecorationsport.init.FdModSounds;
-import net.mcreator.fnafsdecorationsport.init.FdModParticleTypes;
-import net.mcreator.fnafsdecorationsport.init.FdModItems;
-import net.mcreator.fnafsdecorationsport.init.FdModEntities;
-import net.mcreator.fnafsdecorationsport.init.FdModBlocks;
-import net.mcreator.fnafsdecorationsport.init.FdModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -55,12 +49,6 @@ public class FdMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		FdModSounds.REGISTRY.register(bus);
-		FdModBlocks.REGISTRY.register(bus);
-		FdModBlockEntities.REGISTRY.register(bus);
-		FdModItems.REGISTRY.register(bus);
-		FdModEntities.REGISTRY.register(bus);
-
-		FdModTabs.REGISTRY.register(bus);
 
 		FdModParticleTypes.REGISTRY.register(bus);
 

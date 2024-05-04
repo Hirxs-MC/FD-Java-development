@@ -15,5 +15,32 @@
         "stream": false
       }
     ]
+  },
+  "jumpscare": {
+    "subtitle": "subtitles.jumpscare",
+    "sounds": [
+      {
+        "name": "fd:jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "freddy_noises": {
+    "subtitle": "subtitles.freddy_noises",
+    "sounds": [
+      {
+        "name": "fd:freddy_sound",
+        "stream": false
+      }
+    ]
+  },
+  "bonnie_sounds": {
+    "subtitle": "subtitles.bonnie_sounds",
+    "sounds": [
+      {
+        "name": "fd:bonnie_sound",
+        "stream": false
+      }
+    ]
   }
 }

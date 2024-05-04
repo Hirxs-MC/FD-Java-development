@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 60,
   "_type": "animatedblock",
   "definition": {
     "texture": "carousel_single",
@@ -101,13 +101,6 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "CUSTOM:Changertoolsparkles"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -134,6 +127,7 @@
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
     "normal": "carousel.geo.json",
-    "displaySettings": "carousel.item.json"
+    "displaySettings": "carousel.item.json",
+    "blockstateList": []
   }
 }

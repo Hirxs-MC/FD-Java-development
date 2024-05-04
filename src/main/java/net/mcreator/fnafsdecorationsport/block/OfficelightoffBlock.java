@@ -4,7 +4,6 @@ package net.mcreator.fnafsdecorationsport.block;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -16,7 +15,6 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
 import java.util.List;
-import java.util.Collections;
 
 public class OfficelightoffBlock extends Block {
 	public OfficelightoffBlock() {
@@ -24,8 +22,8 @@ public class OfficelightoffBlock extends Block {
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
+	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
 		list.add(Component.literal("\u963F (without variations)"));
 	}
 
@@ -47,13 +45,5 @@ public class OfficelightoffBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return Shapes.or(box(3, 13, 3, 13, 15.9, 13), box(2.7, 12.7, 2.7, 13.3, 16, 13.4), box(2, 15, 2, 14, 16, 14));
-	}
-
-	@Override
-	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
-		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-		if (!dropsOriginal.isEmpty())
-			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
 	}
 }
